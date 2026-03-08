@@ -1,0 +1,217 @@
+/* ── css/quiz.css ── Quiz leçon, test de niveau, tableau de bord, dictionnaire ── */
+
+/* ══════════════════════════════════════════
+   QUIZ (fin de leçon)
+══════════════════════════════════════════ */
+.quiz-progress-bar {
+  height: 5px; background: var(--surface2); margin: 0 16px 20px;
+  border-radius: 3px; overflow: hidden;
+}
+.quiz-progress-fill {
+  height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-lt));
+  border-radius: 3px; transition: width .45s ease;
+}
+.quiz-question-card {
+  background: var(--card); border: 1px solid var(--rim); border-radius: var(--radius);
+  padding: 20px 18px; margin-bottom: 16px;
+}
+.quiz-q-num { font-size: .72rem; font-weight: 800; color: var(--text-dim); letter-spacing: .5px; margin-bottom: 8px; text-transform: uppercase; }
+.quiz-q-text { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; line-height: 1.55; }
+
+.quiz-options { display: flex; flex-direction: column; gap: 9px; margin-bottom: 20px; }
+.quiz-option {
+  background: var(--card); border: 1.5px solid var(--rim); border-radius: var(--radius);
+  padding: 14px 16px; display: flex; align-items: center; gap: 12px;
+  text-align: left; transition: var(--trans); font-size: .9rem; font-weight: 600;
+}
+.quiz-option:hover:not(:disabled) { border-color: rgba(201,168,76,.5); background: var(--surface); transform: translateX(3px); }
+.quiz-option:disabled { cursor: default; }
+.quiz-option.correct   { border-color: var(--success); background: rgba(76,175,135,.12); color: var(--success); }
+.quiz-option.wrong     { border-color: var(--error);   background: rgba(224,90,90,.1);   color: var(--error);   }
+.quiz-option.revealed  { border-color: var(--surface2); color: var(--text-dim); }
+.opt-letter {
+  width: 28px; height: 28px; border-radius: 7px;
+  background: var(--surface); border: 1px solid var(--rim);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .8rem; font-weight: 800; flex-shrink: 0; transition: var(--trans);
+}
+.quiz-option.correct .opt-letter { background: var(--success); border-color: var(--success); color: white; }
+.quiz-option.wrong   .opt-letter { background: var(--error);   border-color: var(--error);   color: white; }
+
+.quiz-explanation {
+  background: rgba(201,168,76,.07); border: 1px solid var(--rim);
+  border-left: 3px solid var(--gold); border-radius: var(--radius-sm);
+  padding: 12px 14px; font-size: .83rem; color: var(--text-dim); line-height: 1.65;
+  margin-bottom: 16px; animation: fadeIn .3s ease;
+}
+
+.quiz-result-card {
+  background: linear-gradient(135deg, #1a2650 0%, #0f1a3a 100%);
+  border: 1px solid var(--rim); border-radius: var(--radius);
+  padding: 28px 24px; text-align: center; animation: popIn .4s ease;
+}
+.result-emoji { font-size: 3rem; margin-bottom: 12px; }
+.result-score {
+  font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 900;
+  color: var(--gold); line-height: 1;
+}
+.result-label { font-size: .85rem; color: var(--text-dim); margin: 6px 0 18px; }
+.result-message { font-size: .9rem; line-height: 1.6; margin-bottom: 20px; }
+.result-xp {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--gold-dim); color: var(--gold); font-weight: 800;
+  padding: 6px 16px; border-radius: 20px; border: 1px solid var(--rim);
+  font-size: .85rem; margin-bottom: 24px;
+}
+.result-actions { display: flex; flex-direction: column; gap: 10px; }
+
+/* ══════════════════════════════════════════
+   LEVEL TEST
+══════════════════════════════════════════ */
+.test-intro-card {
+  background: linear-gradient(135deg, #1a2650 0%, #0f1a3a 100%);
+  border: 1px solid var(--rim); border-radius: var(--radius);
+  padding: 24px 20px; text-align: center; margin-bottom: 20px;
+}
+.test-intro-icon { font-size: 2.8rem; margin-bottom: 10px; }
+.test-intro-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; margin-bottom: 8px; }
+.test-intro-desc  { font-size: .85rem; color: var(--text-dim); line-height: 1.65; }
+.test-categories  { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; margin-top: 14px; }
+
+.test-header-meta {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--rim);
+}
+.test-cat-chip {
+  font-size: .72rem; font-weight: 800; padding: 3px 10px; border-radius: 8px;
+  letter-spacing: .3px;
+}
+.cat-Грамматика  { background: rgba(94,156,245,.15); color: var(--info); }
+.cat-Vocabulaire { background: rgba(76,175,135,.15); color: var(--success); }
+.cat-Culture     { background: rgba(201,168,76,.12); color: var(--gold); }
+.cat-Géographie  { background: rgba(94,206,255,.12); color: #7DD3FC; }
+.cat-Histoire    { background: rgba(232,100,100,.12); color: #F87171; }
+
+.test-result-breakdown { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+.breakdown-row { display: flex; align-items: center; gap: 10px; }
+.breakdown-cat  { font-size: .8rem; font-weight: 700; min-width: 100px; }
+.breakdown-bar  { flex: 1; height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+.breakdown-fill { height: 100%; background: var(--gold); border-radius: 3px; }
+.breakdown-pct  { font-size: .78rem; font-weight: 700; color: var(--text-dim); min-width: 36px; text-align: right; }
+
+.level-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--gold-dim); border: 1px solid var(--rim);
+  padding: 8px 20px; border-radius: 24px;
+  font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--gold);
+  margin: 12px 0;
+}
+
+/* ══════════════════════════════════════════
+   DASHBOARD
+══════════════════════════════════════════ */
+.dashboard-scroll { padding: 16px 16px 32px; display: flex; flex-direction: column; gap: 14px; }
+
+.dash-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.dash-stat-card {
+  background: var(--card); border: 1px solid var(--rim); border-radius: var(--radius);
+  padding: 16px 14px; text-align: center;
+}
+.dash-stat-icon  { font-size: 1.6rem; margin-bottom: 6px; }
+.dash-stat-num   { font-family: 'Playfair Display', serif; font-size: 1.7rem; font-weight: 700; color: var(--gold); line-height: 1; }
+.dash-stat-label { font-size: .72rem; color: var(--text-dim); font-weight: 600; margin-top: 4px; }
+
+.dash-section-title {
+  font-size: .7rem; font-weight: 800; letter-spacing: 1.2px;
+  text-transform: uppercase; color: var(--text-dim); margin-bottom: 10px;
+}
+
+.module-eval-card {
+  background: var(--card); border: 1px solid var(--rim); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 8px;
+}
+.module-eval-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.module-eval-title { font-weight: 700; font-size: .9rem; }
+.module-eval-score { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--gold); }
+
+.skills-radar { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.skill-bar-row { display: flex; flex-direction: column; gap: 4px; }
+.skill-label { font-size: .76rem; font-weight: 700; color: var(--text-dim); }
+.skill-bar-bg { height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+.skill-bar-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width .7s ease; }
+.skill-pct { font-size: .7rem; color: var(--text-faint); font-weight: 600; }
+
+.recent-activity { display: flex; flex-direction: column; gap: 7px; }
+.activity-row {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card); border: 1px solid var(--rim); border-radius: var(--radius-sm);
+  padding: 10px 14px;
+}
+.activity-icon { font-size: 1.1rem; flex-shrink: 0; }
+.activity-text { flex: 1; font-size: .82rem; }
+.activity-text strong { font-weight: 700; }
+.activity-text span   { color: var(--text-dim); }
+.activity-time { font-size: .7rem; color: var(--text-faint); flex-shrink: 0; }
+
+/* ══════════════════════════════════════════
+   DICTIONARY
+══════════════════════════════════════════ */
+.dict-search-bar {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card); border: 1px solid var(--rim); border-radius: 24px;
+  padding: 10px 16px; margin: 12px 16px;
+}
+.dict-search-icon { font-size: 1rem; color: var(--text-dim); flex-shrink: 0; }
+.dict-search-input {
+  flex: 1; background: none; border: none; outline: none;
+  font-size: .9rem; color: var(--text);
+}
+.dict-search-input::placeholder { color: var(--text-faint); }
+.dict-clear { color: var(--text-dim); font-size: 1.1rem; padding: 2px; }
+.dict-clear:hover { color: var(--text); }
+
+.dict-filter-row { display: flex; gap: 7px; padding: 0 16px 12px; overflow-x: auto; scrollbar-width: none; }
+.dict-filter-row::-webkit-scrollbar { display: none; }
+.dict-filter-btn {
+  flex-shrink: 0; padding: 5px 13px; border-radius: 14px;
+  font-size: .76rem; font-weight: 700; border: 1px solid var(--rim);
+  color: var(--text-dim); background: var(--card); transition: var(--trans);
+}
+.dict-filter-btn.active { background: var(--gold); color: var(--bg); border-color: var(--gold); }
+.dict-filter-btn:hover:not(.active) { border-color: var(--gold); color: var(--gold); }
+
+.dict-count { padding: 0 16px 8px; font-size: .75rem; color: var(--text-faint); font-weight: 600; }
+
+.dict-list { display: flex; flex-direction: column; gap: 6px; padding: 0 16px 24px; }
+.dict-entry {
+  background: var(--card); border: 1px solid var(--rim); border-radius: var(--radius);
+  overflow: hidden; transition: var(--trans);
+}
+.dict-entry:hover { border-color: rgba(201,168,76,.3); }
+.dict-entry-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 13px 16px; cursor: pointer;
+}
+.dict-fr {
+  font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700;
+  flex-shrink: 0; min-width: 100px;
+}
+.dict-pron { font-size: .73rem; color: var(--gold); font-weight: 700; display: block; margin-top: 2px; }
+.dict-ru   { font-size: .86rem; flex: 1; color: var(--text-dim); }
+.dict-lesson-chip {
+  font-size: .66rem; font-weight: 700; padding: 2px 7px; border-radius: 6px;
+  background: var(--surface); color: var(--text-dim); border: 1px solid var(--rim); flex-shrink: 0;
+}
+.dict-chevron { color: var(--text-faint); transition: transform var(--trans); }
+.dict-entry.expanded .dict-chevron { transform: rotate(180deg); color: var(--gold); }
+
+.dict-entry-body {
+  max-height: 0; overflow: hidden; transition: max-height .32s ease, padding .32s ease;
+  padding: 0 16px; border-top: 1px solid transparent;
+}
+.dict-entry.expanded .dict-entry-body { max-height: 400px; padding: 12px 16px; border-top-color: var(--rim); }
+.dict-example-fr { font-size: .82rem; font-style: italic; color: var(--text-dim); margin-bottom: 4px; line-height: 1.5; }
+.dict-example-ru { font-size: .78rem; color: var(--text-faint); margin-bottom: 8px; line-height: 1.4; }
+.dict-double { font-size: .78rem; color: var(--warn); margin-bottom: 6px; }
+.dict-def-ru { font-size: .8rem; color: var(--text-dim); line-height: 1.55; border-top: 1px solid var(--surface2); padding-top: 8px; }
+.dict-speak-row { display: flex; justify-content: flex-end; margin-top: 8px; }
