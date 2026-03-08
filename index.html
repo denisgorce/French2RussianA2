@@ -479,6 +479,95 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
 }
 .btn-restart:active{background:var(--s2)}
 
+/* =========================================================
+   NOUVELLES SECTIONS — Bio, Fait historique, Anecdote, Expression, Destination
+========================================================= */
+.bio-box{background:linear-gradient(135deg,rgba(240,71,108,0.07),rgba(245,158,11,0.04));border:1px solid rgba(240,71,108,0.2);border-radius:var(--r3);padding:14px;position:relative;overflow:hidden}
+.bio-box::after{content:'👤';position:absolute;right:10px;top:10px;font-size:26px;opacity:0.18}
+.bio-head{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.bio-avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--rose),var(--gold));display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;border:2px solid rgba(240,71,108,0.3)}
+.bio-name{font-family:var(--fs);font-size:15px;font-weight:700;color:var(--tx);line-height:1.2}
+.bio-dates{font-family:var(--fm);font-size:9.5px;color:var(--tx3);margin-top:1px}
+.bio-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.bio-quote{margin-top:9px;padding:8px 11px;background:rgba(240,71,108,0.08);border-left:3px solid var(--rose);border-radius:0 6px 6px 0;font-family:var(--fs);font-size:12px;color:#fca5a5;font-style:italic;word-wrap:break-word}
+.hist-box{background:linear-gradient(135deg,rgba(245,158,11,0.06),rgba(245,158,11,0.02));border:1px solid rgba(245,158,11,0.2);border-radius:var(--r3);padding:14px}
+.hist-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.hist-ico{width:32px;height:32px;background:var(--ga);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.hist-date{font-family:var(--fm);font-size:11px;font-weight:700;color:var(--gold)}
+.hist-title{font-size:13px;font-weight:700;color:var(--tx);margin-bottom:7px}
+.hist-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.hist-link{margin-top:7px;display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--gold);background:var(--ga);border:1px solid rgba(245,158,11,0.18);border-radius:50px;padding:3px 10px}
+.anec-box{background:rgba(167,139,250,0.05);border:1px solid rgba(167,139,250,0.2);border-radius:var(--r3);padding:14px}
+.anec-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.anec-ico{width:32px;height:32px;background:rgba(167,139,250,0.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.anec-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--violet);font-weight:700}
+.anec-title{font-size:13px;font-weight:700;color:var(--tx);margin-bottom:6px}
+.anec-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.anec-warn{margin-top:8px;padding:7px 11px;background:rgba(240,71,108,0.07);border:1px solid rgba(240,71,108,0.18);border-radius:8px;font-size:11px;color:#fca5a5;display:flex;gap:6px;align-items:flex-start}
+.expr-box{background:rgba(45,212,191,0.05);border:1px solid rgba(45,212,191,0.2);border-radius:var(--r3);padding:14px}
+.expr-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
+.expr-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--teal);font-weight:700}
+.expr-phrase{font-family:var(--fs);font-size:18px;font-weight:700;color:var(--teal);margin-bottom:5px;word-wrap:break-word}
+.expr-phonetic{font-family:var(--fm);font-size:10px;color:var(--tx3);background:var(--bg3);border-radius:4px;padding:2px 7px;display:inline-block;margin-bottom:7px}
+.expr-meaning{font-size:12.5px;color:var(--tx2);margin-bottom:6px;word-wrap:break-word}
+.expr-usage{font-size:11.5px;color:rgba(45,212,191,0.7);line-height:1.5;word-wrap:break-word}
+.dest-box{background:linear-gradient(135deg,rgba(52,211,153,0.06),rgba(240,71,108,0.04));border:1px solid rgba(52,211,153,0.18);border-radius:var(--r3);padding:14px;position:relative;overflow:hidden}
+.dest-box::before{content:'✈';position:absolute;right:12px;top:10px;font-size:28px;opacity:0.15}
+.dest-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.dest-ico{width:32px;height:32px;background:rgba(52,211,153,0.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.dest-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--green);font-weight:700}
+.dest-city{font-family:var(--fs);font-size:16px;font-weight:700;color:var(--tx);margin-bottom:4px}
+.dest-region{font-size:10.5px;color:var(--tx3);margin-bottom:7px;font-family:var(--fm)}
+.dest-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.dest-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.dest-tag{background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.18);border-radius:50px;padding:2px 9px;font-size:10px;color:var(--green)}
+/* Test de niveau */
+.test-banner{background:linear-gradient(135deg,rgba(240,71,108,0.1),rgba(245,158,11,0.06));border:1px solid rgba(240,71,108,0.25);border-radius:var(--r3);padding:15px 14px;cursor:pointer;transition:all 0.14s;position:relative;overflow:hidden}
+.test-banner::after{content:'🎯';position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:26px;opacity:0.25}
+.test-banner:active{transform:scale(0.98)}
+.test-banner-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:var(--rose);font-weight:700;margin-bottom:4px}
+.test-banner-title{font-size:14.5px;font-weight:700;color:var(--tx);margin-bottom:2px}
+.test-banner-sub{font-size:11px;color:var(--tx3)}
+.test-banner-last{font-family:var(--fm);font-size:10px;color:var(--gold);margin-top:5px}
+#scr-test{position:fixed;inset:0;z-index:150;display:none;flex-direction:column;background:var(--bg)}
+#scr-test.on{display:flex}
+.test-bar{display:flex;align-items:center;gap:9px;padding:calc(env(safe-area-inset-top,0px)+8px) 13px 8px;border-bottom:1px solid var(--ln);flex-shrink:0}
+.test-bar-title{flex:1;font-size:14px;font-weight:700}
+.test-qnum{font-family:var(--fm);font-size:10px;color:var(--tx3)}
+#test-pbar{height:3px;background:var(--bg3);flex-shrink:0}
+#test-pfill{height:100%;background:linear-gradient(90deg,var(--rose),var(--gold));transition:width 0.4s}
+#test-content{flex:1;overflow-y:auto;padding:16px 15px 20px;display:flex;flex-direction:column;gap:13px}
+.tq-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:16px}
+.tq-cat{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--rose);margin-bottom:6px}
+.tq-q{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:13px;word-wrap:break-word}
+.tq-opts{display:flex;flex-direction:column;gap:7px}
+.tq-opt{width:100%;background:var(--bg3);border:1px solid var(--ln);border-radius:var(--r2);padding:11px 13px;font-size:13px;color:var(--tx);text-align:left;transition:all 0.1s;word-wrap:break-word}
+.tq-opt:active:not(:disabled){background:var(--s2)}
+.tq-opt:disabled{cursor:default}
+.tq-opt.tok{background:rgba(52,211,153,0.09);border-color:rgba(52,211,153,0.4);color:var(--green)}
+.tq-opt.tko{background:var(--ra);border-color:rgba(240,71,108,0.4);color:var(--rose)}
+.tq-fb{margin-top:9px;font-size:11.5px;line-height:1.5;color:var(--tx3)}
+.test-nav{padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--ln);flex-shrink:0;display:flex;justify-content:flex-end}
+.btn-test-next{background:linear-gradient(135deg,var(--rose),#c0392b);color:#fff;padding:11px 22px;border-radius:50px;font-size:13px;font-weight:700;box-shadow:0 3px 12px var(--rg);transition:all 0.1s}
+.btn-test-next:active{opacity:0.85;transform:scale(0.96)}
+.btn-test-next:disabled{opacity:0.3;pointer-events:none}
+.test-result{display:flex;flex-direction:column;gap:14px;padding:16px 15px 30px}
+.test-score-box{background:linear-gradient(135deg,#130f38,#0d1b39);border:1px solid rgba(240,71,108,0.18);border-radius:var(--r4);padding:24px 16px;text-align:center}
+.test-score-em{font-size:44px;display:block;margin-bottom:8px}
+.test-score-pct{font-size:46px;font-weight:800;line-height:1;background:linear-gradient(135deg,var(--rose),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:4px}
+.test-score-lbl{font-size:12px;color:var(--tx3)}
+.test-lvl-badge{display:inline-block;margin-top:10px;padding:6px 18px;border-radius:50px;font-size:14px;font-weight:700;background:linear-gradient(135deg,var(--rose),var(--gold));color:#fff}
+.test-advice{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.test-advice-h{font-size:13px;font-weight:700;margin-bottom:7px}
+.test-advice-t{font-size:12.5px;color:var(--tx2);line-height:1.6}
+.test-bars{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px;display:flex;flex-direction:column;gap:10px}
+.test-cat-row{display:flex;flex-direction:column;gap:4px}
+.test-cat-hd{display:flex;justify-content:space-between;font-size:11.5px;color:var(--tx2)}
+.test-cat-bar{height:5px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.test-cat-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--rose),var(--gold))}
+.btn-retake{display:block;width:100%;background:linear-gradient(135deg,var(--rose),#c0392b);color:#fff;padding:13px;border-radius:50px;font-size:14px;font-weight:700;text-align:center;box-shadow:0 4px 16px var(--rg);transition:all 0.12s}
+.btn-retake:active{opacity:0.85;transform:scale(0.97)}
+
 /* === TTS TOAST === */
 #toast{
   position:fixed;
@@ -560,6 +649,12 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
             <div class="ib-s">Accès rapide · Fonctionne hors-ligne</div>
           </div>
           <button class="btn-install" id="btn-install">Installer</button>
+        </div>
+        <div class="test-banner" id="btn-open-test">
+          <div class="test-banner-lbl">📝 Test de niveau</div>
+          <div class="test-banner-title">Évaluez votre niveau de russe</div>
+          <div class="test-banner-sub">20 questions · ~5 minutes · résultat immédiat</div>
+          <div class="test-banner-last" id="test-last-score"></div>
         </div>
         <div class="sec-ttl">Ce que vous apprenez</div>
         <div class="pills">
@@ -670,6 +765,22 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
       <button class="btn-n" id="btn-next">
         Suiv.<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
+    </div>
+  </div>
+
+  <!-- TEST DE NIVEAU (overlay) -->
+  <div id="scr-test" class="scr">
+    <div class="test-bar">
+      <button class="l-back" id="btn-test-close">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="test-bar-title">Test de niveau — Руsse</div>
+      <div class="test-qnum" id="test-qnum">1 / 20</div>
+    </div>
+    <div id="test-pbar"><div id="test-pfill" style="width:5%"></div></div>
+    <div id="test-content"></div>
+    <div class="test-nav">
+      <button class="btn-test-next" id="btn-test-next" disabled>Suivant →</button>
     </div>
   </div>
 
@@ -813,6 +924,47 @@ const LESSONS_DATA = {
         options: ["[k] comme C français devant A", "[s] comme dans 'sac'", "[ts] comme dans 'tsar'", "[ch] comme dans 'chat'"],
         correct: 1,
         feedback: "Exact ! С = [s] toujours. C'est un faux ami visuel du C latin."
+      },
+      {
+        type: "bio",
+        tag: "Personnage célèbre",
+        name: "Léon Tolstoï — Лев Толстой",
+        emoji: "📚",
+        dates: "1828–1910",
+        text: "L'un des plus grands romanciers de l'histoire. Auteur de 'Guerre et Paix' (Война и мир) et 'Anna Karénine' (Анна Каренина), deux des romans les plus lus au monde. Né dans une famille aristocratique, il devint philosophe et défenseur des humbles. Ses œuvres sont traduites en plus de 100 langues.",
+        quote: "Все счастливые семьи похожи друг на друга, каждая несчастливая семья несчастлива по-своему. — Toutes les familles heureuses se ressemblent; les familles malheureuses le sont chacune à leur façon."
+      },
+      {
+        type: "hist",
+        tag: "Fait historique",
+        date: "🗓 862 год",
+        title: "Naissance de la Russie — Рюрик",
+        text: "Selon la tradition, la Russie naquit en 862 quand le prince varègue Riourik fonda la principauté de Novgorod. La Russie kiévienne (Киевская Русь) devint ensuite le premier grand État slave. En 988, Vladimir Ier adopta le christianisme orthodoxe, ce qui façonna la culture russe pour des siècles.",
+        link: "Chronique des temps passés — Повесть временных лет"
+      },
+      {
+        type: "anec",
+        tag: "Anecdote culturelle",
+        title: "Le pain et le sel — хлеб да соль",
+        text: "En Russie, accueillir un invité avec du pain et du sel (хлеб-соль) est une tradition millénaire. Le pain représente la prospérité, le sel la longévité. Lors des mariages et inaugurations, on offre encore aujourd'hui ce symbole d'hospitalité. Refuser est considéré comme une grande impolitesse.",
+        warning: "Refuser le pain et le sel offerts lors d'une cérémonie russe est une offense grave !"
+      },
+      {
+        type: "expr",
+        tag: "Expression du jour",
+        phrase: "Ничего страшного",
+        phonetic: "[ni-che-VO STRACH-na-va]",
+        meaning: "Ce n'est pas grave / Aucun problème",
+        usage: "Expression très courante. Littéralement 'rien de terrible'. Utilisée pour rassurer quelqu'un qui s'excuse. Équivalent de 'pas de problème' ou 'c'est rien'. Plus décontracté que Всё нормально."
+      },
+      {
+        type: "dest",
+        tag: "Destination à visiter",
+        emoji: "🏰",
+        city: "Moscou — Москва",
+        region: "Centre de la Russie · Capitale",
+        text: "La Place Rouge, le Kremlin, la cathédrale Saint-Basile — Moscou est une ville fascinante au carrefour des cultures. Le métro moscovite est considéré parmi les plus beaux du monde. Meilleure période : mai-juin ou septembre, avant le grand froid.",
+        tags: ["Kremlin","Culture","Métro","Architecture","Histoire"]
       }
     ]
   },
@@ -2420,9 +2572,70 @@ const WEEK_THEMES = {
   13: { theme: "Révision A2 et test final", topics: ["Révision grammaire", "Révision vocabulaire", "Test dialogue A2", "Compréhension écrite", "Compréhension orale", "Certification A2"] },
 };
 
+// Données culturelles pour leçons générées (semaines 6-13)
+const CULTURAL_DATA_RU = {
+  6: {
+    bio: {name:"Alexandre Pouchkine — А.С. Пушкин", emoji:"🪶", dates:"1799–1837", text:"Le 'soleil de la poésie russe'. Auteur de 'Eugène Onéguine', du 'Cavalier de bronze' et de nombreux poèmes. Il créa la langue littéraire russe moderne. Mort en duel à 37 ans, il reste le poète le plus aimé de Russie.", quote:"Я вас любил... — Je vous ai aimé..."},
+    hist: {date:"🗓 1812", title:"La Guerre Patriotique — Наполеон и Москва", text:"En 1812, Napoléon envahit la Russie avec 600 000 soldats. Il prit Moscou, mais les Russes l'incendièrent. La retraite de Napoléon dans le grand froid russe fut catastrophique. Cet épisode est gravé dans la mémoire nationale sous le nom de Отечественная война (Guerre Patriotique)."},
+    anec: {title:"Ne sifflez pas en intérieur !", text:"En Russie, siffler dans une maison porte malheur — cela 'siffle' l'argent loin de vous. De même, ne posez jamais les clés sur la table (ça porte malheur) et ne secouez jamais la main de quelqu'un à travers le seuil d'une porte (sépare les gens).", warning:"Siffler dans une maison russe est considéré comme une superstition très néfaste !"},
+    expr: {phrase:"Всё будет хорошо", phonetic:"[fsyo BOU-diet kha-ra-CHO]", meaning:"Tout ira bien / Ça va aller.", usage:"Expression d'encouragement très utilisée. Littéralement 'tout sera bon'. On l'utilise pour réconforter quelqu'un ou exprimer son optimisme face à une situation difficile."},
+    dest: {emoji:"🌃", city:"Санкт-Петербург — Saint-Pétersbourg", region:"Nord-Ouest de la Russie · Ancienne capitale", text:"La ville des tsars, des palais blancs et des nuits blanches. Le musée de l'Ermitage est l'un des plus riches du monde. En juin, les 'nuits blanches' transforment la ville en fête permanente. Accessible depuis Paris en avion direct.", tags:["Ermitage","Culture","Tsars","Nuits blanches","Architecture"]}
+  },
+  7: {
+    bio: {name:"Anna Akhmatova — Анна Ахматова", emoji:"🌹", dates:"1889–1966", text:"L'une des plus grandes poétesses russes du XXe siècle. Elle vécut sous Staline et résista à la censure soviétique. Son œuvre 'Requiem' commémore les victimes de la terreur stalinienne. Elle ne plia jamais et devint un symbole de dignité.", quote:"Всё расхищено, предано, продано... — Tout a été pillé, trahi, vendu..."},
+    hist: {date:"🗓 1917", title:"La Révolution russe — Революция", text:"En 1917, deux révolutions transformèrent la Russie. En février, le tsar Nicolas II abdiqua. En octobre, les bolchéviks de Lénine prirent le pouvoir. Née l'URSS, la première patrie socialiste du monde. Cet événement changea l'histoire du XXe siècle à jamais."},
+    anec: {title:"La superstition du miroir brisé", text:"En Russie, briser un miroir présage 7 ans de malheur — mais aussi, ne regardez jamais un miroir après minuit, et couvrez-les lors d'un deuil. Offrir un miroir est parfois déconseillé. Les superstitions russes sont nombreuses et prises très au sérieux.", warning:"Offrir un miroir peut être mal perçu en Russie par les personnes superstitieuses."},
+    expr: {phrase:"Как дела?", phonetic:"[kak di-LA]", meaning:"Comment vas-tu ? / Comment ça va ?", usage:"Question standard lors de retrouvailles. Réponse courante : Нормально (normalement, bien), Хорошо (bien), Неплохо (pas mal). En russe formel : Как вы поживаете ? Évitez la réponse trop longue si c'est poli !"},
+    dest: {emoji:"🏔️", city:"Lac Baïkal — Озеро Байкал", region:"Sibérie · Irkoutsk", text:"Le lac le plus profond du monde (1 642 m) et le plus ancien (25 millions d'ans). Il contient 20% de l'eau douce de la planète ! En hiver, on peut marcher sur sa glace bleue cristalline. Une merveille naturelle unique au monde.", tags:["Nature","Eau douce","Sibérie","Trekkking","Unique"]}
+  },
+  8: {
+    bio: {name:"Fiodor Dostoïevski — Ф.М. Достоевский", emoji:"🔍", dates:"1821–1881", text:"Maître du roman psychologique. 'Crime et Châtiment', 'L'Idiot', 'Les Frères Karamazov' — ses œuvres explorent les profondeurs de l'âme humaine. Condamné à mort puis gracié au dernier moment, il fut envoyé en Sibérie. Cette expérience transforma radicalement sa vision du monde.", quote:"Красота спасёт мир. — La beauté sauvera le monde."},
+    hist: {date:"🗓 1905–1917", title:"Du Tsar à la République — fin de l'Empire", text:"En 1905, la révolution manquée força Nicolas II à créer la Douma (parlement). Mais les réformes furent insuffisantes. La Première Guerre mondiale et la misère populaire précipitèrent la chute des Romanov en 1917, mettant fin à 300 ans de règne de cette dynastie."},
+    anec: {title:"À table en Russie — les règles d'or", text:"En Russie, refuser de manger ou boire lors d'un repas offert peut offenser l'hôte. La vodka se boit souvent cul-sec (d'un trait) lors des toasts. Le premier toast est souvent pour la santé (За здоровье !). Mettre les coudes sur la table est acceptable. On ne choque pas les verres à la vodka avec de l'eau.", warning:"Refuser de trinquer ou ne pas vider son verre lors d'un toast solennel peut être perçu comme une offense."},
+    expr: {phrase:"За здоровье!", phonetic:"[za zdra-VO-vye]", meaning:"À la santé ! / Tchin-tchin !", usage:"Le toast le plus universel en Russie. Prononcé lors de chaque repas festif avant de boire. Autres toasts courants : За нас ! (À nous !), За любовь ! (À l'amour !). Regardez dans les yeux quand vous trinquez."},
+    dest: {emoji:"🌿", city:"Сочи — Sotchi", region:"Krasnodar · Mer Noire", text:"Station balnéaire sur la Mer Noire, au pied du Caucase. Hiver comme été, Sotchi offre mer et montagne à portée. Rénovée pour les JO 2014, la ville allie plages et stations de ski. Climate subtropical unique en Russie.", tags:["Mer Noire","Montagnes","JO 2014","Subtropical","Détente"]}
+  },
+  9: {
+    bio: {name:"Mikhaïl Boulgakov — М.А. Булгаков", emoji:"🐱", dates:"1891–1940", text:"Auteur du chef-d'œuvre 'Le Maître et Marguerite' (Мастер и Маргарита), interdit en URSS pendant des décennies. Roman fantastique où le diable visite Moscou soviétique. Bulgakov écrivit sous la censure stalinienne, souffrit toute sa vie mais ne renonça jamais à son art.", quote:"Рукописи не горят. — Les manuscrits ne brûlent pas."},
+    hist: {date:"🗓 1961", title:"Youri Gagarine — Premier homme dans l'espace", text:"Le 12 avril 1961, Youri Gagarine devint le premier être humain à voyager dans l'espace. Il orbita autour de la Terre en 108 minutes dans le vaisseau Vostok 1. Ce jour, le Cosmonautics Day (День космонавтики), est encore fêté en Russie. Gagarine est un héros national éternel."},
+    anec: {title:"On ne dit pas 'au revoir' sur le seuil !", text:"En Russie, se dire au revoir sur le seuil de la porte ou en rester à mi-chemin porte malheur — cela risque de causer une dispute ou une séparation. Il faut soit entrer complètement soit sortir. Autre tabou : ne jamais passer le sel main à main — posez-le sur la table.", warning:"Dire au revoir à quelqu'un sur le seuil d'une porte russe est une superstition négative !"},
+    expr: {phrase:"Ничего не понимаю", phonetic:"[ni-che-VO nye pa-ni-MA-you]", meaning:"Je ne comprends rien / Je suis perdu(e).", usage:"Phrase essentielle pour les débutants en russe ! Vous pouvez compléter : Я не понимаю по-русски (je ne comprends pas le russe) ou Говорите медленнее, пожалуйста (parlez plus lentement, s'il vous plaît)."},
+    dest: {emoji:"🏔️", city:"Казань — Kazan", region:"Tatarstan · Volga · 1 000 km de Moscou", text:"Capitale du Tatarstan, carrefour des cultures russe et tatare. Le Kremlin de Kazan (UNESCO) abrite une mosquée et une cathédrale orthodoxe côte à côte — symbole de coexistence. Ville universitaire dynamique et gastronomiquement riche (cuisine tatare !). Facilement accessible en train depuis Moscou.", tags:["Kremlin","UNESCO","Tatarstan","Mélange culturel","Train"]}
+  },
+  10: {
+    bio: {name:"Anton Tchekhov — А.П. Чехов", emoji:"🎭", dates:"1860–1904", text:"Maître de la nouvelle et du théâtre moderne. 'La Cerisaie', 'Les Trois Sœurs', 'L'Oncle Vania' — ses pièces continuent d'être jouées dans le monde entier. Médecin de formation, il écrivit sur la mélancolie, le temps qui passe et les petits bonheurs de la vie quotidienne.", quote:"Краткость — сестра таланта. — La brièveté est la sœur du talent."},
+    hist: {date:"🗓 1980", title:"Moscou 1980 — Les Jeux Olympiques boycottés", text:"Les Jeux Olympiques de Moscou (1980) furent boycottés par les États-Unis et leurs alliés en protestation contre l'invasion soviétique de l'Afghanistan. Malgré cela, l'URSS fit d'immenses efforts de prestige. La mascotte Misha l'ours resta dans les mémoires du monde entier."},
+    anec: {title:"Le banya — rituel incontournable", text:"Le banya (баня), le hammam russe, est bien plus qu'un bain. C'est un rite social et spirituel. On se fouette avec des branches de bouleau (веник) pour stimuler la circulation, puis on plonge dans l'eau froide ou dans la neige. Refuser d'aller au banya avec des amis russes peut sembler distant.", warning:"Dans un banya russe, il est très impoli de refuser le веник (fouet de bouleau) proposé par l'hôte."},
+    expr: {phrase:"Давай!", phonetic:"[da-VAÏ]", meaning:"Allez ! / Vas-y ! / Allons-y ! / OK !",usage:"Mot ultra-polyvalent en russe. Peut exprimer l'encouragement, l'accord, un au revoir informel ou une invitation à agir. 'Давай встретимся' = retrouvons-nous. 'Давай, пока !' = allez, au revoir !"},
+    dest: {emoji:"🏛️", city:"Новгород Великий — Novgorod le Grand", region:"Novgorod Oblast · Nord-Ouest de la Russie", text:"L'une des plus anciennes villes de Russie, fondée au IXe siècle. Kremlin médiéval, cathédrale Sainte-Sophie (XI e s.), et un musée en plein air avec des maisons médiévales. Ville de l'UNESCO, accessible depuis Saint-Pétersbourg en 3 heures. Parfaite pour un voyage dans l'histoire russe.", tags:["Medieval","UNESCO","Kremlin","Histoire","Saint-Pétersbourg"]}
+  },
+  11: {
+    bio: {name:"Sergueï Rachmaninov — С.В. Рахманинов", emoji:"🎹", dates:"1873–1943", text:"Compositeur et pianiste de génie. Ses concertos pour piano sont parmi les plus joués au monde. Son Concerto n°2, son Rhapsodie sur un thème de Paganini... touchent l'âme universellement. Émigré après la Révolution, il ne revit jamais la Russie mais resta russe dans son âme.", quote:"Музыка — это тишина между нотами. — La musique, c'est le silence entre les notes."},
+    hist: {date:"🗓 1991", title:"Fin de l'URSS — dissolution pacifique", text:"Le 25 décembre 1991, Mikhaïl Gorbatchev annonça la dissolution de l'URSS. Sans un coup de feu, la plus grande puissance socialiste du monde cessa d'exister. 15 républiques devinrent indépendantes. La Russie hérita du siège permanent au Conseil de Sécurité de l'ONU."},
+    anec: {title:"Les fleurs doivent être en nombre impair !", text:"En Russie, offrir des fleurs en nombre pair porte malheur — les bouquets pairs sont réservés aux funérailles ! Offrez toujours 1, 3, 5, 7 ou 9 fleurs. Un bouquet de 6 roses romantiques serait une erreur catastrophique. Les Russes le savent intuitivement et seraient choqués par un bouquet pair.", warning:"Offrir un bouquet de fleurs en nombre pair (2, 4, 6...) en Russie est associé aux funérailles !"},
+    expr: {phrase:"Понятно!", phonetic:"[pa-NYAT-na]", meaning:"Compris ! / Je vois ! / D'accord !", usage:"Expression très courante pour signifier qu'on a compris. Synonymes : Ясно ! (clair !), Хорошо (bien), Окей. En contexte formel ou scolaire : Я понял / поняла (j'ai compris, masc./fém.)."},
+    dest: {emoji:"🌊", city:"Владивосток — Vladivostok", region:"Extrême-Orient · Océan Pacifique", text:"À 9 000 km de Moscou, Vladivostok est la porte de la Russie sur l'Asie. Port maritime sur le Pacifique, proche du Japon et de la Corée. Architecture Art Nouveau, fruits de mer extraordinaires et pont suspendu spectaculaire. On y va en traversant la Russie à bord du Transsibérien !", tags:["Transsibérien","Pacifique","Asie","Fruits de mer","Extrême-Orient"]}
+  },
+  12: {
+    bio: {name:"Iouri Gagarine — Юрий Гагарин", emoji:"🚀", dates:"1934–1968", text:"Cosmonaute soviétique, premier homme dans l'espace (12 avril 1961). Fils d'un charpentier, il devint le visage de la conquête spatiale soviétique et un héros mondial. Sa phrase «Поехали !» (Allons-y !) lors du décollage est entrée dans l'histoire. Il mourut dans un accident d'avion à 34 ans.", quote:"Поехали ! — Allons-y !"},
+    hist: {date:"🗓 XVIII siècle", title:"Pierre le Grand — La Russie tourne vers l'Europe", text:"Pierre Ier (1672-1725) transforma radicalement la Russie : il créa Saint-Pétersbourg, modernisa l'armée, réforma l'alphabet et ouvrit la Russie à l'Europe. Sa visite incognito en Europe occidentale (dont Paris) l'inspira pour ses réformes. Il est considéré comme le 'fondateur de la Russie moderne'."},
+    anec: {title:"Новый год — La fête la plus importante !", text:"En Russie, le Nouvel An (Новый год) est bien plus important que Noël (fêté le 7 janvier selon le calendrier orthodoxe). Le Père Noël russe s'appelle Дед Мороз (Grandfather Frost) et sa petite-fille Снегурочка (La Demoiselle des Neiges) l'accompagne. Les cadeaux sont offerts le 1er janvier.", warning:"En Russie, oublier de fêter le Nouvel An (Новый год) est inconcevable — c'est LA fête nationale !"},
+    expr: {phrase:"С Новым годом!", phonetic:"[s NO-vim GO-dam]", meaning:"Bonne Année !", usage:"Toast et vœu du Nouvel An. Accompagné généralement de : С праздником ! (Joyeuses fêtes !). Pour Noël orthodoxe : Христос рождается ! (Christ est né !). On fête aussi le 'Vieux Nouvel An' le 14 janvier selon l'ancien calendrier julien."},
+    dest: {emoji:"🌅", city:"Золотое кольцо — L'Anneau d'Or", region:"Région de Moscou · villages médiévaux", text:"Route touristique à travers les plus anciennes villes russes : Suzdal, Vladimir, Sergiev Posad, Rostov le Grand... Monastères, cathédrales dorées, rues pavées, campagne russe authentique. À 2-4h de Moscou, c'est une plongée dans la Russie éternelle.", tags:["Medieval","Suzdal","Vladimir","Monastères","Campagne russe"]}
+  },
+  13: {
+    bio: {name:"Mikhaïl Gorbatchev — М.С. Горбачёв", emoji:"🕊️", dates:"1931–2022", text:"Dernier dirigeant de l'URSS, prix Nobel de la Paix 1990. Ses réformes Glasnost (transparence) et Perestroïka (reconstruction) transformèrent l'URSS et précipitèrent la fin de la Guerre Froide. En Occident, héros ; en Russie, opinions divisées. Il mourut en 2022 à 91 ans.", quote:"Мы можем. — Nous pouvons."},
+    hist: {date:"🗓 2024 — aujourd'hui", title:"La langue russe dans le monde", text:"Le russe est parlé par 258 millions de personnes dans le monde, dont 154 millions de natifs. C'est l'une des 6 langues officielles de l'ONU. Le russe reste la lingua franca dans de nombreux pays post-soviétiques et est la 8e langue la plus utilisée sur Internet."},
+    anec: {title:"Vous parlez maintenant russe !", text:"En terminant ce cours, vous avez acquis le niveau A2 en russe — ce qui vous permet de vous présenter, comprendre et parler de sujets du quotidien. Les Russes sont toujours touchés et impressionnés quand un étranger fait l'effort de parler leur langue. Дерзайте ! (Osez !)", warning:"Une dernière astuce : ne dites jamais 'russe' en pensant à l'URSS — la Russie moderne a son identité propre !"},
+    expr: {phrase:"Молодец!", phonetic:"[ma-la-DYETS]", meaning:"Bravo ! / Bien joué ! / Tu t'en sors bien !", usage:"Compliment universel en russe. On dit молодец à un homme, молодца à une femme dans certaines régions (mais молодец fonctionne pour tous). Vous méritez ce молодец pour avoir terminé le cours !"},
+    dest: {emoji:"🏺", city:"Самарканд — Samarkand", region:"Ouzbékistan · Route de la Soie", text:"Samarkand n'est pas en Russie, mais c'est une ville incontournable pour comprendre l'espace russe et soviétique. Ancienne capitale de Tamerlan, ses mosquées turquoise (Registan) sont parmi les plus belles du monde. L'Ouzbékistan est aujourd'hui très accessible depuis Moscou.", tags:["Route de la Soie","Islam","Architecture","Tamerlan","Mosasïques"]}
+  }
+};
+
 // Generate skeleton lessons for weeks 6-13
 for (let week = 6; week <= 13; week++) {
   const wt = WEEK_THEMES[week];
+  const cult = CULTURAL_DATA_RU[week] || {};
   for (let day = 1; day <= 6; day++) {
     const key = `S${week}J${day}`;
     if (!LESSONS_DATA[key]) {
@@ -2438,6 +2651,7 @@ for (let week = 6; week <= 13; week++) {
             title: wt.topics[day - 1],
             text: `Cette leçon couvre : ${wt.topics[day-1]}. Thème de la semaine : ${wt.theme}. Bonne étude !`
           },
+          ...(day === 1 && cult.bio ? [{type:"bio", tag:"Personnage célèbre", ...cult.bio}] : []),
           {
             type: "vocab",
             tag: "Vocabulaire",
@@ -2449,6 +2663,7 @@ for (let week = 6; week <= 13; week++) {
               { ru: "урок", phonetic: "[ou-ROK]", fr: "leçon / cours", cognat: false, note: null },
             ]
           },
+          ...(day === 2 && cult.hist ? [{type:"hist", tag:"Fait historique", ...cult.hist}] : []),
           {
             type: "grammar",
             tag: "Structure",
@@ -2459,6 +2674,7 @@ for (let week = 6; week <= 13; week++) {
               { ru: "Каждый день немного.", fr: "Un peu chaque jour." },
             ]
           },
+          ...(day === 3 && cult.anec ? [{type:"anec", tag:"Anecdote culturelle", ...cult.anec}] : []),
           {
             type: "vocab",
             tag: "Cognats du jour",
@@ -2468,6 +2684,8 @@ for (let week = 6; week <= 13; week++) {
               { ru: "практика", phonetic: "[PRAK-ti-ka]", fr: "pratique", cognat: true, note: null },
             ]
           },
+          ...(day === 4 && cult.expr ? [{type:"expr", tag:"Expression du jour", ...cult.expr}] : []),
+          ...(day === 5 && cult.dest ? [{type:"dest", tag:"Destination à visiter", ...cult.dest}] : []),
           {
             type: "exercise",
             tag: "Exercice",
@@ -2596,7 +2814,7 @@ function showTab(t){
     $('scr-'+id).classList.toggle('on', id===t);
     $('nt-'+id).classList.toggle('on', id===t);
   });
-  if(t==='home')    updateHome();
+  if(t==='home'){updateHome();updateTestLastScore();}
   if(t==='lessons') buildList();
   if(t==='prog')    updateProg();
   if(t==='glos')    buildGlossaire();
@@ -2912,9 +3130,159 @@ function makeSection(s, idx, l){
       });
       box.appendChild(opts); box.appendChild(fb); w.appendChild(box); return w;
     }
+    case 'bio':{
+      w.innerHTML=`<div class="bio-box">
+        <div class="stag">👤 ${s.tag||'Personnage célèbre'}</div>
+        <div class="bio-head">
+          <div class="bio-avatar">${s.emoji||'🎭'}</div>
+          <div><div class="bio-name">${s.name}</div><div class="bio-dates">${s.dates}</div></div>
+        </div>
+        <div class="bio-text">${s.text}</div>
+        ${s.quote?`<div class="bio-quote">« ${s.quote} »</div>`:''}
+      </div>`;
+      break;
+    }
+    case 'hist':{
+      w.innerHTML=`<div class="hist-box">
+        <div class="stag">📜 ${s.tag||'Fait historique'}</div>
+        <div class="hist-head"><div class="hist-ico">🏛️</div><div class="hist-date">${s.date}</div></div>
+        <div class="hist-title">${s.title}</div>
+        <div class="hist-text">${s.text}</div>
+        ${s.link?`<div class="hist-link">📌 ${s.link}</div>`:''}
+      </div>`;
+      break;
+    }
+    case 'anec':{
+      w.innerHTML=`<div class="anec-box">
+        <div class="stag">🎭 ${s.tag||'Anecdote culturelle'}</div>
+        <div class="anec-head"><div class="anec-ico">💬</div><div class="anec-lbl">Coutumes &amp; Savoir-vivre</div></div>
+        <div class="anec-title">${s.title}</div>
+        <div class="anec-text">${s.text}</div>
+        ${s.warning?`<div class="anec-warn">⚠️ <span>${s.warning}</span></div>`:''}
+      </div>`;
+      break;
+    }
+    case 'expr':{
+      const exprTTS=makeTTS(s.phrase);
+      const eb=document.createElement('div'); eb.className='expr-box';
+      eb.innerHTML=`<div class="stag">💬 ${s.tag||'Expression du jour'}</div>
+        <div class="expr-head"><div class="expr-phrase">${s.phrase}</div></div>
+        <div class="expr-phonetic">${s.phonetic||''}</div>
+        <div class="expr-meaning">${s.meaning}</div>
+        <div class="expr-usage">${s.usage}</div>`;
+      eb.querySelector('.expr-head').appendChild(exprTTS);
+      w.appendChild(eb); return w;
+    }
+    case 'dest':{
+      w.innerHTML=`<div class="dest-box">
+        <div class="stag">✈️ ${s.tag||'Destination à visiter'}</div>
+        <div class="dest-head"><div class="dest-ico">${s.emoji||'🗺️'}</div>
+        <div><div class="dest-city">${s.city}</div><div class="dest-region">${s.region}</div></div></div>
+        <div class="dest-text">${s.text}</div>
+        <div class="dest-tags">${(s.tags||[]).map(t=>`<span class="dest-tag">${t}</span>`).join('')}</div>
+      </div>`;
+      break;
+    }
     default: return null;
   }
   return w;
+}
+
+// ── Test de niveau ────────────────────────────────────────────
+const TEST_BANK_RU = [
+  {cat:'Alphabet',q:'Comment se prononce le О dans "молоко" (lait) ?',opts:['[o-o-ko]','[a-la-KO]','[mo-lo-ko]','[mu-lu-ku]'],correct:1,fb:'En russe, le О non-accentué devient [a]. Seul le dernier О (accentué) se prononce [o].'},
+  {cat:'Alphabet',q:'Que prononce-t-on avec la lettre С en russe ?',opts:['[k]','[s] comme dans "sac"','[ts]','[ch]'],correct:1,fb:'С = [s] toujours. Faux ami visuel du C latin.'},
+  {cat:'Alphabet',q:'Quel son représente la lettre Ч ?',opts:['[ch] comme "chat"','[tch] comme "tchèque"','[ts]','[j]'],correct:1,fb:'Ч = [tch]. Чай = [tchaï] = thé.'},
+  {cat:'Alphabet',q:'La lettre Р en russe se prononce :',opts:['Comme r français guttural','R roulé, comme en espagnol','Comme L','Muette'],correct:1,fb:'R russe = r roulé espagnol. Faites vibrer la langue !'},
+  {cat:'Alphabet',q:'Que signifie le signe ь (мягкий знак) ?',opts:['Lettre supplémentaire","Rend la consonne douce (palatalisée)','Marque l\'accent','Double la consonne'],correct:1,fb:'Ь = signe mou, rend la consonne palatalisée. Ex: мать [mat\'] — la langue monte vers le palais.'},
+  {cat:'Vocabulaire',q:'Que signifie "Здравствуйте" ?',opts:['Merci','Au revoir','Bonjour (formel)','S\'il vous plaît'],correct:2,fb:'Здравствуйте = bonjour formel. De "здоровье" = santé. Littéralement : "soyez en bonne santé".'},
+  {cat:'Vocabulaire',q:'Comment dit-on "eau" en russe ?',opts:['молоко','хлеб','вода','сок'],correct:2,fb:'Вода = eau. Attention : le O est atone → [va-DA].'},
+  {cat:'Vocabulaire',q:'Que signifie "спасибо" ?',opts:['Bonjour','Merci','De rien','Au revoir'],correct:1,fb:'Спасибо = merci. "Пожалуйста" signifie à la fois "s\'il vous plaît" ET "de rien/avec plaisir".'},
+  {cat:'Vocabulaire',q:'Quel mot signifie "maison" en russe ?',opts:['стол','дом','окно','дверь'],correct:1,fb:'Дом = maison. Стол = table. Окно = fenêtre. Дверь = porte.'},
+  {cat:'Vocabulaire',q:'Comment dit-on "je parle" en russe ?',opts:['я говорю','я иду','я хочу','я знаю'],correct:0,fb:'Я говорю = je parle. Я иду = je vais. Я хочу = je veux. Я знаю = je sais.'},
+  {cat:'Vocabulaire',q:'Que signifie "пожалуйста" ?',opts:['Merci seulement','S\'il vous plaît / De rien','Pardon','Bonjour'],correct:1,fb:'Пожалуйста a deux sens : SVP ET de rien/avec plaisir, selon le contexte !'},
+  {cat:'Grammaire',q:'Quel pronom correspond à "vous" (formel) en russe ?',opts:['ты','он','вы','они'],correct:2,fb:'Вы = vous (formel ou pluriel). Ты = tu (informel). La distinction est très importante en russe !'},
+  {cat:'Grammaire',q:'Comment dit-on "je m\'appelle" en russe ?',opts:['Я зовут...','Меня зовут...','Мне зовут...','Я называюсь...'],correct:1,fb:'Меня зовут = je m\'appelle. Littéralement "on m\'appelle" (меня = me/moi à l\'accusatif).'},
+  {cat:'Grammaire',q:'En russe, le verbe "être" au présent :',opts:['Se conjugue normalement','Est généralement omis','S\'utilise toujours','Est remplacé par avoir'],correct:1,fb:'Au présent, le verbe être (быть) est généralement omis. "Я студент" = je suis étudiant (pas de copule).'},
+  {cat:'Grammaire',q:'Comment se forme le pluriel de "стол" (table) ?',opts:['столы','столе','столов','столам'],correct:0,fb:'Столы = tables. En russe, le pluriel se forme souvent avec -ы/-и. Но les déclinaisons sont complexes !'},
+  {cat:'Grammaire',q:'Que signifie "у меня есть" ?',opts:['Je suis','J\'ai / Il y a chez moi','Je veux','Je dois'],correct:1,fb:'У меня есть = j\'ai. Littéralement "chez moi il y a". Le russe n\'a pas de verbe "avoir" comme "avoir" français.'},
+  {cat:'Culture',q:'Quelle est la capitale de la Russie ?',opts:['Санкт-Петербург','Новгород','Москва','Казань'],correct:2,fb:'Москва (Moscou) est la capitale. Санкт-Петербург était la capitale impériale.'},
+  {cat:'Culture',q:'Combien de lettres compte l\'alphabet cyrillique russe ?',opts:['26','30','33','35'],correct:2,fb:'L\'alphabet russe compte 33 lettres. L\'alphabet latin en a 26.'},
+  {cat:'Culture',q:'Comment dit-on "bonjour" de façon informelle en russe ?',opts:['До свидания','Спасибо','Привет','Пожалуйста'],correct:2,fb:'Привет = salut (informel). Здравствуйте = bonjour (formel). Important de distinguer !'},
+  {cat:'Culture',q:'Quelle direction lit-on le russe ?',opts:['De droite à gauche','De gauche à droite','De haut en bas','Variable'],correct:1,fb:'Le russe se lit de gauche à droite, comme le français. Seul l\'alphabet est différent.'},
+];
+
+let testQuestions=[], testCurrent=0, testAnswers=[], testAnswered=false;
+function shuffleArr(arr){return [...arr].sort(()=>Math.random()-0.5);}
+function openTest(){
+  testQuestions=shuffleArr(TEST_BANK_RU).slice(0,20);
+  testCurrent=0; testAnswers=[]; testAnswered=false;
+  $('scr-test').classList.add('on');
+  renderTestQ();
+  $('test-content').scrollTop=0;
+}
+function closeTest(){ $('scr-test').classList.remove('on'); }
+function renderTestQ(){
+  if(testCurrent>=testQuestions.length){renderTestResult();return;}
+  const q=testQuestions[testCurrent];
+  const ct=$('test-content'); ct.innerHTML='';
+  testAnswered=false;
+  $('btn-test-next').disabled=true;
+  $('test-qnum').textContent=(testCurrent+1)+' / '+testQuestions.length;
+  $('test-pfill').style.width=Math.round((testCurrent/testQuestions.length)*100)+'%';
+  const box=document.createElement('div'); box.className='tq-box';
+  const fb=document.createElement('div'); fb.className='tq-fb';
+  box.innerHTML=`<div class="tq-cat">${q.cat}</div><div class="tq-q">${q.q}</div>`;
+  const opts=document.createElement('div'); opts.className='tq-opts';
+  q.opts.forEach((op,oi)=>{
+    const btn=document.createElement('button'); btn.className='tq-opt'; btn.textContent=op;
+    btn.addEventListener('click',()=>{
+      if(testAnswered)return; testAnswered=true;
+      const correct=oi===q.correct;
+      testAnswers.push({cat:q.cat,correct});
+      opts.querySelectorAll('.tq-opt').forEach((b,i)=>{b.disabled=true;if(i===q.correct)b.classList.add('tok');if(i===oi&&!correct)b.classList.add('tko');});
+      fb.textContent=q.fb; fb.style.color=correct?'var(--green)':'var(--rose)';
+      $('btn-test-next').disabled=false;
+    });
+    opts.appendChild(btn);
+  });
+  box.appendChild(opts); box.appendChild(fb); ct.appendChild(box);
+}
+function testNext(){ testCurrent++; renderTestQ(); $('test-content').scrollTop=0; }
+function renderTestResult(){
+  $('test-pfill').style.width='100%';
+  $('test-qnum').textContent='Résultat';
+  $('btn-test-next').style.display='none';
+  const total=testAnswers.length,correct=testAnswers.filter(a=>a.correct).length;
+  const pct=Math.round(correct/total*100);
+  let lvl,em,advice;
+  if(pct<30){lvl='Débutant A0';em='🌱';advice='Commencez par l\'alphabet cyrillique. C\'est votre priorité absolue — tout le reste en dépend !'}
+  else if(pct<50){lvl='Faux débutant A1';em='📗';advice:'Vous connaissez quelques mots. Consolidez l\'alphabet et les salutations avant d\'avancer.'}
+  else if(pct<70){lvl='Niveau A1+';em:'⭐';advice:'Bon niveau ! Travaillez la grammaire (déclinaisons) et enrichissez votre vocabulaire.'}
+  else if(pct<85){lvl='Niveau A2';em:'🏅';advice:'Excellent ! Vous maîtrisez les bases. Concentrez-vous sur les verbes de mouvement et les aspects.'}
+  else{lvl='Niveau B1+';em:'🏆';advice:'Bravo ! Votre niveau est avancé. Ce cours vous aidera à consolider et à perfectionner votre russe.'}
+  const cats={};testAnswers.forEach(a=>{if(!cats[a.cat])cats[a.cat]={t:0,c:0};cats[a.cat].t++;if(a.correct)cats[a.cat].c++;});
+  let catsHTML='';Object.entries(cats).forEach(([cat,v])=>{const p=Math.round(v.c/v.t*100);catsHTML+=`<div class="test-cat-row"><div class="test-cat-hd"><span>${cat}</span><span>${v.c}/${v.t}</span></div><div class="test-cat-bar"><div class="test-cat-fill" style="width:${p}%"></div></div></div>`;});
+  try{localStorage.setItem('ru5test',JSON.stringify({pct,lvl,date:new Date().toLocaleDateString('fr')}));}catch(e){}
+  updateTestLastScore();
+  const ct=$('test-content'); ct.innerHTML='';
+  const res=document.createElement('div'); res.className='test-result';
+  res.innerHTML=`
+    <div class="test-score-box">
+      <span class="test-score-em">${em}</span>
+      <div class="test-score-pct">${pct}%</div>
+      <div class="test-score-lbl">${correct} bonnes réponses sur ${total}</div>
+      <div class="test-lvl-badge">${lvl}</div>
+    </div>
+    <div class="test-advice"><div class="test-advice-h">Recommandations</div><div class="test-advice-t">${advice}</div></div>
+    <div class="test-bars"><div style="font-size:11.5px;font-weight:700;margin-bottom:6px;color:var(--tx2)">Par thème</div>${catsHTML}</div>
+    <button class="btn-retake" id="btn-retake">🔄 Refaire le test</button>
+  `;
+  ct.appendChild(res);
+  ct.querySelector('#btn-retake').addEventListener('click',()=>{$('btn-test-next').style.display='';openTest();});
+}
+function updateTestLastScore(){
+  try{const s=JSON.parse(localStorage.getItem('ru5test'));if(s&&$('test-last-score'))$('test-last-score').textContent='Dernier résultat : '+s.pct+'% — '+s.lvl+' ('+s.date+')';}catch(e){}
 }
 
 // ── Timer ─────────────────────────────────────────────────────
@@ -2939,7 +3307,7 @@ window.addEventListener('appinstalled',()=>{
 // ── Init ──────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded',()=>{
   loadState(); initTTS();
-  updateHome(); buildList();
+  updateHome(); buildList(); updateTestLastScore();
 
   // Nav tabs
   $('nt-home').addEventListener('click',()=>showTab('home'));
@@ -2965,6 +3333,11 @@ document.addEventListener('DOMContentLoaded',()=>{
   // Search
   $('srch').addEventListener('input',e=>{ srchQ=e.target.value.toLowerCase().trim(); buildList(); });
   $('glos-srch').addEventListener('input',e=>{ glosQ=e.target.value.toLowerCase().trim(); buildGlossaire(); });
+
+  // Test de niveau
+  $('btn-open-test').addEventListener('click',openTest);
+  $('btn-test-close').addEventListener('click',closeTest);
+  $('btn-test-next').addEventListener('click',testNext);
 
   // SW
   if('serviceWorker' in navigator){ navigator.serviceWorker.register('./sw.js').catch(()=>{}); }
