@@ -4,7 +4,7 @@
   "description": "Учите французский язык — du débutant au niveau A2",
   "start_url": "./",
   "scope": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "background_color": "#080D24",
   "theme_color": "#C9A84C",

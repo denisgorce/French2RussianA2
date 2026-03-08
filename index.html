@@ -996,32 +996,20 @@ function enc(s){return String(s||'').replace(/"/g,'&quot;').replace(/'/g,'&#39;'
 /* ═══════════════════════════════════════ PWA ═══ */
 let _dp=null;
 
-/* ── Masquage automatique de la barre de statut (heure / batterie) ── */
-function tryFullscreen(){
-  const el=document.documentElement;
-  const req=el.requestFullscreen||el.webkitRequestFullscreen||el.mozRequestFullScreen||el.msRequestFullscreen;
-  if(req)req.call(el).catch(()=>{});
-}
+/* ── Détection mode standalone (app installée) ── */
 function isStandalone(){
   return window.matchMedia('(display-mode: standalone)').matches||
          window.matchMedia('(display-mode: fullscreen)').matches||
          window.navigator.standalone===true;
 }
-/* Au démarrage : app déjà installée */
-if(isStandalone())tryFullscreen();
-/* Juste après l'installation */
-window.addEventListener('appinstalled',()=>{toast('🎉 Application installée !','to');setTimeout(tryFullscreen,800);});
-/* Au retour sur l'app (changement de visibilité) */
-document.addEventListener('visibilitychange',()=>{if(!document.hidden&&isStandalone())tryFullscreen();});
-/* Si l'utilisateur quitte accidentellement le plein écran */
-document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement&&isStandalone())setTimeout(tryFullscreen,400);});
+window.addEventListener('appinstalled',()=>{toast('🎉 Application installée !','to');});
 
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();_dp=e;
   if(!sessionStorage.getItem('idis'))setTimeout(()=>document.getElementById('ibanner').classList.remove('hidden'),3000);
 });
 document.getElementById('btn-install').addEventListener('click',async()=>{
   if(!_dp)return;_dp.prompt();const{outcome}=await _dp.userChoice;
-  if(outcome==='accepted')setTimeout(tryFullscreen,800);
+  if(outcome==='accepted')toast('🎉 Application installée !','to');
   _dp=null;document.getElementById('ibanner').classList.add('hidden');
 });
 document.getElementById('btn-idis').addEventListener('click',()=>{
