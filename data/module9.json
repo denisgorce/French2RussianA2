@@ -1,0 +1,756 @@
+{
+  "module": 9,
+  "titleFr": "Vers l'Autonomie",
+  "titleRu": "К самостоятельности",
+  "description": "Сослагательное наклонение, условное наклонение, относительные местоимения, профессиональная жизнь и Франция в мире.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Subjonctif Présent",
+      "titleRu": "Сослагательное наклонение",
+      "level": "A2",
+      "grammar": {
+        "title": "Le subjonctif — mode du doute et du sentiment",
+        "titleRu": "Сослагательное наклонение — сомнение и чувства",
+        "intro": "Сослагательное наклонение (le subjonctif) — одна из самых характерных особенностей французского языка. Оно выражает субъективность: сомнение, желание, необходимость, чувство. В отличие от русского, французский субъюнктив используется очень часто в повседневной речи.",
+        "sections": [
+          {
+            "title": "Когда используется субъюнктив?",
+            "content": "После выражений желания: vouloir que, désirer que\nПосле выражений необходимости: il faut que, il est nécessaire que\nПосле выражений чувств: être content que, avoir peur que\nПосле выражений сомнения: douter que, ne pas croire que\nПосле союзов: bien que (хотя), pour que (чтобы), avant que (до того как)"
+          },
+          {
+            "title": "Образование субъюнктива",
+            "content": "Основа: 3-е лицо мн.ч. настоящего времени → убрать -ent → добавить окончания:\n-e, -es, -e, -ions, -iez, -ent\n\nParler → ils parlent → parl-\nje parle, tu parles, il parle\nnous parlions, vous parliez, ils parlent\n\nFinir → ils finissent → finiss-\nje finisse, tu finisses, il finisse\nnous finissions, vous finissiez, ils finissent"
+          },
+          {
+            "title": "Неправильные формы (самые важные)",
+            "content": "être → je sois, tu sois, il soit, nous soyons, vous soyez, ils soient\navoir → j'aie, tu aies, il ait, nous ayons, vous ayez, ils aient\naller → j'aille, tu ailles, il aille, nous allions, vous alliez, ils aillent\nfaire → je fasse, tu fasses, il fasse, nous fassions, vous fassiez, ils fassent\npouvoir → je puisse, tu puisses, il puisse, nous puissions, vous puissiez, ils puissent\nsavoir → je sache, tu saches, il sache, nous sachions, vous sachiez, ils sachent"
+          },
+          {
+            "title": "Примеры в предложениях",
+            "content": "Il faut que tu sois à l'heure. — Тебе нужно быть вовремя.\nJe veux que tu viennes. — Я хочу, чтобы ты пришёл.\nBien qu'il soit fatigué, il travaille. — Хотя он устал, он работает.\nJ'ai peur qu'elle ne comprenne pas. — Боюсь, что она не поймёт."
+          }
+        ],
+        "rule": "💡 Ключевое правило: субъюнктив появляется только тогда, когда подлежащее главного и придаточного предложений — РАЗНЫЕ лица. Если одно и то же — используйте инфинитив: Je veux partir (а не «que je parte»)."
+      },
+      "pronunciation": {
+        "intro": "Слушайте и повторяйте формы субъюнктива. Обратите внимание: для многих глаголов формы субъюнктива звучат так же, как изъявительное наклонение!",
+        "note": "⚠️ Формы nous и vous в субъюнктиве совпадают с l'imparfait: nous parlions, vous parliez — контекст определяет смысл!",
+        "words": [
+          { "fr": "que je sois", "ru_pron": "кё жё суа", "meaning": "чтобы я был/а" },
+          { "fr": "que tu aies", "ru_pron": "кё тю э", "meaning": "чтобы у тебя было" },
+          { "fr": "il faut que", "ru_pron": "иль фо кё", "meaning": "нужно, чтобы..." },
+          { "fr": "bien que", "ru_pron": "бьэн кё", "meaning": "хотя (+ субъюнктив)" },
+          { "fr": "pour que", "ru_pron": "пур кё", "meaning": "для того чтобы" },
+          { "fr": "avant que", "ru_pron": "аван кё", "meaning": "до того как" },
+          { "fr": "je veux que tu fasses", "ru_pron": "жё вё кё тю фас", "meaning": "я хочу, чтобы ты сделал(а)" },
+          { "fr": "je doute qu'il vienne", "ru_pron": "жё дут киль вьэн", "meaning": "я сомневаюсь, что он придёт" },
+          { "fr": "elle est contente que vous puissiez", "ru_pron": "эль э контант кё ву пюисьё", "meaning": "она рада, что вы можете" },
+          { "fr": "sans que", "ru_pron": "сан кё", "meaning": "без того чтобы" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "douter", "gender": null, "ru": "сомневаться", "ru_pron": "дутэ", "example_fr": "Je doute qu'il soit là.", "example_ru": "Я сомневаюсь, что он здесь.", "level": "A2" },
+        { "fr": "craindre", "gender": null, "ru": "бояться, опасаться", "ru_pron": "крэндр", "example_fr": "Je crains qu'il fasse une erreur.", "example_ru": "Боюсь, что он совершит ошибку.", "level": "A2" },
+        { "fr": "souhaiter", "gender": null, "ru": "желать, хотеть", "ru_pron": "суэтэ", "example_fr": "Je souhaite que vous réussissiez.", "example_ru": "Я желаю, чтобы вы преуспели.", "level": "A2" },
+        { "fr": "permettre", "gender": null, "ru": "позволять, разрешать", "ru_pron": "пэрмэтр", "example_fr": "Il permet que son fils sorte.", "example_ru": "Он позволяет сыну выходить.", "level": "A2" },
+        { "fr": "exiger", "gender": null, "ru": "требовать", "ru_pron": "эксижэ", "example_fr": "Il exige que tout soit parfait.", "example_ru": "Он требует, чтобы всё было идеально.", "level": "A2" },
+        { "fr": "nécessaire", "gender": null, "ru": "необходимый", "ru_pron": "нэсэсэр", "example_fr": "Il est nécessaire que tu viennes.", "example_ru": "Необходимо, чтобы ты пришёл.", "level": "A2" },
+        { "fr": "probable", "gender": null, "ru": "вероятный, возможный", "ru_pron": "пробабль", "example_fr": "Il est probable qu'il pleuve.", "example_ru": "Вероятно, будет дождь.", "level": "A2", "meaning_double": "probable ≠ prouvé (доказанный): «il est probable que» + subjonctif, mais «il est certain que» + indicatif!" },
+        { "fr": "regretter", "gender": null, "ru": "сожалеть", "ru_pron": "рёгрэтэ", "example_fr": "Je regrette que tu partes.", "example_ru": "Мне жаль, что ты уходишь.", "level": "A2" },
+        { "fr": "la condition", "gender": "f", "ru": "условие", "ru_pron": "ля кондисьон", "example_fr": "À condition que tu travailles bien.", "example_ru": "При условии, что ты будешь хорошо работать.", "level": "A2" },
+        { "fr": "l'incertitude", "gender": "f", "ru": "неопределённость, неуверенность", "ru_pron": "л'энсэртитюд", "example_fr": "L'incertitude me rend anxieux.", "example_ru": "Неопределённость меня тревожит.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le subjonctif", "fr_pron": "лё сюбжонктиф", "ru": "субъюнктив", "ru_pron": "субъюнктив", "note": "Оба термина из латинского «subjunctivus» (присоединённый). Термин одинаков во многих европейских языках." },
+        { "fr": "nécessaire", "fr_pron": "нэсэсэр", "ru": "необходимый", "ru_pron": "нэобходимый", "note": "Французское «nécessaire» и русское «необходимый» — разного происхождения, но слово «nécessaire» легко узнать через английское «necessary»." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Molière (1622–1673)", "subtitle": "Maître de la comédie française", "content": "Мольер (настоящее имя — Жан-Батист Поклен) — величайший французский комедиограф. Его пьесы «Тартюф», «Мизантроп», «Мещанин во дворянстве» высмеивают человеческие пороки с тонкой иронией. Людовик XIV лично покровительствовал Мольеру. Знаменитый факт: Мольер умер прямо на сцене во время представления «Мнимого больного» — пьесы, в которой сам играл ипохондрика. Французский язык часто называют «языком Мольера» (la langue de Molière)." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La Révolution française — свобода, равенство, братство (1789)", "content": "Французская революция 1789 года изменила мировую историю. Взятие Бастилии 14 июля стало символом свободы — этот день сегодня является национальным праздником Франции. Декларация прав человека и гражданина провозгласила принципы «Liberté, Égalité, Fraternité» — свобода, равенство, братство. Эти слова до сих пор красуются на всех французских официальных зданиях. Революция дала миру понятие «левые» и «правые» в политике — депутаты рассаживались по сторонам от спикера." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La grève — забастовка как искусство", "content": "Франция — мировой рекордсмен по забастовкам. Грève (забастовка) — неотъемлемая часть французской культуры. Интересно, что само слово «grève» происходит от Place de Grève в Париже, где безработные собирались в ожидании работы. Французские рабочие имеют конституционное право на забастовку. В 1995 году забастовка на транспорте парализовала страну на три недели! Когда французы говорят «On fait grève» («мы бастуем»), это воспринимается как совершенно нормальное явление." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Il faut que ça change !", "pronunciation": "Иль фо кё са шанж", "translation": "Это должно измениться!", "usage": "Классическая политическая фраза, используемая на митингах и в повседневном споре. Отличный пример субъюнктива в действии: «faut que» требует субъюнктива «change» (от changer). Говорится с пафосом и убеждённостью.", "example": "— Les prix augmentent encore ! — Il faut que ça change ! (Цены снова растут! — Это должно измениться!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Strasbourg — Cœur de l'Europe", "subtitle": "Страсбург — Сердце Европы", "content": "Страсбург — уникальный город на границе Франции и Германии, столица региона Эльзас. Здесь расположен Европейский парламент и Совет Европы. Старый город (Grande Île) — объект Всемирного наследия ЮНЕСКО. Рождественский рынок Страсбурга считается старейшим в Европе (с 1570 года!). Местная кухня сочетает французские и немецкие традиции: choucroute (квашеная капуста), tarte flambée (эльзасская пицца), bretzel. Город говорит по-французски, но душой — эльзасский." }
+      },
+      "quiz": [
+        { "q": "После какого выражения ВСЕГДА используется субъюнктив?", "opts": ["Je pense que", "Il est certain que", "Il faut que", "Je sais que"], "ans": 2, "exp": "«Il faut que» + субъюнктив — одно из обязательных сочетаний. «Je pense que», «il est certain que», «je sais que» используются с изъявительным наклонением." },
+        { "q": "Какая правильная форма субъюнктива от «être» для «tu»?", "opts": ["tu es", "tu était", "tu sois", "tu sera"], "ans": 2, "exp": "Субъюнктив от être: je sois, tu sois, il soit, nous soyons, vous soyez, ils soient. Это неправильная форма — надо запомнить!" },
+        { "q": "Выберите правильное предложение с субъюнктивом:", "opts": ["Je veux que tu viens.", "Je veux que tu viennes.", "Je veux tu vienne.", "Je veux tu viennes."], "ans": 1, "exp": "После «vouloir que» нужен субъюнктив. Форма: tu viennes (от venir). Союз «que» обязателен." },
+        { "q": "Когда НЕ нужен субъюнктив?", "opts": ["Après «bien que»", "Après «pour que»", "Quand c'est la même personne", "Après «il faut que»"], "ans": 2, "exp": "Если подлежащее одно и то же — используют инфинитив: «Je veux partir» (а не «que je parte»). Субъюнктив нужен только при разных субъектах." },
+        { "q": "Как звучит субъюнктив от «faire» для «nous»?", "opts": ["nous faisons", "nous fassions", "nous fassons", "nous faissions"], "ans": 1, "exp": "Nous fassions — субъюнктив от faire. Основа: fass- (неправильная!). Nous faisons — это настоящее время изъявительного наклонения." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Les Pronoms Relatifs",
+      "titleRu": "Относительные местоимения",
+      "level": "A2",
+      "grammar": {
+        "title": "Qui, que, dont, où — связываем предложения",
+        "titleRu": "Относительные местоимения — связь предложений",
+        "intro": "Относительные местоимения (pronoms relatifs) позволяют объединять два простых предложения в одно сложное. Это ключевой инструмент для плавной речи. Выбор местоимения зависит от его роли в придаточном предложении.",
+        "sections": [
+          {
+            "title": "QUI — подлежащее (кто/который)",
+            "content": "Qui заменяет субъект (кто совершает действие).\n\nJ'ai un ami. Mon ami parle russe.\n→ J'ai un ami qui parle russe.\n(У меня есть друг, который говорит по-русски.)\n\nLa femme qui chante est ma mère.\n(Женщина, которая поёт — моя мать.)\n\n⚠️ После «qui» глагол согласуется с антецедентом!"
+          },
+          {
+            "title": "QUE / QU' — прямое дополнение (которого/которую)",
+            "content": "Que заменяет прямое дополнение (объект действия).\n\nJ'ai lu un livre. Tu m'as recommandé ce livre.\n→ J'ai lu le livre que tu m'as recommandé.\n(Я прочитал книгу, которую ты мне посоветовал.)\n\nLe film qu'elle aime est français.\n(Фильм, который она любит — французский.)\n\n⚠️ Que → qu' перед гласной!"
+          },
+          {
+            "title": "DONT — дополнение с «de»",
+            "content": "Dont заменяет дополнение, вводимое предлогом «de».\n\nJe te parle d'un problème. → Le problème dont je te parle.\n(Проблема, о которой я тебе говорю.)\n\nC'est le livre dont j'ai besoin.\n(Это книга, которая мне нужна.) ← avoir besoin DE\n\nL'homme dont tu connais la femme est parti.\n(Мужчина, жену которого ты знаешь, ушёл.)"
+          },
+          {
+            "title": "OÙ — место или время",
+            "content": "Où обозначает место или момент времени.\n\nC'est la ville où je suis né.\n(Это город, где я родился.)\n\nLe jour où tu es arrivé, il pleuvait.\n(В день, когда ты приехал, шёл дождь.)\n\n💡 Où remplace des expressions comme: dans cette ville, à ce moment-là, en ce temps-là."
+          }
+        ],
+        "rule": "💡 Быстрое правило: QUI = субъект (кто?), QUE = объект (кого?/что?), DONT = дополнение с «de» (о чём? чего?), OÙ = место/время (где? когда?)."
+      },
+      "pronunciation": {
+        "intro": "Слушайте сложные предложения с относительными местоимениями. Обратите внимание на плавное произношение без паузы между частями!",
+        "note": "⚠️ «Que» перед гласной становится «qu'» — элизия обязательна: le film qu'il aime, l'homme qu'elle connaît.",
+        "words": [
+          { "fr": "qui parle français", "ru_pron": "ки парль франсэ", "meaning": "который говорит по-французски" },
+          { "fr": "que j'aime", "ru_pron": "кё жэм", "meaning": "которого/которую я люблю" },
+          { "fr": "dont j'ai besoin", "ru_pron": "дон жэ бёзуэн", "meaning": "который мне нужен" },
+          { "fr": "où je vis", "ru_pron": "у жё ви", "meaning": "где я живу" },
+          { "fr": "la ville où je suis né", "ru_pron": "ля виль у жё сюи нэ", "meaning": "город, где я родился" },
+          { "fr": "le livre dont tu parles", "ru_pron": "лё ливр дон тю парль", "meaning": "книга, о которой ты говоришь" },
+          { "fr": "l'ami qui est venu", "ru_pron": "л'ами ки э вёню", "meaning": "друг, который пришёл" },
+          { "fr": "la personne qu'il a rencontrée", "ru_pron": "ля пэрсон киль а ранконтрэ", "meaning": "человек, которого он встретил" },
+          { "fr": "le moment où tout a changé", "ru_pron": "лё моман у ту а шанжэ", "meaning": "момент, когда всё изменилось" },
+          { "fr": "ce dont tu as besoin", "ru_pron": "сё дон тю а бёзуэн", "meaning": "то, что тебе нужно" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "relatif / relative", "gender": "m/f", "ru": "относительный", "ru_pron": "рёлатиф / рёлатив", "example_fr": "Un pronom relatif relie deux phrases.", "example_ru": "Относительное местоимение связывает два предложения.", "level": "A2" },
+        { "fr": "l'antécédent", "gender": "m", "ru": "антецедент (слово, которое заменяет местоимение)", "ru_pron": "л'антэсэдан", "example_fr": "«Ville» est l'antécédent de «où».", "example_ru": "«Город» — антецедент «où».", "level": "A2" },
+        { "fr": "lequel / laquelle", "gender": "m/f", "ru": "который/которая (после предлога)", "ru_pron": "лёкэль / лакэль", "example_fr": "La table sur laquelle j'écris.", "example_ru": "Стол, на котором я пишу.", "level": "A2" },
+        { "fr": "relier", "gender": null, "ru": "связывать, соединять", "ru_pron": "рёлье", "example_fr": "Ce pont relie les deux villes.", "example_ru": "Этот мост соединяет два города.", "level": "A2" },
+        { "fr": "préciser", "gender": null, "ru": "уточнять", "ru_pron": "прэсизэ", "example_fr": "Pouvez-vous préciser votre question ?", "example_ru": "Не могли бы вы уточнить ваш вопрос?", "level": "A2" },
+        { "fr": "distinguer", "gender": null, "ru": "различать, отличать", "ru_pron": "дистэнгэ", "example_fr": "Il faut distinguer «qui» et «que».", "example_ru": "Нужно различать «qui» и «que».", "level": "A2" },
+        { "fr": "la proposition", "gender": "f", "ru": "предложение (грамматическое)", "ru_pron": "ля пропозисьон", "example_fr": "La proposition relative commence par «qui».", "example_ru": "Придаточное предложение начинается с «qui».", "level": "A2" },
+        { "fr": "l'ensemble", "gender": "m", "ru": "совокупность, всё в целом", "ru_pron": "л'ансамбль", "example_fr": "L'ensemble du texte est clair.", "example_ru": "Весь текст в целом понятен.", "level": "A2" },
+        { "fr": "désigner", "gender": null, "ru": "обозначать, указывать", "ru_pron": "дэзиньэ", "example_fr": "«Qui» désigne une personne.", "example_ru": "«Qui» обозначает человека.", "level": "A2" },
+        { "fr": "complexe", "gender": null, "ru": "сложный, комплексный", "ru_pron": "комплэкс", "example_fr": "Les phrases complexes enrichissent le discours.", "example_ru": "Сложные предложения обогащают речь.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "relatif", "fr_pron": "рёлатиф", "ru": "относительный / релятивный", "ru_pron": "рэлятивный", "note": "Оба слова из латинского «relativus». В русском «релятивный» — научный термин, но «относительный» — повседневное слово для того же понятия." },
+        { "fr": "la proposition", "fr_pron": "ля пропозисьон", "ru": "предложение / пропозиция", "ru_pron": "пропозиция", "note": "В грамматике оба языка используют этот латинизм. Французский «proposition» = грамматическое предложение; «предложение» в смысле «offre» = une offre/une proposition." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Simone de Beauvoir (1908–1986)", "subtitle": "Philosophe, féministe, écrivaine", "content": "Симона де Бовуар — одна из крупнейших французских интеллектуалок XX века. Её труд «Второй пол» (1949) заложил основы современного феминизма и сформулировал знаменитый тезис: «Женщиной не рождаются — ею становятся». Де Бовуар была партнёршей Жан-Поля Сартра на протяжении 50 лет, отвергая традиционный брак. Она первой получила звание professeur agrégée de philosophie (высшая степень преподавателя философии). Её романы, эссе и мемуары читают во всём мире." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le droit de vote des femmes — только в 1944 году!", "content": "Французские женщины получили право голоса лишь 21 апреля 1944 года — одними из последних в Западной Европе. Для сравнения: в России — в 1917, в Германии — в 1918, в Великобритании — в 1918–1928. Первый раз французские женщины проголосовали на муниципальных выборах в апреле 1945 года. Сегодня Франция обязывает политические партии выдвигать равное число мужчин и женщин — закон о paritè принят в 2000 году." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et la philosophie — кофе с Сартром", "content": "Франция — страна философов. Café de Flore и Les Deux Magots в Сен-Жермен-де-Пре в Париже — легендарные кафе, где Сартр, де Бовуар и Камю работали и философствовали. Сегодня французские лицеисты в обязательном порядке изучают философию и сдают по ней экзамен на бакалавриат. Тема эссе на bac de philo публикуется каждый год — это настоящее медиасобытие в стране. Французы с удовольствием говорят о философии в повседневной жизни." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "C'est ce dont j'avais besoin !", "pronunciation": "Сэ сё дон жавэ бёзуэн", "translation": "Это именно то, что мне было нужно!", "usage": "Отличная фраза для практики «dont»! Avoir besoin DE чего-то → после относительного местоимения используем «dont». Говорится с облегчением и удовлетворением.", "example": "— Voici votre café. — Merci, c'est exactement ce dont j'avais besoin ! (Вот ваш кофе. — Спасибо, это именно то, что мне было нужно!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Lyon — Capitale de la gastronomie", "subtitle": "Лион — Гастрономическая столица", "content": "Лион — третий по величине город Франции, расположенный у слияния рек Рона и Сона. Лион признан мировой гастрономической столицей: здесь родился знаменитый шеф Поль Бокюз, создавший «nouvelle cuisine». Знаменитые «бушоны» (bouchons) — маленькие традиционные ресторанчики с квенеллями, андуйетом и тартом. Старый Лион — Вьё-Лион (Vieux Lyon) — внесён в список Всемирного наследия ЮНЕСКО. Именно в Лионе были изобретены кино братьями Люмьер в 1895 году." }
+      },
+      "quiz": [
+        { "q": "Какое местоимение выполняет роль подлежащего?", "opts": ["que", "dont", "où", "qui"], "ans": 3, "exp": "«Qui» — относительное местоимение в роли подлежащего: L'homme qui parle est mon père. Глагол согласуется с антецедентом." },
+        { "q": "Завершите фразу: «C'est le film ___ j'ai vu hier.»", "opts": ["qui", "dont", "que", "où"], "ans": 2, "exp": "«Que» — прямое дополнение: j'ai vu ce film → le film que j'ai vu. Que ≠ qui, потому что «j'ai vu» уже имеет свой субъект." },
+        { "q": "Когда используется «dont»?", "opts": ["Чтобы заменить подлежащее", "Чтобы заменить место", "Чтобы заменить дополнение с «de»", "Всегда перед гласными"], "ans": 2, "exp": "«Dont» заменяет группы с «de»: parler de, avoir besoin de, rêver de и т.д. → Le sujet dont je parle = Le sujet de lequel je parle." },
+        { "q": "Выберите правильное предложение:", "opts": ["La ville que je suis né.", "La ville dont je suis né.", "La ville qui je suis né.", "La ville où je suis né."], "ans": 3, "exp": "«Où» обозначает место: La ville où je suis né = город, где/в котором я родился. «Naître dans une ville» → où." },
+        { "q": "Кем написан «Второй пол» (Le Deuxième Sexe)?", "opts": ["George Sand", "Marguerite Yourcenar", "Simone de Beauvoir", "Colette"], "ans": 2, "exp": "Simone de Beauvoir написала «Le Deuxième Sexe» в 1949 году — основополагающий феминистский труд." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Le Conditionnel",
+      "titleRu": "Условное наклонение",
+      "level": "A2",
+      "grammar": {
+        "title": "Le conditionnel présent — вежливость и гипотеза",
+        "titleRu": "Условное настоящее — вежливость и предположения",
+        "intro": "Условное наклонение (le conditionnel présent) — незаменимый инструмент французской речи. Оно используется для вежливых просьб, советов, гипотез и нереальных условий. Без него невозможно обойтись ни в деловой, ни в повседневной беседе.",
+        "sections": [
+          {
+            "title": "Образование conditionnel présent",
+            "content": "Основа: инфинитив глагола (как в futur simple)\nОкончания imparfait: -ais, -ais, -ait, -ions, -iez, -aient\n\nParler → je parlerais, tu parlerais, il parlerait\n           nous parlerions, vous parleriez, ils parleraient\n\nFinir → je finirais, tu finirais, il finirait\n\n⚠️ Глаголы с неправильной основой (как в futur):\nêtre → je serais | avoir → j'aurais\naller → j'irais | faire → je ferais\npouvoir → je pourrais | vouloir → je voudrais\nsavoir → je saurais | venir → je viendrais"
+          },
+          {
+            "title": "Употребление 1: Вежливость",
+            "content": "Conditionnel смягчает просьбы и желания:\n\nJe voudrais un café. (Я бы хотел кофе.)\nPourriez-vous m'aider ? (Не могли бы вы мне помочь?)\nJ'aimerais réserver une table. (Я бы хотел забронировать столик.)\nVous devriez voir ce film. (Вам стоит посмотреть этот фильм.)"
+          },
+          {
+            "title": "Употребление 2: Гипотеза и нереальное условие",
+            "content": "В сочетании с «si» + imparfait:\n\nSi j'avais de l'argent, j'achèterais une maison.\n(Если бы у меня были деньги, я бы купил дом.)\n\nSi tu venais, nous serions heureux.\n(Если бы ты пришёл, мы были бы счастливы.)\n\n⚠️ Структура: SI + imparfait → conditionnel\nНЕ: si + conditionnel! (Ошибка начинающих!)"
+          },
+          {
+            "title": "Употребление 3: Информация непроверенная (журналистский стиль)",
+            "content": "В СМИ conditionnel выражает, что информация не подтверждена:\n\nLe président serait en visite à Berlin.\n(Президент, по имеющимся данным, находится в Берлине.)\n\nIl y aurait eu un accident.\n(По имеющимся сведениям, произошла авария.)"
+          }
+        ],
+        "rule": "💡 Золотое правило: SI + imparfait → conditionnel. НИКОГДА не ставьте conditionnel после «si» (кроме «si» в значении «whether»). Je voudrais и Je pourrais — самые вежливые слова французского языка!"
+      },
+      "pronunciation": {
+        "intro": "Слушайте и повторяйте conditionnel. Окончания -ais/-ait/-aient звучат одинаково — «э»!",
+        "note": "⚠️ Окончания -ais, -ait, -aient звучат абсолютно одинаково: «э». Только контекст и записанный текст помогают их различить.",
+        "words": [
+          { "fr": "je voudrais", "ru_pron": "жё вудрэ", "meaning": "я бы хотел/а (вежливо)" },
+          { "fr": "je pourrais", "ru_pron": "жё пурэ", "meaning": "я мог бы / не могли бы вы" },
+          { "fr": "vous devriez", "ru_pron": "ву дёврьё", "meaning": "вам следует / вам стоит" },
+          { "fr": "j'aimerais", "ru_pron": "жэмёрэ", "meaning": "я бы хотел/а, мне нравилось бы" },
+          { "fr": "ce serait bien", "ru_pron": "сё сёрэ бьэн", "meaning": "это было бы хорошо" },
+          { "fr": "si j'étais riche", "ru_pron": "си жэтэ риш", "meaning": "если бы я был(а) богат(а)" },
+          { "fr": "il faudrait", "ru_pron": "иль фодрэ", "meaning": "следовало бы, нужно было бы" },
+          { "fr": "on pourrait y aller", "ru_pron": "он пурэ и алэ", "meaning": "мы могли бы туда пойти" },
+          { "fr": "j'irais volontiers", "ru_pron": "жирэ волонтьё", "meaning": "я бы с удовольствием пошёл(ла)" },
+          { "fr": "cela changerait tout", "ru_pron": "сёля шанжёрэ ту", "meaning": "это всё бы изменило" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "rêver de", "gender": null, "ru": "мечтать о", "ru_pron": "рэвэ дё", "example_fr": "Je rêverais de vivre à Paris.", "example_ru": "Я мечтал бы жить в Париже.", "level": "A2" },
+        { "fr": "préférer", "gender": null, "ru": "предпочитать", "ru_pron": "прэфэрэ", "example_fr": "Je préférerais du thé.", "example_ru": "Я бы предпочёл чай.", "level": "A2" },
+        { "fr": "conseiller", "gender": null, "ru": "советовать", "ru_pron": "консэйё", "example_fr": "Je vous conseillerais ce restaurant.", "example_ru": "Я бы посоветовал вам этот ресторан.", "level": "A2" },
+        { "fr": "hypothétique", "gender": null, "ru": "гипотетический", "ru_pron": "ипотэтик", "example_fr": "C'est une situation hypothétique.", "example_ru": "Это гипотетическая ситуация.", "level": "A2" },
+        { "fr": "la politesse", "gender": "f", "ru": "вежливость", "ru_pron": "ля политэс", "example_fr": "La politesse s'exprime avec le conditionnel.", "example_ru": "Вежливость выражается через условное наклонение.", "level": "A2" },
+        { "fr": "supposer", "gender": null, "ru": "предполагать", "ru_pron": "сюпозэ", "example_fr": "Supposons qu'il soit absent.", "example_ru": "Предположим, что он отсутствует.", "level": "A2" },
+        { "fr": "à la place de", "gender": null, "ru": "на месте (кого-то)", "ru_pron": "а ля плас дё", "example_fr": "À ta place, j'accepterais.", "example_ru": "На твоём месте я бы согласился.", "level": "A2" },
+        { "fr": "idéalement", "gender": null, "ru": "в идеале", "ru_pron": "идэальман", "example_fr": "Idéalement, on partirait demain.", "example_ru": "В идеале мы бы уехали завтра.", "level": "A2" },
+        { "fr": "hésiter", "gender": null, "ru": "колебаться, сомневаться", "ru_pron": "эзитэ", "example_fr": "J'hésiterais avant de décider.", "example_ru": "Я бы поколебался перед тем, как решить.", "level": "A2" },
+        { "fr": "autrement", "gender": null, "ru": "иначе, в противном случае", "ru_pron": "отрёман", "example_fr": "Autrement, tout irait mieux.", "example_ru": "Иначе всё шло бы лучше.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "hypothétique", "fr_pron": "ипотэтик", "ru": "гипотетический", "ru_pron": "гипотетический", "note": "Оба слова из греческого «hypotithenai» (предполагать). Одинаковое значение — только произношение разное!" },
+        { "fr": "idéalement", "fr_pron": "идэальман", "ru": "идеально / в идеале", "ru_pron": "идеально", "note": "Французское «idéalement» и русское «идеально» — из одного греческого корня «idea». Суффикс -ment во французском = русский суффикс -но/-но." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Antoine de Saint-Exupéry (1900–1944)", "subtitle": "Pilote, poète, auteur du Petit Prince", "content": "Антуан де Сент-Экзюпери — лётчик, писатель и философ. Его «Маленький принц» (Le Petit Prince, 1943) — самая переводимая французская книга в мире (300+ языков!). Он писал её во время Второй мировой войны, находясь в эмиграции в Нью-Йорке. Знаменитая фраза: «On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux.» (Зорко одно лишь сердце. Самого главного глазами не увидишь.) Сент-Экзюпери погиб во время разведывательного полёта в 1944 году — его самолёт так и не был найден." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "L'Entente Cordiale (1904) — Сердечное согласие", "content": "В 1904 году Франция и Великобритания подписали «Сердечное согласие» (Entente Cordiale) — соглашение о дружбе и разделе сфер влияния. Это стало поворотным моментом: бывшие «вечные враги» стали союзниками. Когда французы говорят «si j'étais anglais...» («если бы я был англичанином»), они часто делают это с иронией — отношения между странами по сей день полны взаимного восхищения и лёгкого соперничества." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Je voudrais... — магические слова", "content": "Во Франции разница между «Je veux» (Я хочу) и «Je voudrais» (Я бы хотел) — это разница между хамством и цивилизованностью. Французский кондиционал — это кнопка вежливости. Войдя в булочную и сказав «Je veux une baguette» вместо «Je voudrais une baguette», вы рискуете получить недовольный взгляд пекаря. Французские дети с детства приучены говорить «je voudrais». Это не просто грамматика — это культурный код." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Si j'étais à ta place…", "pronunciation": "Си жэтэ а та плас", "translation": "На твоём месте я бы…", "usage": "Классическая фраза для советов и гипотез. После «si j'étais» идёт imparfait, затем conditionnel. Очень часто используется в разговорной речи. Может звучать сочувственно или как мягкая критика.", "example": "— Je ne sais pas quoi faire. — Si j'étais à ta place, j'en parlerais à ton patron. (Не знаю, что делать. — На твоём месте я бы поговорил с начальником.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Toulouse — La Ville Rose", "subtitle": "Тулуза — Розовый город", "content": "Тулуза — четвёртый по величине город Франции, расположенный на юго-западе, у берегов Гаронны. Прозвище «Розовый город» получила из-за кирпича терракотового цвета, из которого построены все здания. Тулуза — европейская столица аэрокосмической промышленности: здесь расположены Airbus и Центр управления космическими полётами CNES. Знаменитая регбийная команда «Стад Тулузен» — самая титулованная в Европе. Местное блюдо — cassoulet (кассуле) — тушёная фасоль с уткой и свиной колбасой." }
+      },
+      "quiz": [
+        { "q": "Как образуется conditionnel présent?", "opts": ["Основа imparfait + окончания futur", "Основа futur + окончания imparfait", "Инфинитив + окончания présent", "Основа présent + окончания imparfait"], "ans": 1, "exp": "Conditionnel = основа futur (= инфинитив для правильных глаголов) + окончания imparfait (-ais, -ais, -ait, -ions, -iez, -aient)." },
+        { "q": "Что НЕЛЬЗЯ ставить после «si» в нереальном условии?", "opts": ["Imparfait", "Plus-que-parfait", "Conditionnel", "Présent"], "ans": 2, "exp": "После «si» в нереальном условии НИКОГДА не ставят conditionnel! Правило: si + imparfait → conditionnel. Si + conditionnel — грубая грамматическая ошибка." },
+        { "q": "Как вежливо попросить кофе?", "opts": ["Je veux un café.", "Donne-moi un café.", "Je voudrais un café, s'il vous plaît.", "Un café !"], "ans": 2, "exp": "«Je voudrais» — вежливая форма просьбы. Conditionnel de vouloir смягчает желание и звучит культурно. «Je veux» — слишком прямолинейно во Франции." },
+        { "q": "Закончите: «Si tu étudiais plus, tu ___ mieux.»", "opts": ["réussiras", "réussirais", "réussisse", "réussis"], "ans": 1, "exp": "Si + imparfait → conditionnel: Si tu étudiais + tu réussirais. Conditionnel от réussir: je réussirais, tu réussirais…" },
+        { "q": "Кто написал «Маленького принца»?", "opts": ["Victor Hugo", "Albert Camus", "Antoine de Saint-Exupéry", "Jules Verne"], "ans": 2, "exp": "«Le Petit Prince» написал Антуан де Сент-Экзюпери в 1943 году. Это самая переводимая французская книга в мире." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Exprimer les Émotions et les Opinions",
+      "titleRu": "Выражение эмоций и мнений",
+      "level": "A2",
+      "grammar": {
+        "title": "Les verbes d'opinion et d'émotion",
+        "titleRu": "Глаголы мнения и чувства",
+        "intro": "На уровне A2 вы должны уметь не просто описывать факты, но и выражать свою точку зрения и эмоции. Французский язык богат структурами для этого. Многие из них требуют субъюнктива — что объясняет, почему мы изучали его в первом уроке этого модуля!",
+        "sections": [
+          {
+            "title": "Выражение мнения (+ indicatif)",
+            "content": "Je pense que... — Я думаю, что...\nJe crois que... — Я считаю, что...\nJe trouve que... — Я нахожу, что... / По-моему...\nIl me semble que... — Мне кажется, что...\nÀ mon avis... — По-моему, на мой взгляд...\nSelon moi... — По моему мнению...\nD'après moi... — По-моему...\n\n⚠️ После этих выражений — indicatif (не субъюнктив)!"
+          },
+          {
+            "title": "Выражение уверенности / сомнения",
+            "content": "Уверенность (+ indicatif):\nJe suis sûr(e) que... — Я уверен(а), что...\nIl est certain que... — Совершенно точно, что...\nÉvidemment... — Очевидно...\n\nСомнение (+ subjonctif):\nJe doute que... — Я сомневаюсь, что...\nIl n'est pas sûr que... — Неизвестно, что...\nJe ne crois pas que... — Я не думаю, что..."
+          },
+          {
+            "title": "Выражение согласия и несогласия",
+            "content": "Согласие:\nJe suis d'accord (avec toi/vous). — Я согласен(а).\nTout à fait ! — Совершенно верно!\nExactement ! — Именно!\nC'est vrai. / C'est juste. — Верно.\n\nНесогласие:\nJe ne suis pas d'accord. — Я не согласен(а).\nAu contraire... — Напротив...\nCe n'est pas tout à fait ça. — Не совсем так.\nPas nécessairement. — Не обязательно."
+          },
+          {
+            "title": "Выражение чувств (+ subjonctif)",
+            "content": "Être content(e) que... — Рад(а), что...\nÊtre triste que... — Грустно, что...\nÊtre surpris(e) que... — Удивлён(а), что...\nAvoir peur que... — Бояться, что...\nRegretter que... — Сожалеть, что...\n\nExemple: Je suis content que tu sois venu. → субъюнктив!"
+          }
+        ],
+        "rule": "💡 Ключ к управлению: глаголы МНЕНИЯ (penser, croire, trouver) + indicatif. Глаголы ЧУВСТВА и ЖЕЛАНИЯ (être content, vouloir, regretter) + subjonctif. Это правило работает в 90% случаев!"
+      },
+      "pronunciation": {
+        "intro": "Во французском интонация очень важна для выражения эмоций. Слушайте, как меняется тон в зависимости от чувства!",
+        "note": "⚠️ «Je trouve que c'est bien» и «Je trouve que c'est bien ?» — одни и те же слова, но восклицание или вопрос меняют весь смысл. Интонация во французском — не украшение, а грамматика!",
+        "words": [
+          { "fr": "à mon avis", "ru_pron": "а мон ави", "meaning": "по-моему, на мой взгляд" },
+          { "fr": "je trouve que", "ru_pron": "жё трув кё", "meaning": "я нахожу, что / по-моему" },
+          { "fr": "je suis d'accord", "ru_pron": "жё сюи дакор", "meaning": "я согласен/согласна" },
+          { "fr": "au contraire", "ru_pron": "о контрэр", "meaning": "напротив, наоборот" },
+          { "fr": "c'est vrai que", "ru_pron": "сэ врэ кё", "meaning": "верно, что..." },
+          { "fr": "j'ai l'impression que", "ru_pron": "жэ л'эмпрэссьон кё", "meaning": "у меня ощущение, что..." },
+          { "fr": "je suis surpris(e)", "ru_pron": "жё сюи сюрпри/з", "meaning": "я удивлён(а)" },
+          { "fr": "franchement", "ru_pron": "франшман", "meaning": "честно говоря, откровенно" },
+          { "fr": "selon moi", "ru_pron": "сёлон муа", "meaning": "по-моему мнению" },
+          { "fr": "pas du tout", "ru_pron": "па дю ту", "meaning": "совсем нет, абсолютно нет" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'émotion", "gender": "f", "ru": "эмоция, чувство", "ru_pron": "л'эмосьон", "example_fr": "Exprimer ses émotions en français.", "example_ru": "Выражать свои эмоции по-французски.", "level": "A2" },
+        { "fr": "la joie", "gender": "f", "ru": "радость", "ru_pron": "ля жуа", "example_fr": "La joie se voit sur son visage.", "example_ru": "Радость видна на его лице.", "level": "A2" },
+        { "fr": "la tristesse", "gender": "f", "ru": "грусть, печаль", "ru_pron": "ля тристэс", "example_fr": "La tristesse m'envahit.", "example_ru": "Меня охватывает грусть.", "level": "A2" },
+        { "fr": "la colère", "gender": "f", "ru": "гнев, злость", "ru_pron": "ля колэр", "example_fr": "Il est en colère contre moi.", "example_ru": "Он зол на меня.", "level": "A2" },
+        { "fr": "l'inquiétude", "gender": "f", "ru": "беспокойство, тревога", "ru_pron": "л'энкьетюд", "example_fr": "Son absence m'inquiète.", "example_ru": "Его отсутствие меня беспокоит.", "level": "A2" },
+        { "fr": "enthousiaste", "gender": null, "ru": "воодушевлённый, полный энтузиазма", "ru_pron": "антузьаст", "example_fr": "Elle est enthousiaste à l'idée de voyager.", "example_ru": "Она в восторге от идеи путешествовать.", "level": "A2" },
+        { "fr": "déçu(e)", "gender": "m/f", "ru": "разочарованный", "ru_pron": "дэсю", "example_fr": "Je suis déçu par ce résultat.", "example_ru": "Я разочарован этим результатом.", "level": "A2" },
+        { "fr": "soulagé(e)", "gender": "m/f", "ru": "облегчённый (испытывающий облегчение)", "ru_pron": "сулажэ", "example_fr": "Je suis soulagé que ce soit fini.", "example_ru": "Я рад, что это закончилось.", "level": "A2" },
+        { "fr": "éprouver", "gender": null, "ru": "испытывать (чувство)", "ru_pron": "эпрувэ", "example_fr": "J'éprouve de la fierté.", "example_ru": "Я испытываю гордость.", "level": "A2" },
+        { "fr": "la fierté", "gender": "f", "ru": "гордость", "ru_pron": "ля фьёртэ", "example_fr": "Il ressent de la fierté pour son pays.", "example_ru": "Он испытывает гордость за свою страну.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'émotion", "fr_pron": "л'эмосьон", "ru": "эмоция", "ru_pron": "эмоция", "note": "Слова-близнецы из латинского «emovere» (приводить в движение). Произношение почти одинаковое, только французское носовое окончание -on." },
+        { "fr": "enthousiaste", "fr_pron": "антузьаст", "ru": "энтузиаст", "ru_pron": "энтузиаст", "note": "Из греческого «entheos» (вдохновлённый богом). Французское и русское слова почти идентичны. Прилагательное во французском: enthousiaste, существительное: l'enthousiasme." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Coco Chanel (1883–1971)", "subtitle": "Révolutionnaire de la mode française", "content": "Габриэль «Коко» Шанель — самый знаменитый дизайнер Франции. Она освободила женщин от корсетов, создала маленькое чёрное платье (la petite robe noire) и духи Chanel N°5 (1921) — самые продаваемые в мире. Её знаменитые цитаты: «Мода проходит — стиль остаётся» и «Роскошь — это не противоположность бедности, а противоположность вульгарности». Шанель родилась в бедности, провела детство в приюте, но стала символом элегантности XX века." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Mai 68 — студенческая революция", "content": "В мае 1968 года Франция пережила крупнейшую социальную революцию послевоенного времени. Студенты Сорбонны вышли на улицы Парижа, к ним примкнули 10 миллионов рабочих — страна встала. Президент де Голль был близок к отставке. Итогом стали радикальные реформы в образовании и трудовом праве. Лозунги Мая 68 стали крылатыми: «L'imagination au pouvoir!» (Власть воображению!) и «Sous les pavés, la plage!» (Под брусчаткой — пляж!)." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et la critique — «C'est nul !»", "content": "Французы знамениты своим критическим духом. «C'est nul» (это отстой), «pas terrible» (не очень), «bof» (ничего особенного) — любимые оценки французов. Это не грубость, а культурная особенность: французы воспитаны на критическом мышлении (la pensée critique). Любимый вопрос на уроке: «Mais pourquoi ?» (Но почему?). Сказать «C'est super !» по любому поводу — признак отсутствия вкуса. Настоящий комплимент у французов — сдержанный." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Bof...", "pronunciation": "Боф", "translation": "Ну... / Так себе / Ничего особенного", "usage": "«Bof» — один из самых французских звуков на свете. Произносится с выдохом через губы и выражает безразличие, неудовлетворённость или лёгкое неодобрение. Это не слово — это эмоция в одном слоге. Иностранцы обожают его за выразительность.", "example": "— Tu as aimé le film ? — Bof... Pas terrible. (Тебе понравился фильм? — Ну... Так себе.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Marseille — La Porte de la Méditerranée", "subtitle": "Марсель — Ворота Средиземноморья", "content": "Марсель — второй по величине город Франции и крупнейший порт Средиземноморья. Основан греками в 600 году до н.э., Марсель — самый древний французский город. Культурная столица Европы 2013 года. Многонациональный, шумный, страстный — Марсель совсем непохож на Париж. Знаменитая буйабес (bouillabaisse) — рыбный суп, рождённый в Марселе. Собор Нотр-Дам-де-ля-Гард с золотой Мадонной на вершине смотрит на весь город и море." }
+      },
+      "quiz": [
+        { "q": "После какого выражения идёт INDICATIF?", "opts": ["Je suis content que", "Je doute que", "Je pense que", "J'ai peur que"], "ans": 2, "exp": "«Je pense que» + indicatif. Глаголы мнения (penser, croire, trouver) требуют изъявительного наклонения. Чувства и сомнения → субъюнктив." },
+        { "q": "Как по-французски выразить несогласие вежливо?", "opts": ["Tu as tort !", "Je ne suis pas d'accord.", "C'est faux !", "Non !"], "ans": 1, "exp": "«Je ne suis pas d'accord» — вежливая и нейтральная форма несогласия. «Tu as tort» и «C'est faux» — более резкие варианты." },
+        { "q": "Что означает «Bof» в разговорной речи?", "opts": ["Отлично!", "Так себе, ничего особенного", "Я не знаю", "Очень хорошо"], "ans": 1, "exp": "«Bof» — выражение безразличия или лёгкого разочарования. Типично французская реакция на что-то не особо впечатляющее." },
+        { "q": "Как сказать «по-моему»?", "opts": ["Selon toi", "Selon moi / À mon avis", "D'après lui", "À votre place"], "ans": 1, "exp": "«Selon moi» или «À mon avis» — оба означают «по-моему, на мой взгляд». «Selon toi» = по-твоему, «d'après lui» = по его мнению." },
+        { "q": "Кто создал духи Chanel N°5?", "opts": ["Christian Dior", "Yves Saint Laurent", "Coco Chanel", "Hubert de Givenchy"], "ans": 2, "exp": "Коко Шанель создала Chanel N°5 в 1921 году. Это самые продаваемые духи в мире." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "La Vie Professionnelle",
+      "titleRu": "Профессиональная жизнь",
+      "level": "A2",
+      "grammar": {
+        "title": "Le vocabulaire du travail et les formalités",
+        "titleRu": "Словарь профессиональной сферы",
+        "intro": "Профессиональная лексика — обязательная часть уровня A2. Умение говорить о работе, должностях, резюме и деловом общении открывает двери к реальному использованию языка — во Франции, Бельгии, Швейцарии или Квебеке.",
+        "sections": [
+          {
+            "title": "Профессии и должности",
+            "content": "le directeur / la directrice — директор\nle/la chef de projet — руководитель проекта\nle/la collègue — коллега\nle/la secrétaire — секретарь\nl'employé(e) — сотрудник/сотрудница\nle/la patron(ne) — начальник/начальница\nle/la stagiaire — стажёр/стажёрка\nle/la candidat(e) — кандидат/кандидатка\nle/la recruteur/recruteuse — рекрутёр"
+          },
+          {
+            "title": "Деловое общение: полезные фразы",
+            "content": "J'ai un rendez-vous à 10h. — У меня встреча в 10 часов.\nJe voudrais fixer un rendez-vous. — Я бы хотел назначить встречу.\nPouvez-vous me rappeler ? — Не могли бы вы мне перезвонить?\nJe vous envoie le document par email. — Я отправлю вам документ по электронной почте.\nJe serai absent(e) demain. — Меня завтра не будет.\nEn attente de votre réponse... — В ожидании вашего ответа...\nCordialement, — С уважением, (заключительная фраза в деловом письме)"
+          },
+          {
+            "title": "Собеседование: типичные вопросы и ответы",
+            "content": "Q: Parlez-moi de vous. — Расскажите о себе.\nR: J'ai travaillé pendant 3 ans comme... — Я проработал 3 года как...\n\nQ: Pourquoi voulez-vous travailler ici ? — Почему вы хотите работать у нас?\nR: Je suis attiré(e) par... — Меня привлекает...\n\nQ: Quelles sont vos qualités ? — Каковы ваши качества?\nR: Je suis rigoureux/rigoureuse, dynamique et... — Я дотошный/ая, динамичный/ая и...\n\nQ: Avez-vous des questions ? — Есть ли у вас вопросы?\nR: Oui, quel est le salaire proposé ? — Да, какова предлагаемая зарплата?"
+          }
+        ],
+        "rule": "💡 В деловых письмах: «Bonjour Madame/Monsieur» в начале (НЕ «Cher/Chère» — это слишком близко), «Cordialement» или «Bien cordialement» в конце. «Je vous prie d'agréer...» — торжественный финал формального письма."
+      },
+      "pronunciation": {
+        "intro": "Деловая лексика и профессиональные фразы. В деловой речи французы говорят чётко и медленнее, чем в неформальной беседе.",
+        "note": "⚠️ В профессиональном контексте ВСЕГДА используйте «vous» (а не «tu»), даже с молодыми коллегами — пока они сами не предложат перейти на «tu».",
+        "words": [
+          { "fr": "le curriculum vitae (CV)", "ru_pron": "лё кюрикюлюм витэ", "meaning": "резюме" },
+          { "fr": "l'entretien d'embauche", "ru_pron": "л'антрётьэн дамбош", "meaning": "собеседование при приёме на работу" },
+          { "fr": "le salaire", "ru_pron": "лё салэр", "meaning": "зарплата" },
+          { "fr": "les congés payés", "ru_pron": "лэ конжэ пэйэ", "meaning": "оплачиваемый отпуск" },
+          { "fr": "le contrat de travail", "ru_pron": "лё контра дё травай", "meaning": "трудовой договор" },
+          { "fr": "travailler à temps plein", "ru_pron": "трававе а тан плэн", "meaning": "работать полный день" },
+          { "fr": "travailler à mi-temps", "ru_pron": "трававе а ми тан", "meaning": "работать неполный день (полставки)" },
+          { "fr": "une réunion", "ru_pron": "юн рэюньон", "meaning": "совещание, собрание" },
+          { "fr": "le télétravail", "ru_pron": "лё тэлэтравай", "meaning": "удалённая работа (télétravail)" },
+          { "fr": "Cordialement", "ru_pron": "кордьяльман", "meaning": "С уважением (в письмах)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'entreprise", "gender": "f", "ru": "предприятие, компания", "ru_pron": "л'антрёприз", "example_fr": "Il travaille dans une grande entreprise.", "example_ru": "Он работает в крупной компании.", "level": "A2" },
+        { "fr": "le poste", "gender": "m", "ru": "должность, пост", "ru_pron": "лё пост", "example_fr": "Elle occupe un poste de manager.", "example_ru": "Она занимает должность менеджера.", "level": "A2", "meaning_double": "le poste = должность ET la poste = почта — разные слова!" },
+        { "fr": "le congé", "gender": "m", "ru": "отпуск, выходной", "ru_pron": "лё конжэ", "example_fr": "Je suis en congé cette semaine.", "example_ru": "Я в отпуске на этой неделе.", "level": "A2" },
+        { "fr": "embaucher", "gender": null, "ru": "нанимать на работу", "ru_pron": "амбошэ", "example_fr": "La société embauche dix ingénieurs.", "example_ru": "Компания нанимает десять инженеров.", "level": "A2" },
+        { "fr": "licencier", "gender": null, "ru": "увольнять", "ru_pron": "лисансьэ", "example_fr": "Il a été licencié pour faute grave.", "example_ru": "Его уволили за серьёзный проступок.", "level": "A2" },
+        { "fr": "la candidature", "gender": "f", "ru": "кандидатура, заявка на работу", "ru_pron": "ля кандидатюр", "example_fr": "J'envoie ma candidature aujourd'hui.", "example_ru": "Я отправляю свою заявку сегодня.", "level": "A2" },
+        { "fr": "les compétences", "gender": "f pl", "ru": "компетенции, навыки", "ru_pron": "лэ компэтанс", "example_fr": "Quelles sont vos compétences principales ?", "example_ru": "Каковы ваши основные компетенции?", "level": "A2" },
+        { "fr": "le bénévolat", "gender": "m", "ru": "волонтёрство", "ru_pron": "лё бэнэволя", "example_fr": "Elle fait du bénévolat le week-end.", "example_ru": "Она занимается волонтёрством в выходные.", "level": "A2" },
+        { "fr": "la réunion", "gender": "f", "ru": "совещание, встреча", "ru_pron": "ля рэюньон", "example_fr": "La réunion commence à neuf heures.", "example_ru": "Совещание начинается в девять часов.", "level": "A2" },
+        { "fr": "le bureau", "gender": "m", "ru": "офис, кабинет, стол", "ru_pron": "лё бюро", "example_fr": "Mon bureau est au troisième étage.", "example_ru": "Мой офис на третьем этаже.", "level": "A2", "meaning_double": "le bureau = кабинет/стол/офис — три значения у одного слова!" }
+      ],
+      "cognates": [
+        { "fr": "le curriculum vitae", "fr_pron": "лё кюрикюлюм витэ", "ru": "curriculum vitae / резюме", "ru_pron": "резюме", "note": "Латинское выражение «curriculum vitae» (путь жизни) используется во всём мире. Во Франции говорят просто «CV». Русские чаще говорят «резюме» — тоже французское слово!" },
+        { "fr": "le stage", "fr_pron": "лё стаж", "ru": "стажировка", "ru_pron": "стажировка", "note": "Французское «stage» стало международным термином. По-русски «стажировка» или «практика» — именно из французского «stage» пришло слово «стажёр». Не путать с английским «stage» (сцена)!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Marie Curie (1867–1934)", "subtitle": "Double prix Nobel, pionnière de la science", "content": "Мария Склодовская-Кюри — единственный человек, получивший Нобелевские премии в двух разных науках: по физике (1903) и по химии (1911). Родилась в Польше, но прославилась во Франции. Она открыла элементы полоний (названный в честь Польши) и радий. Первая женщина-профессор Сорбонны. Легенда гласит, что на её столе до сих пор хранятся радиоактивные записные книжки — слишком опасные для чтения без защиты." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Les 35 heures — рабочая неделя во Франции", "content": "В 2000 году Франция законодательно установила 35-часовую рабочую неделю — одну из самых коротких в мире. Закон о 35 часах (la loi Aubry) стал символом французской модели «трудиться, чтобы жить» (а не «жить, чтобы трудиться»). Французы в среднем работают меньше, чем жители большинства стран ОЭСР, но производительность труда при этом остаётся высокой. Дебаты вокруг этого закона продолжаются по сей день." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le déjeuner d'affaires — обед как ритуал", "content": "Во Франции деловой обед (le déjeuner d'affaires) — серьёзный ритуал. Французы убеждены: настоящие переговоры происходят не в конференц-зале, а за столом с хорошей едой и вином. Обед длится 1,5–2 часа, и это нормально. Говорить о делах сразу после заказа — признак дурного тона: сначала светская беседа (l'apéritif), потом — бизнес. «On ne parle pas de travail à table» (за столом о работе не говорят) — традиционная французская мудрость, которую деловой мир несколько нарушил, но не забыл." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Métro, boulot, dodo.", "pronunciation": "Мэтро, було, додо", "translation": "Метро, работа, сон. (День сурка)", "usage": "Знаменитая рифмованная фраза, описывающая монотонную городскую жизнь. Boulot — разговорное слово для «работы» (travail). Dodo — детское слово для «сна». Используется с иронией или усталостью, когда жизнь кажется рутиной.", "example": "— Comment ça va ? — Bof... Métro, boulot, dodo. Tu connais. (Как дела? — Ну так... Метро, работа, сон. Сам знаешь.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Sophia Antipolis — La Silicon Valley française", "subtitle": "София Антиполис — Французская Силиконовая долина", "content": "Sophia Antipolis — технологический парк на Лазурном берегу, между Ниццей и Каннами. Основан в 1969 году, сегодня здесь работают более 2500 компаний из 70 стран: Microsoft, SAP, Texas Instruments, Amadeus. Около 40 000 человек трудятся в этом уникальном месте, где средиземноморское солнце сочетается с высокими технологиями. Идеальная метафора для амбициозного профессионала, мечтающего работать во Франции." }
+      },
+      "quiz": [
+        { "q": "Как по-французски «собеседование»?", "opts": ["la réunion", "l'entretien d'embauche", "le curriculum vitae", "le poste"], "ans": 1, "exp": "L'entretien d'embauche = собеседование при приёме на работу. La réunion = совещание, le CV = резюме, le poste = должность." },
+        { "q": "Как правильно закончить деловое письмо?", "opts": ["Avec amour", "Bisous", "Cordialement", "À bientôt"], "ans": 2, "exp": "«Cordialement» или «Bien cordialement» — стандартное завершение делового письма. «Avec amour» и «Bisous» — для личной переписки. «À bientôt» — слишком неформально." },
+        { "q": "Что означает «travailler à mi-temps»?", "opts": ["Работать сверхурочно", "Работать полный день", "Работать половину рабочего дня", "Работать по ночам"], "ans": 2, "exp": "À mi-temps = полставки, половина рабочего времени. À temps plein = полный рабочий день. À temps partiel = неполная занятость." },
+        { "q": "Сколько часов составляет официальная рабочая неделя во Франции?", "opts": ["40 часов", "38 часов", "35 часов", "32 часа"], "ans": 2, "exp": "35 часов — закон, принятый в 2000 году. Это одна из самых коротких официальных рабочих недель в мире." },
+        { "q": "Что означает «Métro, boulot, dodo»?", "opts": ["Транспорт, туризм, отдых", "Метро, работа, сон (монотонная жизнь)", "Поезд, офис, обед", "Путешествие, дело, ночь"], "ans": 1, "exp": "Métro, boulot, dodo — ироничная фраза о монотонной городской жизни. Boulot = работа (разг.), dodo = сон (детск.)." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Les Médias et l'Actualité",
+      "titleRu": "СМИ и новости",
+      "level": "A2",
+      "grammar": {
+        "title": "Le discours indirect — передача чужой речи",
+        "titleRu": "Косвенная речь — передача чужих слов",
+        "intro": "Когда мы читаем новости или пересказываем чужие слова, мы используем косвенную речь (le discours indirect / rapporté). Во французском при переводе прямой речи в косвенную меняются местоимения, глагольные времена и некоторые наречия.",
+        "sections": [
+          {
+            "title": "Прямая → Косвенная речь",
+            "content": "Прямая речь (discours direct):\nIl dit : «Je suis fatigué.» — Он говорит: «Я устал.»\n\nКосвенная речь (discours indirect):\nIl dit qu'il est fatigué. — Он говорит, что он устал.\n\nПравила:\n- Кавычки исчезают\n- Добавляется союз «que»\n- Местоимения меняются\n- Если глагол введения в ПРОШЛОМ → времена смещаются"
+          },
+          {
+            "title": "Смещение времён (concordance des temps)",
+            "content": "Глагол сказал (passé composé) → времена смещаются:\nPrésent → Imparfait\nPassé composé → Plus-que-parfait\nFutur → Conditionnel\n\nExemple:\nDirect: «Je mange.» → Indirect: Il a dit qu'il mangeait.\nDirect: «J'ai mangé.» → Indirect: Il a dit qu'il avait mangé.\nDirect: «Je mangerai.» → Indirect: Il a dit qu'il mangerait."
+          },
+          {
+            "title": "Вопросы в косвенной речи",
+            "content": "Да/нет вопросы → si:\nDirect: «Est-ce que tu viens ?» → Indirect: Il demande si tu viens.\n\nОткрытые вопросы → сохраняют вопросительное слово:\nDirect: «Où es-tu ?» → Indirect: Il demande où tu es.\nDirect: «Qui a fait ça ?» → Indirect: Il veut savoir qui a fait ça.\nDirect: «Quand pars-tu ?» → Indirect: Elle demande quand tu pars."
+          },
+          {
+            "title": "Глаголы для косвенной речи",
+            "content": "dire que — говорить, что\nexpliquer que — объяснять, что\najouter que — добавлять, что\naffirmer que — утверждать, что\ndemander si / où / quand / qui... — спрашивать\ndéclarer que — заявлять, что\nrépondre que — отвечать, что\nrappeler que — напоминать, что"
+          }
+        ],
+        "rule": "💡 Главное: если глагол введения в ПРОШЛОМ — все времена «сдвигаются назад». Если в НАСТОЯЩЕМ — времена сохраняются. Il dit que = настоящее → без изменений. Il a dit que = прошлое → смещение!"
+      },
+      "pronunciation": {
+        "intro": "Слушайте, как журналисты передают чужие слова. В новостях косвенная речь — основной инструмент!",
+        "note": "⚠️ В журналистике часто используют conditionnel для непроверенной информации: «Le ministre serait à Paris.» (Министр, по имеющимся данным, находится в Париже.)",
+        "words": [
+          { "fr": "selon le journal", "ru_pron": "сёлон лё журналь", "meaning": "по данным газеты / согласно газете" },
+          { "fr": "d'après les informations", "ru_pron": "д'апрэ лэ энформасьон", "meaning": "по имеющимся данным" },
+          { "fr": "il a déclaré que", "ru_pron": "иль а дэкларэ кё", "meaning": "он заявил, что" },
+          { "fr": "le journaliste a rapporté", "ru_pron": "лё журналист а рапортэ", "meaning": "журналист сообщил" },
+          { "fr": "la une du journal", "ru_pron": "ля юн дю журналь", "meaning": "первая полоса газеты" },
+          { "fr": "les informations (les infos)", "ru_pron": "лэ энформасьон (лэ энфо)", "meaning": "новости (разг. les infos)" },
+          { "fr": "en direct", "ru_pron": "ан дирэкт", "meaning": "в прямом эфире" },
+          { "fr": "le reportage", "ru_pron": "лё рёпортаж", "meaning": "репортаж" },
+          { "fr": "l'émission", "ru_pron": "л'эмиссьон", "meaning": "телепередача, программа" },
+          { "fr": "la chaîne", "ru_pron": "ля шэн", "meaning": "телеканал" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le journal", "gender": "m", "ru": "газета; дневник", "ru_pron": "лё журналь", "example_fr": "Je lis le journal le matin.", "example_ru": "Я читаю газету утром.", "level": "A2", "meaning_double": "le journal = газета ET journal intime = личный дневник — два разных значения!" },
+        { "fr": "la presse", "gender": "f", "ru": "пресса, печать", "ru_pron": "ля прэс", "example_fr": "La liberté de la presse est fondamentale.", "example_ru": "Свобода прессы — основополагающий принцип.", "level": "A2" },
+        { "fr": "l'actualité", "gender": "f", "ru": "новости, актуальные события", "ru_pron": "л'актюалитэ", "example_fr": "Je suis l'actualité tous les jours.", "example_ru": "Я слежу за новостями каждый день.", "level": "A2" },
+        { "fr": "le titre", "gender": "m", "ru": "заголовок; название; титул", "ru_pron": "лё титр", "example_fr": "Le titre de l'article est provocateur.", "example_ru": "Заголовок статьи провокационный.", "level": "A2" },
+        { "fr": "diffuser", "gender": null, "ru": "транслировать, распространять", "ru_pron": "дифюзэ", "example_fr": "La radio diffuse les infos à 8h.", "example_ru": "Радио транслирует новости в 8 часов.", "level": "A2" },
+        { "fr": "fiable", "gender": null, "ru": "надёжный, достоверный", "ru_pron": "фьябль", "example_fr": "Cette source n'est pas fiable.", "example_ru": "Этот источник недостоверен.", "level": "A2" },
+        { "fr": "la désinformation", "gender": "f", "ru": "дезинформация", "ru_pron": "ля дэзэнформасьон", "example_fr": "La désinformation se répand sur internet.", "example_ru": "Дезинформация распространяется в интернете.", "level": "A2" },
+        { "fr": "le réseau social", "gender": "m", "ru": "социальная сеть", "ru_pron": "лё рэзо сосьаль", "example_fr": "Les réseaux sociaux influencent l'opinion.", "example_ru": "Социальные сети влияют на общественное мнение.", "level": "A2" },
+        { "fr": "partager", "gender": null, "ru": "делиться, публиковать (пост)", "ru_pron": "партажэ", "example_fr": "J'ai partagé cet article sur Twitter.", "example_ru": "Я поделился этой статьёй в Twitter.", "level": "A2" },
+        { "fr": "s'informer", "gender": null, "ru": "получать информацию, следить за новостями", "ru_pron": "с'энформэ", "example_fr": "Comment tu t'informes sur l'actualité ?", "example_ru": "Как ты узнаёшь о новостях?", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le journaliste", "fr_pron": "лё журналист", "ru": "журналист", "ru_pron": "журналист", "note": "Оба слова из французского «journal» (дневник, газета). Русское «журналист» — прямое заимствование из французского." },
+        { "fr": "l'information", "fr_pron": "л'энформасьон", "ru": "информация", "ru_pron": "информация", "note": "Из латинского «informatio». Оба слова идентичны по смыслу. Во французском разговорном языке часто сокращают до «les infos» (новости)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Émile Zola (1840–1902)", "subtitle": "Romancier et défenseur de la justice", "content": "Эмиль Золя — великий французский писатель-натуралист, создатель цикла «Ругон-Маккары». Но в историю он вошёл ещё и как гражданин: в 1898 году он опубликовал открытое письмо «J'accuse...!» (Я обвиняю!) в газете L'Aurore, защищая несправедливо осуждённого офицера Альфреда Дрейфуса. Золя обвинил армию и правительство в антисемитизме. За это его самого привлекли к суду, и он был вынужден эмигрировать. Но Дрейфус в итоге был реабилитирован. «J'accuse» стало символом роли интеллектуала и свободной прессы в защите справедливости." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La liberté de la presse en France", "content": "Свобода прессы во Франции закреплена законом от 29 июля 1881 года — одним из старейших законов о свободе слова в мире. Франция стабильно входит в топ-10 стран с наибольшей свободой прессы по данным организации «Репортёры без границ» (RSF), базирующейся в Париже. Главные французские газеты: Le Monde, Le Figaro, Libération — имеют чёткие политические ориентации, и французы это прекрасно знают и учитывают." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Charlie Hebdo — карикатура как культура", "content": "Charlie Hebdo — сатирический еженедельник, знаменитый своими провокационными карикатурами на всё и всех: политиков, религии, общество. Журнал стал символом французской свободы слова после трагического теракта в январе 2015 года. «Je suis Charlie» — слоган, мгновенно разлетевшийся по всему миру. Французская традиция политической карикатуры восходит к XVIII веку и является неотъемлемой частью демократической культуры страны." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "J'accuse !", "pronunciation": "Жаккюз", "translation": "Я обвиняю!", "usage": "Фраза, ставшая вечным символом гражданского мужества после письма Золя в 1898 году. Сегодня используется в разговорной речи с иронией или пафосом, когда хотят кого-то в чём-то обвинить — в том числе шутливо.", "example": "— Кто съел мой шоколад? — J'accuse mon frère ! (Я обвиняю своего брата!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Montpellier — Ville étudiante et innovante", "subtitle": "Монпелье — Студенческий и инновационный город", "content": "Монпелье — один из самых молодых и динамичных городов Франции. Его университет основан в 1289 году и входит в число старейших в мире. Треть населения — студенты, что создаёт уникальную энергию. Южный климат, близость Средиземного моря, великолепная архитектура. Монпелье регулярно входит в топ лучших городов Франции для жизни. Отличное трамвайное сообщение, активная ночная жизнь, сильная IT-экосистема." }
+      },
+      "quiz": [
+        { "q": "Как трансформируется в косвенную речь: Il dit : «Je suis content.»?", "opts": ["Il dit je suis content.", "Il dit qu'il est content.", "Il dit qu'il soit content.", "Il a dit qu'il était content."], "ans": 1, "exp": "«Il dit» — настоящее → без смещения времени: Il dit qu'il est content. Если бы было «Il a dit» → Il a dit qu'il était content (imparfait)." },
+        { "q": "Что такое «les infos» в разговорной речи?", "opts": ["Данные компьютера", "Новости / информация", "Ошибки в тексте", "Информационные технологии"], "ans": 1, "exp": "«Les infos» — разговорное сокращение от «les informations» = новости. «Je regarde les infos» = Я смотрю новости." },
+        { "q": "Как преобразовать «Elle demande : 'Est-ce que tu viens ?'» в косвенную речь?", "opts": ["Elle demande si tu viens.", "Elle demande que tu viens.", "Elle demande tu viens.", "Elle demande est-ce que tu viens."], "ans": 0, "exp": "Вопрос Да/Нет в косвенной речи вводится через «si»: Elle demande si tu viens. Вопросительная конструкция «est-ce que» исчезает." },
+        { "q": "Кто написал знаменитое письмо «J'accuse !»?", "opts": ["Victor Hugo", "Gustave Flaubert", "Émile Zola", "Guy de Maupassant"], "ans": 2, "exp": "Эмиль Золя опубликовал «J'accuse !» в 1898 году в защиту Дрейфуса. Это письмо стало символом свободы прессы и гражданского мужества." },
+        { "q": "Как по-французски «в прямом эфире»?", "opts": ["en direct", "en ligne", "en cours", "en avant"], "ans": 0, "exp": "En direct = в прямом эфире. En ligne = онлайн/в сети. En cours = в процессе/текущий." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "L'Environnement et la Société",
+      "titleRu": "Окружающая среда и общество",
+      "level": "A2",
+      "grammar": {
+        "title": "Les connecteurs logiques — структурируем мысль",
+        "titleRu": "Логические коннекторы — связываем идеи",
+        "intro": "Логические коннекторы (les connecteurs logiques) — слова и выражения, которые связывают идеи в тексте и устной речи. Они позволяют выстраивать аргументы, объяснять причины и следствия, противопоставлять и обобщать. Это ключевой навык для уровня A2 и выше.",
+        "sections": [
+          {
+            "title": "Причина и следствие",
+            "content": "Причина:\nparce que / car — потому что\npuisque — поскольку, так как (факт известен)\nà cause de + имя — из-за (негативно)\ngrâce à + имя — благодаря (позитивно)\n\nСледствие:\ndonc / alors — следовательно, поэтому\nc'est pourquoi — именно поэтому\npar conséquent — вследствие этого\nde ce fait — вследствие этого"
+          },
+          {
+            "title": "Противопоставление и уступка",
+            "content": "mais — но\ncependant / pourtant — однако\ntoutefois — тем не менее\nen revanche — зато, с другой стороны\nmalgré + имя — несмотря на\nbien que + subjonctif — хотя\nalors que — тогда как, в то время как"
+          },
+          {
+            "title": "Добавление и перечисление",
+            "content": "et / ainsi que — и, а также\nde plus / en outre — кроме того\npar ailleurs — с другой стороны, помимо этого\nnon seulement... mais aussi — не только... но и...\nd'abord... ensuite... enfin — сначала... затем... наконец\npremièrement... deuxièmement — во-первых... во-вторых"
+          },
+          {
+            "title": "Иллюстрация и пример",
+            "content": "par exemple — например\nnotamment — в частности, особенно\nc'est-à-dire — то есть\nen effet — действительно, в самом деле\nen général — в целом, как правило\nen particulier — в частности"
+          }
+        ],
+        "rule": "💡 Запомните три главных «связки»: PARCE QUE (причина) / DONC (следствие) / MAIS (противопоставление). С ними одними можно построить любой аргумент. Остальные — это стиль и нюансы!"
+      },
+      "pronunciation": {
+        "intro": "Лексика об окружающей среде и слова-связки. Обратите внимание: в разговорной речи «parce que» часто сокращается до «pasque»!",
+        "note": "⚠️ «Car» используется преимущественно в письменной речи и звучит формально. В устной речи предпочитают «parce que».",
+        "words": [
+          { "fr": "le réchauffement climatique", "ru_pron": "лё рэшофман климатик", "meaning": "глобальное потепление" },
+          { "fr": "la pollution", "ru_pron": "ля полюсьон", "meaning": "загрязнение" },
+          { "fr": "les énergies renouvelables", "ru_pron": "лэ энэржи рёнувлабль", "meaning": "возобновляемые источники энергии" },
+          { "fr": "le développement durable", "ru_pron": "лё дэвлопман дюрабль", "meaning": "устойчивое развитие" },
+          { "fr": "la biodiversité", "ru_pron": "ля биодивэрситэ", "meaning": "биоразнообразие" },
+          { "fr": "recycler", "ru_pron": "рёсиклэ", "meaning": "перерабатывать (отходы)" },
+          { "fr": "l'empreinte carbone", "ru_pron": "л'ампрэнт карбон", "meaning": "углеродный след" },
+          { "fr": "par conséquent", "ru_pron": "пар консэкан", "meaning": "следовательно, вследствие этого" },
+          { "fr": "malgré tout", "ru_pron": "малгрэ ту", "meaning": "несмотря на всё" },
+          { "fr": "non seulement... mais aussi", "ru_pron": "нон сёлман... мэ ози", "meaning": "не только... но и..." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'environnement", "gender": "m", "ru": "окружающая среда", "ru_pron": "л'анвиронман", "example_fr": "Il faut protéger l'environnement.", "example_ru": "Нужно защищать окружающую среду.", "level": "A2" },
+        { "fr": "le déchet", "gender": "m", "ru": "отход, мусор", "ru_pron": "лё дэшэ", "example_fr": "Le tri des déchets est obligatoire.", "example_ru": "Сортировка мусора обязательна.", "level": "A2" },
+        { "fr": "la forêt", "gender": "f", "ru": "лес", "ru_pron": "ля форэ", "example_fr": "La forêt amazonienne est en danger.", "example_ru": "Амазонский лес под угрозой.", "level": "A2" },
+        { "fr": "protéger", "gender": null, "ru": "защищать", "ru_pron": "протэжэ", "example_fr": "Nous devons protéger les océans.", "example_ru": "Мы должны защищать океаны.", "level": "A2" },
+        { "fr": "sensibiliser", "gender": null, "ru": "повышать осведомлённость, привлекать внимание", "ru_pron": "сансибилизэ", "example_fr": "Il faut sensibiliser les jeunes.", "example_ru": "Нужно повышать осведомлённость молодёжи.", "level": "A2" },
+        { "fr": "l'énergie solaire", "gender": "f", "ru": "солнечная энергия", "ru_pron": "л'энэржи солэр", "example_fr": "L'énergie solaire est gratuite.", "example_ru": "Солнечная энергия бесплатна.", "level": "A2" },
+        { "fr": "la sécheresse", "gender": "f", "ru": "засуха", "ru_pron": "ля сэшрэс", "example_fr": "La sécheresse détruit les récoltes.", "example_ru": "Засуха уничтожает урожай.", "level": "A2" },
+        { "fr": "durable", "gender": null, "ru": "устойчивый, долгосрочный", "ru_pron": "дюрабль", "example_fr": "Un développement durable est nécessaire.", "example_ru": "Необходимо устойчивое развитие.", "level": "A2" },
+        { "fr": "s'engager", "gender": null, "ru": "вступать, обязываться, участвовать", "ru_pron": "с'ангажэ", "example_fr": "Elle s'est engagée pour la cause écologique.", "example_ru": "Она вступила в борьбу за экологию.", "level": "A2" },
+        { "fr": "le citoyen / la citoyenne", "gender": "m/f", "ru": "гражданин/гражданка", "ru_pron": "лё ситуаян / ситуаян", "example_fr": "Chaque citoyen a des droits et des devoirs.", "example_ru": "Каждый гражданин имеет права и обязанности.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'écologie", "fr_pron": "л'экологи", "ru": "экология", "ru_pron": "экология", "note": "Из греческого «oikos» (дом) + «logos» (наука). Идентичные слова в обоих языках. Французское прилагательное: écologique; русское — экологический." },
+        { "fr": "la biodiversité", "fr_pron": "ля биодивэрситэ", "ru": "биоразнообразие", "ru_pron": "биоразнообразие", "note": "Международный научный термин из греческого «bios» + латинского «diversitas». Во французском — одно слово, в русском часто из двух корней. Значение одинаковое." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jacques-Yves Cousteau (1910–1997)", "subtitle": "Explorateur des océans, pionnier écologique", "content": "Жак-Ив Кусто — легендарный французский исследователь, режиссёр и защитник природы. Он изобрёл акваланг (1943), что революционизировало подводные исследования. Его телефильм «Мир тишины» получил «Золотую пальмовую ветвь» Каннского фестиваля (1956) и «Оскар». Кусто создал Общество Кусто для защиты морей и убедил ООН принять мораторий на ядерные испытания в океане. Его программа Calypso шла 40 лет и сделала подводный мир любимым для миллионов детей." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "L'Accord de Paris (2015) — Парижское климатическое соглашение", "content": "В декабре 2015 года в Париже 196 государств подписали историческое климатическое соглашение — первое юридически обязывающее глобальное соглашение по борьбе с изменением климата. Цель: ограничить потепление Земли до 1,5–2°C выше доиндустриального уровня. Франция сыграла ключевую роль в переговорах. COP21 в Ле-Бурже стала поворотным моментом в истории международной дипломатии по вопросам экологии." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et le vélo — на велосипеде к экологии", "content": "Франция — родина Tour de France (Тур де Франс), самой знаменитой велогонки мира (с 1903 года). Сегодня велосипед переживает возрождение: в Париже действует система велопроката Vélib' (с 2007 года), тысячи километров велодорожек строятся по всей стране. После пандемии COVID-19 французское правительство запустило «Велосипедный план» с субсидиями на покупку vélo. «Faites du vélo !» (Садитесь на велосипед!) — государственный призыв к экологичному транспорту." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "On n'a qu'une seule planète.", "pronunciation": "Он на ка юн сёль планэт", "translation": "У нас только одна планета.", "usage": "Экологический лозунг, ставший общеупотребительной фразой. Структура: «on n'a que» = «у нас только». Très utile для экологических дискуссий и эссе. Звучит убедительно и не требует сложной грамматики.", "example": "— Pourquoi tu tries tes déchets ? — Parce qu'on n'a qu'une seule planète ! (Зачем ты сортируешь мусор? — Потому что у нас только одна планета!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Le Massif Central — Cœur vert de la France", "subtitle": "Центральный массив — Зелёное сердце Франции", "content": "Центральный массив — горное плато в центре Франции, одна из самых нетронутых природных территорий страны. Вулканический ландшафт (потухшие вулканы puy), термальные источники, национальные парки. Региональные парки Оверни и Оверни-Рон-Альп. Знаменитый Пюи-де-Дом — самый посещаемый природный объект Франции после Версаля. Здесь производят знаменитые сыры: Cantal, Saint-Nectaire, Salers и бурбонское вино." }
+      },
+      "quiz": [
+        { "q": "Что выражает «grâce à» в отличие от «à cause de»?", "opts": ["Причину нейтральную", "Причину позитивную (благодаря)", "Причину негативную (из-за)", "Следствие"], "ans": 1, "exp": "«Grâce à» = благодаря (позитивный оттенок). «À cause de» = из-за (обычно негативный оттенок). Grâce à son aide, j'ai réussi. À cause de lui, j'ai échoué." },
+        { "q": "Выберите правильный коннектор следствия:", "opts": ["Parce que", "Bien que", "Donc / Par conséquent", "Grâce à"], "ans": 2, "exp": "«Donc» и «par conséquent» выражают следствие. «Parce que» = причина, «bien que» = уступка, «grâce à» = причина позитивная." },
+        { "q": "Как по-французски «устойчивое развитие»?", "opts": ["le développement fort", "la croissance durable", "le développement durable", "la durabilité"], "ans": 2, "exp": "Le développement durable — устойчивое развитие. Это ключевое понятие современной экологии и международных соглашений." },
+        { "q": "Какой документ был подписан в Париже в 2015 году?", "opts": ["Договор о ядерном разоружении", "Парижское климатическое соглашение", "Маастрихтский договор", "Устав ООН"], "ans": 1, "exp": "L'Accord de Paris (2015) — историческое климатическое соглашение 196 государств о борьбе с потеплением климата." },
+        { "q": "Что изобрёл Жак-Ив Кусто?", "opts": ["Подводную лодку", "Акваланг", "Батискаф", "Гидрокостюм"], "ans": 1, "exp": "Жак-Ив Кусто изобрёл акваланг (le scaphandre autonome) в 1943 году вместе с Эмилем Ганьяном. Это революционизировало подводные исследования." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Voyages et Découvertes",
+      "titleRu": "Путешествия и открытия",
+      "level": "A2",
+      "grammar": {
+        "title": "Les prépositions de lieu et le passé composé vs l'imparfait",
+        "titleRu": "Предлоги места и passé composé vs imparfait",
+        "intro": "Путешествия — идеальная тема для практики предлогов места и прошедших времён. Умение рассказывать о поездках на французском — один из главных мотивов изучения языка, и именно здесь passé composé и imparfait работают рука об руку.",
+        "sections": [
+          {
+            "title": "Предлоги с названиями мест",
+            "content": "Страны:\nà + город: J'habite à Paris. Je vais à Rome.\nen + страна (ж.р.): en France, en Russie, en Espagne\nau + страна (м.р.): au Japon, au Canada, au Portugal\naux + страна (мн.ч.): aux États-Unis, aux Philippines\n\nde / du / de la / des — откуда:\nJe viens de France. Je reviens du Japon. Je reviens des États-Unis.\n\nPour + направление: Je pars pour New York."
+          },
+          {
+            "title": "Passé composé vs Imparfait — ключевое правило",
+            "content": "PASSÉ COMPOSÉ = действие конкретное, законченное, однократное:\nJ'ai visité le Louvre. (Я посетил Лувр — факт.)\nNous sommes partis le matin. (Мы уехали утром — факт.)\n\nIMPARFAIT = описание фона, привычки в прошлом, длящееся состояние:\nIl faisait beau. (Была хорошая погода — описание.)\nLes rues étaient bondées. (Улицы были переполнены — описание.)\nChaque été, nous allions en Bretagne. (Каждое лето мы ездили в Бретань — привычка.)"
+          },
+          {
+            "title": "Рассказ о поездке: структура",
+            "content": "Début:\nL'été dernier, je suis allé(e) en France...\nQuand j'avais dix ans, nous allions souvent...\n\nDescription (imparfait):\nLa ville était magnifique. Il y avait beaucoup de monde. Les gens étaient sympas.\n\nÉvénements (passé composé):\nJ'ai visité... Nous avons mangé... On a rencontré...\n\nConclusion:\nC'était un voyage inoubliable ! Je voudrais y retourner."
+          }
+        ],
+        "rule": "💡 Простой тест: если можно заменить на «было» (описание/состояние) → imparfait. Если можно спросить «что случилось?» и получить конкретный факт → passé composé. «Il faisait beau» (была погода) + «il a plu» (пошёл дождь) — два времени в одном предложении!"
+      },
+      "pronunciation": {
+        "intro": "Лексика путешествий. Обратите внимание на «en Russie» [ан рюси] и «au Japon» [о жапон] — предлоги слитно произносятся с названием страны!",
+        "note": "⚠️ «En» перед гласной сливается: en Italie = [анитали], en Australie = [анострали]. Не делайте паузу между предлогом и страной!",
+        "words": [
+          { "fr": "en avion", "ru_pron": "ан авьон", "meaning": "на самолёте" },
+          { "fr": "en train", "ru_pron": "ан трэн", "meaning": "на поезде" },
+          { "fr": "l'auberge de jeunesse", "ru_pron": "л'обэрж дё жёнэс", "meaning": "молодёжный хостел" },
+          { "fr": "l'office de tourisme", "ru_pron": "л'офис дё туризм", "meaning": "туристический офис" },
+          { "fr": "la douane", "ru_pron": "ля дуан", "meaning": "таможня" },
+          { "fr": "le passeport", "ru_pron": "лё пасспор", "meaning": "паспорт" },
+          { "fr": "la valise", "ru_pron": "ля вализ", "meaning": "чемодан" },
+          { "fr": "c'était magnifique", "ru_pron": "сэтэ маньифик", "meaning": "это было великолепно" },
+          { "fr": "j'ai visité", "ru_pron": "жэ визитэ", "meaning": "я посетил(а)" },
+          { "fr": "il faisait chaud", "ru_pron": "иль фёзэ шо", "meaning": "было жарко (imparfait)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le séjour", "gender": "m", "ru": "пребывание, поездка", "ru_pron": "лё сэжур", "example_fr": "Mon séjour à Paris était fantastique.", "example_ru": "Моё пребывание в Париже было фантастическим.", "level": "A2" },
+        { "fr": "l'hébergement", "gender": "m", "ru": "жильё, размещение", "ru_pron": "л'эбэржман", "example_fr": "Quel hébergement préférez-vous ?", "example_ru": "Какое размещение вы предпочитаете?", "level": "A2" },
+        { "fr": "la croisière", "gender": "f", "ru": "круиз", "ru_pron": "ля круазьэр", "example_fr": "Nous avons fait une croisière en Méditerranée.", "example_ru": "Мы совершили круиз по Средиземному морю.", "level": "A2" },
+        { "fr": "dépayser", "gender": null, "ru": "перемещать в другую среду, давать ощущение нового", "ru_pron": "дэпэизэ", "example_fr": "Ce voyage m'a complètement dépaysé.", "example_ru": "Эта поездка полностью изменила мою обстановку.", "level": "A2" },
+        { "fr": "l'itinéraire", "gender": "m", "ru": "маршрут", "ru_pron": "л'итинэрэр", "example_fr": "Quel est votre itinéraire ?", "example_ru": "Каков ваш маршрут?", "level": "A2" },
+        { "fr": "réserver", "gender": null, "ru": "бронировать", "ru_pron": "рэзэрвэ", "example_fr": "J'ai réservé un hôtel en ligne.", "example_ru": "Я забронировал гостиницу онлайн.", "level": "A2" },
+        { "fr": "le guide touristique", "gender": "m", "ru": "туристический путеводитель; гид", "ru_pron": "лё гид туристик", "example_fr": "Le guide touristique recommande ce musée.", "example_ru": "Путеводитель рекомендует этот музей.", "level": "A2" },
+        { "fr": "se perdre", "gender": null, "ru": "заблудиться", "ru_pron": "сё пэрдр", "example_fr": "Je me suis perdu dans les rues de Rome.", "example_ru": "Я заблудился на улицах Рима.", "level": "A2" },
+        { "fr": "l'escale", "gender": "f", "ru": "стоянка, пересадка (в полёте)", "ru_pron": "л'эскаль", "example_fr": "Notre vol a une escale à Amsterdam.", "example_ru": "Наш рейс имеет пересадку в Амстердаме.", "level": "A2" },
+        { "fr": "dépenser", "gender": null, "ru": "тратить (деньги)", "ru_pron": "дэпансэ", "example_fr": "J'ai dépensé beaucoup pendant les vacances.", "example_ru": "Я много потратил во время отпуска.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le passeport", "fr_pron": "лё пасспор", "ru": "паспорт", "ru_pron": "паспорт", "note": "Из французского «passe-port» (пропуск через ворота). Русское «паспорт» — прямое заимствование из французского через немецкий Reisepass. Произношение почти идентично." },
+        { "fr": "l'itinéraire", "fr_pron": "л'итинэрэр", "ru": "маршрут / итинерарий", "ru_pron": "маршрут", "note": "Из латинского «iter» (путь). Русское «маршрут» — из немецкого, но «итинерарий» используется в академических текстах. Оба слова — одно значение." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jules Verne (1828–1905)", "subtitle": "Père de la science-fiction", "content": "Жюль Верн — французский писатель, отец научной фантастики и один из самых читаемых авторов мира. Его «Вокруг света в 80 дней», «Двадцать тысяч лье под водой», «Путешествие к центру Земли» предсказали многие изобретения XX века: подводные лодки, самолёты, телевидение. Верн большую часть жизни провёл в Амьене, но в душе всегда был путешественником. Его переводят на 150+ языков. После Агаты Кристи и Шекспира он — самый переводимый автор художественной литературы в мире." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Tour de France — изобретение путешествия", "content": "В XVIII–XIX веках французские подмастерья совершали «тур де Франс» (обход Франции) — многолетнее путешествие для обучения ремеслу у мастеров разных регионов. Это была одна из первых форм «образовательного туризма» в истории. Традиция восходит к средневековым гильдиям. Сегодня Tour de France — велогонка, но идея остаётся та же: познать страну через движение. Слово «tourisme» (туризм) тоже французское — от «tour» (поездка, путешествие)!" },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français à l'étranger — стереотипы и реальность", "content": "По опросам, французы — одни из худших туристов по соблюдению иностранных языков: они часто отказываются говорить по-английски даже когда умеют. Зато французов обожают за стиль, гастрономический вкус и умение наслаждаться моментом. Французский турист точно знает: хорошее вино здесь хуже, время обеда здесь раньше, кофе здесь не такой. Французский путешественник всегда немного скучает по Франции — даже находясь в самом прекрасном месте мира. «On est bien nulle part comme chez soi.» (Нигде не бывает так хорошо, как дома.)" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "L'aventure commence ici !", "pronunciation": "Л'авантюр команс иси", "translation": "Приключение начинается здесь!", "usage": "Вдохновляющая фраза для старта путешествия или нового проекта. «Aventure» во французском означает «приключение», но также «авантюра» в смысле рискованного предприятия. Используется в рекламе туризма и в разговорной речи.", "example": "— On est enfin à l'aéroport ! — Oui, l'aventure commence ici ! (Мы наконец в аэропорту! — Да, приключение начинается!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Réunion — L'île intense", "subtitle": "Реюньон — Интенсивный остров", "content": "Остров Реюньон — заморский департамент Франции в Индийском океане. «Интенсивный» — официальный туристический слоган острова, и он оправдан: здесь есть активный вулкан Питон-де-ла-Фурнез (один из самых активных на планете), горные трекинги в цирках Сирос, тропические пляжи и многонациональная кухня (французская, индийская, китайская, малагасийская). Жители острова — французские граждане, летают в Париж, как в Москве летают в Петербург." }
+      },
+      "quiz": [
+        { "q": "Какой предлог используется перед страной мужского рода?", "opts": ["en", "à", "au", "de"], "ans": 2, "exp": "«Au» используется перед странами мужского рода: au Japon, au Canada, au Portugal. «En» — перед странами женского рода: en France, en Russie." },
+        { "q": "Что выражает imparfait в рассказе о путешествии?", "opts": ["Конкретный факт", "Фон, описание, состояние", "Будущее действие", "Желание"], "ans": 1, "exp": "Imparfait = описание, фон, привычное действие. «Il faisait beau, les rues étaient animées» — imparfait рисует декорации, на фоне которых происходят события (passé composé)." },
+        { "q": "Как правильно сказать «я из России»?", "opts": ["Je viens en Russie.", "Je viens de Russie.", "Je viens au Russie.", "Je suis à Russie."], "ans": 1, "exp": "«Je viens de Russie» — предлог «de» + страна женского рода. «Je viens du Japon» — «du» = de + le перед мужским родом." },
+        { "q": "Выберите правильное предложение о прошлом путешествии:", "opts": ["Quand j'était à Paris, je visitais le Louvre.", "Quand j'étais à Paris, j'ai visité le Louvre.", "Quand j'ai été à Paris, je visitais le Louvre.", "Quand j'ai été à Paris, j'ai visité le Louvre."], "ans": 1, "exp": "«J'étais» (imparfait = описание ситуации) + «j'ai visité» (passé composé = конкретный факт). Это классическое сочетание при рассказе о прошлом." },
+        { "q": "Кто написал «Вокруг света в 80 дней»?", "opts": ["Victor Hugo", "Alexandre Dumas", "Jules Verne", "Honoré de Balzac"], "ans": 2, "exp": "«Le Tour du monde en quatre-vingts jours» — роман Жюля Верна (1872). Вместе с другими произведениями сделал его отцом научной фантастики." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "La France Francophone et le Monde",
+      "titleRu": "Франкоязычный мир",
+      "level": "A2",
+      "grammar": {
+        "title": "Le futur simple — планы и prédictions",
+        "titleRu": "Futur simple — планы и прогнозы",
+        "intro": "Futur simple (простое будущее) — «настоящее» будущее время французского языка. В отличие от futur proche (je vais faire), futur simple звучит более официально, используется в письменной речи, для прогнозов и обещаний. Это последнее время, которое мы изучаем в этом курсе — и оно откроет вам горизонты!",
+        "sections": [
+          {
+            "title": "Образование futur simple",
+            "content": "Основа: инфинитив (для правильных глаголов)\nОкончания: -ai, -as, -a, -ons, -ez, -ont\n\nParler: je parlerai, tu parleras, il parlera\n          nous parlerons, vous parlerez, ils parleront\n\nFinir: je finirai, tu finiras, il finira\n\nPrendre: je prendrai (основа: prendr-)\n\n⚠️ Те же неправильные основы, что в conditionnel:\nêtre → je serai | avoir → j'aurai\naller → j'irai | faire → je ferai\npouvoir → je pourrai | vouloir → je voudrai\nvenir → je viendrai | savoir → je saurai"
+          },
+          {
+            "title": "Употребление: когда futur simple, а не futur proche?",
+            "content": "FUTUR PROCHE (je vais + infinitif):\n→ Ближайшее будущее, запланировано, уверенность\nJe vais appeler Marie. (Я сейчас позвоню Мари.)\n\nFUTUR SIMPLE:\n→ Более отдалённое будущее, прогнозы, обещания, официальный стиль\nUn jour, je voyagerai dans toute la francophonie.\nDemain, il fera beau selon la météo.\nJe t'appellerai quand j'arriverai.\n\n💡 Правило: après «quand» + futur → futur! (в отличие от русского)"
+          },
+          {
+            "title": "La Francophonie — мир по-французски",
+            "content": "Французский язык — 5-й язык мира по числу носителей, официальный язык 29 государств.\n\nFrance et Europe: France, Belgique, Suisse, Luxembourg, Monaco\nAfrique: Sénégal, Côte d'Ivoire, Maroc, Algérie, Cameroun, RD Congo...\nAmériques: Québec (Canada), Louisiane, Haïti, Martinique, Guadeloupe\nOcéanie: Nouvelle-Calédonie, Polynésie française\nAsie: Liban, Vietnam (historique)\n\nL'Organisation internationale de la Francophonie (OIF) объединяет 88 государств."
+          }
+        ],
+        "rule": "💡 Особое правило: после «quand», «lorsque», «dès que», «aussitôt que» — если говорим о будущем — используем FUTUR в обоих предложениях! «Quand tu arriveras, appelle-moi.» Русский: «Когда приедешь» — глагол в настоящем. Французский: arriveras — futur!"
+      },
+      "pronunciation": {
+        "intro": "Слушайте futur simple и названия франкоязычных стран. Обратите внимание на носовые звуки в «francophone»!",
+        "note": "⚠️ Окончание -ai (je parlerai) произносится «э», как и -ais в imparfait. Только контекст помогает их различить. 1-е лицо единственного числа в futur и imparfait звучат одинаково!",
+        "words": [
+          { "fr": "je parlerai", "ru_pron": "жё парлёрэ", "meaning": "я буду говорить (futur simple)" },
+          { "fr": "nous irons", "ru_pron": "ну зирон", "meaning": "мы пойдём / поедем" },
+          { "fr": "il y aura", "ru_pron": "иль и ора", "meaning": "будет (il y a → futur)" },
+          { "fr": "la francophonie", "ru_pron": "ля франкофони", "meaning": "франкофония (франкоязычный мир)" },
+          { "fr": "le Québec", "ru_pron": "лё Квэбэк", "meaning": "Квебек (франкоязычная провинция Канады)" },
+          { "fr": "le Sénégal", "ru_pron": "лё Сэнэгаль", "meaning": "Сенегал" },
+          { "fr": "quand tu arriveras", "ru_pron": "кан тю аривёра", "meaning": "когда ты прибудешь (futur после «quand»!)" },
+          { "fr": "un jour, je voyagerai", "ru_pron": "ён жур жё вуаяжёрэ", "meaning": "однажды я буду путешествовать" },
+          { "fr": "demain, il fera beau", "ru_pron": "дёмэн иль фёра бо", "meaning": "завтра будет хорошая погода" },
+          { "fr": "le monde entier", "ru_pron": "лё монд антьё", "meaning": "весь мир" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "francophone", "gender": null, "ru": "франкоязычный", "ru_pron": "франкофон", "example_fr": "La Belgique est un pays francophone.", "example_ru": "Бельгия — франкоязычная страна.", "level": "A2" },
+        { "fr": "la diversité", "gender": "f", "ru": "разнообразие, многообразие", "ru_pron": "ля дивэрситэ", "example_fr": "La diversité culturelle est une richesse.", "example_ru": "Культурное разнообразие — это богатство.", "level": "A2" },
+        { "fr": "le patrimoine", "gender": "m", "ru": "наследие, достояние", "ru_pron": "лё патримуан", "example_fr": "La Tour Eiffel est un patrimoine culturel.", "example_ru": "Эйфелева башня — культурное наследие.", "level": "A2" },
+        { "fr": "la solidarité", "gender": "f", "ru": "солидарность", "ru_pron": "ля солидаритэ", "example_fr": "La solidarité internationale est essentielle.", "example_ru": "Международная солидарность необходима.", "level": "A2" },
+        { "fr": "échanges", "gender": "m pl", "ru": "обмены (культурные, студенческие)", "ru_pron": "лэ эшанж", "example_fr": "Les échanges universitaires enrichissent les étudiants.", "example_ru": "Студенческие обмены обогащают учащихся.", "level": "A2" },
+        { "fr": "promouvoir", "gender": null, "ru": "продвигать, пропагандировать", "ru_pron": "промувуар", "example_fr": "L'OIF promeut la langue française.", "example_ru": "OIF продвигает французский язык.", "level": "A2" },
+        { "fr": "le rayonnement", "gender": "m", "ru": "влияние, распространение (культуры)", "ru_pron": "лё рэйонман", "example_fr": "Le rayonnement de la culture française est mondial.", "example_ru": "Влияние французской культуры — мировое.", "level": "A2" },
+        { "fr": "bilingue", "gender": null, "ru": "двуязычный", "ru_pron": "билэнг", "example_fr": "Montréal est une ville bilingue.", "example_ru": "Монреаль — двуязычный город.", "level": "A2" },
+        { "fr": "l'identité", "gender": "f", "ru": "идентичность, самобытность", "ru_pron": "л'идантитэ", "example_fr": "Chaque peuple a son identité culturelle.", "example_ru": "У каждого народа есть своя культурная идентичность.", "level": "A2" },
+        { "fr": "la coopération", "gender": "f", "ru": "сотрудничество", "ru_pron": "ля кооpэрасьон", "example_fr": "La coopération franco-russe a une longue histoire.", "example_ru": "Французско-российское сотрудничество имеет долгую историю.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "francophone", "fr_pron": "франкофон", "ru": "франкофон / франкоязычный", "ru_pron": "франкоязычный", "note": "Французское «francophone» = franco (французский) + phone (звук, голос). Международный термин, принятый и в русском языке в форме «франкофон». Аналогично: anglophone (англоязычный), russophone (русскоязычный)." },
+        { "fr": "la coopération", "fr_pron": "ля коопэрасьон", "ru": "кооперация / сотрудничество", "ru_pron": "кооперация", "note": "Из латинского «cooperari» (действовать вместе). Международный термин. Русское «кооперация» чуть более официально; «сотрудничество» — повседневное слово для того же понятия." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Léopold Sédar Senghor (1906–2001)", "subtitle": "Poète, philosophe, premier président du Sénégal", "content": "Леопольд Седар Сенгор — первый президент независимого Сенегала (1960–1980) и первый африканец, избранный во Французскую академию. Поэт, философ, один из основателей движения «Негритюд» (négritude), утверждавшего ценность африканской культуры. Сенгор считал, что можно быть африканцем и французским — одновременно. Его фраза: «Assimiler sans être assimilé» (Усваивать, не будучи поглощённым) — девиз культурного диалога. Сенгор писал стихи на французском — и это был его политический и художественный выбор." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La Francophonie — история движения", "content": "Идею «Франкофонии» как сообщества народов, объединённых французским языком, впервые сформулировал сенегальский лидер Леопольд Сенгор в 1960-х. В 1970 году в Ниамее (Нигер) была основана Международная организация Франкофонии (Organisation internationale de la Francophonie — OIF). Сегодня она объединяет 88 государств-членов с населением 300+ миллионов человек, говорящих по-французски. Штаб-квартира OIF — в Париже. Французский — рабочий язык ООН, ЕС, МОК и многих международных организаций." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Québec — французский остров в Америке", "content": "Квебек — единственная провинция Канады, где французский является единственным официальным языком. 8 миллионов квебекцев говорят на «joual» — своеобразном квебекском французском с английскими вкраплениями и особой интонацией. Парижане с трудом понимают квебекцев с первого раза — и это взаимно. Квебекское «magasiner» (делать покупки) вместо «faire du shopping», «char» вместо «voiture» (машина), «Bonjour-Hi!» — приветствие, отражающее двуязычие. Квебекцы гордятся своим французским и считают его аутентичнее парижского!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Le monde est petit !", "pronunciation": "Лё монд э пти", "translation": "Мир тесен! (Мир маленький!)", "usage": "Говорится при неожиданной встрече со знакомым или при удивительном совпадении. Аналог русского «мир тесен» или «как мало мест на земле». Используется в радостных ситуациях — когда случайно встречаешь земляка за границей или обнаруживаешь общих знакомых.", "example": "— Tu connais Pierre ? Il est aussi mon collègue ! — Le monde est petit ! (Ты знаешь Пьера? Он тоже мой коллега! — Мир тесен!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Montréal — La métropole francophone d'Amérique", "subtitle": "Монреаль — Франкоязычная метрополия Америки", "content": "Монреаль — второй по величине франкоязычный город мира после Парижа. Это уникальное место, где французская культура встречается с американским образом жизни. Два официальных языка: французский и английский — на каждой улице. Знаменитые кварталы: Плато-Мон-Руаяль, Старый Монреаль с его брусчаткой и XVIII веком, Маленькая Италия. Местная кухня: poutine (картофель фри с соусом и сыром), smoked meat. Джазовый фестиваль и Комедийный фестиваль Just for Laughs — крупнейшие в мире." }
+      },
+      "quiz": [
+        { "q": "Сколько государств являются официально франкоязычными?", "opts": ["10", "21", "29", "44"], "ans": 2, "exp": "29 государств имеют французский как официальный язык. Организация Франкофонии объединяет 88 государств-членов, включая те, где французский — частичный или культурный язык." },
+        { "q": "Как образуется futur simple от «aller»?", "opts": ["j'allerai", "j'allais", "j'irai", "je vais"], "ans": 2, "exp": "«Aller» имеет неправильную основу для futur: ir-. Поэтому: j'irai, tu iras, il ira, nous irons, vous irez, ils iront." },
+        { "q": "Какое правило применяется после «quand» в будущем?", "opts": ["Présent", "Imparfait", "Futur simple", "Conditionnel"], "ans": 2, "exp": "После «quand», «lorsque», «dès que» в значении будущего используют futur simple, а не présent! «Quand tu arriveras, appelle-moi.» — В русском мы говорим «когда приедешь» (настоящее), во французском — futur!" },
+        { "q": "Кто стал первым африканцем в Académie française?", "opts": ["Aimé Césaire", "Léopold Sédar Senghor", "Frantz Fanon", "Cheikh Anta Diop"], "ans": 1, "exp": "Леопольд Седар Сенгор в 1983 году стал первым африканцем, избранным во Французскую академию. Он был также первым президентом независимого Сенегала." },
+        { "q": "Где расположена штаб-квартира Международной организации Франкофонии?", "opts": ["Женева", "Брюссель", "Монреаль", "Париж"], "ans": 3, "exp": "Штаб-квартира OIF (Organisation internationale de la Francophonie) находится в Париже. Организация основана в 1970 году и объединяет 88 государств-членов." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 9 — Félicitations !",
+      "titleRu": "Итоговый урок Модуля 9 — Поздравляем!",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète du Module 9 et du niveau A2",
+        "titleRu": "Полное повторение Модуля 9 и уровня A2",
+        "intro": "Вы дошли до конца! Модуль 9 — последний в курсе FrançaisRU. Повторим всё, что изучили в этом модуле, и подведём итоги всего пути от A1 до A2. Вы проделали огромную работу — и теперь вы способны общаться по-французски в реальных ситуациях!",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 9",
+            "content": "✅ Le subjonctif présent (il faut que, vouloir que, bien que...)\n✅ Les pronoms relatifs (qui, que, dont, où)\n✅ Le conditionnel présent (politesse, hypothèse)\n✅ Exprimer ses opinions et émotions\n✅ Le vocabulaire professionnel\n✅ Le discours indirect\n✅ Les connecteurs logiques\n✅ Passé composé vs imparfait (narration)\n✅ Futur simple + règle après «quand»\n✅ La Francophonie et le monde"
+          },
+          {
+            "title": "Чек-лист всего курса A1→A2",
+            "content": "Module 1 — Fondamentaux: алфавит, приветствия, être/avoir\nModule 2 — Présent: глаголы настоящего времени, самопрезентация\nModule 3 — Vie quotidienne: повседневная жизнь, магазины\nModule 4 — Passé composé: прошедшее завершённое время\nModule 5 — Descriptions: прилагательные, comparatif, superlatif\nModule 6 — Futur proche: планы, намерения\nModule 7 — Imparfait: описания, привычки в прошлом\nModule 8 — Grammaire avancée: pronoms COD/COI, impératif\nModule 9 — Autonomie: subjonctif, conditionnel, futur simple"
+          },
+          {
+            "title": "Ваши коммуникативные компетенции на уровне A2",
+            "content": "На уровне A2 (пороговый) вы умеете:\n🗣️ Рассказать о себе, семье, работе, путешествиях\n📝 Написать простое деловое письмо или сообщение\n🎧 Понять основное содержание несложных текстов\n💬 Выразить мнение, согласие/несогласие, эмоции\n✈️ Общаться в типичных ситуациях за рубежом\n📰 Понять заголовки и основные идеи французских СМИ\n🔮 Говорить о планах и делать прогнозы\n🌍 Обсуждать темы экологии, работы, общества"
+          },
+          {
+            "title": "Что дальше? Путь к B1",
+            "content": "На уровне B1 (Seuil) вас ждут:\n→ Plus-que-parfait (давнопрошедшее время)\n→ Le subjonctif passé\n→ Les pronoms relatifs composés (lequel, duquel...)\n→ Le discours indirect au passé complet\n→ Les constructions impersonnelles avancées\n→ La voix passive (пассивный залог)\n→ Les néologismes et le français familier\n\n«Continuez ! Vous êtes sur la bonne voie !»"
+          }
+        ],
+        "rule": "🏆 ПОЗДРАВЛЯЕМ! Вы завершили курс FrançaisRU A1→A2! Теперь продолжайте: смотрите французские фильмы с субтитрами, слушайте RFI (Radio France Internationale), читайте Le Monde. Каждый день по 15 минут на французском — лучшее, что вы можете сделать. «La langue est la clé du monde.» (Язык — ключ к миру.)"
+      },
+      "pronunciation": {
+        "intro": "Финальная коллекция ключевых фраз всего курса. Слушайте, повторяйте и запоминайте — это ваш минимальный набор для жизни во Франции!",
+        "note": "💪 Совет напоследок: произношение совершенствуется только с живой практикой. Найдите носителя языка, запишитесь на языковой обмен (tandem), смотрите французские сериалы без перевода!",
+        "words": [
+          { "fr": "Il faut que je parte maintenant.", "ru_pron": "Иль фо кё жё парт мэнтнан", "meaning": "Мне нужно идти сейчас." },
+          { "fr": "Je voudrais vous remercier.", "ru_pron": "Жё вудрэ ву рёмэрсьё", "meaning": "Я бы хотел вас поблагодарить." },
+          { "fr": "C'est ce dont j'avais besoin.", "ru_pron": "Сэ сё дон жавэ бёзуэн", "meaning": "Это именно то, что мне было нужно." },
+          { "fr": "Quand je serai prêt, je t'appellerai.", "ru_pron": "Кан жё сёрэ прэ, жё т'апёлёрэ", "meaning": "Когда я буду готов, я тебе позвоню." },
+          { "fr": "Je suis fier / fière de mes progrès.", "ru_pron": "Жё сюи фьё / фьэр дё мэ прогрэ", "meaning": "Я горжусь своими успехами." },
+          { "fr": "Bien que ce soit difficile, je continue.", "ru_pron": "Бьэн кё сё суа дифисиль, жё континю", "meaning": "Хотя это и трудно, я продолжаю." },
+          { "fr": "À mon avis, le français est une belle langue.", "ru_pron": "А мон ави, лё франсэ э юн бэль лянг", "meaning": "По-моему, французский — красивый язык." },
+          { "fr": "Je suis d'accord avec vous.", "ru_pron": "Жё сюи д'акор авэк ву", "meaning": "Я с вами согласен." },
+          { "fr": "Merci beaucoup pour tout !", "ru_pron": "Мэрси боку пур ту", "meaning": "Большое спасибо за всё!" },
+          { "fr": "Bonne continuation !", "ru_pron": "Бон континюасьон", "meaning": "Удачи в продолжении! (пожелание успехов)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "accomplir", "gender": null, "ru": "завершать, выполнять", "ru_pron": "акомплир", "example_fr": "J'ai accompli mon objectif.", "example_ru": "Я выполнил свою цель.", "level": "A2" },
+        { "fr": "l'objectif", "gender": "m", "ru": "цель, задача", "ru_pron": "л'обжэктиф", "example_fr": "Mon objectif est de parler couramment.", "example_ru": "Моя цель — говорить свободно.", "level": "A2" },
+        { "fr": "persévérer", "gender": null, "ru": "упорствовать, настойчиво продолжать", "ru_pron": "пэрсэвэрэ", "example_fr": "Il faut persévérer pour réussir.", "example_ru": "Нужно настойчиво идти к цели, чтобы добиться успеха.", "level": "A2" },
+        { "fr": "la progression", "gender": "f", "ru": "прогресс, продвижение вперёд", "ru_pron": "ля прогрэссьон", "example_fr": "Ma progression en français est visible.", "example_ru": "Мой прогресс во французском заметен.", "level": "A2" },
+        { "fr": "autonome", "gender": null, "ru": "самостоятельный", "ru_pron": "отоном", "example_fr": "Je suis maintenant un apprenant autonome.", "example_ru": "Теперь я самостоятельный учащийся.", "level": "A2" },
+        { "fr": "la maîtrise", "gender": "f", "ru": "владение (языком), мастерство", "ru_pron": "ля мэтриз", "example_fr": "La maîtrise du français demande du temps.", "example_ru": "Владение французским требует времени.", "level": "A2" },
+        { "fr": "courant(e)", "gender": "m/f", "ru": "свободный (о языке)", "ru_pron": "куран", "example_fr": "Je parle français couramment.", "example_ru": "Я говорю по-французски свободно.", "level": "A2" },
+        { "fr": "le bilan", "gender": "m", "ru": "итог, баланс, подведение итогов", "ru_pron": "лё билан", "example_fr": "Faisons le bilan de ce que nous avons appris.", "example_ru": "Подведём итог тому, что мы изучили.", "level": "A2" },
+        { "fr": "la réussite", "gender": "f", "ru": "успех, достижение", "ru_pron": "ля рэюссит", "example_fr": "Votre réussite est méritée !", "example_ru": "Ваш успех заслужен!", "level": "A2" },
+        { "fr": "s'améliorer", "gender": null, "ru": "совершенствоваться, улучшаться", "ru_pron": "с'амэльёрэ", "example_fr": "Mon français s'améliore chaque jour.", "example_ru": "Мой французский улучшается с каждым днём.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "autonome", "fr_pron": "отоном", "ru": "автономный / самостоятельный", "ru_pron": "автономный", "note": "Из греческого «autonomos» (управляющий собой). Русское «автономный» — точный эквивалент, но в контексте учёбы чаще говорят «самостоятельный». Titre du module: «Vers l'Autonomie» = «К самостоятельности» — именно это вы обрели!" },
+        { "fr": "persévérer", "fr_pron": "пэрсэвэрэ", "ru": "персеверировать / настойчиво продолжать", "ru_pron": "настойчиво продолжать", "note": "Из латинского «perseverare» (придерживаться). Русский научный термин «персеверация» (в психологии) — из того же корня. В повседневной речи: «упорствовать», «настойчиво идти к цели»." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Gustave Eiffel (1832–1923)", "subtitle": "L'homme qui construisit la tour", "content": "Александр Гюстав Эйфель — французский инженер, построивший знаменитую Эйфелеву башню (La Tour Eiffel) для Всемирной выставки 1889 года. Башня высотой 330 метров была самым высоким сооружением мира на протяжении 41 года. Сначала парижане ненавидели её — её называли «железной уродиной». Сегодня она — самая посещаемая туристическая достопримечательность мира (7 миллионов визитёров в год). Эйфель также участвовал в строительстве каркаса Статуи Свободы в Нью-Йорке — символа США подарила Франция!" },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Déclaration universelle des droits de l'homme (1948)", "content": "Всеобщая декларация прав человека была принята ООН 10 декабря 1948 года в Париже. Именно Париж был выбран местом принятия этого важнейшего документа XX века. Декларация была написана при активном участии французских дипломатов и впервые опубликована на французском языке. «Liberté, Égalité, Fraternité» — принципы Французской революции стали основой международного права. Каждый год 10 декабря — День прав человека." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La baguette au patrimoine mondial de l'UNESCO!", "content": "В ноябре 2022 года ЮНЕСКО внесла французский «savoir-faire artisanal et la culture de la baguette» (ремесленное искусство и культуру багета) в список нематериального культурного наследия человечества! Французы съедают более 6 миллиардов багетов в год — около 16 миллионов в день. По закону, настоящая «традиционная французская булка» (la baguette de tradition française) может содержать только муку, воду, соль и дрожжи — никаких добавок. Багет стал дипломатическим оружием: Франция дарила его иностранным лидерам как символ своей культуры." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Le chemin est plus important que la destination.", "pronunciation": "Лё шёмэн э плю эмпортан кё ля дэстинасьон", "translation": "Путь важнее цели.", "usage": "Глубокая французская мысль о ценности самого процесса. Идеально подходит для финального урока: изучение языка — это не просто получить сертификат, это весь путь открытий, встреч и понимания. Используется в речах, эссе и разговорах о смысле жизни.", "example": "— J'ai fini le cours ! — Félicitations ! Mais souviens-toi : le chemin est plus important que la destination. Continuons à apprendre ! (Я закончил курс! — Поздравляю! Но помни: путь важнее цели. Продолжаем учиться!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Paris — La destination finale et le début de tout", "subtitle": "Париж — Конечная точка и начало всего", "content": "Мы начали этот курс с Парижа в Модуле 1 — и возвращаемся к нему в финале. Но теперь Париж для вас уже другой: вы знаете, как называется каждый из 20 округов, понимаете, что «une baguette, s'il vous plaît» — это не просто просьба, а культурный ритуал. Вы можете читать меню, спрашивать дорогу, разговаривать с местными. Теперь Париж ждёт вас по-настоящему. «Paris vaut bien une messe» — говорил Генрих IV. Мы скажем: «Paris vaut bien un cours de français!» (Париж стоит курса французского!)" }
+      },
+      "quiz": [
+        { "q": "Что значит «Bonne continuation» по-французски?", "opts": ["Хорошего отдыха", "Удачи в продолжении!", "До свидания навсегда", "Спасибо за всё"], "ans": 1, "exp": "«Bonne continuation» — пожелание успехов в продолжении начатого дела. Говорится, когда кто-то продолжает путь, курс, работу или проект. Аналог «Удачи!» в контексте продолжения." },
+        { "q": "Когда ЮНЕСКО внесла культуру французского багета в наследие человечества?", "opts": ["В 2010 году", "В 2015 году", "В 2022 году", "В 2000 году"], "ans": 2, "exp": "В ноябре 2022 года «savoir-faire artisanal de la baguette» был внесён в список нематериального культурного наследия ЮНЕСКО. Это большая культурная победа Франции." },
+        { "q": "Сколько туристов посещают Эйфелеву башню ежегодно?", "opts": ["2 миллиона", "5 миллионов", "7 миллионов", "10 миллионов"], "ans": 2, "exp": "Около 7 миллионов человек посещают Эйфелеву башню ежегодно — это самая посещаемая туристическая достопримечательность мира." },
+        { "q": "Где была принята Всеобщая декларация прав человека в 1948 году?", "opts": ["В Женеве", "В Нью-Йорке", "В Лондоне", "В Париже"], "ans": 3, "exp": "Всеобщая декларация прав человека была принята 10 декабря 1948 года в Париже. Именно этот город выбрала ООН как место подписания этого исторического документа." },
+        { "q": "Что означает «Je suis fier/fière de mes progrès»?", "opts": ["Мне стыдно за мои успехи", "Я горжусь своими успехами", "Я доволен своими ошибками", "Мне нравится учиться"], "ans": 1, "exp": "«Je suis fier/fière de mes progrès» = Я горжусь своими успехами. Fier (м.р.) / fière (ж.р.) = гордый/гордая. De + имя/инфинитив = чем/чем именно." }
+      ]
+    }
+  ]
+}
