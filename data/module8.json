@@ -1,0 +1,724 @@
+{
+  "module": 8,
+  "titleFr": "Culture & Médias",
+  "titleRu": "Культура и медиа",
+  "description": "Cinéma, musique, littérature, presse, réseaux sociaux et vie culturelle française.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Cinéma Français",
+      "titleRu": "Французское кино",
+      "level": "A2",
+      "grammar": {
+        "title": "Les pronoms relatifs — qui et que",
+        "titleRu": "Относительные местоимения qui и que",
+        "intro": "Обсуждая фильмы и культуру, французы постоянно используют относительные местоимения qui и que. Они позволяют соединять предложения и давать подробные описания. Это очень важный элемент связной речи!",
+        "sections": [
+          {
+            "title": "Qui (который, кто) — подлежащее",
+            "content": "Qui заменяет подлежащее придаточного:\nC'est un acteur qui joue très bien. — Это актёр, который очень хорошо играет.\nJ'aime les films qui font réfléchir. — Мне нравятся фильмы, которые заставляют думать.\nVoici un réalisateur qui a gagné la Palme d'or. — Вот режиссёр, который получил «Золотую пальму»."
+          },
+          {
+            "title": "Que / Qu' (которого, которую) — дополнение",
+            "content": "Que заменяет прямое дополнение:\nC'est un film que j'adore. — Это фильм, который я обожаю.\nLe réalisateur que tu m'as recommandé est génial. — Режиссёр, которого ты мне порекомендовал, великолепен.\nLa scène qu'il a tournée est magnifique. — Сцена, которую он снял, великолепна.\n\n💡 Que → qu' перед гласной или h немым."
+          },
+          {
+            "title": "Genre cinématographique (жанры кино)",
+            "content": "une comédie — комедия\nun drame — драма\nun film d'action — боевик\nun film d'horreur — фильм ужасов\nun documentaire — документальный фильм\nune comédie romantique — романтическая комедия\nun film d'animation — мультфильм\nun thriller — триллер"
+          }
+        ],
+        "rule": "💡 Qui vs Que: спросите себя, что заменяет местоимение. Если это ПОДЛЕЖАЩЕЕ (кто что-то делает) → qui. Если это ДОПОЛНЕНИЕ (на кого/что направлено действие) → que."
+      },
+      "pronunciation": {
+        "intro": "Лексика кино — произносите с passion française!",
+        "note": "⚠️ Le réalisateur [лё рэализатёр] — все слоги произносятся. La Palme d'or [ля пальм дор] — «Золотая пальма» Каннского фестиваля.",
+        "words": [
+          { "fr": "le cinéma", "ru_pron": "лё синэма", "meaning": "кино, кинотеатр" },
+          { "fr": "le réalisateur", "ru_pron": "лё рэализатёр", "meaning": "режиссёр" },
+          { "fr": "le scénario", "ru_pron": "лё сэнарьо", "meaning": "сценарий" },
+          { "fr": "la Palme d'or", "ru_pron": "ля пальм дор", "meaning": "Золотая пальма (Канны)" },
+          { "fr": "un chef-d'œuvre", "ru_pron": "ён шэф-дёвр", "meaning": "шедевр" },
+          { "fr": "les sous-titres", "ru_pron": "лё су-титр", "meaning": "субтитры" },
+          { "fr": "la séance", "ru_pron": "ля сэанс", "meaning": "сеанс (кино)" },
+          { "fr": "jouer le rôle", "ru_pron": "жуэ лё роль", "meaning": "играть роль" },
+          { "fr": "Je l'ai vu en VO.", "ru_pron": "Жё лё ву ан ВО", "meaning": "Я смотрел в оригинале." },
+          { "fr": "C'est un film qui m'a touché.", "ru_pron": "Сэ тён фильм ки м'а тушэ", "meaning": "Это фильм, который меня тронул." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le réalisateur / la réalisatrice", "gender": "m/f", "ru": "режиссёр", "ru_pron": "лё рэализатёр", "example_fr": "C'est un réalisateur que j'admire.", "example_ru": "Это режиссёр, которым я восхищаюсь.", "level": "A2" },
+        { "fr": "le scénario", "gender": "m", "ru": "сценарий", "ru_pron": "лё сэнарьо", "example_fr": "Le scénario de ce film est brillant.", "example_ru": "Сценарий этого фильма блестящий.", "level": "A2" },
+        { "fr": "la séance", "gender": "f", "ru": "сеанс (кино)", "ru_pron": "ля сэанс", "example_fr": "La séance commence à 20h30.", "example_ru": "Сеанс начинается в 20:30.", "level": "A2" },
+        { "fr": "un chef-d'œuvre", "gender": "m", "ru": "шедевр", "ru_pron": "ён шэф-дёвр", "example_fr": "Ce film est un vrai chef-d'œuvre.", "example_ru": "Этот фильм — настоящий шедевр.", "level": "A2" },
+        { "fr": "les sous-titres", "gender": "m pl", "ru": "субтитры", "ru_pron": "лё су-титр", "example_fr": "Je préfère les films en VO avec sous-titres.", "example_ru": "Я предпочитаю фильмы в оригинале с субтитрами.", "level": "A2" },
+        { "fr": "tourner un film", "gender": null, "ru": "снимать фильм", "ru_pron": "турнэ ён фильм", "example_fr": "Il a tourné ce film en six semaines.", "example_ru": "Он снял этот фильм за шесть недель.", "level": "A2" },
+        { "fr": "la critique", "gender": "f", "ru": "критика, рецензия", "ru_pron": "ля критик", "example_fr": "Les critiques ont adoré ce film.", "example_ru": "Критики обожали этот фильм.", "level": "A2" },
+        { "fr": "la bande originale", "gender": "f", "ru": "саундтрек, оригинальная музыка", "ru_pron": "ля банд оридинал", "example_fr": "La bande originale est magnifique.", "example_ru": "Саундтрек великолепен.", "level": "A2" },
+        { "fr": "les effets spéciaux", "gender": "m pl", "ru": "спецэффекты", "ru_pron": "лёзэффэ спэсьо", "example_fr": "Les effets spéciaux sont impressionnants.", "example_ru": "Спецэффекты впечатляющие.", "level": "A2" },
+        { "fr": "la salle (de cinéma)", "gender": "f", "ru": "кинозал", "ru_pron": "ля саль", "example_fr": "La salle était pleine.", "example_ru": "Зал был полон.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le cinéma", "fr_pron": "лё синэма", "ru": "кино / синема", "ru_pron": "кино", "note": "Сокращение от «cinématographe» — аппарат братьев Люмьер (1895). Слово «кино» пришло в русский через немецкий «Kino» из того же греческого «kinema» (движение)." },
+        { "fr": "le scénario", "fr_pron": "лё сэнарьо", "ru": "сценарий", "ru_pron": "сценарий", "note": "Из итальянского «scenario» (сцена, декорация). Одно из многих слов, перешедших в русский через французский." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jean-Luc Godard (1930–2022)", "subtitle": "Père de la Nouvelle Vague", "content": "Жан-Люк Годар — швейцарско-французский режиссёр, один из отцов-основателей «Новой волны» (la Nouvelle Vague). Его фильм «На последнем дыхании» (À bout de souffle, 1960) произвёл революцию в кино: ручная камера, прыжки монтажа (jump cuts), импровизация актёров. Годар переосмыслил само понятие кинематографа: «Кино — это правда 24 кадра в секунду». Последний фильм «Image book» снял в 91 год. Скончался путём ассистируемого суицида в Швейцарии в 2022 году." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Festival de Cannes — depuis 1946", "content": "Каннский кинофестиваль был основан в 1946 году как противовес Венецианскому, контролировавшемуся фашистами. «Золотая пальмовая ветвь» (la Palme d'or) вручается с 1955 года. Канны — самый престижный кинофестиваль мира: ежегодно около 12 000 журналистов, 4 000 фильмов, бесчисленные вечеринки. Фестиваль проходит в мае на Лазурном берегу и превращает город в мировую столицу кино на две недели." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et le cinéma en VO", "content": "Французы — уникальная кинонация: они страстно спорят о том, смотреть фильм в VF (version française — дублированная) или VO (version originale — оригинал). Синефилы (настоящие ценители кино) считают VO единственным честным способом. В больших городах половина сеансов — VO. «Ciné-club» — традиция совместного просмотра с обсуждением — жива во Франции с 1920-х годов. В Париже сотни небольших кинотеатров показывают классику и авторское кино." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "C'est du cinéma !", "pronunciation": "Сэ дю синэма", "translation": "Это театр! Это всё ненастоящее! (в переносном смысле)", "usage": "Говорится, когда кто-то притворяется, преувеличивает или разыгрывает сцену. Аналог: «Это всё игра», «комедию ломаешь». Используется с лёгким осуждением.", "example": "— Il pleurait dans le bureau ! — Bah, c'est du cinéma, il veut de l'attention. (Он плакал в офисе! — Ну, это театр, он хочет внимания.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Cannes — Palais des Festivals", "subtitle": "Канны — Мировая столица кино", "content": "Канны (Cannes) — небольшой город (70 000 жителей) на Лазурном берегу, ставший мировым символом кино благодаря фестивалю. Знаменитая набережная «Круазетт» (la Croisette) — место светских раутов и фотосессий. «Аллея звёзд» перед Дворцом фестивалей хранит отпечатки рук кинозвёзд. В остальное время Канны — тихий курортный город с пляжами, яхтами и рынком Форвиль. Nearby: острова Лерен с монастырём XI века." }
+      },
+      "quiz": [
+        { "q": "«C'est un film que j'adore» — que выполняет роль...", "opts": ["подлежащего", "прямого дополнения", "косвенного дополнения", "обстоятельства"], "ans": 1, "exp": "Que заменяет прямое дополнение. «J'adore ce film» → «un film que j'adore»." },
+        { "q": "«J'aime les acteurs qui jouent bien» — qui выполняет роль...", "opts": ["подлежащего", "прямого дополнения", "косвенного дополнения", "прилагательного"], "ans": 0, "exp": "Qui заменяет подлежащее: «les acteurs jouent» → «acteurs qui jouent»." },
+        { "q": "Что такое «VO» в кино?", "opts": ["Видео от Оператора", "Version Officielle", "Version Originale (оригинальная версия)", "Vieux Opéra"], "ans": 2, "exp": "VO = Version Originale (оригинальная версия фильма). VF = Version Française (дублированная)." },
+        { "q": "Высшая награда Каннского фестиваля — это...", "opts": ["Оскар", "Золотой лев", "Золотая пальмовая ветвь", "Золотой медведь"], "ans": 2, "exp": "La Palme d'or (Золотая пальмовая ветвь) — высшая награда Каннского фестиваля." },
+        { "q": "«Tourner un film» означает...", "opts": ["смотреть фильм", "снимать фильм", "монтировать фильм", "рекламировать фильм"], "ans": 1, "exp": "Tourner un film = снимать фильм. Tourner = поворачивать/вращать → вращать камеру." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "La Musique et les Artistes",
+      "titleRu": "Музыка и артисты",
+      "level": "A2",
+      "grammar": {
+        "title": "Les pronoms COI — lui, leur",
+        "titleRu": "Косвенные местоимения — lui, leur",
+        "intro": "Говоря об артистах и их творчестве, часто нужно сказать «я ему написал», «я ей порекомендовал». Для этого используются косвенные местоимения (pronoms COI): me, te, lui, nous, vous, leur.",
+        "sections": [
+          {
+            "title": "Pronoms COI — таблица",
+            "content": "me / m' — мне\nte / t' — тебе\nlui — ему / ей\nnous — нам\nvous — вам\nleur — им\n\nПозиция: ПЕРЕД глаголом!\nJe lui ai envoyé un message. — Я ему/ей отправил сообщение.\nJe leur ai recommandé ce groupe. — Я им порекомендовал эту группу."
+          },
+          {
+            "title": "Verbes courants + COI (à quelqu'un)",
+            "content": "parler à — говорить с кем-то → lui parler\nrépondre à — отвечать → lui répondre\nécrire à — писать → lui écrire\ndire à — говорить кому-то → lui dire\nconseiller à — советовать → lui conseiller\noffer à — дарить → lui offrir\nrecommander à — рекомендовать → lui recommander"
+          },
+          {
+            "title": "Genres musicaux (музыкальные жанры)",
+            "content": "la chanson française — французская шансон\nle jazz — джаз\nle rock — рок\nla musique classique — классическая музыка\nle rap / le hip-hop — рэп / хип-хоп\nla musique électronique — электронная музыка\nla variété — эстрадная музыка\nle reggae — регги"
+          }
+        ],
+        "rule": "💡 Lui vs leur: lui = одному человеку (ему или ей), leur = нескольким (им). Важно: leur без -s это местоимение, leur+s — притяжательное прилагательное (leurs amis = их друзья)."
+      },
+      "pronunciation": {
+        "intro": "Музыкальная лексика и имена артистов:",
+        "note": "⚠️ La chanson [ля шансон] — носовой 'on' в конце. Le groupe [лё груп] — 'e' немое.",
+        "words": [
+          { "fr": "la chanson", "ru_pron": "ля шансон", "meaning": "песня" },
+          { "fr": "le chanteur / la chanteuse", "ru_pron": "лё шантёр / ля шантёз", "meaning": "певец / певица" },
+          { "fr": "le groupe", "ru_pron": "лё груп", "meaning": "группа (музыкальная)" },
+          { "fr": "la mélodie", "ru_pron": "ля мэлоди", "meaning": "мелодия" },
+          { "fr": "les paroles", "ru_pron": "лё пароль", "meaning": "слова (песни)" },
+          { "fr": "le concert", "ru_pron": "лё консэр", "meaning": "концерт (t не читается)" },
+          { "fr": "l'album", "ru_pron": "лальбом", "meaning": "альбом" },
+          { "fr": "la scène", "ru_pron": "ля сэн", "meaning": "сцена, эстрада" },
+          { "fr": "Je lui ai offert ce CD.", "ru_pron": "Жё лю э офэр сё СД", "meaning": "Я подарил ему/ей этот диск." },
+          { "fr": "Il leur a chanté une chanson.", "ru_pron": "Иль лёр а шантэ юн шансон", "meaning": "Он спел им песню." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la chanson", "gender": "f", "ru": "песня", "ru_pron": "ля шансон", "example_fr": "Cette chanson me donne la chair de poule.", "example_ru": "Эта песня вызывает у меня мурашки.", "level": "A2" },
+        { "fr": "le chanteur / la chanteuse", "gender": "m/f", "ru": "певец / певица", "ru_pron": "лё шантёр / ля шантёз", "example_fr": "C'est un chanteur que j'adore.", "example_ru": "Это певец, которого я обожаю.", "level": "A2" },
+        { "fr": "les paroles", "gender": "f pl", "ru": "слова, текст песни", "ru_pron": "лё пароль", "example_fr": "Les paroles de cette chanson sont profondes.", "example_ru": "Слова этой песни глубокие.", "level": "A2" },
+        { "fr": "la mélodie", "gender": "f", "ru": "мелодия", "ru_pron": "ля мэлоди", "example_fr": "La mélodie est inoubliable.", "example_ru": "Мелодия незабываема.", "level": "A2" },
+        { "fr": "le concert", "gender": "m", "ru": "концерт", "ru_pron": "лё консэр", "example_fr": "Je vais au concert vendredi soir.", "example_ru": "Я иду на концерт в пятницу вечером.", "level": "A2" },
+        { "fr": "l'album", "gender": "m", "ru": "альбом", "ru_pron": "лальбом", "example_fr": "Son dernier album est sorti la semaine dernière.", "example_ru": "Его последний альбом вышел на прошлой неделе.", "level": "A2" },
+        { "fr": "la scène", "gender": "f", "ru": "сцена, эстрада", "ru_pron": "ля сэн", "example_fr": "Elle est montée sur scène à 18 ans.", "example_ru": "Она вышла на сцену в 18 лет.", "level": "A2" },
+        { "fr": "le tube", "gender": "m", "ru": "хит (разг.)", "ru_pron": "лё тюб", "example_fr": "C'est le tube de l'été !", "example_ru": "Это хит лета!", "level": "A2" },
+        { "fr": "interpréter", "gender": null, "ru": "исполнять (песню, роль)", "ru_pron": "энтэрпрэтэ", "example_fr": "Elle interprète une chanson de Piaf.", "example_ru": "Она исполняет песню Пиаф.", "level": "A2" },
+        { "fr": "la tournée", "gender": "f", "ru": "тур, гастроли", "ru_pron": "ля турнэ", "example_fr": "Le groupe est en tournée mondiale.", "example_ru": "Группа находится в мировом туре.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la mélodie", "fr_pron": "ля мэлоди", "ru": "мелодия", "ru_pron": "мелодия", "note": "Из греческого «melodia» (пение, песня). Абсолютно интернациональное слово, одинаковое во всех европейских языках." },
+        { "fr": "le jazz", "fr_pron": "лё джаз", "ru": "джаз", "ru_pron": "джаз", "note": "Американское слово неизвестного происхождения. Джаз пришёл во Францию в 1918 году с американскими солдатами. Париж стал второй столицей джаза — здесь жил Сидней Беше." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Édith Piaf (1915–1963)", "subtitle": "La Môme Piaf — La voix de la France", "content": "Эдит Пиаф — величайшая французская певица всех времён, символ Франции. Родилась в бедности на улице Парижа (по легенде — прямо на мостовой). «La Môme Piaf» (воробышек) выступала на улицах, пока её не заметил продюсер Луи Лепле. Её голос — мощный и надрывный — выражал всю боль и страсть французской души. Самые знаменитые песни: «La Vie en Rose», «Non, je ne regrette rien», «L'Hymne à l'amour». Умерла в 47 лет. На её похоронах Париж встал в пробках — проститься пришли 100 000 человек." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La chanson française — patrimoine culturel", "content": "Французская шансон (la chanson française) — уникальный жанр с историей более 1000 лет, от средневековых трубадуров до современного рэпа. Шансоньеры (chansonniers) исторически совмещали музыку и политический комментарий. Джордж Брассенс, Жак Брель, Серж Генсбур, Барбара — каждое имя несёт целую эпоху. Сегодня рэп на французском — крупнейший жанр: MC Solaar, IAM, PNL продолжают традицию социального текста." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Daft Punk — les robots français qui ont conquis le monde", "content": "Daft Punk (Тома Бангальтер и Ги-Мануэль де Омем-Кристо) — французский дуэт, изменивший мировую музыку. Выступали всегда в масках роботов, скрывая личности. Их альбом «Random Access Memories» (2013) с хитом «Get Lucky» стал мировой сенсацией. Французские знаменитости, покорившие мир, — гордость страны. Дуэт объявил о роспуске в 2021 году видео без слов. Это по-французски: таинственность до конца." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Avoir la chanson", "pronunciation": "Авуар ля шансон", "translation": "Знать песню (понимать намёк, уловить суть)", "usage": "Говорится, когда человек понял смысл, «поймал» намёк или знает, что скрывается за словами. Аналог: «знать что к чему», «быть в курсе».", "example": "— Tu comprends ce que je veux dire ? — Oui, j'ai la chanson. (Ты понимаешь, что я имею в виду? — Да, я всё понял.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Montmartre — Le village des artistes", "subtitle": "Монмартр — Деревня художников", "content": "Монмартр (Montmartre) — холм в северном Париже, сердце богемной жизни XIX–XX веков. Здесь жили и работали Пикассо, Брак, Модильяни, Утрилло. Знаменитое кабаре «Мулен Руж» (Moulin Rouge) открылось в 1889 году. Сегодня на Place du Tertre художники пишут портреты туристов. Белоснежная базилика Сакре-Кёр (Sacré-Cœur) видна со всего Парижа. Улочки Монмартра сохраняют дух старого Парижа." }
+      },
+      "quiz": [
+        { "q": "«Je lui ai recommandé ce groupe» — кому была дана рекомендация?", "opts": ["нескольким людям", "одному человеку (ему или ей)", "самому себе", "нам"], "ans": 1, "exp": "Lui = ему или ей (одному человеку). Leur = им (нескольким людям)." },
+        { "q": "Как сказать «я им написал»?", "opts": ["Je lui ai écrit", "Je les ai écrit", "Je leur ai écrit", "Je me suis écrit"], "ans": 2, "exp": "Их несколько → leur. Je leur ai écrit = я им написал." },
+        { "q": "«La tournée» — это...", "opts": ["тур по ресторанам", "гастроли, концертный тур", "обход охранника", "прогулка"], "ans": 1, "exp": "La tournée = гастроли, концертный тур. Le groupe est en tournée = группа на гастролях." },
+        { "q": "Как переводится «Non, je ne regrette rien»?", "opts": ["Нет, я всё помню", "Нет, я ничего не сожалею", "Нет, я ни о чём не думаю", "Нет, ничего не изменить"], "ans": 1, "exp": "Non, je ne regrette rien = Нет, я ни о чём не сожалею. Самая известная песня Эдит Пиаф." },
+        { "q": "«Le tube» в музыке — это...", "opts": ["труба (инструмент)", "хит, популярная песня", "запись в студии", "микрофон"], "ans": 1, "exp": "Le tube (разг.) = хит, суперпопулярная песня. C'est le tube de l'été = это хит лета." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "La Littérature Française",
+      "titleRu": "Французская литература",
+      "level": "A2",
+      "grammar": {
+        "title": "Les pronoms relatifs où et dont",
+        "titleRu": "Относительные местоимения où и dont",
+        "intro": "Продолжаем относительные местоимения. Où (где, куда) используется для места и времени. Dont (которого, которому, о котором) заменяет дополнение с предлогом de. Эти местоимения часто встречаются в описаниях книг и авторов.",
+        "sections": [
+          {
+            "title": "Où — место и время",
+            "content": "La ville où il est né. — Город, где он родился.\nL'époque où il vivait. — Эпоха, в которую он жил.\nLa bibliothèque où je lis. — Библиотека, где я читаю.\nLe moment où j'ai lu ce livre. — Момент, когда я прочитал эту книгу."
+          },
+          {
+            "title": "Dont — дополнение с «de»",
+            "content": "Dont заменяет «de + (quelqu'un/quelque chose)»:\nL'auteur dont je parle. — Автор, о котором я говорю. (je parle de l'auteur)\nLe livre dont j'ai besoin. — Книга, которая мне нужна. (j'ai besoin de ce livre)\nL'écrivain dont l'œuvre est célèbre. — Писатель, чьё произведение знаменито.\n(l'œuvre de l'écrivain)"
+          },
+          {
+            "title": "Genres littéraires (литературные жанры)",
+            "content": "le roman — роман\nla nouvelle — короткий рассказ, новелла\nle poème / la poésie — стихотворение / поэзия\nla pièce de théâtre — театральная пьеса\nle conte — сказка, рассказ\nla biographie — биография\nl'essai (m) — эссе\nla bande dessinée (BD) — комикс"
+          }
+        ],
+        "rule": "💡 Dont = de + qui/quoi/lequel. Тест: если в придаточном была бы конструкция «de + quelque chose», используйте dont. Parler de → dont je parle; avoir besoin de → dont j'ai besoin."
+      },
+      "pronunciation": {
+        "intro": "Литературная лексика — язык культуры:",
+        "note": "⚠️ Un roman [ён роман] — носовой 'an'. Un chef-d'œuvre [ён шэф-дёвр] — дифтонг 'œ' специфически французский.",
+        "words": [
+          { "fr": "la littérature", "ru_pron": "ля литэратюр", "meaning": "литература" },
+          { "fr": "l'écrivain / l'écrivaine", "ru_pron": "лэкриван / лэкривэн", "meaning": "писатель / писательница" },
+          { "fr": "le roman", "ru_pron": "лё роман", "meaning": "роман" },
+          { "fr": "le poème", "ru_pron": "лё поэм", "meaning": "стихотворение" },
+          { "fr": "le personnage", "ru_pron": "лё пэрсонаж", "meaning": "персонаж" },
+          { "fr": "l'intrigue", "ru_pron": "лэнтриг", "meaning": "сюжет, интрига" },
+          { "fr": "le chapitre", "ru_pron": "лё шапитр", "meaning": "глава" },
+          { "fr": "la bibliothèque", "ru_pron": "ля библьотэк", "meaning": "библиотека, книжный шкаф" },
+          { "fr": "C'est un livre dont je rêvais.", "ru_pron": "Сэ тён ливр дон жё рэвэ", "meaning": "Это книга, о которой я мечтал." },
+          { "fr": "L'auteur dont je t'ai parlé.", "ru_pron": "Лотёр дон жё тэ парлэ", "meaning": "Автор, о котором я тебе говорил." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'écrivain(e)", "gender": "m/f", "ru": "писатель / писательница", "ru_pron": "лэкриван", "example_fr": "C'est l'écrivain dont tout le monde parle.", "example_ru": "Это писатель, о котором все говорят.", "level": "A2" },
+        { "fr": "le roman", "gender": "m", "ru": "роман", "ru_pron": "лё роман", "example_fr": "Ce roman m'a profondément touché.", "example_ru": "Этот роман меня глубоко тронул.", "level": "A2" },
+        { "fr": "le personnage", "gender": "m", "ru": "персонаж, герой", "ru_pron": "лё пэрсонаж", "example_fr": "Le personnage principal est complexe.", "example_ru": "Главный персонаж сложный.", "level": "A2" },
+        { "fr": "l'intrigue", "gender": "f", "ru": "сюжет, интрига", "ru_pron": "лэнтриг", "example_fr": "L'intrigue est captivante.", "example_ru": "Сюжет захватывающий.", "level": "A2" },
+        { "fr": "la bibliothèque", "gender": "f", "ru": "библиотека / книжный шкаф", "ru_pron": "ля библьотэк", "example_fr": "Je passe des heures à la bibliothèque.", "example_ru": "Я провожу часы в библиотеке.", "level": "A2" },
+        { "fr": "le chapitre", "gender": "m", "ru": "глава (книги)", "ru_pron": "лё шапитр", "example_fr": "J'ai lu les trois premiers chapitres.", "example_ru": "Я прочитал первые три главы.", "level": "A2" },
+        { "fr": "la bande dessinée (BD)", "gender": "f", "ru": "комикс", "ru_pron": "ля банд дэссинэ", "example_fr": "Astérix est une BD célèbre.", "example_ru": "Астерикс — знаменитый комикс.", "level": "A2" },
+        { "fr": "le chef-d'œuvre", "gender": "m", "ru": "шедевр", "ru_pron": "лё шэф-дёвр", "example_fr": "Les Misérables est un chef-d'œuvre absolu.", "example_ru": "«Отверженные» — абсолютный шедевр.", "level": "A2" },
+        { "fr": "la narration", "gender": "f", "ru": "повествование, нарратив", "ru_pron": "ля нарасьон", "example_fr": "La narration à la première personne.", "example_ru": "Повествование от первого лица.", "level": "A2" },
+        { "fr": "publier", "gender": null, "ru": "публиковать, издавать", "ru_pron": "пюблиэ", "example_fr": "Il a publié son premier roman à 25 ans.", "example_ru": "Он опубликовал первый роман в 25 лет.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la littérature", "fr_pron": "ля литэратюр", "ru": "литература", "ru_pron": "литература", "note": "Из латинского «littera» (буква). Абсолютно одинаковое слово в обоих языках — классическое международное заимствование через церковь и образование." },
+        { "fr": "le roman", "fr_pron": "лё роман", "ru": "роман", "ru_pron": "роман", "note": "Слово «роман» пришло в русский из французского! «Roman» изначально = написанный на романском (народном) языке, а не на латыни." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Marcel Proust (1871–1922)", "subtitle": "À la recherche du temps perdu", "content": "Марсель Пруст — автор крупнейшего романа мировой литературы «В поисках утраченного времени» (À la recherche du temps perdu, 7 томов, 1913–1927). Сын богатого парижского доктора, Пруст большую часть жизни провёл в постели из-за астмы, обклеив стены пробкой для тишины. Его техника «непроизвольной памяти» (la mémoire involontaire) — знаменитая «мадленка» — стала основой современного психологического романа. Скончался в 1922 году, не закончив последний том." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Prix Goncourt — le plus célèbre prix littéraire (1903)", "content": "Премия Гонкур (le Prix Goncourt) — самая престижная литературная премия Франции, учреждённая в 1903 году Академией Гонкур. Парадокс: денежный приз составляет лишь 10 евро, но победители немедленно продают сотни тысяч экземпляров. Объявление победителя в ноябре — настоящее национальное событие. Среди лауреатов: Симона де Бовуар, Андре Мальро, Маргерит Юрсенар. Книга-победитель гарантированно становится бестселлером." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La bande dessinée — le 9e art", "content": "Во Франции и Бельгии комикс (la bande dessinée или BD) считается полноценным видом искусства — «девятым искусством» (le 9e art)! Астерикс (Astérix), Тантан (Tintin), Люки Лук (Lucky Luke), Смурфы (Les Schtroumpfs) — бельгийско-французские герои знают во всём мире. Ежегодный фестиваль BD в Ангулеме (Angoulême) — крупнейший комикс-фестиваль мира. Французские BD-авторы — звёзды не меньшие, чем романисты." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Lire entre les lignes", "pronunciation": "Лир антр лё линь", "translation": "Читать между строк", "usage": "Понимать скрытый смысл, подтекст. Одинаковое выражение во французском и русском — через латинскую традицию толкования текстов. Используется в разговоре об истинных намерениях.", "example": "— Il n'a rien dit de direct. — Oui, il faut lire entre les lignes. (Он ничего прямо не сказал. — Да, нужно читать между строк.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Paris — Rive Gauche, le quartier des lettres", "subtitle": "Левый берег Парижа — Квартал литераторов", "content": "Левый берег Сены (la Rive Gauche) — историческое сердце интеллектуальной и литературной жизни Парижа. Сен-Жермен-де-Пре: знаменитые кафе «Де Флор» и «Два Маго», где Сартр, Камю и де Бовуар писали и спорили. Латинский квартал (Quartier Latin) с Сорбонной — центр студенческой жизни с XII века. Книжный магазин «Шекспир и компания» (Shakespeare and Company) — легендарное место американских экспатов 1920-х." }
+      },
+      "quiz": [
+        { "q": "«L'écrivain dont je parle» — dont здесь заменяет...", "opts": ["à l'écrivain", "pour l'écrivain", "de l'écrivain", "avec l'écrivain"], "ans": 2, "exp": "Dont заменяет «de + nom». Je parle de l'écrivain → l'écrivain dont je parle." },
+        { "q": "«La bibliothèque où je travaille» — où здесь обозначает...", "opts": ["время", "место", "причину", "дополнение"], "ans": 1, "exp": "Où = где, место. La bibliothèque où je travaille = библиотека, где я работаю." },
+        { "q": "«La bande dessinée» — это...", "opts": ["мультфильм", "комикс", "детская книга", "анимация"], "ans": 1, "exp": "La bande dessinée (BD) = комикс. Во Франции — «9-е искусство»." },
+        { "q": "Какова денежная сумма премии Гонкур?", "opts": ["100 000 евро", "50 000 евро", "10 евро", "1 евро"], "ans": 2, "exp": "Всего 10 евро! Но победа гарантирует продажи сотен тысяч экземпляров." },
+        { "q": "Марсель Пруст известен техникой...", "opts": ["потока сознания", "магического реализма", "непроизвольной памяти", "абсурдизма"], "ans": 2, "exp": "La mémoire involontaire (непроизвольная память) — центральная техника Пруста. Знаменитая «мадленка», возвращающая прошлое." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "La Presse et l'Information",
+      "titleRu": "Пресса и информация",
+      "level": "A2",
+      "grammar": {
+        "title": "Le discours indirect (rapporté)",
+        "titleRu": "Косвенная речь",
+        "intro": "Журналисты постоянно передают чужие слова — это косвенная речь (le discours indirect / rapporté). Ключевые глаголы: dire (сказать), déclarer (заявить), expliquer (объяснить), annoncer (объявить), affirmer (утверждать).",
+        "sections": [
+          {
+            "title": "Прямая → Косвенная речь (présent → imparfait)",
+            "content": "Прямая: Il dit : «Je lis le journal.»\nКосвенная: Il dit qu'il lit le journal.\n\nПрямая: Elle a dit : «Je suis fatiguée.»\nКосвенная: Elle a dit qu'elle était fatiguée.\n\nПрямая: «Nous allons voter.»\nКосвенная: Ils ont annoncé qu'ils allaient voter."
+          },
+          {
+            "title": "Verbes introducteurs (вводные глаголы)",
+            "content": "dire que — сказать, что\naffirmer que — утверждать, что\ndéclarer que — заявить, что\nexpliquer que — объяснить, что\nannoncer que — объявить, что\npréciser que — уточнить, что\najouter que — добавить, что\nrappeler que — напомнить, что"
+          },
+          {
+            "title": "La presse — типы изданий",
+            "content": "le journal (quotidien) — ежедневная газета\nle magazine (hebdomadaire) — еженедельный журнал\nla presse people — таблоиды\nla presse en ligne — онлайн-пресса\nle site d'information — новостной сайт\nle podcast — подкаст\nle journal télévisé (JT) — телевизионные новости\nla radio — радио"
+          }
+        ],
+        "rule": "💡 В косвенной речи происходит «смещение времён»: présent → imparfait, futur → conditionnel, passé composé → plus-que-parfait. Но если глагол-вводитель стоит в настоящем времени — смещения нет!"
+      },
+      "pronunciation": {
+        "intro": "Лексика прессы и медиа:",
+        "note": "⚠️ Le journaliste [лё журналист] — 'j' мягкое [ж]. L'information [лэнформасьон] — носовое окончание.",
+        "words": [
+          { "fr": "le journal", "ru_pron": "лё журналь", "meaning": "газета, журнал" },
+          { "fr": "le journaliste", "ru_pron": "лё журналист", "meaning": "журналист" },
+          { "fr": "l'information", "ru_pron": "лэнформасьон", "meaning": "информация, новость" },
+          { "fr": "l'article", "ru_pron": "лартикль", "meaning": "статья" },
+          { "fr": "le titre", "ru_pron": "лё титр", "meaning": "заголовок, название" },
+          { "fr": "la une", "ru_pron": "ля юн", "meaning": "первая страница (газеты)" },
+          { "fr": "le reportage", "ru_pron": "лё рёпортаж", "meaning": "репортаж" },
+          { "fr": "l'édition", "ru_pron": "лэдисьон", "meaning": "выпуск, издание" },
+          { "fr": "Le journal a annoncé que...", "ru_pron": "Лё журналь а аносэ кё", "meaning": "Газета сообщила, что..." },
+          { "fr": "Il a déclaré qu'il démissionnait.", "ru_pron": "Иль а дэкларэ киль дэмисьонэ", "meaning": "Он заявил, что уходит в отставку." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le journaliste", "gender": "m/f", "ru": "журналист(ка)", "ru_pron": "лё журналист", "example_fr": "Le journaliste a interviewé le ministre.", "example_ru": "Журналист взял интервью у министра.", "level": "A2" },
+        { "fr": "l'article", "gender": "m", "ru": "статья", "ru_pron": "лартикль", "example_fr": "J'ai lu un article intéressant.", "example_ru": "Я прочитал интересную статью.", "level": "A2" },
+        { "fr": "la une", "gender": "f", "ru": "первая страница газеты", "ru_pron": "ля юн", "example_fr": "Cette photo est à la une.", "example_ru": "Эта фотография на первой странице.", "level": "A2" },
+        { "fr": "le reportage", "gender": "m", "ru": "репортаж", "ru_pron": "лё рёпортаж", "example_fr": "Ce reportage m'a choqué.", "example_ru": "Этот репортаж меня потряс.", "level": "A2" },
+        { "fr": "les médias", "gender": "m pl", "ru": "СМИ, медиа", "ru_pron": "лё мэдья", "example_fr": "Les médias jouent un rôle clé.", "example_ru": "СМИ играют ключевую роль.", "level": "A2" },
+        { "fr": "la liberté de la presse", "gender": "f", "ru": "свобода прессы", "ru_pron": "ля либэртэ дё ля прэс", "example_fr": "La liberté de la presse est essentielle.", "example_ru": "Свобода прессы необходима.", "level": "A2" },
+        { "fr": "l'actualité", "gender": "f", "ru": "текущие события, новости", "ru_pron": "лактюалитэ", "example_fr": "Je suis l'actualité chaque matin.", "example_ru": "Я слежу за новостями каждое утро.", "level": "A2" },
+        { "fr": "la fake news", "gender": "f", "ru": "фейковая новость", "ru_pron": "ля фэйк ньюс", "example_fr": "Il faut vérifier les sources avant de partager.", "example_ru": "Нужно проверять источники перед публикацией.", "level": "A2" },
+        { "fr": "le podcast", "gender": "m", "ru": "подкаст", "ru_pron": "лё подкаст", "example_fr": "J'écoute des podcasts en français.", "example_ru": "Я слушаю подкасты на французском.", "level": "A2" },
+        { "fr": "s'informer", "gender": null, "ru": "информироваться, следить за новостями", "ru_pron": "сэнформэ", "example_fr": "Comment vous informez-vous ?", "example_ru": "Как вы следите за новостями?", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le journaliste", "fr_pron": "лё журналист", "ru": "журналист", "ru_pron": "журналист", "note": "Слово «журналист» пришло в русский из французского «journaliste» (от «journal» = ежедневная запись, дневник, от «jour» = день)." },
+        { "fr": "l'information", "fr_pron": "лэнформасьон", "ru": "информация", "ru_pron": "информация", "note": "Из латинского «informatio» (образование, разъяснение). Одно из важнейших интернациональных слов современности." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Albert Camus — journaliste et écrivain (1913–1960)", "subtitle": "Combat — la résistance par les mots", "content": "Альбер Камю был не только великим писателем, но и важнейшим журналистом Сопротивления. В 1944–1947 годах он руководил подпольной газетой «Combat», ставшей голосом освобождённой Франции. Его редакционные статьи сочетали философскую глубину с политической остротой. Камю верил, что пресса должна «называть вещи своими именами». Его журналистские принципы — честность, точность, мужество — стали образцом для поколений французских журналистов." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Charlie Hebdo et la liberté de la presse (2015)", "content": "7 января 2015 года теракт в редакции сатирического еженедельника Charlie Hebdo унёс жизни 12 человек. Журналисты, карикатуристы, полицейские погибли за свободу слова. Лозунг «Je suis Charlie» за несколько часов облетел весь мир. 11 января в Париже прошёл Марш единства — 4 миллиона человек на улицах всей Франции. Трагедия обнажила противоречие между свободой прессы и религиозной чувствительностью. Charlie Hebdo продолжает выходить." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le Monde et ses lecteurs exigeants", "content": "Le Monde — самая авторитетная французская газета — издаётся с 1944 года, основана де Голлем после освобождения. Парадокс: несмотря на название «Мир», газета выходит во второй половине дня с датой следующего дня. Читатели Le Monde — самые требовательные во Франции: они ожидают сложного, многоуровневого анализа. В 2022 году Le Monde первой среди французских изданий достигла 500 000 цифровых подписчиков. Стиль её статей изучают в школах журналистики." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Chercher midi à quatorze heures", "pronunciation": "Шэршэ миди а катоз ёр", "translation": "Искать полдень в 14 часов (усложнять простое)", "usage": "Говорится о человеке, который искусственно усложняет очевидные вещи, ищет проблему там, где её нет. Аналог: «не ищи чёрную кошку в тёмной комнате».", "example": "— La réponse est simple ! — Tu cherches midi à quatorze heures. (Ответ очевиден! — Ты усложняешь простое.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Angoulême — Capitale de la BD", "subtitle": "Ангулем — Столица комиксов", "content": "Ангулем (Angoulême) — небольшой город в Шаранте, ставший мировой столицей комиксов благодаря ежегодному Международному фестивалю BD (Festival International de la Bande Dessinée), проходящему с 1974 года. Каждый январь город принимает 200 000 посетителей — художников, издателей, фанатов со всего мира. Улицы города украшены муралами с персонажами BD. Городской музей комиксов (la Cité internationale de la bande dessinée et de l'image) — единственный в своём роде." }
+      },
+      "quiz": [
+        { "q": "«Elle a dit qu'elle était fatiguée» — это пример...", "opts": ["прямой речи", "косвенной речи", "риторического вопроса", "цитаты"], "ans": 1, "exp": "Косвенная речь (discours indirect): «qu'elle était» — était = imparfait вместо présent «est»." },
+        { "q": "«La une» газеты — это...", "opts": ["главный редактор", "первая страница", "последняя страница", "рубрика"], "ans": 1, "exp": "La une = первая страница газеты. «Être à la une» = попасть на первую полосу." },
+        { "q": "«S'informer» означает...", "opts": ["сообщать другим", "следить за новостями, информироваться", "создавать информацию", "скрывать информацию"], "ans": 1, "exp": "S'informer = получать информацию, следить за новостями. Comment vous informez-vous?" },
+        { "q": "Что означает «Je suis Charlie»?", "opts": ["название газеты", "лозунг солидарности после теракта 2015 года", "подпись под карикатурой", "имя журналиста"], "ans": 1, "exp": "«Je suis Charlie» = лозунг солидарности, появившийся после теракта в редакции Charlie Hebdo 7 января 2015 года." },
+        { "q": "Какой глагол в косвенной речи заменяет прямое «Je suis heureux»?", "opts": ["qu'il est heureux", "qu'il était heureux", "qu'il sera heureux", "qu'il soit heureux"], "ans": 1, "exp": "Présent → imparfait в косвенной речи: «Je suis heureux» → «qu'il était heureux»." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Réseaux Sociaux",
+      "titleRu": "Социальные сети",
+      "level": "A2",
+      "grammar": {
+        "title": "L'expression de l'opinion",
+        "titleRu": "Выражение мнения",
+        "intro": "В эпоху социальных сетей выражать своё мнение — ключевой навык. Изучим конструкции для формулировки точки зрения, согласия и несогласия. Это важно и для разговора, и для написания постов и комментариев.",
+        "sections": [
+          {
+            "title": "Donner son avis (высказать мнение)",
+            "content": "Je pense que... — Я думаю, что...\nJe crois que... — Я считаю, что...\nÀ mon avis... — По моему мнению...\nSelon moi... — По-моему...\nIl me semble que... — Мне кажется, что...\nJ'ai l'impression que... — У меня впечатление, что..."
+          },
+          {
+            "title": "Exprimer l'accord / le désaccord",
+            "content": "Согласие:\nJe suis d'accord (avec toi). — Согласен с тобой.\nTu as raison. — Ты прав(а).\nEn effet. — Действительно.\nExactement ! — Именно!\n\nНесогласие:\nJe ne suis pas d'accord. — Я не согласен.\nTu as tort. — Ты не прав(а).\nAu contraire. — Наоборот.\nPas du tout ! — Совсем нет!"
+          },
+          {
+            "title": "Vocabulaire des réseaux sociaux",
+            "content": "publier / poster — публиковать пост\npartager — поделиться\ncommenter — комментировать\nliker / mettre un like — поставить лайк\ns'abonner à — подписаться на\nsuivre — следить за\ntaguer — отметить\nbloquer — заблокировать\nle hashtag — хэштег\nla story — сторис"
+          }
+        ],
+        "rule": "💡 После «je pense que», «je crois que», «il me semble que» обычно следует indicatif (изъявительное наклонение). Но «je doute que», «je ne pense pas que» требуют subjonctif (сослагательного)."
+      },
+      "pronunciation": {
+        "intro": "Лексика цифрового мира:",
+        "note": "⚠️ Réseaux [рэзо] — множественное от réseau, 'x' не читается. Le hashtag [лё аштаг] — 'h' немое.",
+        "words": [
+          { "fr": "les réseaux sociaux", "ru_pron": "лё рэзо сосьо", "meaning": "социальные сети" },
+          { "fr": "publier", "ru_pron": "пюблиэ", "meaning": "публиковать" },
+          { "fr": "partager", "ru_pron": "партажэ", "meaning": "поделиться, распространить" },
+          { "fr": "s'abonner", "ru_pron": "сабонэ", "meaning": "подписаться" },
+          { "fr": "le like / le j'aime", "ru_pron": "лё лайк / лё жэм", "meaning": "лайк" },
+          { "fr": "le commentaire", "ru_pron": "лё коментэр", "meaning": "комментарий" },
+          { "fr": "le hashtag", "ru_pron": "лё аштаг", "meaning": "хэштег" },
+          { "fr": "l'influenceur", "ru_pron": "лэнфлюансёр", "meaning": "инфлюенсер" },
+          { "fr": "À mon avis, c'est faux.", "ru_pron": "А мон ави, сэ фо", "meaning": "По-моему, это неправда." },
+          { "fr": "Je ne suis pas d'accord.", "ru_pron": "Жё нё сюи па дакор", "meaning": "Я не согласен." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "les réseaux sociaux", "gender": "m pl", "ru": "социальные сети", "ru_pron": "лё рэзо сосьо", "example_fr": "Je passe trop de temps sur les réseaux sociaux.", "example_ru": "Я трачу слишком много времени в соцсетях.", "level": "A2" },
+        { "fr": "partager", "gender": null, "ru": "делиться, публиковать", "ru_pron": "партажэ", "example_fr": "Elle a partagé une photo magnifique.", "example_ru": "Она поделилась великолепной фотографией.", "level": "A2" },
+        { "fr": "s'abonner à", "gender": null, "ru": "подписаться на", "ru_pron": "сабонэ а", "example_fr": "Abonne-toi à cette chaîne.", "example_ru": "Подпишись на этот канал.", "level": "A2" },
+        { "fr": "le commentaire", "gender": "m", "ru": "комментарий", "ru_pron": "лё коментэр", "example_fr": "Les commentaires sont souvent violents.", "example_ru": "Комментарии часто агрессивные.", "level": "A2" },
+        { "fr": "l'influenceur(se)", "gender": "m/f", "ru": "инфлюенсер", "ru_pron": "лэнфлюансёр", "example_fr": "Cet influenceur a 2 millions d'abonnés.", "example_ru": "У этого инфлюенсера 2 миллиона подписчиков.", "level": "A2" },
+        { "fr": "le contenu", "gender": "m", "ru": "контент, содержание", "ru_pron": "лё контёню", "example_fr": "Le contenu de cette chaîne est de qualité.", "example_ru": "Контент этого канала качественный.", "level": "A2" },
+        { "fr": "viral(e)", "gender": null, "ru": "вирусный (в интернете)", "ru_pron": "вираль", "example_fr": "Cette vidéo est devenue virale.", "example_ru": "Это видео стало вирусным.", "level": "A2" },
+        { "fr": "la désinformation", "gender": "f", "ru": "дезинформация", "ru_pron": "ля дэзэнформасьон", "example_fr": "La désinformation se propage vite en ligne.", "example_ru": "Дезинформация быстро распространяется онлайн.", "level": "A2" },
+        { "fr": "la vie privée", "gender": "f", "ru": "личная жизнь, конфиденциальность", "ru_pron": "ля ви привэ", "example_fr": "Protégez votre vie privée en ligne.", "example_ru": "Защищайте свою личную жизнь в интернете.", "level": "A2" },
+        { "fr": "le cyberharcèlement", "gender": "m", "ru": "кибербуллинг", "ru_pron": "лё сибэрарсёлман", "example_fr": "Le cyberharcèlement est un problème grave.", "example_ru": "Кибербуллинг — серьёзная проблема.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "viral(e)", "fr_pron": "вираль", "ru": "вирусный", "ru_pron": "вирусный", "note": "Из латинского «virus». В медицинском смысле использовалось с XIX века, в интернет-контексте — с начала 2000-х. Метафора: информация распространяется как вирус." },
+        { "fr": "l'influenceur", "fr_pron": "лэнфлюансёр", "ru": "инфлюенсер", "ru_pron": "инфлюенсер", "note": "Новейшее заимствование из английского «influencer». Французская академия предлагает альтернативу «prescripteur», но «influenceur» победило в разговорной речи." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Xavier Niel (né 1967)", "subtitle": "Le pionnier de l'internet français", "content": "Ксавье Ниель — французский предприниматель, революционизировавший интернет во Франции. В 2002 году его компания Free запустила первый в мире безлимитный интернет-тариф по доступной цене, разрушив монополию France Télécom. Миллионы французов впервые получили широкополосный интернет. Ниель также основал École 42 — бесплатную инновационную школу программирования без преподавателей. Его состояние — около 10 млрд евро. Символ французского технологического предпринимательства." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Minitel — précurseur d'internet (1982)", "content": "В 1982 году Франция создала Minitel — первую в мире общенациональную онлайн-систему: текстовый терминал, позволявший бронировать поезда, читать новости, общаться в чатах. За 20 лет до Google! К 1990 году 9 миллионов французов пользовались Minitel. Франция была мировым лидером цифровой связи. Paradox: именно это опережение замедлило переход на интернет — французы долго не видели смысла менять работающую систему. Minitel был отключён только в 2012 году." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et leur rapport aux réseaux sociaux", "content": "Французы — особые пользователи соцсетей. Они более склонны к полемике и дебатам в комментариях, чем, например, американцы. Выражение «commentaires à la française» (французские комментарии) стало мемом в интернете — подразумевая острые, саркастические, часто длинные споры. Instagram во Франции используется меньше для глянца и больше для артистических проектов. LinkedIn во Франции очень развит — французы активно нетворкятся профессионально." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Avoir le dernier mot", "pronunciation": "Авуар лё дэрньэ мо", "translation": "Иметь последнее слово (оставаться за собой)", "usage": "Описывает человека, который всегда должен отвечать последним, выиграть спор. Актуально в эпоху комментариев в интернете! Аналог: «последнее слово за мной».", "example": "— Arrête de commenter ! — Il faut toujours qu'il ait le dernier mot. (Перестань комментировать! — Ему всегда нужно последнее слово.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Paris — Station F, la plus grande start-up au monde", "subtitle": "Париж — Европейская столица стартапов", "content": "Париж превратился в крупнейший стартап-хаб Европы. Station F — построенная в 2017 году в бывшем вокзале Массена — крупнейший в мире стартап-кампус: 34 000 м², 1000 стартапов одновременно, инкубаторы от Facebook, Microsoft, BNP Paribas. Французское правительство активно поддерживает «La French Tech» — экосистему технологических предпринимателей. Париж входит в топ-5 мировых городов для технологических стартапов." }
+      },
+      "quiz": [
+        { "q": "Как выразить несогласие по-французски?", "opts": ["Je suis d'accord", "Exactement", "Je ne suis pas d'accord", "Tu as raison"], "ans": 2, "exp": "Je ne suis pas d'accord = я не согласен. Противоположность: Je suis d'accord = я согласен." },
+        { "q": "«Partager une publication» означает...", "opts": ["опубликовать первый раз", "поделиться чужой публикацией", "удалить публикацию", "скрыть публикацию"], "ans": 1, "exp": "Partager = поделиться, распространить. Partager une publication = сделать репост/поделиться публикацией." },
+        { "q": "Что такое Minitel?", "opts": ["первый французский смартфон", "французская предшественница интернета (1982)", "социальная сеть", "поисковик"], "ans": 1, "exp": "Minitel (1982) — французская онлайн-система, предшественница интернета. Работала в 9 миллионах домов." },
+        { "q": "«À mon avis» переводится как...", "opts": ["по вашему мнению", "по его мнению", "по моему мнению", "по общему мнению"], "ans": 2, "exp": "À mon avis = по моему мнению. À son avis = по его/её мнению. À votre avis = по-вашему." },
+        { "q": "«Viral(e)» в интернет-контексте означает...", "opts": ["заражённый вирусом", "вирусный, стремительно распространившийся", "опасный контент", "взломанный аккаунт"], "ans": 1, "exp": "Viral(e) = вирусный (ставший популярным). Cette vidéo est devenue virale = это видео стало вирусным." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Le Théâtre et les Arts du Spectacle",
+      "titleRu": "Театр и зрелищные искусства",
+      "level": "A2",
+      "grammar": {
+        "title": "Le subjonctif présent — introduction",
+        "titleRu": "Сослагательное наклонение — введение",
+        "intro": "Субъюнктив (le subjonctif) — одна из самых характерных особенностей французской грамматики. Он выражает субъективность, желание, сомнение, необходимость. В контексте культуры и искусства он встречается постоянно: «Il faut que vous voyiez ce spectacle!»",
+        "sections": [
+          {
+            "title": "Formation du subjonctif présent",
+            "content": "Основа: 3-е лицо мн.ч. présent минус -ent\nparler → ils parlent → parl-\n+ окончания: -e, -es, -e, -ions, -iez, -ent\n\nque je parle / que tu parles / qu'il parle\nque nous parlions / que vous parliez / qu'ils parlent\n\n⚠️ Исключения: être, avoir, aller, faire"
+          },
+          {
+            "title": "Quand utiliser le subjonctif?",
+            "content": "После оборотов:\nIl faut que... — нужно, чтобы...\nJe veux que... — хочу, чтобы...\nJe souhaite que... — желаю, чтобы...\nJ'aimerais que... — хотел бы, чтобы...\nC'est dommage que... — жаль, что...\nBien que... — хотя...\nAvant que... — до того как..."
+          },
+          {
+            "title": "Arts du spectacle (зрелищные искусства)",
+            "content": "le théâtre — театр\nl'opéra (m) — опера\nle ballet — балет\nla comédie musicale — мюзикл\nle cirque — цирк\nla danse contemporaine — современный танец\nle mime — пантомима\nle spectacle de rue — уличное представление"
+          }
+        ],
+        "rule": "💡 Ключевой принцип субъюнктива: ДВА разных субъекта + субъективная модальность. «Je veux PARTIR» (один субъект → infinitif). «Je veux QUE TU PARTES» (два субъекта → subjonctif)."
+      },
+      "pronunciation": {
+        "intro": "Театральная лексика:",
+        "note": "⚠️ Le théâtre [лё тэатр] — 'é' закрытое. La comédie [ля комэди] — ударение на последнем слоге.",
+        "words": [
+          { "fr": "le théâtre", "ru_pron": "лё тэатр", "meaning": "театр" },
+          { "fr": "la pièce (de théâtre)", "ru_pron": "ля пьэс", "meaning": "пьеса, спектакль" },
+          { "fr": "la mise en scène", "ru_pron": "ля миз ан сэн", "meaning": "постановка, режиссура" },
+          { "fr": "le comédien / la comédienne", "ru_pron": "лё комэдьэн", "meaning": "актёр / актриса (театра)" },
+          { "fr": "les coulisses", "ru_pron": "лё кулис", "meaning": "кулисы" },
+          { "fr": "les décors", "ru_pron": "лё дэкор", "meaning": "декорации" },
+          { "fr": "le rideau", "ru_pron": "лё ридо", "meaning": "занавес" },
+          { "fr": "les applaudissements", "ru_pron": "лёзаплодисман", "meaning": "аплодисменты" },
+          { "fr": "Il faut que tu voies ce spectacle.", "ru_pron": "Иль фо кё тю вуа сё спэктакль", "meaning": "Тебе нужно посмотреть этот спектакль." },
+          { "fr": "Je souhaite que vous aimiez.", "ru_pron": "Жё суэт кё ву зэмьэ", "meaning": "Я желаю, чтобы вам понравилось." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la pièce de théâtre", "gender": "f", "ru": "пьеса, спектакль", "ru_pron": "ля пьэс", "example_fr": "Nous avons vu une pièce de Molière.", "example_ru": "Мы посмотрели пьесу Мольера.", "level": "A2" },
+        { "fr": "la mise en scène", "gender": "f", "ru": "постановка, режиссура", "ru_pron": "ля миз ан сэн", "example_fr": "La mise en scène est très originale.", "example_ru": "Постановка очень оригинальная.", "level": "A2" },
+        { "fr": "le comédien / la comédienne", "gender": "m/f", "ru": "актёр / актриса (театра)", "ru_pron": "лё комэдьэн", "example_fr": "Ce comédien joue avec beaucoup d'émotion.", "example_ru": "Этот актёр играет с большим чувством.", "level": "A2" },
+        { "fr": "les coulisses", "gender": "f pl", "ru": "кулисы, за кадром", "ru_pron": "лё кулис", "example_fr": "Dans les coulisses, les acteurs se préparent.", "example_ru": "За кулисами актёры готовятся.", "level": "A2" },
+        { "fr": "le rideau", "gender": "m", "ru": "занавес, штора", "ru_pron": "лё ридо", "example_fr": "Le rideau tombe. — La pièce est finie.", "example_ru": "Занавес падает. — Спектакль окончен.", "level": "A2" },
+        { "fr": "la répétition", "gender": "f", "ru": "репетиция", "ru_pron": "ля рэпэтисьон", "example_fr": "La troupe est en répétition.", "example_ru": "Труппа на репетиции.", "level": "A2" },
+        { "fr": "la troupe", "gender": "f", "ru": "труппа (театральная)", "ru_pron": "ля труп", "example_fr": "Cette troupe joue à Paris depuis 10 ans.", "example_ru": "Эта труппа играет в Париже 10 лет.", "level": "A2" },
+        { "fr": "le spectateur / la spectatrice", "gender": "m/f", "ru": "зритель", "ru_pron": "лё спэктатёр", "example_fr": "Les spectateurs ont ovationné les acteurs.", "example_ru": "Зрители устроили актёрам овацию.", "level": "A2" },
+        { "fr": "la comédie musicale", "gender": "f", "ru": "мюзикл", "ru_pron": "ля комэди мюзикаль", "example_fr": "Les Misérables est une comédie musicale célèbre.", "example_ru": "«Отверженные» — знаменитый мюзикл.", "level": "A2" },
+        { "fr": "applaudir", "gender": null, "ru": "аплодировать", "ru_pron": "аплодир", "example_fr": "Le public a longuement applaudi.", "example_ru": "Публика долго аплодировала.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le théâtre", "fr_pron": "лё тэатр", "ru": "театр", "ru_pron": "театр", "note": "Из греческого «theatron» (место для зрелищ). Слово пришло в русский через латынь и французский. Греческая традиция театра — основа европейской культуры." },
+        { "fr": "la répétition", "fr_pron": "ля рэпэтисьон", "ru": "репетиция", "ru_pron": "репетиция", "note": "Из латинского «repetitio» (повторение). Слово пришло в русский из французского «répétition» в театральном смысле." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Molière (1622–1673)", "subtitle": "Le génie de la comédie française", "content": "Мольер (настоящее имя — Жан-Батист Поклен) — величайший комедиограф французской литературы. Создал собственную труппу, долгие годы странствовал по провинции, пока не получил покровительство Людовика XIV. Главные пьесы: «Тартюф» (Le Tartuffe), «Мизантроп» (Le Misanthrope), «Скупой» (L'Avare), «Мещанин во дворянстве» (Le Bourgeois gentilhomme). Умер прямо на сцене во время представления «Мнимого больного». «Комеди Франсэз» (la Comédie-Française) носит прозвище «Дом Мольера»." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La Comédie-Française — le théâtre de la nation (1680)", "content": "Комеди Франсэз (la Comédie-Française) основана в 1680 году указом Людовика XIV — старейший национальный театр мира, непрерывно действующий по сей день. Труппа состоит из постоянных членов (les sociétaires) и пенсионеров. Репертуар — классика (Мольер, Расин, Корнель) и современные постановки. Театр расположен на Place du Palais-Royal в Париже. Принято считать, что Коэмди Франсэз — сторож французского языка на сцене." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le mime Marceau — le plus grand silencieux du monde", "content": "Марсель Марсо (1923–2007) — французский мим, создавший персонажа Бипа (Bip) — клоуна в полосатой тельняшке и помятом цилиндре. Марсо выступал в абсолютной тишине и был понятен без слов во всём мире. Он произнёс самую длинную речь в своей жизни при получении награды: «Никогда... не разговаривай при еде». Его техника пантомимы изучается в театральных школах мира. Во время Второй мировой войны он помогал евреям бежать из оккупированной Франции." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Les jeux sont faits", "pronunciation": "Лё жё сон фэ", "translation": "Ставки сделаны, жребий брошен (уже ничего не изменить)", "usage": "Французское казиношное выражение (рулетка: «Les jeux sont faits, rien ne va plus»). В общем смысле — о ситуации, когда решение принято и поворота нет. Аналог Рубикона.", "example": "— Tu peux encore changer d'avis. — Non, les jeux sont faits, j'ai signé le contrat. (Ты ещё можешь передумать. — Нет, жребий брошен, я подписал контракт.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Avignon — Festival de théâtre", "subtitle": "Авиньон — Летняя столица театра", "content": "Авиньон (Avignon) — средневековый город на юге Франции, резиденция пап в XIV веке. Каждый июль здесь проходит знаменитый Авиньонский театральный фестиваль (Festival d'Avignon), основанный Жаном Вилляром в 1947 году. Две программы: «IN» (официальная, в Папском дворце) и «OFF» (независимая, сотни постановок по всему городу). Каждое лето — 150 000 зрителей, 1500 спектаклей. Авиньон на три недели превращается в мировую столицу театра." }
+      },
+      "quiz": [
+        { "q": "«Il faut que tu voies ce film» — voies — это...", "opts": ["présent indicatif", "subjonctif présent", "imparfait", "futur simple"], "ans": 1, "exp": "Voies = subjonctif de voir. После «il faut que» всегда субъюнктив." },
+        { "q": "Какое условие необходимо для использования субъюнктива?", "opts": ["два разных субъекта и субъективная модальность", "один субъект", "вопросительное предложение", "будущее время"], "ans": 0, "exp": "Субъюнктив: ДВА разных субъекта + субъективность. Один субъект → infinitif." },
+        { "q": "«Les coulisses» — это...", "opts": ["зрительный зал", "сцена", "кулисы, закулисное пространство", "гримёрка"], "ans": 2, "exp": "Les coulisses = кулисы. «Dans les coulisses» = за кулисами (и в переносном смысле)." },
+        { "q": "Мольер умер...", "opts": ["в своей постели", "прямо на сцене во время спектакля", "на дуэли", "в тюрьме"], "ans": 1, "exp": "Мольер умер на сцене во время представления «Мнимого больного» (Le Malade imaginaire) в 1673 году." },
+        { "q": "«La Comédie-Française» основана в...", "opts": ["1516", "1680", "1789", "1900"], "ans": 1, "exp": "Комеди Франсэз основана в 1680 году Людовиком XIV — старейший национальный театр в мире." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Musées et les Beaux-Arts",
+      "titleRu": "Музеи и изобразительное искусство",
+      "level": "A2",
+      "grammar": {
+        "title": "Le conditionnel présent — politesse et hypothèse",
+        "titleRu": "Условное наклонение — вежливость и предположение",
+        "intro": "Посещая музеи или обсуждая искусство, французы часто используют conditionnel présent — для вежливых просьб («je voudrais...»), предположений и гипотез. Это одна из самых полезных конструкций в реальном общении.",
+        "sections": [
+          {
+            "title": "Formation du conditionnel présent",
+            "content": "Основа: infinitif + окончания imparfait\n(-ais, -ais, -ait, -ions, -iez, -aient)\n\nparler → je parlerais, tu parlerais...\nfinir → je finirais...\nprendre → je prendrais...\n\n⚠️ Те же исключения, что в futur simple:\nêtre → je serais / avoir → j'aurais\naller → j'irais / faire → je ferais\nvouloir → je voudrais / pouvoir → je pourrais"
+          },
+          {
+            "title": "Usages principaux",
+            "content": "1. Вежливые просьбы:\nJe voudrais deux billets. — Я бы хотел два билета.\nPourriez-vous m'aider ? — Вы не могли бы помочь?\n\n2. Предположения:\nÇa coûterait trop cher. — Это стоило бы слишком дорого.\n\n3. Гипотетическое «если бы» (si + imparfait → conditionnel):\nSi j'étais riche, j'achèterais ce tableau. — Если бы я был богат, купил бы эту картину."
+          },
+          {
+            "title": "Le vocabulaire des beaux-arts",
+            "content": "le tableau / la peinture — картина / живопись\nla sculpture — скульптура\nle dessin — рисунок\nte la gravure — гравюра\nl'aquarelle (f) — акварель\nl'exposition (f) — выставка\nla galerie d'art — художественная галерея\nle vernissage — вернисаж"
+          }
+        ],
+        "rule": "💡 «Je voudrais» (conditionnel de vouloir) — самая вежливая форма запроса во французском. Намного мягче, чем «je veux» (хочу). При посещении музея, ресторана, магазина — всегда используйте conditionnel!"
+      },
+      "pronunciation": {
+        "intro": "Музейная лексика — l'art de parler de l'art:",
+        "note": "⚠️ Le Louvre [лё лувр] — 'ou' краткое. Le vernissage [лё вэрнисаж] — ударение на последнем слоге.",
+        "words": [
+          { "fr": "le musée", "ru_pron": "лё мюзэ", "meaning": "музей" },
+          { "fr": "l'exposition", "ru_pron": "лэкспозисьон", "meaning": "выставка" },
+          { "fr": "le tableau", "ru_pron": "лё табло", "meaning": "картина (x не читается)" },
+          { "fr": "la sculpture", "ru_pron": "ля скюльптюр", "meaning": "скульптура" },
+          { "fr": "le vernissage", "ru_pron": "лё вэрнисаж", "meaning": "вернисаж, открытие выставки" },
+          { "fr": "le chef-d'œuvre", "ru_pron": "лё шэф-дёвр", "meaning": "шедевр" },
+          { "fr": "la galerie", "ru_pron": "ля галёри", "meaning": "галерея" },
+          { "fr": "le billet (d'entrée)", "ru_pron": "лё бийе", "meaning": "билет (входной)" },
+          { "fr": "Je voudrais visiter le Louvre.", "ru_pron": "Жё вудрэ визитэ лё лувр", "meaning": "Я бы хотел посетить Лувр." },
+          { "fr": "Si j'étais peintre, je peindrais Paris.", "ru_pron": "Си жэтэ пэнтр, жё пэндрэ пари", "meaning": "Если бы я был художником, рисовал бы Париж." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le musée", "gender": "m", "ru": "музей", "ru_pron": "лё мюзэ", "example_fr": "Le Louvre est le plus grand musée du monde.", "example_ru": "Лувр — крупнейший музей мира.", "level": "A2" },
+        { "fr": "l'exposition", "gender": "f", "ru": "выставка", "ru_pron": "лэкспозисьон", "example_fr": "J'ai visité l'exposition Picasso.", "example_ru": "Я посетил выставку Пикассо.", "level": "A2" },
+        { "fr": "le tableau", "gender": "m", "ru": "картина", "ru_pron": "лё табло", "example_fr": "Ce tableau a été vendu 80 millions d'euros.", "example_ru": "Эта картина была продана за 80 миллионов евро.", "level": "A2" },
+        { "fr": "la sculpture", "gender": "f", "ru": "скульптура", "ru_pron": "ля скюльптюр", "example_fr": "La sculpture de Rodin est fascinante.", "example_ru": "Скульптура Родена завораживает.", "level": "A2" },
+        { "fr": "le vernissage", "gender": "m", "ru": "вернисаж", "ru_pron": "лё вэрнисаж", "example_fr": "Je suis invité au vernissage jeudi.", "example_ru": "Я приглашён на вернисаж в четверг.", "level": "A2" },
+        { "fr": "le peintre / la peintre", "gender": "m/f", "ru": "художник / художница", "ru_pron": "лё пэнтр", "example_fr": "Monet est mon peintre préféré.", "example_ru": "Моне — мой любимый художник.", "level": "A2" },
+        { "fr": "le chef-d'œuvre", "gender": "m", "ru": "шедевр", "ru_pron": "лё шэф-дёвр", "example_fr": "La Joconde est un chef-d'œuvre absolu.", "example_ru": "Мона Лиза — абсолютный шедевр.", "level": "A2" },
+        { "fr": "la galerie d'art", "gender": "f", "ru": "художественная галерея", "ru_pron": "ля галёри дар", "example_fr": "Il y a une galerie d'art dans mon quartier.", "example_ru": "В моём квартале есть художественная галерея.", "level": "A2" },
+        { "fr": "l'œuvre", "gender": "f", "ru": "произведение (искусства)", "ru_pron": "лёвр", "example_fr": "C'est l'œuvre la plus connue de cet artiste.", "example_ru": "Это самое известное произведение этого художника.", "level": "A2" },
+        { "fr": "le courant artistique", "gender": "m", "ru": "художественное течение, стиль", "ru_pron": "лё куран артистик", "example_fr": "L'impressionnisme est un courant né en France.", "example_ru": "Импрессионизм — течение, рождённое во Франции.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'impressionnisme", "fr_pron": "лэмпрэссьонизм", "ru": "импрессионизм", "ru_pron": "импрессионизм", "note": "Слово «импрессионизм» произошло от картины Моне «Impression, soleil levant» (1872). Критик Луи Лерой использовал его с насмешкой — художники приняли название с гордостью." },
+        { "fr": "le musée", "fr_pron": "лё мюзэ", "ru": "музей", "ru_pron": "музей", "note": "Из греческого «Mouseion» — храм Муз. Слово «музей» пришло в русский через французский и немецкий. Александрийский мусейон был первым «музеем» в истории." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Claude Monet (1840–1926)", "subtitle": "Père de l'impressionnisme", "content": "Клод Моне — основоположник импрессионизма, одного из самых влиятельных художественных движений в истории. Его картина «Impression, soleil levant» (1872) дала название целому направлению. Последние 30 лет жизни Моне провёл в Живерни, где создал знаменитый сад с прудом и японским мостиком — тему своей главной серии «Водяные лилии» (Les Nymphéas). Из-за катаракты он почти ослеп, но продолжал писать. Его «Нимфеи» занимают два огромных зала в музее Оранжери в Париже." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Louvre — du palais royal au musée universel (1793)", "content": "Лувр стал публичным музеем в 1793 году, во время Революции — королевские коллекции были открыты для народа. Сегодня это крупнейший и самый посещаемый музей мира: 73 000 произведений искусства, 35 000 постоянных экспонатов, 9 миллионов посетителей в год. Стеклянная пирамида (пирамида И. М. Пея, 1989) вначале вызвала споры, но стала символом обновлённого Лувра. Джоконда (La Joconde) — самая посещаемая картина мира." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La Joconde — le tableau le plus regardé et le moins vu", "content": "Джоконда Леонардо да Винчи в Лувре — странный опыт. Картина маленькая (53×77 см), находится за пуленепробиваемым стеклом, на расстоянии 3 метров от зрителей. Большинство посетителей видят её лишь сквозь лес рук с телефонами. Искусствоведы шутят: «Джоконда — самая фотографируемая и наименее увиденная картина мира». В 2021 году группа активистов Extinction Rebellion бросила суп на её стекло. Страховая стоимость: бесценно (буквально — не застрахована)." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Voir la vie en rose", "pronunciation": "Вуар ля ви ан роз", "translation": "Смотреть на жизнь через розовые очки", "usage": "Оптимистичный, радужный взгляд на мир. Название знаменитой песни Эдит Пиаф «La Vie en Rose» (1946). Используется и иронически — о чрезмерном оптимизме.", "example": "— Comment il peut être si heureux ? — Il voit la vie en rose, c'est tout. (Как он может быть таким счастливым? — Он смотрит на жизнь через розовые очки, вот и всё.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Giverny — Le jardin de Monet", "subtitle": "Живерни — Сад Моне", "content": "Живерни (Giverny) — деревушка в Нормандии, где Клод Моне жил и работал с 1883 по 1926 год. Его знаменитый японский сад с прудом и ирисами — живая картина, вдохновившая серию «Водяные лилии». Дом и сад восстановлены и открыты для публики с 1980 года. Ежегодно более 500 000 посетителей приезжают сюда, чтобы увидеть реальность, ставшую шедевром живописи. В июне сад в полном цвету — незабываемое зрелище." }
+      },
+      "quiz": [
+        { "q": "«Je voudrais deux billets» — это пример...", "opts": ["futur simple", "conditionnel présent", "subjonctif", "imparfait"], "ans": 1, "exp": "Je voudrais = conditionnel présent de vouloir. Самая вежливая форма запроса." },
+        { "q": "Conditionnel présent образуется от...", "opts": ["основы présent + окончания imparfait", "infinitif + окончания imparfait", "основы imparfait + -rait", "корня + -erait"], "ans": 1, "exp": "Conditionnel = infinitif + окончания imparfait (-ais, -ais, -ait, -ions, -iez, -aient)." },
+        { "q": "Что такое «un vernissage»?", "opts": ["вид картины", "открытие выставки", "художественный стиль", "рамка для картины"], "ans": 1, "exp": "Le vernissage = торжественное открытие выставки (от «vernis» = лак, которым покрывали картины накануне выставки)." },
+        { "q": "Слово «импрессионизм» произошло от...", "opts": ["имени художника", "названия галереи", "картины Моне «Impression, soleil levant»", "техники живописи"], "ans": 2, "exp": "«Impressionnisme» — от картины Моне «Impression, soleil levant» (1872). Критик использовал слово с насмешкой, художники приняли его с гордостью." },
+        { "q": "Сколько посетителей принимает Лувр ежегодно?", "opts": ["1 миллион", "4 миллиона", "9 миллионов", "20 миллионов"], "ans": 2, "exp": "Лувр принимает около 9 миллионов посетителей в год — это крупнейший музей мира по посещаемости." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "La Gastronomie comme Culture",
+      "titleRu": "Гастрономия как культура",
+      "level": "A2",
+      "grammar": {
+        "title": "Le plus-que-parfait — introduction",
+        "titleRu": "Давнопрошедшее время — введение",
+        "intro": "Рассказывая об истории кухни или о том, что произошло до другого события в прошлом, французы используют plus-que-parfait (давнопрошедшее время). Это «прошлое в прошлом».",
+        "sections": [
+          {
+            "title": "Formation du plus-que-parfait",
+            "content": "Формула: imparfait de avoir/être + participe passé\n\nJ'avais mangé. — Я поел (до чего-то другого).\nElle était partie. — Она ушла (до чего-то).\n\nПримеры:\nQuand je suis arrivé, il avait déjà commandé.\nКогда я пришёл, он уже сделал заказ.\n\nElle m'a dit qu'elle n'avait jamais goûté ce plat.\nОна сказала мне, что никогда не пробовала это блюдо."
+          },
+          {
+            "title": "La gastronomie — терминология",
+            "content": "le patrimoine — наследие\nle terroir — терруар, место происхождения продукта\nle savoir-faire — мастерство, ноу-хау\nle produit du terroir — местный продукт\nla recette — рецепт\nla cuisine régionale — региональная кухня\nla gastronomie — высокая кухня, гастрономия\nle festin — пир, банкет"
+          },
+          {
+            "title": "Le repas français (структура трапезы)",
+            "content": "l'apéritif (m) — аперитив\nl'entrée (f) — закуска\nle plat principal — главное блюдо\nle plateau de fromages — сырная тарелка\nle dessert — десерт\nle café / le digestif — кофе / дижестив\n\n💡 Французский обед — это ритуал, а не просто еда. Каждый этап важен!"
+          }
+        ],
+        "rule": "💡 Plus-que-parfait часто используется в рассказах о прошлом: il m'a expliqué qu'il avait appris cette recette de sa grand-mère (он объяснил, что научился этому рецепту от своей бабушки). Перфект в пределах нарратива о прошлом."
+      },
+      "pronunciation": {
+        "intro": "Гастрономический словарь французской культуры:",
+        "note": "⚠️ Le terroir [лё тэруар] — 'oi' как в 'oiseau'. Le savoir-faire [лё савуар-фэр] — два ударения.",
+        "words": [
+          { "fr": "la gastronomie", "ru_pron": "ля гастрономи", "meaning": "гастрономия, кулинарное искусство" },
+          { "fr": "le terroir", "ru_pron": "лё тэруар", "meaning": "терруар, региональное происхождение" },
+          { "fr": "le savoir-faire", "ru_pron": "лё савуар-фэр", "meaning": "мастерство, ноу-хау" },
+          { "fr": "l'entrée", "ru_pron": "лантрэ", "meaning": "закуска, первое блюдо" },
+          { "fr": "le plat principal", "ru_pron": "лё пла прэнсипаль", "meaning": "главное блюдо" },
+          { "fr": "le patrimoine", "ru_pron": "лё патримуан", "meaning": "наследие, достояние" },
+          { "fr": "la recette", "ru_pron": "ля рёсэт", "meaning": "рецепт" },
+          { "fr": "le festin", "ru_pron": "лё фэстэн", "meaning": "пир, банкет" },
+          { "fr": "Il avait déjà commandé.", "ru_pron": "Иль авэ дэжа коммандэ", "meaning": "Он уже сделал заказ." },
+          { "fr": "Je n'avais jamais mangé ça.", "ru_pron": "Жё навэ жамэ манжэ са", "meaning": "Я никогда не ел этого." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la gastronomie", "gender": "f", "ru": "гастрономия, кулинарное искусство", "ru_pron": "ля гастрономи", "example_fr": "La gastronomie française est inscrite à l'UNESCO.", "example_ru": "Французская гастрономия внесена в список ЮНЕСКО.", "level": "A2" },
+        { "fr": "le terroir", "gender": "m", "ru": "терруар, региональное происхождение", "ru_pron": "лё тэруар", "example_fr": "Ce fromage a un goût de terroir.", "example_ru": "У этого сыра вкус терруара.", "level": "A2" },
+        { "fr": "le patrimoine", "gender": "m", "ru": "наследие, достояние", "ru_pron": "лё патримуан", "example_fr": "La cuisine française est un patrimoine mondial.", "example_ru": "Французская кухня — мировое наследие.", "level": "A2" },
+        { "fr": "la recette", "gender": "f", "ru": "рецепт", "ru_pron": "ля рёсэт", "example_fr": "Ma grand-mère m'a donné sa recette secrète.", "example_ru": "Бабушка дала мне свой секретный рецепт.", "level": "A2" },
+        { "fr": "le savoir-faire", "gender": "m", "ru": "мастерство, ноу-хау", "ru_pron": "лё савуар-фэр", "example_fr": "Le savoir-faire des boulangers français est reconnu.", "example_ru": "Мастерство французских булочников признано во всём мире.", "level": "A2" },
+        { "fr": "l'appellation d'origine", "gender": "f", "ru": "апелласьон, защищённое наименование происхождения", "ru_pron": "лапэлясьон доридьин", "example_fr": "Le champagne a une appellation d'origine contrôlée.", "example_ru": "Шампанское имеет защищённое наименование происхождения.", "level": "A2" },
+        { "fr": "le fromage", "gender": "m", "ru": "сыр", "ru_pron": "лё фромаж", "example_fr": "La France produit plus de 1000 variétés de fromages.", "example_ru": "Франция производит более 1000 сортов сыра.", "level": "A2" },
+        { "fr": "la cave", "gender": "f", "ru": "винный погреб / пещера", "ru_pron": "ля кав", "example_fr": "Le château a une belle cave à vins.", "example_ru": "У замка есть прекрасный винный погреб.", "level": "A2" },
+        { "fr": "déguster", "gender": null, "ru": "дегустировать, смаковать", "ru_pron": "дэгюстэ", "example_fr": "On a dégusté des huîtres à Cancale.", "example_ru": "Мы дегустировали устрицы в Канкале.", "level": "A2" },
+        { "fr": "le chef cuisinier", "gender": "m", "ru": "шеф-повар", "ru_pron": "лё шэф кюизиньэ", "example_fr": "Le chef cuisinier a préparé un menu surprise.", "example_ru": "Шеф-повар приготовил меню-сюрприз.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la gastronomie", "fr_pron": "ля гастрономи", "ru": "гастрономия", "ru_pron": "гастрономия", "note": "Из греческого «gaster» (желудок) + «nomos» (закон). «Гастрономия» — буквально «закон желудка». Слово введено французским поэтом Жозефом Бершу в 1800 году." },
+        { "fr": "le restaurant", "fr_pron": "лё рёсторан", "ru": "ресторан", "ru_pron": "ресторан", "note": "Из французского «restaurer» (восстановить). Первый «restaurant» открылся в Париже в 1765 году — заведение, восстанавливавшее силы бульоном." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Auguste Escoffier (1846–1935)", "subtitle": "Le roi des cuisiniers, le cuisinier des rois", "content": "Огюст Эскофье — «король поваров, повар королей», реформатор французской кухни. Создал современную кухонную «бригаду» с чёткой иерархией. Упростил и систематизировал французскую haute cuisine в своём легендарном «Guide Culinaire» (1903) — библии профессиональных поваров. Работал в отелях Ритц по всему миру. Изобрёл персик «Мельба» (Pêche Melba) в честь оперной певицы Нелли Мельба. Его методы преподаются в кулинарных школах по всему миру до сих пор." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le repas gastronomique français à l'UNESCO (2010)", "content": "В 2010 году «гастрономический приём французов» (le repas gastronomique des Français) был внесён в список нематериального культурного наследия ЮНЕСКО. Первый в истории случай, когда кулинарная традиция получила такое признание. ЮНЕСКО оценило не отдельные блюда, а весь ритуал французского застолья: выбор продуктов, приготовление, сервировку, беседу за столом. Это подтвердило: еда для французов — не просто питание, а культурный акт." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le fromage — la passion nationale", "content": "Шарль де Голль однажды спросил: «Как можно управлять страной, в которой есть 246 сортов сыра?» Сегодня Франция производит более 1200 наименований! Сыр — культовый предмет: французы спорят о нём с той же страстью, что об искусстве. «Plateau de fromages» (сырная тарелка) — обязательный этап трапезы. AOP (Appellation d'Origine Protégée) защищает рецептуры: настоящий Roquefort созревает только в пещерах Камбалу, настоящий Brie — только из Мо." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Mettre de l'eau dans son vin", "pronunciation": "Мэтр дё ло дан сон вэн", "translation": "Разбавить вино водой (умерить пыл, пойти на компромисс)", "usage": "Говорится, когда кто-то смягчает свою позицию, идёт на уступки. Буквально: разбавить вино водой (менее крепкое = менее агрессивное). Аналог: «сбавить обороты», «умерить аппетиты».", "example": "— Il était agressif en réunion. — Oui, mais il a mis de l'eau dans son vin à la fin. (На встрече он был агрессивен. — Да, но в конце он смягчился.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Périgord — Foie gras et truffes noires", "subtitle": "Перигор — Страна фуа-гра и чёрных трюфелей", "content": "Перигор (Périgord) или Дордонь — регион на юго-западе Франции, гастрономический рай. Здесь производятся лучшие французские деликатесы: фуа-гра (foie gras), чёрный трюфель (la truffe noire du Périgord), консервы из утки и гуся (les conserves). Средневековые города Сарла и Периге — идеальная база для гастрономических путешествий. Рынки по утрам — настоящее кулинарное шоу. Зимой охотники с собаками ищут трюфели — «чёрные бриллианты» Перигора." }
+      },
+      "quiz": [
+        { "q": "«Quand je suis arrivé, il avait déjà commandé» — avait commandé — это...", "opts": ["passé composé", "imparfait", "plus-que-parfait", "futur antérieur"], "ans": 2, "exp": "Plus-que-parfait: действие завершено ДО другого действия в прошлом. avait (imparfait avoir) + commandé." },
+        { "q": "Что такое «le terroir»?", "opts": ["тип почвы в саду", "региональное происхождение продукта", "рецепт блюда", "название ресторана"], "ans": 1, "exp": "Le terroir = особенности места происхождения продукта (климат, почва, традиции). Ключевое понятие французской гастрономии." },
+        { "q": "Что именно было внесено в список ЮНЕСКО в 2010 году?", "opts": ["французская кухня вообще", "ритуал гастрономического приёма французов", "вино и сыр", "поваренная книга Эскофье"], "ans": 1, "exp": "ЮНЕСКО внесло «le repas gastronomique des Français» — весь ритуал застолья, а не конкретные блюда." },
+        { "q": "«Mettre de l'eau dans son vin» означает...", "opts": ["пить меньше алкоголя", "разбавлять вино", "пойти на компромисс, смягчить позицию", "приготовить коктейль"], "ans": 2, "exp": "Mettre de l'eau dans son vin = умерить пыл, пойти на уступки, смягчить позицию." },
+        { "q": "Де Голль однажды спросил: «Как управлять страной с X сортами сыра?» X = ?", "opts": ["46", "146", "246", "1246"], "ans": 2, "exp": "«246 сортов сыра» — знаменитая фраза де Голля. Сегодня их более 1200!" }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "La Mode et le Style Français",
+      "titleRu": "Мода и французский стиль",
+      "level": "A2",
+      "grammar": {
+        "title": "Les adverbes de manière et d'intensité",
+        "titleRu": "Наречия образа действия и степени",
+        "intro": "Описывая моду и стиль, французы используют богатый арсенал наречий. Наречия образа действия (adverbes de manière) образуются от прилагательных с суффиксом -ment. Наречия степени (d'intensité) усиливают или ослабляют качество.",
+        "sections": [
+          {
+            "title": "Formation des adverbes en -ment",
+            "content": "Основа: прилагательное в ж.р. + -ment\nélégant → élégante → élégamment\ndoux → douce → doucement\nrapide → rapide → rapidement\nvrai → vraie → vraiment\nparfait → parfaite → parfaitement\n\n⚠️ Прилагательные на -ent/-ant → -emment/-amment:\nfréquent → fréquemment\nbrillant → brillamment"
+          },
+          {
+            "title": "Adverbes d'intensité (степень)",
+            "content": "très — очень\ntrop — слишком\nassez — достаточно\npeu — мало\nbeaucoup — много\ntellement — настолько\nquelque peu — несколько\nenormément — огромно\nplutôt — скорее, довольно"
+          },
+          {
+            "title": "La mode — vocabulaire",
+            "content": "la tenue — наряд, одежда\nla collection — коллекция\nle défilé — показ мод\nla haute couture — высокая мода\nle prêt-à-porter — одежда pret-a-porter\nla tendance — тенденция, тренд\nla griffe / la marque — бренд, марка\nle style — стиль"
+          }
+        ],
+        "rule": "💡 «Vêtir l'adverbe» — одна из элегантных особенностей французского. Наречия -ment позволяют тонко передать нюансы стиля: «élégamment» (элегантно), «sobrement» (сдержанно), «audacieusement» (дерзко)."
+      },
+      "pronunciation": {
+        "intro": "Мода и стиль — язык роскоши:",
+        "note": "⚠️ La haute couture [ля от кутюр] — 'h' немое, 'au' = [о]. Le défilé [лё дэфилэ] — ударение на последнем слоге.",
+        "words": [
+          { "fr": "la mode", "ru_pron": "ля мод", "meaning": "мода" },
+          { "fr": "la haute couture", "ru_pron": "ля от кутюр", "meaning": "высокая мода" },
+          { "fr": "le défilé", "ru_pron": "лё дэфилэ", "meaning": "показ мод" },
+          { "fr": "la tendance", "ru_pron": "ля тандансь", "meaning": "тенденция, тренд" },
+          { "fr": "la griffe", "ru_pron": "ля гриф", "meaning": "бренд, модный дом" },
+          { "fr": "élégamment", "ru_pron": "элэгаман", "meaning": "элегантно" },
+          { "fr": "la collection", "ru_pron": "ля колексьон", "meaning": "коллекция" },
+          { "fr": "le styliste", "ru_pron": "лё стилист", "meaning": "дизайнер одежды" },
+          { "fr": "C'est vraiment élégant.", "ru_pron": "Сэ врэман элэган", "meaning": "Это действительно элегантно." },
+          { "fr": "Elle s'habille toujours parfaitement.", "ru_pron": "Эль сабий тужур парфэтман", "meaning": "Она всегда одета безупречно." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la mode", "gender": "f", "ru": "мода", "ru_pron": "ля мод", "example_fr": "Paris est la capitale mondiale de la mode.", "example_ru": "Париж — мировая столица моды.", "level": "A2" },
+        { "fr": "la haute couture", "gender": "f", "ru": "высокая мода", "ru_pron": "ля от кутюр", "example_fr": "Les robes de haute couture sont uniques.", "example_ru": "Платья высокой моды уникальны.", "level": "A2" },
+        { "fr": "le défilé", "gender": "m", "ru": "показ мод, парад", "ru_pron": "лё дэфилэ", "example_fr": "Les défilés de la Fashion Week attirent le monde entier.", "example_ru": "Показы Недели моды привлекают весь мир.", "level": "A2" },
+        { "fr": "la tendance", "gender": "f", "ru": "тенденция, тренд", "ru_pron": "ля тандансь", "example_fr": "Le vintage est une tendance forte.", "example_ru": "Винтаж — сильный тренд.", "level": "A2" },
+        { "fr": "la griffe", "gender": "f", "ru": "бренд, модный дом", "ru_pron": "ля гриф", "example_fr": "Il porte uniquement des griffes françaises.", "example_ru": "Он носит только французские бренды.", "level": "A2" },
+        { "fr": "le styliste", "gender": "m/f", "ru": "дизайнер одежды", "ru_pron": "лё стилист", "example_fr": "Yves Saint Laurent était un grand styliste.", "example_ru": "Ив Сен-Лоран был великим дизайнером.", "level": "A2" },
+        { "fr": "la tenue", "gender": "f", "ru": "наряд, одежда (полный образ)", "ru_pron": "ля тёню", "example_fr": "Sa tenue était impeccable.", "example_ru": "Его наряд был безупречным.", "level": "A2" },
+        { "fr": "le luxe", "gender": "m", "ru": "роскошь, люкс", "ru_pron": "лё люкс", "example_fr": "La France domine le marché du luxe mondial.", "example_ru": "Франция доминирует на мировом рынке люкса.", "level": "A2" },
+        { "fr": "élégant(e)", "gender": null, "ru": "элегантный", "ru_pron": "элэган", "example_fr": "Les Parisiennes sont réputées pour être élégantes.", "example_ru": "Парижанки известны своей элегантностью.", "level": "A2" },
+        { "fr": "le parfum", "gender": "m", "ru": "духи, аромат", "ru_pron": "лё парфён", "example_fr": "Chanel N°5 est le parfum le plus vendu au monde.", "example_ru": "Chanel N°5 — самые продаваемые духи в мире.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le style", "fr_pron": "лё стиль", "ru": "стиль", "ru_pron": "стиль", "note": "Из латинского «stilus» (палочка для письма → манера письма → стиль). Слово «стиль» пришло в русский через французский в значении «образ, манера»." },
+        { "fr": "élégant(e)", "fr_pron": "элэган", "ru": "элегантный", "ru_pron": "элегантный", "note": "Из латинского «elegans» (выбирающий лучшее). Слово «элегантный» появилось в русском в XVIII веке через французское влияние эпохи Просвещения." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Yves Saint Laurent (1936–2008)", "subtitle": "L'artiste qui a habillé le XXe siècle", "content": "Ив Сен-Лоран — один из величайших модельеров XX века, преемник Кристиана Диора. В 21 год он стал главой Дома Диора. В 1966 году создал «le smoking» — первый женский брючный костюм, навсегда изменив женскую моду. Черпал вдохновение в искусстве (коллекции по Мондриану, Матиссу), культурах мира (Россия, Марокко, Китай). Его музей в Марракеше и Париже — дань уважения художнику, сделавшему моду искусством. Его последние слова: «Я думал о красоте»." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Christian Dior et le New Look (1947)", "content": "12 февраля 1947 года Кристиан Диор представил свою первую коллекцию «Corolle» — мировая пресса немедленно назвала её «New Look». Узкая талия, широкая юбка ниже колена, мягкие плечи — разрыв с угловатой военной модой. Послевоенные женщины плакали на показе. Диор единолично восстановил репутацию Парижа как мировой столицы моды после оккупации. Сегодня LVMH (Dior, Louis Vuitton, Givenchy, Celine...) — крупнейший в мире люкс-конгломерат." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "L'élégance parisienne — mythe ou réalité?", "content": "«Парижанка» (la Parisienne) — мировой эталон элегантности. Но что это значит на практике? Французские эксперты моды единодушны: настоящий парижский стиль — это «l'art du je-ne-sais-quoi» (искусство «чего-то неуловимого»). Правила: меньше — лучше, одна деталь выходит за рамки, никогда не выглядеть «слишком старательно». «Le négligé chic» — ухоженный беспорядок. Модельер Инес де ла Фрессанж написала целую книгу «La Parisienne», бестселлер в 20 странах." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Être tiré(e) à quatre épingles", "pronunciation": "Этр тирэ а катрёпэнгль", "translation": "Быть одетым с иголочки (буквально: растянутым на четырёх булавках)", "usage": "Описывает человека, одетого идеально, с особой тщательностью. Выражение из эпохи, когда одежду разглаживали булавками. Аналог русского «с иголочки».", "example": "— Comment il était habillé ? — Tiré à quatre épingles, comme d'habitude. (Как он был одет? — С иголочки, как всегда.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Paris — Triangle d'or de la mode", "subtitle": "Париж — Золотой треугольник моды", "content": "«Золотой треугольник» парижской моды — район между авеню Монтень, авеню Георга V и Елисейскими полями. Здесь сосредоточены флагманские бутики всех мировых люкс-брендов: Chanel, Dior, Louis Vuitton, Hermès, Givenchy. Авеню Монтень — самая дорогая торговая улица Европы. Каждый январь и июль — Haute Couture Week, каждый март и октябрь — Fashion Week prêt-à-porter. Для фанатов моды Париж — настоящая Мекка." }
+      },
+      "quiz": [
+        { "q": "Как образуется наречие от «élégant»?", "opts": ["élégantement", "élégamment", "élégantment", "élégamement"], "ans": 1, "exp": "Élégant → féminin élégante → но 'ant' → 'amment': élégamment. Прилагательные на -ant дают наречия на -amment." },
+        { "q": "«La haute couture» — это...", "opts": ["дешёвая одежда", "спортивная одежда", "эксклюзивная мода ручной работы", "уличная мода"], "ans": 2, "exp": "La haute couture = высокая мода — уникальные изделия ручной работы, строго регламентируемые Chambre Syndicale." },
+        { "q": "Что такое «le smoking» в контексте моды?", "opts": ["мужской смокинг", "женский брючный костюм YSL", "курительная комната", "тёмный цвет"], "ans": 1, "exp": "Le smoking YSL (1966) — первый женский брючный костюм, революция в женской моде." },
+        { "q": "«Le New Look» был создан в...", "opts": ["1937 (Шанель)", "1947 (Диор)", "1957 (Живанши)", "1966 (Сен-Лоран)"], "ans": 1, "exp": "Christian Dior представил New Look 12 февраля 1947 года — широкие юбки и узкие талии, разрыв с военной модой." },
+        { "q": "«Être tiré(e) à quatre épingles» означает...", "opts": ["быть сердитым", "быть одетым с иголочки", "быть бережливым", "быть напряжённым"], "ans": 1, "exp": "Être tiré(e) à quatre épingles = быть одетым идеально, с иголочки. Выражение из мира портных." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 8",
+      "titleRu": "Итоговый урок Модуля 8",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète — Culture & Médias",
+        "titleRu": "Полное повторение — Культура и медиа",
+        "intro": "Félicitations ! Вы завершаете восьмой модуль — «Culture & Médias». Это один из самых богатых модулей курса: кино, музыка, литература, пресса, театр, музеи, гастрономия, мода. Повторим всё, что изучили!",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 8",
+            "content": "✅ Pronoms relatifs: qui, que, où, dont\n✅ Pronoms COI: me, te, lui, nous, vous, leur\n✅ Discours indirect (косвенная речь)\n✅ Opinion: Je pense que / À mon avis...\n✅ Subjonctif présent (введение)\n✅ Conditionnel présent (вежливость, гипотезы)\n✅ Plus-que-parfait (прошлое в прошлом)\n✅ Adverbes en -ment\n✅ Vocabulaire culturel: 90+ слов\n✅ Culture française: кино, шансон, литература, BD, gastronomie, mode"
+          },
+          {
+            "title": "Ключевые культурные реалии Франции",
+            "content": "🎬 Festival de Cannes — mai, Palme d'or\n🎵 La chanson française — Piaf, Brel, Gainsbourg\n📚 Prix Goncourt — novembre, 10 euros\n📰 Le Monde, Charlie Hebdo — liberté de la presse\n🎭 Molière, Comédie-Française\n🖼️ Le Louvre, Impressionnisme, Monet\n🍽️ Gastronomie à l'UNESCO, terroir, fromages\n👗 Paris capitale de la mode, Dior, YSL, Chanel"
+          }
+        ],
+        "rule": "🏆 Félicitations ! Vous maîtrisez un français culturel riche. Avec le Module 8, vous pouvez parler de cinéma, de musique, d'art et de presse en français — c'est déjà un niveau remarquable ! Cap sur le Module 9 : «Vers le niveau A2» — le dernier sprint!"
+      },
+      "pronunciation": {
+        "intro": "Les phrases culturelles essentielles du Module 8:",
+        "note": "",
+        "words": [
+          { "fr": "C'est un film que j'adore.", "ru_pron": "Сэ тён фильм кё жадор", "meaning": "Это фильм, который я обожаю." },
+          { "fr": "Je lui ai recommandé ce livre.", "ru_pron": "Жё лю э рёкомандэ сё ливр", "meaning": "Я ему(ей) порекомендовал эту книгу." },
+          { "fr": "L'auteur dont je t'ai parlé.", "ru_pron": "Лотёр дон жё тэ парлэ", "meaning": "Автор, о котором я тебе говорил." },
+          { "fr": "Il a dit qu'il aimait la musique.", "ru_pron": "Иль а ди киль эмэ ля мюзик", "meaning": "Он сказал, что любит музыку." },
+          { "fr": "À mon avis, ce film est un chef-d'œuvre.", "ru_pron": "А мон ави, сё фильм э тён шэф-дёвр", "meaning": "По-моему, этот фильм — шедевр." },
+          { "fr": "Il faut que tu voies cette exposition.", "ru_pron": "Иль фо кё тю вуа сэт экспозисьон", "meaning": "Тебе нужно посмотреть эту выставку." },
+          { "fr": "Je voudrais visiter le musée d'Orsay.", "ru_pron": "Жё вудрэ визитэ лё мюзэ дорсэ", "meaning": "Я бы хотел посетить музей Орсе." },
+          { "fr": "Quand je suis arrivé, il avait déjà commencé.", "ru_pron": "Кан жё сюи аривэ, иль авэ дэжа коммансэ", "meaning": "Когда я пришёл, он уже начал." },
+          { "fr": "Elle s'habille élégamment.", "ru_pron": "Эль сабий элэгаман", "meaning": "Она одевается элегантно." },
+          { "fr": "Vive la culture française !", "ru_pron": "Вив ля кюльтюр франсэз", "meaning": "Да здравствует французская культура!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la culture", "gender": "f", "ru": "культура", "ru_pron": "ля кюльтюр", "example_fr": "La culture française rayonne dans le monde entier.", "example_ru": "Французская культура сияет во всём мире.", "level": "A2" },
+        { "fr": "le patrimoine", "gender": "m", "ru": "наследие, достояние", "ru_pron": "лё патримуан", "example_fr": "Le patrimoine culturel de la France est exceptionnel.", "example_ru": "Культурное наследие Франции исключительно.", "level": "A2" },
+        { "fr": "un chef-d'œuvre", "gender": "m", "ru": "шедевр", "ru_pron": "ён шэф-дёвр", "example_fr": "Cette pièce est un vrai chef-d'œuvre.", "example_ru": "Эта пьеса — настоящий шедевр.", "level": "A2" },
+        { "fr": "la critique", "gender": "f", "ru": "критика, рецензия / критик", "ru_pron": "ля критик", "example_fr": "La critique est unanime : c'est excellent.", "example_ru": "Критики единодушны: это превосходно.", "level": "A2" },
+        { "fr": "s'exprimer", "gender": null, "ru": "выражать себя", "ru_pron": "сэкспримэ", "example_fr": "L'art permet de s'exprimer librement.", "example_ru": "Искусство позволяет свободно выражать себя.", "level": "A2" },
+        { "fr": "l'artiste", "gender": "m/f", "ru": "художник, артист", "ru_pron": "лартист", "example_fr": "Paris attire les artistes du monde entier.", "example_ru": "Париж притягивает художников со всего мира.", "level": "A2" },
+        { "fr": "la liberté d'expression", "gender": "f", "ru": "свобода слова, свобода творчества", "ru_pron": "ля либэртэ дэкспрэссьон", "example_fr": "La liberté d'expression est fondamentale.", "example_ru": "Свобода слова является основополагающей.", "level": "A2" },
+        { "fr": "l'influence", "gender": "f", "ru": "влияние", "ru_pron": "лэнфлюянс", "example_fr": "L'influence de la culture française est mondiale.", "example_ru": "Влияние французской культуры — мировое.", "level": "A2" },
+        { "fr": "créer", "gender": null, "ru": "создавать, творить", "ru_pron": "крээ", "example_fr": "Créer, c'est exister.", "example_ru": "Творить — значит существовать.", "level": "A2" },
+        { "fr": "le rayonnement", "gender": "m", "ru": "влияние, сияние (о культуре)", "ru_pron": "лё рэйонман", "example_fr": "Le rayonnement culturel de la France est unique.", "example_ru": "Культурное влияние Франции уникально.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la culture", "fr_pron": "ля кюльтюр", "ru": "культура", "ru_pron": "культура", "note": "Из латинского «cultura» (возделывание, воспитание). Слово «культура» пришло в русский в XVIII веке через немецкий и французский. Cicero впервые применил его к уму: «cultura animi» = возделывание души." },
+        { "fr": "l'artiste", "fr_pron": "лартист", "ru": "артист / художник", "ru_pron": "артист", "note": "Из латинского «ars» (искусство). Слово «артист» пришло в русский из французского в XIX веке — первоначально обозначало только театрального актёра." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "François Truffaut (1932–1984)", "subtitle": "L'enfant terrible de la Nouvelle Vague", "content": "Франсуа Трюффо — один из главных режиссёров «Новой волны», критик журнала Cahiers du Cinéma, где он провозгласил «политику авторов» (la politique des auteurs) — идею о том, что режиссёр есть автор фильма, как писатель — автор книги. Его автобиографический фильм «400 ударов» (Les Quatre Cents Coups, 1959) завоевал приз за режиссуру в Каннах. Трюффо также сыграл учёного в фильме Спилберга «Близкие контакты третьей степени». Умер от опухоли мозга в 52 года." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La francophonie — le français dans le monde", "content": "Французский язык занимает 5-е место в мире по числу носителей (300+ миллионов) и является официальным в 29 странах на 5 континентах. Франкофония (la Francophonie) — международная организация, объединяющая 88 государств и правительств. Французский остаётся одним из рабочих языков ООН, ЕС, МОК. По прогнозам, к 2050 году французский станет 4-м языком мира — благодаря росту африканского населения. Культурный «rayonnement» (сияние) Франции обеспечивается не только политикой, но и кино, литературой, музыкой, гастрономией." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Césars — les Oscars français", "content": "Премия Сезар (le César) — французский эквивалент Оскара, вручается с 1976 года. Статуэтка — бронзовая скомканная фольга работы художника Сезара Бальдаччини — одна из самых узнаваемых наград в мире. Церемония проходит в Зале Плейель (la Salle Pleyel) в феврале. В 2020 году Полански получил César за «Офицера и шпиона» — церемония превратилась в скандал из-за обвинений в его адрес. Сезар — зеркало французского общества: каждый год отражает его напряжения и ценности." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "L'art pour l'art", "pronunciation": "Лар пур лар", "translation": "Искусство ради искусства", "usage": "Философский принцип: искусство не должно служить моральным, политическим или коммерческим целям — только само себе. Теория XIX века (Теофиль Готье). Используется как защита творческой свободы.", "example": "— Pourquoi ce film n'a pas de message ? — C'est l'art pour l'art — ça suffit. (Почему в этом фильме нет послания? — Это искусство ради искусства — этого достаточно.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Paris — Musée d'Orsay, temple de l'impressionnisme", "subtitle": "Музей Орсе — Храм импрессионизма", "content": "Музей Орсе (musée d'Orsay) расположен в здании бывшего вокзала Орсе (1900) на берегу Сены. Открытый в 1986 году, он хранит крупнейшую в мире коллекцию импрессионизма и постимпрессионизма: Моне, Мане, Ренуар, Дега, Сезанн, Ван Гог, Гоген, Тулуз-Лотрек. Более 3 миллионов посетителей в год. Великолепные часы на фасаде — символ вокзала и города. Кафе под стеклянным куполом — одно из красивейших в Париже. Входит в тройку лучших художественных музеев мира." }
+      },
+      "quiz": [
+        { "q": "«La politique des auteurs» — это...", "opts": ["политика в кино", "концепция режиссёра как автора фильма", "авторское право", "политические фильмы"], "ans": 1, "exp": "«La politique des auteurs» — концепция Трюффо/Годара: режиссёр — автор фильма, как писатель — автор книги." },
+        { "q": "Сколько человек говорят на французском в мире?", "opts": ["100 миллионов", "200 миллионов", "300+ миллионов", "500 миллионов"], "ans": 2, "exp": "Более 300 миллионов носителей французского языка в мире. 5-й язык по числу говорящих." },
+        { "q": "«L'art pour l'art» означает...", "opts": ["государственное искусство", "коммерческое искусство", "искусство ради искусства (без утилитарной цели)", "народное искусство"], "ans": 2, "exp": "L'art pour l'art = искусство ради искусства — философский принцип творческой автономии." },
+        { "q": "Что такое «le César»?", "opts": ["французский Оскар", "приз Каннского фестиваля", "литературная премия", "приз в области моды"], "ans": 0, "exp": "Le César = французская национальная кинопремия, аналог Оскара. Вручается с 1976 года." },
+        { "q": "Музей Орсе прежде был...", "opts": ["дворцом", "церковью", "вокзалом", "фабрикой"], "ans": 2, "exp": "Musée d'Orsay расположен в здании бывшего вокзала Gare d'Orsay (1900), переоборудованного в 1986 году." }
+      ]
+    }
+  ]
+}
