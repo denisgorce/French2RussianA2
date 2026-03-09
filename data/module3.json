@@ -1,0 +1,1238 @@
+{
+  "module": 3,
+  "titleFr": "Sorties & Restaurants",
+  "titleRu": "Прогулки и рестораны",
+  "description": "Кафе, рестораны, городские прогулки, покупки и французская кухня.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Au Café",
+      "titleRu": "В кафе",
+      "level": "A1",
+      "grammar": {
+        "title": "Les verbes du 1er groupe au présent",
+        "titleRu": "Глаголы 1-й группы в настоящем времени",
+        "intro": "В этом уроке мы изучим глаголы на -ER — самую многочисленную группу французских глаголов. К ней относится 90% всех регулярных глаголов. Освоив образец, вы сможете спрягать тысячи слов!",
+        "sections": [
+          {
+            "title": "Спряжение глаголов на -ER (образец: commander — заказывать)",
+            "content": "je commande — я заказываю\ntu commandes — ты заказываешь\nil/elle commande — он/она заказывает\nnous commandons — мы заказываем\nvous commandez — вы заказываете\nils/elles commandent — они заказывают\n\n⚠️ Окончания: -e, -es, -e, -ons, -ez, -ent\nВнимание: последние три формы (je, tu, il) звучат одинаково!"
+          },
+          {
+            "title": "Другие глаголы той же группы",
+            "content": "demander — просить, спрашивать\npayer — платить\ntrouver — находить\naimer — любить\nrester — оставаться\nchoisir — выбирать (2-я группа, но похоже!)"
+          }
+        ],
+        "rule": "💡 Если французское слово оканчивается на -ation (commande, information), оно почти всегда женского рода: une commande, une information."
+      },
+      "pronunciation": {
+        "intro": "Слова и фразы, которые вы услышите в любом французском кафе:",
+        "note": "⚠️ В конце слова немая -e не произносится: une table → «юн табль», не «табле».",
+        "words": [
+          { "fr": "un café", "ru_pron": "ён кафэ", "meaning": "кофе / кафе (эспрессо)" },
+          { "fr": "un thé", "ru_pron": "ён тэ", "meaning": "чай" },
+          { "fr": "un jus d'orange", "ru_pron": "ён жю доранж", "meaning": "апельсиновый сок" },
+          { "fr": "une bière", "ru_pron": "юн бьэр", "meaning": "пиво" },
+          { "fr": "l'addition", "ru_pron": "л'адисьон", "meaning": "счёт (в кафе)" },
+          { "fr": "s'il vous plaît", "ru_pron": "силь ву плэ", "meaning": "пожалуйста (при просьбе)" },
+          { "fr": "Je voudrais...", "ru_pron": "Жё вудрэ", "meaning": "Я бы хотел(а)..." },
+          { "fr": "une terrasse", "ru_pron": "юн тэрас", "meaning": "терраса (летняя площадка)" },
+          { "fr": "le garçon", "ru_pron": "лё гарсон", "meaning": "официант (устар.) = le serveur" },
+          { "fr": "le pourboire", "ru_pron": "лё пурбуар", "meaning": "чаевые" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "commander", "gender": null, "ru": "заказывать", "ru_pron": "командэ", "example_fr": "Je voudrais commander un café.", "example_ru": "Я хотел бы заказать кофе.", "level": "A1" },
+        { "fr": "payer", "gender": null, "ru": "платить", "ru_pron": "пэйэ", "example_fr": "On peut payer par carte ?", "example_ru": "Можно заплатить картой?", "level": "A1" },
+        { "fr": "l'addition", "gender": "f", "ru": "счёт (в заведении)", "ru_pron": "л'адисьон", "example_fr": "L'addition, s'il vous plaît !", "example_ru": "Счёт, пожалуйста!", "level": "A1" },
+        { "fr": "une table", "gender": "f", "ru": "стол", "ru_pron": "юн табль", "example_fr": "Une table pour deux, s'il vous plaît.", "example_ru": "Столик на двоих, пожалуйста.", "level": "A1" },
+        { "fr": "le serveur / la serveuse", "gender": "m/f", "ru": "официант / официантка", "ru_pron": "лё сэрвёр / ля сэрвёз", "example_fr": "Le serveur est très sympathique.", "example_ru": "Официант очень приятный.", "level": "A1" },
+        { "fr": "la terrasse", "gender": "f", "ru": "терраса, летняя площадка", "ru_pron": "ля тэрас", "example_fr": "Je préfère la terrasse en été.", "example_ru": "Летом я предпочитаю террасу.", "level": "A1" },
+        { "fr": "chaud / froid", "gender": "m", "ru": "горячий / холодный", "ru_pron": "шо / фруа", "example_fr": "Mon café est froid !", "example_ru": "Мой кофе холодный!", "level": "A1" },
+        { "fr": "sucre", "gender": "m", "ru": "сахар", "ru_pron": "сюкр", "example_fr": "Un café avec du sucre.", "example_ru": "Кофе с сахаром.", "level": "A1" },
+        { "fr": "lait", "gender": "m", "ru": "молоко", "ru_pron": "лэ", "example_fr": "Un café au lait, s'il vous plaît.", "example_ru": "Кофе с молоком, пожалуйста.", "level": "A1" },
+        { "fr": "attendre", "gender": null, "ru": "ждать", "ru_pron": "атандр", "example_fr": "Attendez un moment, s'il vous plaît.", "example_ru": "Подождите момент, пожалуйста.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "un café", "fr_pron": "ён кафэ", "ru": "кафе", "ru_pron": "кафе", "note": "Русское «кафе» — прямое заимствование из французского. Во Франции «café» означает и заведение, и напиток (эспрессо). Poprosit' un café = попросить эспрессо!" },
+        { "fr": "la terrasse", "fr_pron": "ля тэрас", "ru": "терраса", "ru_pron": "терраса", "note": "Французское «terrasse» и русское «терраса» из одного латинского корня terra (земля). Французы обожают сидеть на terrasse даже в прохладную погоду!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Honoré de Balzac (1799–1850)",
+          "subtitle": "L'homme aux 50 000 tasses de café",
+          "content": "Оноре де Бальзак — великий французский романист, автор «Человеческой комедии» (La Comédie humaine) — цикла из 91 романа! Балзак был одержим работой и кофе: по его подсчётам, за жизнь он выпил 50 000 чашек кофе. Он работал по ночам, носил монашескую рясу и пил кофе литрами прямо за письменным столом. Умер в 51 год — отчасти от кофеинового истощения. Его роман «Гобсек» известен каждому русскому школьнику."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le premier café de Paris — Café de Procope (1686)",
+          "content": "Первое кафе Парижа — Café de Procope — открылось в 1686 году и существует до сих пор! Именно здесь собирались Вольтер, Руссо, Дидро, Робеспьер и Наполеон. В этом кафе родилась французская философия Просвещения за чашкой кофе. Говорят, что Наполеон оставил свою шляпу в залог, не имея денег заплатить за кофе. Кафе стало местом рождения демократических идей, которые изменили мир."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le café allongé и другие тонкости",
+          "content": "Во французском кафе нельзя просто попросить «кофе» — нужно уточнить тип! Un café = эспрессо. Un café allongé = длинный кофе (американо). Un café crème = кофе с молоком. Un noisette = эспрессо с каплей молока (как макиато). Café au lait — только на завтрак, в большой чашке. Если после обеда попросить кофе с молоком — выдадите себя туристом. Настоящие французы после еды пьют только маленький чёрный эспрессо!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "L'addition, s'il vous plaît !",
+          "pronunciation": "Л'адисьон, силь ву плэ",
+          "translation": "Счёт, пожалуйста!",
+          "usage": "Самая нужная фраза в ресторане и кафе. Никогда не щёлкайте пальцами и не кричите на официанта — просто поднимите руку и скажите эту фразу. В Париже обслуживание неспешное — это норма культуры, а не невнимательность.",
+          "example": "— Monsieur ! L'addition, s'il vous plaît ! — Bien sûr, voilà ! (— Мсьё! Счёт, пожалуйста! — Конечно, вот!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Les Deux Magots & Café de Flore, Paris",
+          "subtitle": "Легендарные кафе Сен-Жермен-де-Пре",
+          "content": "Бульвар Сен-Жермен в Париже — родина парижских интеллектуальных кафе. «Les Deux Magots» и «Café de Flore» стоят напротив друг друга и соперничают уже столетие. В «Deux Magots» бывали Хемингуэй, Пикассо, Симона де Бовуар. В «Café de Flore» работал Жан-Поль Сартр — буквально писал свои философские труды за столиком. Кофе здесь стоит 5–7 евро, но вы платите за атмосферу истории и можете сидеть часами."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как попросить счёт во французском кафе?",
+          "opts": ["Le ticket, s'il vous plaît !", "L'addition, s'il vous plaît !", "La facture, merci !", "Je voudrais payer maintenant."],
+          "ans": 1,
+          "exp": "L'addition, s'il vous plaît = Счёт, пожалуйста! Это стандартная формула в кафе и ресторанах."
+        },
+        {
+          "q": "Что значит «un café» во Франции?",
+          "opts": ["Кафе (заведение)", "Эспрессо (напиток)", "И заведение, и напиток эспрессо", "Американо"],
+          "ans": 2,
+          "exp": "Un café = и заведение, и напиток (эспрессо). Контекст определяет значение: «Allons au café» (пойдём в кафе) / «Je prends un café» (я возьму эспрессо)."
+        },
+        {
+          "q": "Как спрягается глагол «commander» (заказывать) для «je»?",
+          "opts": ["je commanders", "je commandes", "je commande", "je commandons"],
+          "ans": 2,
+          "exp": "Je commande — глаголы на -ER: убираем -er и добавляем -e для je. Звучит как основа без окончания."
+        },
+        {
+          "q": "В какое время суток французы НЕ пьют кофе с молоком?",
+          "opts": ["Утром", "На завтрак", "После обеда", "На полдник"],
+          "ans": 2,
+          "exp": "Кофе с молоком (café au lait, café crème) — только на завтрак. После обеда настоящий французский кофе — это маленький чёрный эспрессо."
+        },
+        {
+          "q": "Кто из великих писателей выпил около 50 000 чашек кофе за жизнь?",
+          "opts": ["Victor Hugo", "Gustave Flaubert", "Honoré de Balzac", "Émile Zola"],
+          "ans": 2,
+          "exp": "Honoré de Balzac был легендарным потребителем кофе — около 50 000 чашек! Работал ночами и пил кофе литрами."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "La Carte et les Menus",
+      "titleRu": "Меню и карта блюд",
+      "level": "A1",
+      "grammar": {
+        "title": "Les articles partitifs",
+        "titleRu": "Партитивные артикли — еда и напитки",
+        "intro": "Партитивные артикли используются для обозначения части чего-то, что нельзя посчитать. В контексте еды это незаменимая конструкция: «Je prends du pain» — я беру (немного) хлеба.",
+        "sections": [
+          {
+            "title": "Партитивные артикли",
+            "content": "du (м.р.) — de + le: Je prends du pain (хлеба)\nde la (ж.р.): Je bois de la soupe (суп — немного)\nde l' (перед гласной): Je veux de l'eau (воды)\ndes (мн.ч.): Je mange des légumes (овощей)\n\n⚠️ После отрицания: Je ne veux PAS de pain (без артикля!)"
+          },
+          {
+            "title": "На практике в ресторане",
+            "content": "Je prends du steak. — Я возьму стейк.\nJe voudrais de la soupe. — Я бы хотел(а) суп.\nVous avez des végétariens ? — У вас есть вегетарианские блюда?\nJe ne mange pas de viande. — Я не ем мяса.\nPas de sucre, merci. — Без сахара, спасибо."
+          }
+        ],
+        "rule": "💡 Le menu во Франции — это комплексный обед (entrée + plat + dessert) по фиксированной цене. La carte — это книжка с полным списком блюд à la carte. Попросить «la carte» = попросить меню!"
+      },
+      "pronunciation": {
+        "intro": "Главные слова из французского меню:",
+        "note": "⚠️ Французские названия блюд часто заимствуются другими языками — произносите их по-французски, а не по-русски!",
+        "words": [
+          { "fr": "l'entrée", "ru_pron": "л'антрэ", "meaning": "закуска (первое блюдо)" },
+          { "fr": "le plat principal", "ru_pron": "лё пла прэнсипаль", "meaning": "основное блюдо" },
+          { "fr": "le dessert", "ru_pron": "лё дэссэр", "meaning": "десерт" },
+          { "fr": "la soupe", "ru_pron": "ля суп", "meaning": "суп" },
+          { "fr": "la viande", "ru_pron": "ля вьянд", "meaning": "мясо" },
+          { "fr": "le poisson", "ru_pron": "лё пуасон", "meaning": "рыба" },
+          { "fr": "les légumes", "ru_pron": "лэ лэгюм", "meaning": "овощи" },
+          { "fr": "le fromage", "ru_pron": "лё фромаж", "meaning": "сыр" },
+          { "fr": "le pain", "ru_pron": "лё пэн", "meaning": "хлеб (всегда бесплатно!)" },
+          { "fr": "la carte", "ru_pron": "ля карт", "meaning": "меню (книжка с блюдами)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'entrée", "gender": "f", "ru": "закуска, первое блюдо", "ru_pron": "л'антрэ", "example_fr": "Comme entrée, je prends la salade.", "example_ru": "На закуску я возьму салат.", "level": "A1" },
+        { "fr": "le plat", "gender": "m", "ru": "блюдо", "ru_pron": "лё пла", "example_fr": "Quel est le plat du jour ?", "example_ru": "Каково блюдо дня?", "level": "A1" },
+        { "fr": "la viande", "gender": "f", "ru": "мясо", "ru_pron": "ля вьянд", "example_fr": "Je ne mange pas de viande.", "example_ru": "Я не ем мяса.", "level": "A1" },
+        { "fr": "le poisson", "gender": "m", "ru": "рыба", "ru_pron": "лё пуасон", "example_fr": "Le poisson du jour est le saumon.", "example_ru": "Рыба дня — лосось.", "level": "A1" },
+        { "fr": "le fromage", "gender": "m", "ru": "сыр", "ru_pron": "лё фромаж", "example_fr": "La France a 300 sortes de fromage.", "example_ru": "Во Франции 300 видов сыра.", "level": "A1" },
+        { "fr": "le dessert", "gender": "m", "ru": "десерт", "ru_pron": "лё дэссэр", "example_fr": "La crème brûlée est mon dessert préféré.", "example_ru": "Крем-брюле — мой любимый десерт.", "level": "A1" },
+        { "fr": "végétarien(ne)", "gender": "m/f", "ru": "вегетарианский", "ru_pron": "вэжэтарьэн", "example_fr": "Avez-vous des plats végétariens ?", "example_ru": "У вас есть вегетарианские блюда?", "level": "A1" },
+        { "fr": "choisir", "gender": null, "ru": "выбирать", "ru_pron": "шуазир", "example_fr": "J'ai du mal à choisir.", "example_ru": "Мне трудно выбрать.", "level": "A1" },
+        { "fr": "recommander", "gender": null, "ru": "рекомендовать", "ru_pron": "рёкоманде", "example_fr": "Qu'est-ce que vous recommandez ?", "example_ru": "Что вы рекомендуете?", "level": "A1" },
+        { "fr": "délicieux / délicieuse", "gender": "m/f", "ru": "восхитительный, вкусный", "ru_pron": "дэлисьё / дэлисьёз", "example_fr": "Ce plat est absolument délicieux !", "example_ru": "Это блюдо абсолютно восхитительно!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le dessert", "fr_pron": "лё дэссэр", "ru": "десерт", "ru_pron": "десерт", "note": "Русское «десерт» — прямое заимствование из французского. Внимание на двойное «s» в середине: dessert, а не desert (пустыня)!" },
+        { "fr": "végétarien", "fr_pron": "вэжэтарьэн", "ru": "вегетарианский", "ru_pron": "вегетарианский", "note": "Оба слова из латинского vegetare (расти). Во французском произносится «вэжэтарьэн» с носовым окончанием." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Auguste Escoffier (1846–1935)",
+          "subtitle": "Le Roi des cuisiniers",
+          "content": "Огюст Эскофье — «король поваров и повар королей». Он модернизировал французскую кухню, создал систему бригады на кухне (brigade de cuisine) — разделение труда, которое до сих пор используется во всех ресторанах мира. Написал «Le Guide Culinaire» (1903) — Библию французской кухни, в которой описал более 5 000 рецептов. Именно он изобрёл «Персик Мельба» (Pêche Melba) в честь певицы Нелли Мельбы."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "L'invention du restaurant (1765)",
+          "content": "Первый ресторан в современном понимании открылся в Париже около 1765 года. До этого еду продавали в таверных (tavernes) без выбора блюд — ели что дают. Слово «restaurant» происходит от «restaurer» (восстанавливать силы) — изначально подавали только «восстанавливающий бульон». Именно Франция подарила миру концепцию ресторана, меню и культуру обеда вне дома."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "300 сортов сыра — почему так много?",
+          "content": "«Как можно управлять страной, в которой 246 видов сыра?» — спросил Шарль де Голль. Сегодня их уже более 1 200! Каждый регион Франции производит свои сорта: Normandie — камамбер и ливаро, Auvergne — канталь и рокфор, Bourgogne — эпуас. Французский сырный столик (plateau de fromage) подаётся ПЕРЕД десертом — порядок обратный русскому! Многие сыры охраняются законом AOP (Appellation d'Origine Protégée)."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Qu'est-ce que vous recommandez ?",
+          "pronunciation": "Кэс-кё ву рёкомандэ",
+          "translation": "Что вы рекомендуете?",
+          "usage": "Незаменимая фраза в ресторане. Официанты во Франции хорошо знают меню и рады помочь. Можно уточнить: «Qu'est-ce que vous recommandez comme entrée ?» (что посоветуете на закуску?).",
+          "example": "— Qu'est-ce que vous recommandez aujourd'hui ? — Je vous recommande le bœuf bourguignon, c'est la spécialité de la maison. (— Что вы рекомендуете сегодня? — Советую беф-бургиньон, это фирменное блюдо.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Lyon — La Capitale gastronomique",
+          "subtitle": "Лион — Гастрономическая столица мира",
+          "content": "Лион признан мировой столицей гастрономии. Здесь родился Поль Бокюз — легенда французской кухни, и именно в Лионе наибольшая концентрация ресторанов Мишлен на душу населения в мире. Фирменные лионские заведения — «бушоны» (bouchons) — маленькие традиционные кабачки, где подают quenelles de brochet (кнели из щуки), tablier de sapeur (жареный рубец) и tarte à la praline (тарт с пралине). Ничего общего с Москвой!"
+        }
+      },
+      "quiz": [
+        {
+          "q": "Что такое «la carte» в ресторане?",
+          "opts": ["Карта города", "Меню (полный список блюд)", "Комплексный обед по фиксированной цене", "Карта лояльности"],
+          "ans": 1,
+          "exp": "La carte = меню (книжка со всеми блюдами à la carte). Le menu = комплексный обед по фиксированной цене. Спросить «la carte» = попросить показать меню."
+        },
+        {
+          "q": "Какой партитивный артикль используется с «viande» (мясо — ж.р.)?",
+          "opts": ["du viande", "de la viande", "des viandes", "de viande"],
+          "ans": 1,
+          "exp": "De la viande — партитивный артикль женского рода. «Je prends de la viande» = я беру (немного) мяса."
+        },
+        {
+          "q": "В каком порядке подаются блюда во Франции?",
+          "opts": ["Суп, горячее, сыр, десерт", "Закуска, горячее, сыр, десерт", "Закуска, горячее, десерт, сыр", "Сыр, закуска, горячее, десерт"],
+          "ans": 1,
+          "exp": "Классический французский порядок: entrée (закуска) → plat principal (горячее) → fromage (сыр) → dessert. Сыр — ДО десерта!"
+        },
+        {
+          "q": "Что означает «Je ne mange pas de viande» ?",
+          "opts": ["Я люблю мясо", "Я не ем мяса", "У меня нет мяса", "Я вегетарианец"],
+          "ans": 1,
+          "exp": "Je ne mange pas de viande = я не ем мяса. После отрицания «ne...pas» партитивный артикль меняется на «de»."
+        },
+        {
+          "q": "Кто создал систему «brigade de cuisine» (бригады на кухне)?",
+          "opts": ["Paul Bocuse", "Joël Robuchon", "Auguste Escoffier", "Guy Savoy"],
+          "ans": 2,
+          "exp": "Auguste Escoffier модернизировал французскую кухню и создал систему бригады — разделение труда на кухне, которое до сих пор используется во всём мире."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Commander au Restaurant",
+      "titleRu": "Делаем заказ в ресторане",
+      "level": "A1",
+      "grammar": {
+        "title": "Le conditionnel de politesse : vouloir et pouvoir",
+        "titleRu": "Условное наклонение для вежливости",
+        "intro": "Во французском ресторане грубо говорить «Je veux...» (Я хочу...) — это звучит как приказ. Используйте условное наклонение для вежливых просьб: «Je voudrais...» (Я бы хотел...) или «Pourriez-vous...?» (Не могли бы вы...?).",
+        "sections": [
+          {
+            "title": "Вежливые формы",
+            "content": "Je voudrais... — Я бы хотел(а)... (vouloir)\nJ'aimerais... — Мне хотелось бы... (aimer)\nPourriez-vous... ? — Не могли бы вы...? (pouvoir)\nAuriez-vous... ? — Не нашлось бы у вас...?\n\n✅ Вежливо: Je voudrais une table pour deux.\n❌ Грубо: Je veux une table !"
+          },
+          {
+            "title": "Полезные фразы за столом",
+            "content": "C'est pour combien de personnes ? — На сколько человек?\nVous avez réservé ? — Вы забронировали?\nQuelle est la spécialité de la maison ? — Что является фирменным блюдом?\nC'est compris ? — Это включено (в цену)?\nLe service est compris. — Обслуживание включено."
+          }
+        ],
+        "rule": "💡 «Je voudrais» — самая важная вежливая форма во французском. Выучите её наизусть! Это условное наклонение глагола «vouloir» (хотеть)."
+      },
+      "pronunciation": {
+        "intro": "Ключевые фразы для заказа в ресторане:",
+        "note": "⚠️ «Je voudrais» произносится «жё вудрэ» — не «вулдрэ» и не «вудрэй»!",
+        "words": [
+          { "fr": "Je voudrais...", "ru_pron": "Жё вудрэ", "meaning": "Я бы хотел(а)..." },
+          { "fr": "Pour moi,...", "ru_pron": "Пур муа", "meaning": "Для меня..." },
+          { "fr": "saignant", "ru_pron": "сэньян", "meaning": "с кровью (прожарка стейка)" },
+          { "fr": "à point", "ru_pron": "а пуэн", "meaning": "средняя прожарка" },
+          { "fr": "bien cuit", "ru_pron": "бьэн кюи", "meaning": "хорошо прожаренный" },
+          { "fr": "sans...", "ru_pron": "сан", "meaning": "без... (sans sel = без соли)" },
+          { "fr": "Encore..., s'il vous plaît", "ru_pron": "Анкор, силь ву плэ", "meaning": "Ещё..., пожалуйста" },
+          { "fr": "C'est délicieux !", "ru_pron": "Сэ дэлисьё", "meaning": "Это восхитительно!" },
+          { "fr": "Pouvez-vous apporter...?", "ru_pron": "Пувэ ву апортэ", "meaning": "Не могли бы принести...?" },
+          { "fr": "Je suis allergique à...", "ru_pron": "Жё сюи алэржик а", "meaning": "У меня аллергия на..." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "réserver", "gender": null, "ru": "бронировать, резервировать", "ru_pron": "рэзэрвэ", "example_fr": "J'ai réservé une table pour ce soir.", "example_ru": "Я забронировал столик на этот вечер.", "level": "A1" },
+        { "fr": "la spécialité", "gender": "f", "ru": "фирменное блюдо, специалитет", "ru_pron": "ля спэсьялитэ", "example_fr": "Quelle est la spécialité de la maison ?", "example_ru": "Каково фирменное блюдо заведения?", "level": "A1" },
+        { "fr": "l'allergie", "gender": "f", "ru": "аллергия", "ru_pron": "л'алэржи", "example_fr": "J'ai une allergie aux noix.", "example_ru": "У меня аллергия на орехи.", "level": "A1" },
+        { "fr": "le sel", "gender": "m", "ru": "соль", "ru_pron": "лё сэль", "example_fr": "Sans sel, s'il vous plaît.", "example_ru": "Без соли, пожалуйста.", "level": "A1" },
+        { "fr": "le poivre", "gender": "m", "ru": "перец", "ru_pron": "лё пуавр", "example_fr": "Passez-moi le poivre, s'il vous plaît.", "example_ru": "Передайте мне перец, пожалуйста.", "level": "A1" },
+        { "fr": "la portion", "gender": "f", "ru": "порция", "ru_pron": "ля порсьон", "example_fr": "La portion est très grande.", "example_ru": "Порция очень большая.", "level": "A1" },
+        { "fr": "inclus / compris", "gender": null, "ru": "включённый, входящий в цену", "ru_pron": "энклю / компри", "example_fr": "Le service est compris.", "example_ru": "Обслуживание включено.", "level": "A1" },
+        { "fr": "apporter", "gender": null, "ru": "принести, принести", "ru_pron": "апортэ", "example_fr": "Pouvez-vous apporter l'addition ?", "example_ru": "Не могли бы вы принести счёт?", "level": "A1" },
+        { "fr": "changer", "gender": null, "ru": "изменить, заменить", "ru_pron": "шанжэ", "example_fr": "Pouvez-vous changer mon plat ?", "example_ru": "Не могли бы вы заменить моё блюдо?", "level": "A1" },
+        { "fr": "en plein air", "gender": null, "ru": "на открытом воздухе, на улице", "ru_pron": "ан плэн эр", "example_fr": "Je préfère manger en plein air.", "example_ru": "Я предпочитаю есть на открытом воздухе.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "réserver", "fr_pron": "рэзэрвэ", "ru": "резервировать", "ru_pron": "резервировать", "note": "Русское «резервировать» и французское «réserver» — из одного латинского корня reservare. Однокоренные: résidence, réservation." },
+        { "fr": "l'allergie", "fr_pron": "л'алэржи", "ru": "аллергия", "ru_pron": "аллергия", "note": "Французское allergie и русское «аллергия» — из греческого allos (другой) + ergon (реакция). Произношение почти идентично!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Paul Bocuse (1934–2018)",
+          "subtitle": "Pape de la cuisine française",
+          "content": "Поль Бокюз — легенда мировой гастрономии, «папа французской кухни». Его ресторан «L'Auberge du Pont de Collonges» в Лионе удерживал три звезды Мишлен 55 лет подряд — абсолютный мировой рекорд! Бокюз создал движение «nouvelle cuisine» (новая кухня) в 1970-х, сделав акцент на свежих продуктах и лёгких соусах. С 1987 года проводится конкурс «Bocuse d'Or» — «Оскар» в мире кулинарии."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le Guide Michelin — звёзды ресторанов (1900)",
+          "content": "Гид Мишлен был создан в 1900 году компанией по производству шин Michelin, чтобы побуждать водителей путешествовать и изнашивать шины! Сначала в нём были только заправки и мастерские. Звёзды ресторанам начали присваивать с 1926 года. Сегодня одна звезда Мишлен меняет судьбу ресторана навсегда. Потерять звезду — катастрофа: некоторые повара впадали в депрессию, один даже покончил с собой."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Прожарка стейка — священный вопрос",
+          "content": "Во французском ресторане официант обязательно спросит: «Comment voulez-vous votre viande ?» (Как вы хотите мясо?). Варианты: bleu (сырое, еле тёплое), saignant (с кровью), à point (средняя), bien cuit (хорошо прожаренное). Попросить bien cuit во французском стейк-ресторане — почти оскорбление повара! Французы считают, что пережаренное мясо теряет вкус. Попробуйте à point — и вы поймёте!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Bon appétit !",
+          "pronunciation": "Бон апэти",
+          "translation": "Приятного аппетита!",
+          "usage": "Говорится перед едой — всегда, везде, в любой ситуации. Официант скажет это, ставя тарелку. Сотрапезники говорят это друг другу. Интересно, что многие англоязычные страны переняли это выражение из французского.",
+          "example": "— Voici votre entrée ! — Merci. — Bon appétit ! — Merci, à vous aussi ! (— Вот ваша закуска! — Спасибо. — Приятного аппетита! — Спасибо, и вам!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Paris — Le Marais",
+          "subtitle": "Маре — квартал гурманов",
+          "content": "Квартал Маре (Le Marais) в центре Парижа — один из лучших районов для гастрономических прогулок. Здесь сосредоточены еврейские пекарни с восхитительным falafel на улице Розье, модные бистро, кондитерские с потрясающим millefeuille и лавки с крафтовым сыром. Архитектура XVII века, галереи, музей Пикассо — и всё это в шаговой доступности. Идеальное сочетание культуры и гастрономии."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Почему нужно говорить «Je voudrais» вместо «Je veux»?",
+          "opts": ["Они означают разные вещи", "«Je voudrais» вежливее — это условное наклонение", "«Je veux» неправильно грамматически", "Разница только в регионе"],
+          "ans": 1,
+          "exp": "«Je voudrais» (условное) звучит вежливо — «я бы хотел». «Je veux» (изъявительное) звучит как приказ — «я хочу». Французы очень ценят вежливость!"
+        },
+        {
+          "q": "Что означает «bien cuit» применительно к стейку?",
+          "opts": ["С кровью", "Средняя прожарка", "Хорошо прожаренный", "Почти сырой"],
+          "ans": 2,
+          "exp": "Bien cuit = хорошо прожаренный. Шкала: bleu (сырой) → saignant (с кровью) → à point (средний) → bien cuit."
+        },
+        {
+          "q": "Что такое Гид Мишлен?",
+          "opts": ["Путеводитель по Парижу", "Рейтинг ресторанов, присваивающий звёзды", "Кулинарная книга", "Журнал о еде"],
+          "ans": 1,
+          "exp": "Гид Мишлен — знаменитый ресторанный рейтинг со звёздами. Создан в 1900 году компанией по производству шин, которая хотела, чтобы автомобилисты больше ездили."
+        },
+        {
+          "q": "Как вежливо попросить принести ещё воды?",
+          "opts": ["Je veux de l'eau !", "Donnez-moi de l'eau.", "Pourriez-vous apporter encore de l'eau, s'il vous plaît ?", "De l'eau !"],
+          "ans": 2,
+          "exp": "«Pourriez-vous apporter...» — самая вежливая форма просьбы. Можно также «Encore de l'eau, s'il vous plaît» — проще, но вежливо."
+        },
+        {
+          "q": "Сколько лет ресторан Поля Бокюза удерживал три звезды Мишлен?",
+          "opts": ["25 лет", "40 лет", "55 лет", "70 лет"],
+          "ans": 2,
+          "exp": "55 лет подряд — абсолютный мировой рекорд! Ресторан L'Auberge du Pont de Collonges получил три звезды в 1965 году."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "La Nourriture et les Goûts",
+      "titleRu": "Еда и вкусы",
+      "level": "A1",
+      "grammar": {
+        "title": "Aimer + infinitif / nom",
+        "titleRu": "Выражение предпочтений: aimer, préférer, détester",
+        "intro": "Говорить о своих предпочтениях в еде — один из самых частых разговорных сценариев. Во французском используют глаголы aimer (любить), préférer (предпочитать), détester (терпеть не мочь) с артиклем или инфинитивом.",
+        "sections": [
+          {
+            "title": "Выражение вкусов",
+            "content": "J'aime + le/la/les (общее): J'aime le chocolat.\nJ'aime + infinitif: J'aime manger du chocolat.\nJe préfère le poisson à la viande. (рыбу предпочитаю мясу)\nJe n'aime pas les épinards. (не люблю шпинат)\nJe déteste le café. (терпеть не могу кофе)\n\n⚠️ С определённым артиклем: J'aime LE fromage (сыр вообще)\nС партитивным: Je mange DU fromage (ем сейчас немного)"
+          },
+          {
+            "title": "Степени предпочтения",
+            "content": "J'adore ! — Обожаю!\nJ'aime beaucoup. — Очень люблю.\nJ'aime bien. — Мне нравится.\nJe n'aime pas trop. — Не очень люблю.\nJe n'aime pas du tout. — Совсем не люблю.\nJe déteste ! — Терпеть не могу!"
+          }
+        ],
+        "rule": "💡 J'aime LE chocolat (вообще, как категория) vs Je mange DU chocolat (сейчас, часть). Это одна из главных ловушек для иностранцев!"
+      },
+      "pronunciation": {
+        "intro": "Французские продукты и вкусы:",
+        "note": "⚠️ «Épinards» (шпинат) — типичное слово, которое дети во всех странах называют «гадостью». Во Франции эта традиция не исключение!",
+        "words": [
+          { "fr": "sucré / salé", "ru_pron": "сюкрэ / салэ", "meaning": "сладкий / солёный" },
+          { "fr": "épicé", "ru_pron": "эписэ", "meaning": "острый (пряный)" },
+          { "fr": "acide", "ru_pron": "асид", "meaning": "кислый" },
+          { "fr": "amer / amère", "ru_pron": "амэр", "meaning": "горький / горькая" },
+          { "fr": "le bœuf", "ru_pron": "лё бёф", "meaning": "говядина (f на конце не читается!)" },
+          { "fr": "le poulet", "ru_pron": "лё пулэ", "meaning": "курица, куриное мясо" },
+          { "fr": "les fruits de mer", "ru_pron": "лэ фрюи дё мэр", "meaning": "морепродукты" },
+          { "fr": "les légumes", "ru_pron": "лэ лэгюм", "meaning": "овощи" },
+          { "fr": "les fruits", "ru_pron": "лэ фрюи", "meaning": "фрукты" },
+          { "fr": "J'adore !", "ru_pron": "Жадор", "meaning": "Обожаю!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "sucré(e)", "gender": "m/f", "ru": "сладкий", "ru_pron": "сюкрэ", "example_fr": "J'aime les plats sucrés.", "example_ru": "Я люблю сладкие блюда.", "level": "A1" },
+        { "fr": "salé(e)", "gender": "m/f", "ru": "солёный, несладкий", "ru_pron": "салэ", "example_fr": "Je préfère le salé au sucré.", "example_ru": "Я предпочитаю солёное сладкому.", "level": "A1" },
+        { "fr": "épicé(e)", "gender": "m/f", "ru": "острый, пряный", "ru_pron": "эписэ", "example_fr": "La cuisine indienne est très épicée.", "example_ru": "Индийская кухня очень острая.", "level": "A1" },
+        { "fr": "le bœuf", "gender": "m", "ru": "говядина, бык", "ru_pron": "лё бёф", "example_fr": "Le bœuf bourguignon est un plat classique.", "example_ru": "Беф-бургиньон — классическое блюдо.", "level": "A1" },
+        { "fr": "le poulet", "gender": "m", "ru": "курица, цыплёнок", "ru_pron": "лё пулэ", "example_fr": "Je voudrais du poulet rôti.", "example_ru": "Я бы хотел жареную курицу.", "level": "A1" },
+        { "fr": "les fruits de mer", "gender": "m pl", "ru": "морепродукты", "ru_pron": "лэ фрюи дё мэр", "example_fr": "J'adore les fruits de mer.", "example_ru": "Я обожаю морепродукты.", "level": "A1" },
+        { "fr": "préférer", "gender": null, "ru": "предпочитать", "ru_pron": "прэфэрэ", "example_fr": "Je préfère le poisson à la viande.", "example_ru": "Я предпочитаю рыбу мясу.", "level": "A1" },
+        { "fr": "détester", "gender": null, "ru": "терпеть не мочь, ненавидеть", "ru_pron": "дэтэстэ", "example_fr": "Je déteste les épinards.", "example_ru": "Я терпеть не могу шпинат.", "level": "A1" },
+        { "fr": "adorer", "gender": null, "ru": "обожать", "ru_pron": "адорэ", "example_fr": "J'adore le chocolat français !", "example_ru": "Я обожаю французский шоколад!", "level": "A1" },
+        { "fr": "goûter", "gender": null, "ru": "пробовать на вкус, дегустировать", "ru_pron": "гутэ", "example_fr": "Goûtez ce fromage, il est excellent !", "example_ru": "Попробуйте этот сыр, он превосходен!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le chocolat", "fr_pron": "лё шоколя", "ru": "шоколад", "ru_pron": "шоколад", "note": "Оба слова из ацтекского «xocolatl». Французский шоколад — один из лучших в мире. Valrhona, Michel Cluizel, Pierre Hermé — великие имена." },
+        { "fr": "les fruits de mer", "fr_pron": "лэ фрюи дё мэр", "ru": "фрукты / плоды моря", "ru_pron": "фрукты", "note": "«Fruit» = плод, фрукт. «Fruits de mer» буквально = «плоды моря» — красивый образ для морепродуктов! Русское «фрукт» заимствовано из французского." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Julia Child (1912–2004)",
+          "subtitle": "L'Américaine qui a aimé la France",
+          "content": "Джулия Чайлд — американка, которая влюбилась во французскую кухню, переехав в Париж с мужем-дипломатом. Она поступила в знаменитую кулинарную школу Le Cordon Bleu в 1949 году — в то время туда почти не принимали женщин. Её книга «Mastering the Art of French Cooking» (1961) открыла французскую кухню для миллионов американцев. Телешоу «The French Chef» шло 10 лет. Её жизнь послужила основой фильма «Джули и Джулия» (2009) с Мерил Стрип."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "La gastronomie française au patrimoine UNESCO (2010)",
+          "content": "В 2010 году UNESCO внесло французскую гастрономическую трапезу (le repas gastronomique des Français) в список нематериального культурного наследия человечества. Это не конкретное блюдо, а целый ритуал: выбор продуктов, приготовление, сервировка, общение за столом. Франция стала первой страной, чья кулинарная культура получила такой статус. Обед — это священнодействие."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Les escargots — улитки как деликатес",
+          "content": "Улитки (les escargots) — один из самых знаменитых французских деликатесов. Их подают в специальной сковородке с ямками по 6 или 12 штук, запечёнными в чесночном масле с петрушкой. Во Франции ежегодно съедают около 30 000 тонн улиток! Большинство импортируется из Восточной Европы — в том числе из Польши. Есть улитку правильно — целое искусство: специальные щипцы (pince), вилочка и много хлеба, чтобы подобрать масло."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "C'est à tomber par terre !",
+          "pronunciation": "Сэ а томбэ пар тэр",
+          "translation": "Это просто улёт! (Это так вкусно, что падаешь!)",
+          "usage": "Буквально «это (так вкусно, что) падаешь на землю» — выражение крайнего восхищения едой или чем-либо прекрасным. Используется для гиперболы. Аналог русского «пальчики оближешь» или «умереть можно».",
+          "example": "— Comment tu trouves ce gâteau ? — C'est à tomber par terre ! (— Как тебе этот торт? — Это просто улёт, пальчики оближешь!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Périgord — Terre de la truffe et du foie gras",
+          "subtitle": "Перигор — Земля трюфелей и фуагра",
+          "content": "Перигор (Périgord) — регион на юго-западе Франции, гастрономическая земля обетованная. Здесь производят чёрный трюфель (truffe noire) — «чёрный бриллиант» французской кухни, стоимостью от 1 000 евро за кг. Также знаменит фуагра (foie gras — жирная утиная или гусиная печень) и утиной грудкой (magret de canard). Город Сарла — настоящий музей средневековой архитектуры под открытым небом."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я обожаю сыр» (сыр вообще)?",
+          "opts": ["J'adore du fromage", "J'adore le fromage", "J'adore fromage", "J'adore de fromage"],
+          "ans": 1,
+          "exp": "J'adore le fromage — с определённым артиклем «le», когда говорим о категории (сыр вообще). «Du fromage» = некоторое количество сыра (сейчас)."
+        },
+        {
+          "q": "Как выразить «Я предпочитаю рыбу мясу»?",
+          "opts": ["Je préfère le poisson à la viande.", "J'aime le poisson plus la viande.", "Je préfère poisson que viande.", "Le poisson est mieux la viande."],
+          "ans": 0,
+          "exp": "Préférer + A + à + B = предпочитать A B. Je préfère le poisson à la viande = рыбу предпочитаю мясу."
+        },
+        {
+          "q": "Что такое «les escargots»?",
+          "opts": ["Морепродукты", "Улитки", "Устрицы", "Лягушачьи лапки"],
+          "ans": 1,
+          "exp": "Les escargots = улитки. Знаменитый французский деликатес, запечённый в чесночном масле. Около 30 000 тонн съедается во Франции каждый год!"
+        },
+        {
+          "q": "Какой статус получила французская гастрономическая трапеза от UNESCO в 2010 году?",
+          "opts": ["Объект Всемирного наследия", "Нематериальное культурное наследие человечества", "Защищённое географическое обозначение", "Национальное достояние"],
+          "ans": 1,
+          "exp": "Французская гастрономическая трапеза была внесена в список нематериального культурного наследия UNESCO в 2010 году — первая кулинарная культура в мире с таким статусом."
+        },
+        {
+          "q": "Какая американка открыла французскую кухню для миллионов американцев?",
+          "opts": ["Martha Stewart", "Julia Child", "Alice Waters", "Ina Garten"],
+          "ans": 1,
+          "exp": "Julia Child. После учёбы в Le Cordon Bleu в Париже она написала «Mastering the Art of French Cooking» и вела телешоу «The French Chef» 10 лет."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Faire les Courses",
+      "titleRu": "Ходим за покупками",
+      "level": "A1",
+      "grammar": {
+        "title": "Les expressions de quantité",
+        "titleRu": "Выражения количества",
+        "intro": "Когда вы делаете покупки на рынке или в магазине, вам понадобятся выражения количества. Во французском они всегда используются с предлогом «de» (без артикля!).",
+        "sections": [
+          {
+            "title": "Выражения количества (всегда + de)",
+            "content": "un kilo de... — килограмм чего-то\nun litre de... — литр чего-то\nune tranche de... — ломтик / нарезка чего-то\nun morceau de... — кусочек чего-то\nune bouteille de... — бутылка чего-то\nune douzaine de... — дюжина (12 штук)\nassez de... — достаточно\nbeaucoup de... — много\npeu de... — мало"
+          },
+          {
+            "title": "На рынке и в магазине",
+            "content": "C'est combien ? / Ça coûte combien ? — Сколько стоит?\nJe voudrais 500 grammes de... — Я бы хотел 500 г...\nC'est tout. — Это всё.\nEt avec ça ? — И ещё что-нибудь?\nPas de monnaie, merci. — Без сдачи, спасибо.\nGardez la monnaie. — Оставьте себе сдачу."
+          }
+        ],
+        "rule": "💡 Quantité + DE (без артикля!): un kilo de pommes (кг яблок), beaucoup de fromage (много сыра). Никогда: *un kilo des pommes!"
+      },
+      "pronunciation": {
+        "intro": "Слова, которые услышите на французском рынке:",
+        "note": "⚠️ «Les courses» = покупки (groceries), «courir» = бегать. Ловушка для начинающих! «Faire les courses» = делать покупки, а не бегать!",
+        "words": [
+          { "fr": "le marché", "ru_pron": "лё маршэ", "meaning": "рынок" },
+          { "fr": "la boulangerie", "ru_pron": "ля буланжри", "meaning": "булочная" },
+          { "fr": "la boucherie", "ru_pron": "ля бушри", "meaning": "мясная лавка" },
+          { "fr": "la fromagerie", "ru_pron": "ля фромажри", "meaning": "сырная лавка" },
+          { "fr": "la pâtisserie", "ru_pron": "ля патиссри", "meaning": "кондитерская" },
+          { "fr": "les pommes", "ru_pron": "лэ пом", "meaning": "яблоки (pomme de terre = картофель!)" },
+          { "fr": "la fraise", "ru_pron": "ля фрэз", "meaning": "клубника" },
+          { "fr": "un kilo", "ru_pron": "ён кило", "meaning": "килограмм" },
+          { "fr": "la monnaie", "ru_pron": "ля монэ", "meaning": "монеты / сдача" },
+          { "fr": "frais / fraîche", "ru_pron": "фрэ / фрэш", "meaning": "свежий / свежая" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le marché", "gender": "m", "ru": "рынок", "ru_pron": "лё маршэ", "example_fr": "Je fais les courses au marché.", "example_ru": "Я делаю покупки на рынке.", "level": "A1" },
+        { "fr": "la boulangerie", "gender": "f", "ru": "булочная, пекарня", "ru_pron": "ля буланжри", "example_fr": "La boulangerie ouvre à 7h.", "example_ru": "Булочная открывается в 7 часов.", "level": "A1" },
+        { "fr": "la pâtisserie", "gender": "f", "ru": "кондитерская, кондитерские изделия", "ru_pron": "ля патиссри", "example_fr": "Les éclairs de cette pâtisserie sont excellents.", "example_ru": "Эклеры в этой кондитерской превосходны.", "level": "A1" },
+        { "fr": "frais / fraîche", "gender": "m/f", "ru": "свежий / свежая", "ru_pron": "фрэ / фрэш", "example_fr": "Ce pain est très frais.", "example_ru": "Этот хлеб очень свежий.", "level": "A1" },
+        { "fr": "la monnaie", "gender": "f", "ru": "сдача, монеты, валюта", "ru_pron": "ля монэ", "example_fr": "Avez-vous la monnaie de 20 euros ?", "example_ru": "У вас есть сдача с 20 евро?", "level": "A1", "meaning_double": "monnaie = сдача ET monnaie = валюта (devise)" },
+        { "fr": "le sac", "gender": "m", "ru": "сумка, пакет", "ru_pron": "лё сак", "example_fr": "Avez-vous un sac en plastique ?", "example_ru": "У вас есть пластиковый пакет?", "level": "A1" },
+        { "fr": "peser", "gender": null, "ru": "взвешивать, весить", "ru_pron": "пёзэ", "example_fr": "Pouvez-vous peser ces tomates ?", "example_ru": "Не могли бы вы взвесить эти помидоры?", "level": "A1" },
+        { "fr": "une tranche", "gender": "f", "ru": "ломтик, нарезка", "ru_pron": "юн транш", "example_fr": "Quatre tranches de jambon, s'il vous plaît.", "example_ru": "Четыре ломтика ветчины, пожалуйста.", "level": "A1" },
+        { "fr": "bio / biologique", "gender": null, "ru": "органический, биологический", "ru_pron": "био", "example_fr": "Je préfère les produits bio.", "example_ru": "Я предпочитаю органические продукты.", "level": "A1" },
+        { "fr": "la promotion", "gender": "f", "ru": "скидка, акция", "ru_pron": "ля промосьон", "example_fr": "Ces fraises sont en promotion.", "example_ru": "Эта клубника по акции.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le marché", "fr_pron": "лё маршэ", "ru": "рынок / маркет", "ru_pron": "маркет", "note": "Русское «маркет» (супермаркет) — из французского «marché». Оба слова из латинского mercatus (торговля). «Hypermarché» = гипермаркет." },
+        { "fr": "bio / biologique", "fr_pron": "био", "ru": "био / биологический", "ru_pron": "био", "note": "Международный префикс «bio» из греческого bios (жизнь). Во Франции продукты «bio» очень популярны — специальный «раyon bio» есть в каждом супермаркете." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Marie Harel (1761–1844)",
+          "subtitle": "L'inventrice du Camembert",
+          "content": "По легенде, камамбер изобрела нормандская крестьянка Мари Арель в 1791 году, приютив во время революции священника из региона Бри. Тот поделился с ней секретом изготовления мягкого сыра. Мари адаптировала рецепт к местному молоку и создала новый сыр. В 1890 году изобрели знаменитую деревянную коробочку, которая позволила транспортировать камамбер по всему миру. Сегодня Camembert de Normandie защищён знаком AOP."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le marché d'Aligre et les marchés parisiens",
+          "content": "Французские рынки (marchés) — неотъемлемая часть городской жизни. В Париже работает более 80 крытых и открытых рынков. Знаменитый рынок Аликр (Marché d'Aligre, с 1779 года) — один из старейших и самых живых. По закону, каждый крупный квартал должен иметь свой рынок. Французы принципиально ходят на рынок за свежими продуктами, а не только в супермаркет. «Faire son marché» — настоящий ритуал."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "La baguette — хлеб как ритуал",
+          "content": "Французы покупают хлеб каждый день — а то и дважды в день! Горячий багет из булочной — утром и перед обедом. Бережно нести багет под мышкой — обычная картина на парижских улицах. По закону 1993 года, настоящий «pain de tradition française» делается только из муки, воды, соли и дрожжей. Французы едят 30 миллионов багетов в день. Нарезать багет ножом — допустимо, но лучше ломать руками. За столом хлеб кладут прямо на скатерть, а не на тарелку."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Ce n'est pas donné !",
+          "pronunciation": "Сё нэ па донэ",
+          "translation": "Это недёшево! (Это не подарок!)",
+          "usage": "Говорится, когда что-то стоит дорого. Буквально: «это не подарено» = не бесплатно, не дёшево. Мягкое выражение удивления ценой. Синоним: «C'est cher!» (это дорого!), но менее резко.",
+          "example": "— Ce fromage coûte 40 euros le kilo ! — Ce n'est pas donné ! (— Этот сыр стоит 40 евро за кг! — Ну и ценник!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Rungis — Le plus grand marché du monde",
+          "subtitle": "Рюнжи — Крупнейший рынок мира",
+          "content": "Рынок Рюнжи под Парижем — крупнейший оптовый продовольственный рынок в мире: 234 гектара, 12 000 сотрудников, 1 200 предприятий. Каждую ночь сюда прибывают тысячи тонн продуктов из всех уголков Франции и мира. Открылся в 1969 году, сменив старый рынок Чрево Парижа (Les Halles). Здесь начинается каждое утро для всех парижских ресторанов, булочных и рынков. Экскурсии для туристов проводятся ночью — зрелище невероятное."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как правильно сказать «килограмм яблок»?",
+          "opts": ["un kilo des pommes", "un kilo de pommes", "un kilo les pommes", "un kilo pommes"],
+          "ans": 1,
+          "exp": "Un kilo de pommes — после выражений количества всегда используется «de» без артикля: un litre d'eau, beaucoup de fromage."
+        },
+        {
+          "q": "Что означает «faire les courses» ?",
+          "opts": ["Бегать на скорость", "Делать покупки (продукты)", "Посещать рынок только", "Ходить по магазинам одежды"],
+          "ans": 1,
+          "exp": "Faire les courses = делать покупки (продукты). Не путайте с courir (бегать)! «Les courses» в магазинном контексте = покупки."
+        },
+        {
+          "q": "Что такое «une boulangerie»?",
+          "opts": ["Мясная лавка", "Рыбная лавка", "Булочная / пекарня", "Кондитерская"],
+          "ans": 2,
+          "exp": "Une boulangerie = булочная (от boulanger = пекарь). Кондитерская = pâtisserie. Мясная = boucherie. Рыбная = poissonnerie."
+        },
+        {
+          "q": "Как попросить четыре ломтика ветчины?",
+          "opts": ["Quatre tranches de jambon, s'il vous plaît.", "Quatre jambons, s'il vous plaît.", "Quatre morceaux jambon.", "Du jambon quatre fois."],
+          "ans": 0,
+          "exp": "Quatre tranches de jambon = четыре ломтика ветчины. Tranche = ломтик/нарезка, используется для колбасы, сыра, хлеба."
+        },
+        {
+          "q": "Кто по легенде изобрёл камамбер?",
+          "opts": ["Луи Пастер", "Мари Арель", "Огюст Эскофье", "Поль Бокюз"],
+          "ans": 1,
+          "exp": "По легенде, камамбер изобрела нормандская крестьянка Marie Harel в 1791 году по рецепту священника, которого она приютила во время Революции."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "En Ville — S'orienter",
+      "titleRu": "В городе — ориентируемся",
+      "level": "A1",
+      "grammar": {
+        "title": "Les prépositions de lieu et les directions",
+        "titleRu": "Предлоги места и направления",
+        "intro": "Чтобы объяснить или понять дорогу во французском городе, нужно знать предлоги места и глаголы движения. Это жизненно необходимые конструкции для путешественника!",
+        "sections": [
+          {
+            "title": "Предлоги места",
+            "content": "à gauche — налево / слева\nà droite — направо / справа\ntout droit — прямо\nen face de — напротив\nà côté de — рядом с\nprès de — близко от\nloin de — далеко от\nau bout de — в конце\nau coin de — на углу\nentre... et... — между... и..."
+          },
+          {
+            "title": "Глаголы для объяснения дороги",
+            "content": "Tournez à gauche. — Повернёте налево.\nAllez tout droit. — Идите прямо.\nPrenez la première rue. — Возьмите первую улицу.\nTraversez le pont. — Перейдите мост.\nC'est à 5 minutes à pied. — Это в 5 минутах пешком.\nVous ne pouvez pas le manquer ! — Вы не сможете пропустить!"
+          }
+        ],
+        "rule": "💡 Tournez à gauche = imperatif (поворачивайте налево). Mais: «C'est à gauche» = это слева. «Au» = à + le. «Au coin de la rue» = на углу улицы."
+      },
+      "pronunciation": {
+        "intro": "Ключевые слова для ориентации в городе:",
+        "note": "⚠️ «gauche» произносится «гош» (не «гош» с долгой гласной). «Droite» = «друат». Эти два слова — самые нужные для туриста!",
+        "words": [
+          { "fr": "à gauche", "ru_pron": "а гош", "meaning": "налево, слева" },
+          { "fr": "à droite", "ru_pron": "а друат", "meaning": "направо, справа" },
+          { "fr": "tout droit", "ru_pron": "ту друа", "meaning": "прямо (droit = t не читается)" },
+          { "fr": "la rue", "ru_pron": "ля рю", "meaning": "улица" },
+          { "fr": "le boulevard", "ru_pron": "лё булёвар", "meaning": "бульвар (d не читается)" },
+          { "fr": "le carrefour", "ru_pron": "лё карфур", "meaning": "перекрёсток" },
+          { "fr": "le pont", "ru_pron": "лё пон", "meaning": "мост" },
+          { "fr": "la place", "ru_pron": "ля плас", "meaning": "площадь, место" },
+          { "fr": "à pied", "ru_pron": "а пьэ", "meaning": "пешком" },
+          { "fr": "Excusez-moi...", "ru_pron": "Экскюзэ муа", "meaning": "Простите... (начало вопроса)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la rue", "gender": "f", "ru": "улица", "ru_pron": "ля рю", "example_fr": "La rue de Rivoli est très animée.", "example_ru": "Улица Риволи очень оживлённая.", "level": "A1" },
+        { "fr": "la place", "gender": "f", "ru": "площадь; место", "ru_pron": "ля плас", "example_fr": "La place de la Bastille est historique.", "example_ru": "Площадь Бастилии историческая.", "level": "A1", "meaning_double": "place = площадь ET place = место (в театре, поезде)" },
+        { "fr": "le quartier", "gender": "m", "ru": "квартал, район", "ru_pron": "лё картьэ", "example_fr": "Le Marais est un quartier branché.", "example_ru": "Маре — модный квартал.", "level": "A1" },
+        { "fr": "le carrefour", "gender": "m", "ru": "перекрёсток", "ru_pron": "лё карфур", "example_fr": "Tournez à droite au carrefour.", "example_ru": "Поверните направо на перекрёстке.", "level": "A1" },
+        { "fr": "le pont", "gender": "m", "ru": "мост", "ru_pron": "лё пон", "example_fr": "Le Pont Neuf est le plus vieux pont de Paris.", "example_ru": "Пон-Нёф — старейший мост Парижа.", "level": "A1" },
+        { "fr": "tout droit", "gender": null, "ru": "прямо", "ru_pron": "ту друа", "example_fr": "Allez tout droit jusqu'à la mairie.", "example_ru": "Идите прямо до мэрии.", "level": "A1" },
+        { "fr": "traverser", "gender": null, "ru": "пересекать, переходить", "ru_pron": "траверсэ", "example_fr": "Traversez la rue au feu rouge.", "example_ru": "Переходите улицу у светофора.", "level": "A1" },
+        { "fr": "tourner", "gender": null, "ru": "поворачивать", "ru_pron": "турнэ", "example_fr": "Tournez à gauche après le pont.", "example_ru": "Поверните налево после моста.", "level": "A1" },
+        { "fr": "loin / près", "gender": null, "ru": "далеко / близко", "ru_pron": "луэн / прэ", "example_fr": "C'est loin d'ici ? — Non, c'est tout près.", "example_ru": "Это далеко отсюда? — Нет, совсем близко.", "level": "A1" },
+        { "fr": "se perdre", "gender": null, "ru": "заблудиться", "ru_pron": "сё пэрдр", "example_fr": "Je me suis perdu dans le Marais.", "example_ru": "Я заблудился в Маре.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le boulevard", "fr_pron": "лё булёвар", "ru": "бульвар", "ru_pron": "бульвар", "note": "Русское «бульвар» — прямое заимствование из французского. Boulevard в Париже — широкая оживлённая улица с деревьями. Знаменитые: Boulevard Haussmann, Boulevard Saint-Germain." },
+        { "fr": "le carrefour", "fr_pron": "лё карфур", "ru": "Карфур (сеть магазинов)", "ru_pron": "Карфур", "note": "Знаменитая сеть гипермаркетов Carrefour названа в честь французского слова «перекрёсток» — ведь гипермаркеты строились на выездах из городов, на развязках дорог!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Georges-Eugène Haussmann (1809–1891)",
+          "subtitle": "Le Baron qui a refait Paris",
+          "content": "Барон Осман — чиновник Наполеона III, который радикально перестроил Париж в 1853–1870 годах. Он снёс средневековые трущобы и проложил широкие прямые бульвары, которые мы знаем сегодня. Его цели: свет, воздух, современная канализация и... возможность быстро перемещать войска при восстаниях. Критики называли это «вандализмом», поклонники — гениальным градостроительством. Современный Париж — во многом его творение."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les numéros de rue à Paris",
+          "content": "В Париже нумерация домов на улицах, параллельных Сене, начинается с востока (со стороны восхода солнца). На улицах, пересекающих Сену, нумерация начинается от реки. Это было введено в 1805 году по приказу Наполеона. До этого в Париже вообще не было уличных адресов — дома не имели номеров! Жители ориентировались по вывескам, ремесленным знакам и названиям трактиров."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Parler aux Parisiens — как спросить дорогу",
+          "content": "Расхожий стереотип о «грубых парижанах» часто связан с тем, как туристы задают вопросы. Правило: ВСЕГДА начинайте с «Excusez-moi, Monsieur/Madame» и заканчивайте «Merci». Попытка сказать хотя бы слово по-французски открывает все двери. Парижане очень любезны с теми, кто старается. Говорить «Do you speak English?» без предварительного приветствия — вот что реально раздражает!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Vous ne pouvez pas le manquer !",
+          "pronunciation": "Ву нё пувэ па лё манкэ",
+          "translation": "Вы не сможете пропустить / это невозможно не заметить!",
+          "usage": "Говорится, когда объясняешь дорогу к очевидному ориентиру: большому зданию, известной достопримечательности. Очень характерная фраза при объяснении маршрута. «Manquer» = пропустить, упустить.",
+          "example": "— Où est la tour Eiffel ? — Allez tout droit, puis tournez à gauche. Vous ne pouvez pas la manquer ! (— Где Эйфелева башня? — Идите прямо, потом налево. Её невозможно не заметить!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Le Marais, Paris — Le quartier historique",
+          "subtitle": "Маре — Исторический квартал Парижа",
+          "content": "Маре — один из немногих кварталов Парижа, переживших перестройку Османа нетронутым. Здесь сохранились особняки XVII–XVIII веков, Площадь Вогезов (старейшая в Париже, 1612 г.), Еврейский квартал с синагогами и кошерными лавками, Музей Карнавале (история Парижа), Музей Пикассо. Квартал LGBT-friendly, полон галерей, модных бутиков и кафе. Прогулка по Маре — лучший способ почувствовать «старый Париж»."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «прямо» по-французски?",
+          "opts": ["à gauche", "à droite", "tout droit", "en face"],
+          "ans": 2,
+          "exp": "Tout droit = прямо. À gauche = налево. À droite = направо. En face = напротив."
+        },
+        {
+          "q": "Что означает «traverser la rue»?",
+          "opts": ["Идти по улице", "Переходить улицу", "Поворачивать на улицу", "Искать улицу"],
+          "ans": 1,
+          "exp": "Traverser = пересекать, переходить. Traverser la rue = переходить улицу. Traverser le pont = перейти мост."
+        },
+        {
+          "q": "Как правильно начать вопрос о дороге у незнакомца?",
+          "opts": ["Où est la gare ?", "Do you speak French?", "Excusez-moi, Madame, où est la gare ?", "Pardon, la gare ?"],
+          "ans": 2,
+          "exp": "Всегда начинайте с «Excusez-moi, Monsieur/Madame» — это обязательная вежливая формула. Без неё вы рискуете показаться грубым."
+        },
+        {
+          "q": "Кто перестроил Париж в 1853–1870 годах, проложив широкие бульвары?",
+          "opts": ["Наполеон Бонапарт", "Луи XIV", "Барон Осман", "Наполеон III"],
+          "ans": 2,
+          "exp": "Барон Жорж-Эжен Осман перестроил Париж по заказу Наполеона III. Он снёс средневековые кварталы и создал систему широких бульваров."
+        },
+        {
+          "q": "Что означает «place» в контексте «la Place de la Bastille»?",
+          "opts": ["Место в театре", "Площадь", "Квартал", "Парк"],
+          "ans": 1,
+          "exp": "La Place de la Bastille = Площадь Бастилии. «Place» = площадь (городская). Также означает «место» (в поезде, театре) — многозначное слово!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Transports en Ville",
+      "titleRu": "Городской транспорт",
+      "level": "A1",
+      "grammar": {
+        "title": "Prendre, aller, venir — verbes irréguliers",
+        "titleRu": "Неправильные глаголы: brать, идти, приходить",
+        "intro": "Три важнейших глагола для передвижения по городу — prendre (брать/ехать на), aller (идти/ехать) и venir (приходить). Все три неправильные, но встречаются в речи настолько часто, что вы быстро их запомните.",
+        "sections": [
+          {
+            "title": "PRENDRE — брать / ехать на (транспорте)",
+            "content": "je prends — я беру / еду\ntu prends — ты берёшь / едешь\nil/elle prend — он/она берёт\nnous prenons — мы берём\nvous prenez — вы берёте\nils/elles prennent — они берут\n\nPrendre le métro = ехать на метро\nPrendre un taxi = взять такси\nPrendre le bus = сесть на автобус"
+          },
+          {
+            "title": "ALLER — идти / ехать",
+            "content": "je vais — я иду/еду\ntu vas — ты идёшь\nil/elle va — он/она идёт\nnous allons — мы идём\nvous allez — вы идёте\nils/elles vont — они идут\n\nAller à pied = идти пешком\nAller en métro / en bus / en taxi = ехать на метро/автобусе/такси"
+          }
+        ],
+        "rule": "💡 Aller + infinitif = futur proche (ближайшее будущее): Je vais prendre le métro. = Я собираюсь поехать на метро (= поеду). Очень частая конструкция в разговорной речи!"
+      },
+      "pronunciation": {
+        "intro": "Транспорт и слова для поездки:",
+        "note": "⚠️ «Le métro» — окончание не читается: «мэтро», не «мэтрос». «Bus» читается «бюс» во французском, не «бас»!",
+        "words": [
+          { "fr": "le métro", "ru_pron": "лё мэтро", "meaning": "метро" },
+          { "fr": "le bus / l'autobus", "ru_pron": "лё бюс", "meaning": "автобус" },
+          { "fr": "le taxi", "ru_pron": "лё такси", "meaning": "такси" },
+          { "fr": "le vélo", "ru_pron": "лё вэло", "meaning": "велосипед" },
+          { "fr": "la station", "ru_pron": "ля стасьон", "meaning": "станция (метро)" },
+          { "fr": "l'arrêt", "ru_pron": "л'арэ", "meaning": "остановка (автобус)" },
+          { "fr": "le ticket", "ru_pron": "лё тикэ", "meaning": "билет (на метро, автобус)" },
+          { "fr": "le plan", "ru_pron": "лё план", "meaning": "карта, план (города)" },
+          { "fr": "direct / sans correspondance", "ru_pron": "дирэкт / сан корэспондянс", "meaning": "прямой / без пересадок" },
+          { "fr": "la sortie", "ru_pron": "ля сорти", "meaning": "выход (из метро)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le métro", "gender": "m", "ru": "метро", "ru_pron": "лё мэтро", "example_fr": "Je prends le métro ligne 4.", "example_ru": "Я еду на метро линия 4.", "level": "A1" },
+        { "fr": "la station", "gender": "f", "ru": "станция (метро)", "ru_pron": "ля стасьон", "example_fr": "La station Châtelet est la plus grande.", "example_ru": "Станция Шатле — самая большая.", "level": "A1" },
+        { "fr": "le ticket", "gender": "m", "ru": "билет (на транспорт)", "ru_pron": "лё тикэ", "example_fr": "Un carnet de dix tickets, s'il vous plaît.", "example_ru": "Книжку из десяти билетов, пожалуйста.", "level": "A1" },
+        { "fr": "la correspondance", "gender": "f", "ru": "пересадка (в транспорте)", "ru_pron": "ля корэспондянс", "example_fr": "Il faut faire une correspondance.", "example_ru": "Нужно сделать пересадку.", "level": "A1" },
+        { "fr": "la sortie", "gender": "f", "ru": "выход", "ru_pron": "ля сорти", "example_fr": "Prenez la sortie numéro 3.", "example_ru": "Возьмите выход номер 3.", "level": "A1" },
+        { "fr": "le vélo / Vélib'", "gender": "m", "ru": "велосипед / велопрокат", "ru_pron": "лё вэло", "example_fr": "Je préfère le Vélib' au métro.", "example_ru": "Я предпочитаю велопрокат метро.", "level": "A1" },
+        { "fr": "la ligne", "gender": "f", "ru": "линия (метро, автобуса)", "ru_pron": "ля линь", "example_fr": "Prenez la ligne 13 direction Saint-Denis.", "example_ru": "Садитесь на линию 13 в направлении Сен-Дени.", "level": "A1" },
+        { "fr": "le quai", "gender": "m", "ru": "платформа, перрон, набережная", "ru_pron": "лё кэ", "example_fr": "Le train part du quai numéro 8.", "example_ru": "Поезд отправляется с платформы 8.", "level": "A1" },
+        { "fr": "en retard", "gender": null, "ru": "с опозданием, опаздывающий", "ru_pron": "ан рётар", "example_fr": "Le bus est en retard de 10 minutes.", "example_ru": "Автобус опаздывает на 10 минут.", "level": "A1" },
+        { "fr": "valider", "gender": null, "ru": "компостировать, валидировать (билет)", "ru_pron": "валидэ", "example_fr": "N'oubliez pas de valider votre ticket !", "example_ru": "Не забудьте прокомпостировать билет!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le taxi", "fr_pron": "лё такси", "ru": "такси", "ru_pron": "такси", "note": "«Taxi» — международное слово из греческого taximeter (счётчик). Во Франции самые известные такси — «Taxis G7» и «Taxis Bleus». Uber также очень популярен." },
+        { "fr": "le ticket", "fr_pron": "лё тикэ", "ru": "тикет / билет", "ru_pron": "тикет", "note": "Французское «ticket» вошло во многие языки. В парижском метро один ticket = один проезд. «Un carnet» = книжка из 10 билетов — дешевле поштучно." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Fulgence Bienvenüe (1852–1936)",
+          "subtitle": "Le père du métro parisien",
+          "content": "Фюльжанс Бьенвеню — инженер, создавший Парижское метро. Первая линия открылась 19 июля 1900 года — к Всемирной выставке. Бьенвеню руководил строительством метро почти 30 лет, преодолевая огромные технические трудности: под Парижем протекает Сена, встречаются древние катакомбы и каменоломни. В его честь названа одна из главных станций метро — Montparnasse-Bienvenüe. Потеряв руку в железнодорожной катастрофе, он продолжил инженерную карьеру."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le métro de Paris — 300 stations depuis 1900",
+          "content": "Парижское метро (Le Métro) — одно из самых густых в мире. 16 линий, 302 станции на площади 87 км² — в Париже нигде нельзя находиться дальше 500 метров от станции метро! Станции украшены в стиле ар-нуво (особенно старые входы — «bouches de métro» Гимара). Некоторые станции — Liège, Arts et Métiers, Louvre — настоящие маленькие музеи. Метро везёт 4,5 миллиона пассажиров в день."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le Vélib' — велосипедная революция",
+          "content": "В 2007 году Париж запустил Vélib' — первую в мире масштабную систему велопроката. Название = vélo + liberté (велосипед + свобода). Сегодня это 20 000 велосипедов на 1 400 станциях. Часть велосипедов — электрические (Vélib' électrique). Парижане стремительно пересаживаются на велосипеды: сеть велодорожек за 15 лет выросла с 200 до 1 000 км! После пандемии COVID спрос на велосипеды вырос в 3 раза."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Je suis en retard !",
+          "pronunciation": "Жё сюи ан рётар",
+          "translation": "Я опаздываю!",
+          "usage": "Самая частая жалоба в городском транспорте! «En retard» = опаздывающий, с опозданием. Противоположность: «en avance» (заранее, раньше времени) и «à l'heure» (вовремя). «Le bus est en retard» = автобус опаздывает.",
+          "example": "— Tu arrives bientôt ? — Non, je suis en retard ! Le métro est bloqué. (— Ты скоро придёшь? — Нет, опаздываю! Метро встало.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Paris — Le Réseau métro",
+          "subtitle": "Парижское метро — подземный город",
+          "content": "Парижское метро — нечто большее, чем транспорт. Это культурный феномен. Художественные станции: Louvre-Rivoli (копии экспонатов Лувра), Arts et Métiers (стимпанк из меди), Liège (витражи в бельгийском стиле). Тупиковые станции-призраки (stations fantômes) — Champ-de-Mars, Croix-Rouge — закрыты с войны. На некоторых используются резиновые колёса вместо металлических. RER соединяет Париж с предместьями."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я поеду на метро» (ближайшее будущее)?",
+          "opts": ["Je prends le métro.", "Je vais prendre le métro.", "Je prendrai le métro.", "Moi aller métro."],
+          "ans": 1,
+          "exp": "Je vais prendre le métro = futur proche (aller + infinitif). Говорит о намерении в ближайшем будущем. «Je prends» = настоящее время (сейчас)."
+        },
+        {
+          "q": "Что такое «la correspondance» в контексте метро?",
+          "opts": ["Письмо", "Выход из метро", "Пересадка на другую линию", "Направление"],
+          "ans": 2,
+          "exp": "La correspondance = пересадка (на другую линию метро или транспорт). «Il faut faire une correspondance à Châtelet» = нужно пересесть на Шатле."
+        },
+        {
+          "q": "Что такое Vélib'?",
+          "opts": ["Парижское такси", "Система велопроката в Париже", "Скоростной трамвай", "Речной трамвай"],
+          "ans": 1,
+          "exp": "Vélib' = vélo + liberté (велосипед + свобода). Система велопроката, запущенная в Париже в 2007 году. Сегодня 20 000 велосипедов на 1 400 станциях."
+        },
+        {
+          "q": "Сколько станций в Парижском метро?",
+          "opts": ["122", "200", "302", "450"],
+          "ans": 2,
+          "exp": "302 станции на 16 линиях. Это одно из самых густых метро в мире — нигде нельзя быть дальше 500 метров от станции."
+        },
+        {
+          "q": "Кто создал Парижское метро?",
+          "opts": ["Барон Осман", "Наполеон III", "Фюльжанс Бьенвеню", "Гюстав Эйфель"],
+          "ans": 2,
+          "exp": "Fulgence Bienvenüe — инженер, руководивший строительством метро почти 30 лет. В его честь названа станция Montparnasse-Bienvenüe."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Shopping et Vêtements",
+      "titleRu": "Шопинг и одежда",
+      "level": "A1",
+      "grammar": {
+        "title": "Les pronoms COD (le, la, les)",
+        "titleRu": "Прямые объектные местоимения",
+        "intro": "Чтобы не повторять одно и то же существительное, французы заменяют его местоимениями. В магазине это очень удобно: «Je prends cette robe. → Je la prends» (Я её беру).",
+        "sections": [
+          {
+            "title": "Прямые дополнения (COD)",
+            "content": "le — его, его (м.р. ед.ч.)\nla — её, его (ж.р. ед.ч.)\nles — их (мн.ч.)\n\nJe prends ce manteau. → Je le prends.\nJ'aime cette robe. → Je l'aime.\nJe voudrais ces chaussures. → Je les voudrais.\n\n⚠️ Местоимение стоит ПЕРЕД глаголом!"
+          },
+          {
+            "title": "В магазине",
+            "content": "Vous avez la taille 40 ? — У вас есть размер 40?\nEst-ce que je peux l'essayer ? — Могу я это примерить?\nC'est trop grand / petit / cher. — Это слишком большое / маленькое / дорогое.\nJe cherche quelque chose en bleu. — Я ищу что-то синее.\nEst-ce qu'il y a des soldes ? — У вас есть распродажа?"
+          }
+        ],
+        "rule": "💡 Le, la, les перед гласной сокращаются: Je l'aime (а не je la aime). Это называется élision и происходит автоматически в беглой речи."
+      },
+      "pronunciation": {
+        "intro": "Одежда и шопинг:",
+        "note": "⚠️ Французские размеры одежды не совпадают с российскими! FR 38 = RU 44, FR 40 = RU 46. Обязательно примеряйте!",
+        "words": [
+          { "fr": "la robe", "ru_pron": "ля роб", "meaning": "платье" },
+          { "fr": "le manteau", "ru_pron": "лё манто", "meaning": "пальто" },
+          { "fr": "les chaussures", "ru_pron": "лэ шоссюр", "meaning": "туфли, обувь" },
+          { "fr": "la taille", "ru_pron": "ля тай", "meaning": "размер (одежды) / талия" },
+          { "fr": "essayer", "ru_pron": "эссэйэ", "meaning": "примерять, пробовать" },
+          { "fr": "les soldes", "ru_pron": "лэ сольд", "meaning": "распродажа (официальные)" },
+          { "fr": "la cabine d'essayage", "ru_pron": "ля кабин дэссэяж", "meaning": "примерочная" },
+          { "fr": "la caisse", "ru_pron": "ля кэс", "meaning": "касса" },
+          { "fr": "la réduction", "ru_pron": "ля рэдюксьон", "meaning": "скидка" },
+          { "fr": "remboursable", "ru_pron": "рамбурсабль", "meaning": "с правом возврата" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la robe", "gender": "f", "ru": "платье", "ru_pron": "ля роб", "example_fr": "Cette robe vous va très bien !", "example_ru": "Это платье вам очень идёт!", "level": "A1" },
+        { "fr": "le manteau", "gender": "m", "ru": "пальто", "ru_pron": "лё манто", "example_fr": "J'ai besoin d'un manteau chaud.", "example_ru": "Мне нужно тёплое пальто.", "level": "A1" },
+        { "fr": "la taille", "gender": "f", "ru": "размер; талия", "ru_pron": "ля тай", "example_fr": "Quelle est votre taille ?", "example_ru": "Какой у вас размер?", "level": "A1", "meaning_double": "taille = размер одежды ET taille = талия, рост" },
+        { "fr": "essayer", "gender": null, "ru": "примерять, пробовать", "ru_pron": "эссэйэ", "example_fr": "Puis-je essayer cette veste ?", "example_ru": "Могу я примерить этот пиджак?", "level": "A1" },
+        { "fr": "les soldes", "gender": "f pl", "ru": "распродажа (официальная)", "ru_pron": "лэ сольд", "example_fr": "Les soldes commencent en janvier.", "example_ru": "Распродажа начинается в январе.", "level": "A1" },
+        { "fr": "la caisse", "gender": "f", "ru": "касса", "ru_pron": "ля кэс", "example_fr": "La caisse est au fond du magasin.", "example_ru": "Касса в глубине магазина.", "level": "A1" },
+        { "fr": "rembourser", "gender": null, "ru": "возвращать деньги, возмещать", "ru_pron": "рамбурсэ", "example_fr": "Pouvez-vous me rembourser ?", "example_ru": "Не могли бы вы вернуть мне деньги?", "level": "A1" },
+        { "fr": "chercher", "gender": null, "ru": "искать", "ru_pron": "шэршэ", "example_fr": "Je cherche une jupe noire.", "example_ru": "Я ищу чёрную юбку.", "level": "A1" },
+        { "fr": "la vitrine", "gender": "f", "ru": "витрина", "ru_pron": "ля витрин", "example_fr": "La robe en vitrine me plaît.", "example_ru": "Мне нравится платье в витрине.", "level": "A1" },
+        { "fr": "porter", "gender": null, "ru": "носить (одежду); нести", "ru_pron": "портэ", "example_fr": "Elle porte toujours des robes élégantes.", "example_ru": "Она всегда носит элегантные платья.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "les soldes", "fr_pron": "лэ сольд", "ru": "сальдо / распродажа", "ru_pron": "сальдо", "note": "Французское «soldes» и русское «сальдо» — из итальянского saldo (остаток). Во Франции официальные soldes проходят дважды в год: в январе (после Рождества) и в июле (летние распродажи)." },
+        { "fr": "la vitrine", "fr_pron": "ля витрин", "ru": "витрина", "ru_pron": "витрина", "note": "Русское «витрина» — прямое заимствование из французского. Витрины парижских магазинов — отдельный вид искусства, особенно в рождественские декабрь." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Yves Saint Laurent (1936–2008)",
+          "subtitle": "Le génie de la mode du XXe siècle",
+          "content": "Ив Сен-Лоран — один из величайших модельеров XX века. В 21 год возглавил дом Dior. В 1966 году совершил революцию в моде: создал женский смокинг («Le Smoking»), перенеся мужской деловой костюм в женский гардероб. Ввёл прет-а-порте (prêt-à-porter) — готовую одежду высокого качества для широкой аудитории. Ему принадлежит цитата: «Лучший наряд для женщины — объятия любящего мужчины. Но за неимением такового — платье от Yves Saint Laurent»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les Galeries Lafayette et le grand magasin (1893)",
+          "content": "«Галери Лафайет» открылся в Париже в 1893 году — и стал символом эпохи универмагов. До универмагов люди покупали всё в маленьких специализированных лавках. Универмаг революционизировал торговлю: фиксированные цены (до этого всё торговались!), огромный выбор под одной крышей, свободный вход без обязанности покупать. Знаменитый купол универмага на Османовском бульваре — шедевр ар-нуво, одно из обязательных мест в Париже."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Les soldes — национальный праздник шопинга",
+          "content": "Французские официальные soldes (распродажи) — регламентированы государством! Они проходят только 4–5 недель в году: в январе и июле. В другое время магазины не имеют права называть акции «soldes». В первый день зимних soldes парижские магазины открываются в 8 утра, и у дверей выстраиваются очереди. Скидки достигают 70–80% к концу периода. Это настоящий национальный праздник потребления!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Ça vous va très bien !",
+          "pronunciation": "Са ву ва трэ бьэн",
+          "translation": "Вам это очень идёт!",
+          "usage": "Самый приятный комплимент в магазине! «Aller à quelqu'un» = идти кому-то, подходить (об одежде). «Ça me va ?» = Это мне идёт? «Ça vous va parfaitement !» = Это вам идёт идеально!",
+          "example": "— Comment trouvez-vous cette robe ? — Elle vous va à merveille ! (— Как вам это платье? — Оно вам идёт изумительно!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Paris — Avenue Montaigne & Le Bon Marché",
+          "subtitle": "Столица мировой моды",
+          "content": "Авеню Монтень — «Золотой треугольник» парижской моды: Chanel, Dior, Louis Vuitton, Givenchy... Для более доступного шопинга — Le Bon Marché (старейший универмаг мира, 1838 г.) или BHV Marais. Квартал Сент-Оноре (rue du Faubourg Saint-Honoré) — другой центр роскоши. Блошиные рынки (marchés aux puces): Сен-Уан — крупнейший в мире, настоящий рай для охотников за антиквариатом и редкими вещами."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я её беру» (la robe — платье)?",
+          "opts": ["Je prends la.", "Je la prends.", "Je prends elle.", "La je prends."],
+          "ans": 1,
+          "exp": "Je la prends. — прямое местоимение «la» стоит ПЕРЕД глаголом. La замещает «la robe» (ж.р.). Le — для мужского рода."
+        },
+        {
+          "q": "Когда во Франции проходят официальные soldes?",
+          "opts": ["Круглый год", "Только в декабре", "В январе и июле", "В мае и ноябре"],
+          "ans": 2,
+          "exp": "Официальные soldes проходят только в январе (зимние) и июле (летние). Это регламентировано государством! В другое время нельзя официально называть акции «soldes»."
+        },
+        {
+          "q": "Что значит «Ça vous va très bien» ?",
+          "opts": ["Это слишком дорого", "Это вам не идёт", "Вам это очень идёт", "Это ваш размер"],
+          "ans": 2,
+          "exp": "Ça vous va très bien = вам это очень идёт (об одежде, стиле). «Aller à quelqu'un» = идти/подходить кому-то."
+        },
+        {
+          "q": "Что революционное сделал Ив Сен-Лоран в 1966 году?",
+          "opts": ["Изобрёл мини-юбку", "Создал женский смокинг", "Открыл первый магазин прет-а-порте", "Основал дом Dior"],
+          "ans": 1,
+          "exp": "В 1966 году Ив Сен-Лоран создал «Le Smoking» — женский смокинг. Это революционизировало женскую моду, перенеся мужской деловой костюм в женский гардероб."
+        },
+        {
+          "q": "Как вежливо попросить примерить вещь?",
+          "opts": ["Donnez-moi ça !", "Je veux essayer.", "Est-ce que je peux l'essayer, s'il vous plaît ?", "Essayage maintenant."],
+          "ans": 2,
+          "exp": "Est-ce que je peux l'essayer ? = Могу я это примерить? Вежливая форма с «est-ce que» и «s'il vous plaît». L' = местоимение (la/le перед гласной)."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Loisirs et les Sorties",
+      "titleRu": "Досуг и развлечения",
+      "level": "A1",
+      "grammar": {
+        "title": "Proposer, accepter et refuser",
+        "titleRu": "Предлагать, принимать и отклонять приглашения",
+        "intro": "Говорить о досуге и приглашать людей куда-либо — важный коммуникативный навык. В этом уроке мы научимся предлагать что-то, принимать предложения с энтузиазмом и вежливо отказываться.",
+        "sections": [
+          {
+            "title": "Как предложить что-то",
+            "content": "On y va ? — Идём? (неформально)\nTu veux aller au cinéma ? — Хочешь в кино?\nÇa te dit d'aller... ? — Тебе хочется пойти...?\nJe t'invite au théâtre. — Я приглашаю тебя в театр.\nEt si on allait... ? — А что, если бы мы пошли...?"
+          },
+          {
+            "title": "Принять / Отказать",
+            "content": "ПРИНЯТЬ:\\nAvec plaisir ! — С удовольствием!\nC'est une bonne idée ! — Хорошая идея!\nJe suis partant(e) ! — Я согласен(а)!\nVolontiers ! — Охотно!\n\nОТКАЗАТЬ:\\nJe suis désolé(e), mais... — Сожалею, но...\nC'est dommage, je ne peux pas. — Жаль, не могу.\nUne prochaine fois, peut-être. — В другой раз, может быть."
+          }
+        ],
+        "rule": "💡 «On» = мы (разговорное). «On y va?» буквально «мы туда идём?» = «Пойдём?». Очень частое в разговорной речи!"
+      },
+      "pronunciation": {
+        "intro": "Места и занятия для досуга:",
+        "note": "⚠️ «Le cinéma» произносится «лё синэма» с ударением на последнем слоге. «Le théâtre» = «лё тэатр» (â — долгое «а»).",
+        "words": [
+          { "fr": "le cinéma", "ru_pron": "лё синэма", "meaning": "кино, кинотеатр" },
+          { "fr": "le théâtre", "ru_pron": "лё тэатр", "meaning": "театр" },
+          { "fr": "le musée", "ru_pron": "лё мюзэ", "meaning": "музей" },
+          { "fr": "l'exposition", "ru_pron": "л'экспозисьон", "meaning": "выставка" },
+          { "fr": "le concert", "ru_pron": "лё консэр", "meaning": "концерт" },
+          { "fr": "la promenade", "ru_pron": "ля промнад", "meaning": "прогулка" },
+          { "fr": "le week-end", "ru_pron": "лё уикэнд", "meaning": "выходные (из английского)" },
+          { "fr": "sortir", "ru_pron": "сортир", "meaning": "выходить, идти куда-то" },
+          { "fr": "s'amuser", "ru_pron": "самюзэ", "meaning": "развлекаться, веселиться" },
+          { "fr": "Avec plaisir !", "ru_pron": "Авэк плэзир", "meaning": "С удовольствием!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le cinéma", "gender": "m", "ru": "кино, кинотеатр", "ru_pron": "лё синэма", "example_fr": "Allons au cinéma ce soir !", "example_ru": "Пойдём в кино сегодня вечером!", "level": "A1" },
+        { "fr": "le musée", "gender": "m", "ru": "музей", "ru_pron": "лё мюзэ", "example_fr": "Le Louvre est le plus grand musée du monde.", "example_ru": "Лувр — самый большой музей мира.", "level": "A1" },
+        { "fr": "la promenade", "gender": "f", "ru": "прогулка", "ru_pron": "ля промнад", "example_fr": "Faisons une promenade au bord de la Seine.", "example_ru": "Прогуляемся по берегу Сены.", "level": "A1" },
+        { "fr": "sortir", "gender": null, "ru": "выходить, выбираться", "ru_pron": "сортир", "example_fr": "On sort ce soir ?", "example_ru": "Мы выходим сегодня вечером?", "level": "A1" },
+        { "fr": "l'exposition", "gender": "f", "ru": "выставка, экспозиция", "ru_pron": "л'экспозисьон", "example_fr": "Il y a une exposition Monet au Grand Palais.", "example_ru": "В Гран-Пале проходит выставка Моне.", "level": "A1" },
+        { "fr": "le billet", "gender": "m", "ru": "билет (на мероприятие)", "ru_pron": "лё бийэ", "example_fr": "Deux billets pour le concert, s'il vous plaît.", "example_ru": "Два билета на концерт, пожалуйста.", "level": "A1" },
+        { "fr": "gratuit(e)", "gender": "m/f", "ru": "бесплатный", "ru_pron": "гратюи", "example_fr": "L'entrée est gratuite le premier dimanche.", "example_ru": "Вход бесплатный в первое воскресенье.", "level": "A1" },
+        { "fr": "s'amuser", "gender": null, "ru": "развлекаться, веселиться", "ru_pron": "самюзэ", "example_fr": "On s'est bien amusé hier soir.", "example_ru": "Мы хорошо повеселились вчера вечером.", "level": "A1" },
+        { "fr": "proposer", "gender": null, "ru": "предлагать", "ru_pron": "пропозэ", "example_fr": "Je vous propose une promenade au Luxembourg.", "example_ru": "Я предлагаю прогулку в Люксембурге.", "level": "A1" },
+        { "fr": "le loisir", "gender": "m", "ru": "досуг, увлечение", "ru_pron": "лё луазир", "example_fr": "Mes loisirs : la lecture et le cinéma.", "example_ru": "Мои увлечения: чтение и кино.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le musée", "fr_pron": "лё мюзэ", "ru": "музей", "ru_pron": "музей", "note": "Оба слова из греческого mouseion (храм Муз). Во Франции более 1 200 музеев! В первое воскресенье месяца многие государственные музеи открыты бесплатно." },
+        { "fr": "le concert", "fr_pron": "лё консэр", "ru": "концерт", "ru_pron": "концерт", "note": "Французское «concert» и русское «концерт» из итальянского concerto (соглашение). Финальная «t» во французском не читается: «консэр»." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Les frères Lumière (Auguste et Louis)",
+          "subtitle": "Les inventeurs du cinéma (1895)",
+          "content": "Братья Огюст (1862–1954) и Луи (1864–1948) Люмьер изобрели кино. 28 декабря 1895 года в парижском «Гран Кафе» на бульваре Капуцинок они показали первый публичный киносеанс — 10 коротких фильмов, в том числе знаменитое «Прибытие поезда на вокзал Ла-Сьота». Зрители в ужасе убегали, думая, что поезд выедет прямо на них! Само слово «кино» — от их аппарата «cinématographe»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le Festival de Cannes — depuis 1946",
+          "content": "Каннский кинофестиваль проводится ежегодно в мае с 1946 года (первый состоялся в 1939-м, но был прерван войной). Главная награда — «Золотая пальмовая ветвь» (Palme d'Or). Фестиваль — главное кинематографическое событие мира: звёзды, паппарацци, красная дорожка. Канны превращаются в мировую столицу кино на 12 дней. Советские и российские фильмы неоднократно получали Palme d'Or: «Летят журавли» (1958), «Жертвоприношение» (1986)."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le pique-nique — французская традиция",
+          "content": "Пикник (pique-nique) — любимый французский досуг. Французы пикникуют везде: на набережной Сены, в Люксембургском саду, на Марсовом поле у подножия Эйфелевой башни. Классический пикник включает: багет, сыр (несколько видов), ветчину, фрукты и бутылку вина. В Париже пикник на Марсовом поле с видом на башню Эйфель — одно из лучших переживаний, которое ничего не стоит! На набережных по воскресеньям — тысячи пикникующих."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Ça te dit ?",
+          "pronunciation": "Са тё ди",
+          "translation": "Тебе хочется? / Как тебе идея?",
+          "usage": "Неформальное приглашение, предложение. Буквально: «это тебе говорит (что-то)?» = нравится ли тебе эта идея? Ответ: «Oui, ça me dit !» (да, хочется!) или «Non, ça ne me dit pas trop» (не очень хочется).",
+          "example": "— Ça te dit d'aller au cinéma ce soir ? — Ah oui, super idée ! (— Хочешь в кино сегодня вечером? — О да, отличная идея!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Le Louvre — Le plus grand musée du monde",
+          "subtitle": "Лувр — Самый посещаемый музей планеты",
+          "content": "Лувр — самый посещаемый музей мира (9+ миллионов посетителей в год). Бывший королевский дворец стал музеем в 1793 году. Здесь хранятся 380 000 произведений искусства, выставлены 35 000. «Мона Лиза» Леонардо да Винчи — самая знаменитая картина в мире, хранится за пуленепробиваемым стеклом. Коллекция настолько огромна, что полный обход займёт несколько дней. Стеклянная пирамида (архитектор И. М. Пей, 1989) стала новым символом музея."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как неформально предложить кому-то пойти куда-то?",
+          "opts": ["Je vous propose d'aller...", "Ça te dit d'aller... ?", "Voulez-vous sortir?", "Il faudrait aller..."],
+          "ans": 1,
+          "exp": "«Ça te dit d'aller... ?» — неформальное приглашение. Буквально «это тебе говорит (нравится) пойти...?» Используется с «tu»."
+        },
+        {
+          "q": "Как вежливо отклонить приглашение?",
+          "opts": ["Non !", "Je ne veux pas.", "Je suis désolé(e), mais je ne peux pas.", "Ça ne m'intéresse pas."],
+          "ans": 2,
+          "exp": "«Je suis désolé(e), mais je ne peux pas» — вежливый отказ с извинением. Можно добавить «Une prochaine fois, peut-être» (в другой раз, может быть)."
+        },
+        {
+          "q": "Кто изобрёл кино?",
+          "opts": ["Thomas Edison", "Братья Люмьер", "Жорж Мельес", "Луи Дагер"],
+          "ans": 1,
+          "exp": "Братья Люмьер — Auguste et Louis — провели первый публичный киносеанс 28 декабря 1895 года в Париже. Слово «кино» происходит от их «cinématographe»."
+        },
+        {
+          "q": "Что такое «l'entrée gratuite»?",
+          "opts": ["Бесплатный вход", "Бесплатная закуска", "Скидка на билет", "Свободный вход без записи"],
+          "ans": 0,
+          "exp": "L'entrée gratuite = бесплатный вход. Gratuit(e) = бесплатный. Во французских государственных музеях вход бесплатен в первое воскресенье каждого месяца."
+        },
+        {
+          "q": "Что такое «Palme d'Or» Каннского фестиваля?",
+          "opts": ["Золотой лев", "Золотая пальмовая ветвь", "Золотой глобус", "Оскар"],
+          "ans": 1,
+          "exp": "Palme d'Or = Золотая пальмовая ветвь — главная награда Каннского кинофестиваля. Российские фильмы получали её дважды: «Летят журавли» и «Жертвоприношение»."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 3",
+      "titleRu": "Итоговый урок Модуля 3",
+      "level": "A1+",
+      "grammar": {
+        "title": "Révision complète — Sorties & Restaurants",
+        "titleRu": "Полное повторение — Прогулки и рестораны",
+        "intro": "Поздравляем! Вы завершаете третий модуль. Повторим всё, что изучили о кафе, ресторанах, шопинге, городе и досуге.",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 3",
+            "content": "✅ Глаголы 1-й группы (-ER) в настоящем времени\n✅ Партитивные артикли (du, de la, de l', des)\n✅ Вежливые формы: Je voudrais, Pourriez-vous...\n✅ Выражения количества (un kilo de, beaucoup de)\n✅ Предлоги места и направления\n✅ Глаголы prendre, aller, venir\n✅ Прямые местоимения (le, la, les)\n✅ Лексика: кафе, меню, рынок, город, транспорт, одежда, досуг"
+          },
+          {
+            "title": "Ключевые фразы модуля",
+            "content": "L'addition, s'il vous plaît ! — Счёт, пожалуйста!\nJe voudrais commander... — Я бы хотел заказать...\nQu'est-ce que vous recommandez ? — Что посоветуете?\nC'est combien ? — Сколько стоит?\nTournez à gauche / à droite. — Повернёте налево/направо.\nJe prends le métro. — Я еду на метро.\nÇa vous va très bien ! — Вам это очень идёт!\nÇa te dit d'aller... ? — Хочешь пойти...?" 
+          }
+        ],
+        "rule": "🏆 Если вы знаете все фразы этого модуля, вы можете выжить в любом французском городе и ресторане! Продолжайте в Модуле 4 — Voyages & Transports."
+      },
+      "pronunciation": {
+        "intro": "Повторяем ключевые фразы модуля вслух:",
+        "note": "⚠️ Помните о liaison (связывании): «Vous avez» → «ву завэ», «les enfants» → «лэ занфан». Это признак настоящего французского произношения!",
+        "words": [
+          { "fr": "Je voudrais une table pour deux.", "ru_pron": "Жё вудрэ юн табль пур дё", "meaning": "Я бы хотел столик на двоих." },
+          { "fr": "L'addition, s'il vous plaît !", "ru_pron": "Л'адисьон, силь ву плэ", "meaning": "Счёт, пожалуйста!" },
+          { "fr": "C'est délicieux !", "ru_pron": "Сэ дэлисьё", "meaning": "Это восхитительно!" },
+          { "fr": "Un kilo de tomates, s'il vous plaît.", "ru_pron": "Ён кило дё томат, силь ву плэ", "meaning": "Кило помидоров, пожалуйста." },
+          { "fr": "Tournez à gauche au carrefour.", "ru_pron": "Турнэ а гош о карфур", "meaning": "Повернёте налево на перекрёстке." },
+          { "fr": "Je prends le métro ligne 4.", "ru_pron": "Жё пран лё мэтро линь катр", "meaning": "Я еду на метро линия 4." },
+          { "fr": "Puis-je l'essayer ?", "ru_pron": "Пюи жё лэссэйэ", "meaning": "Могу я это примерить?" },
+          { "fr": "Ça vous va très bien !", "ru_pron": "Са ву ва трэ бьэн", "meaning": "Вам это очень идёт!" },
+          { "fr": "Ça te dit d'aller au cinéma ?", "ru_pron": "Са тё ди д'алэ о синэма", "meaning": "Хочешь в кино?" },
+          { "fr": "Avec plaisir ! Bonne idée !", "ru_pron": "Авэк плэзир! Бон идэ!", "meaning": "С удовольствием! Хорошая идея!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "réserver", "gender": null, "ru": "бронировать", "ru_pron": "рэзэрвэ", "example_fr": "J'ai réservé une table pour ce soir.", "example_ru": "Я забронировал столик на этот вечер.", "level": "A1" },
+        { "fr": "commander", "gender": null, "ru": "заказывать", "ru_pron": "командэ", "example_fr": "Nous sommes prêts à commander.", "example_ru": "Мы готовы сделать заказ.", "level": "A1" },
+        { "fr": "faire les courses", "gender": null, "ru": "делать покупки (продукты)", "ru_pron": "фэр лэ курс", "example_fr": "Je fais les courses le samedi.", "example_ru": "По субботам я делаю покупки.", "level": "A1" },
+        { "fr": "se perdre", "gender": null, "ru": "заблудиться", "ru_pron": "сё пэрдр", "example_fr": "Ne vous perdez pas dans le Louvre !", "example_ru": "Не заблудитесь в Лувре!", "level": "A1" },
+        { "fr": "valider", "gender": null, "ru": "компостировать (билет)", "ru_pron": "валидэ", "example_fr": "Pensez à valider votre ticket !", "example_ru": "Не забудьте прокомпостировать билет!", "level": "A1" },
+        { "fr": "essayer", "gender": null, "ru": "примерять; пробовать", "ru_pron": "эссэйэ", "example_fr": "Essayez ce plat, c'est excellent !", "example_ru": "Попробуйте это блюдо, оно превосходно!", "level": "A1" },
+        { "fr": "recommander", "gender": null, "ru": "рекомендовать", "ru_pron": "рёкомандэ", "example_fr": "Je vous recommande la tarte tatin.", "example_ru": "Я рекомендую вам тарт-татен.", "level": "A1" },
+        { "fr": "proposer", "gender": null, "ru": "предлагать", "ru_pron": "пропозэ", "example_fr": "Je propose une promenade sur les quais.", "example_ru": "Я предлагаю прогулку по набережным.", "level": "A1" },
+        { "fr": "délicieux / délicieuse", "gender": "m/f", "ru": "восхитительный, вкусный", "ru_pron": "дэлисьё", "example_fr": "Cette tarte aux fraises est délicieuse.", "example_ru": "Этот клубничный пирог восхитителен.", "level": "A1" },
+        { "fr": "gratuit(e)", "gender": "m/f", "ru": "бесплатный", "ru_pron": "гратюи", "example_fr": "L'entrée du musée est gratuite.", "example_ru": "Вход в музей бесплатный.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le restaurant", "fr_pron": "лё рэсторан", "ru": "ресторан", "ru_pron": "ресторан", "note": "Французское «restaurant» и русское «ресторан» — прямые родственники. Restaurant происходит от «restaurer» (восстанавливать). Первые рестораны предлагали только «восстанавливающий бульон»!" },
+        { "fr": "l'exposition", "fr_pron": "л'экспозисьон", "ru": "экспозиция / выставка", "ru_pron": "экспозиция", "note": "Оба слова из латинского exponere (выставлять). Французское «exposition» шире по значению: и выставка, и экспозиция. «L'Expo universelle» = Всемирная выставка." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Joël Robuchon (1945–2018)",
+          "subtitle": "Le chef de la fin du XXe siècle",
+          "content": "Жоэль Робюшон — повар, удостоенный большего количества звёзд Мишлен, чем кто-либо в истории: 32 звезды в разных ресторанах по всему миру! Его знаменитое пюре из картофеля (purée de pommes de terre) с огромным количеством масла считается одним из лучших блюд в мире. Он открыл концепцию «L'Atelier de Joël Robuchon» — кухня открытого типа, где гости сидят прямо у стойки и наблюдают за приготовлением. Умер в 2018 году, оставив кулинарную империю в 13 странах."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Paris, capitale mondiale du tourisme",
+          "content": "Париж — самый посещаемый город мира. В 2019 году (до пандемии) его посетили 19 миллионов иностранных туристов. Эйфелева башня принимает 7 миллионов посетителей в год — это самое посещаемое платное место в мире. Лувр — самый посещаемый музей (9 млн). Версаль — 10 млн. Экономика туризма приносит Франции 89 миллиардов евро в год. «Paris, je t'aime» — слоган, который стал философией всего мира."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le syndrome de Paris — когда мечта рушится",
+          "content": "«Синдром Парижа» — психологическое расстройство, описанное японским психиатром. Оно поражает туристов (в основном японцев), у которых реальный Париж не совпадает с романтической мечтой. Симптомы: депрессия, тревога, разочарование. Японское посольство в Париже держит круглосуточную горячую линию для случаев острого «синдрома». Причина: разрыв между медиа-образом идеального Парижа и реальностью с пробками, граффити и закрытыми в августе ресторанами!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Paris ne s'est pas fait en un jour.",
+          "pronunciation": "Пари нё сэ па фэ ан ён жур",
+          "translation": "Париж строился не за один день.",
+          "usage": "Французский аналог «Москва не сразу строилась» — говорится, чтобы призвать к терпению, когда что-то требует времени. Напоминает: великие вещи не делаются мгновенно. Применяется к любой ситуации, требующей усилий и времени.",
+          "example": "— Je n'arrive pas à apprendre le français rapidement. — Patience ! Paris ne s'est pas fait en un jour. (— Не получается быстро выучить французский. — Терпение! Париж строился не за один день.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "La Tour Eiffel & Les Champs-Élysées",
+          "subtitle": "Самые знаменитые символы Франции",
+          "content": "Эйфелева башня (Tour Eiffel) была построена к Всемирной выставке 1889 года инженером Гюставом Эйфелем и должна была быть снесена через 20 лет — но была сохранена как антенна. Сейчас — самое посещаемое платное место планеты. Авеню Шанзелизе (les Champs-Élysées, буквально «Елисейские Поля» из греческой мифологии) — самая знаменитая улица мира. Именно здесь 14 июля проходит парад Дня Бастилии. Конец улицы — Триумфальная Арка, воздвигнутая в честь побед Наполеона."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Что такое «le menu» во французском ресторане?",
+          "opts": ["Книжка с полным списком блюд", "Комплексный обед по фиксированной цене", "Только карта вин", "Список десертов"],
+          "ans": 1,
+          "exp": "Le menu = комплексный обед по фиксированной цене (entrée + plat + dessert). La carte = книжка со всеми блюдами à la carte. Часто туристы путают эти понятия!"
+        },
+        {
+          "q": "Как попросить столик на троих?",
+          "opts": ["Je voudrais une table pour trois.", "Donnez-moi une table trois.", "Table pour trois personnes !", "Trois places, s'il vous plaît."],
+          "ans": 0,
+          "exp": "Je voudrais une table pour trois (personnes) — вежливая форма с «je voudrais» (условное наклонение). «Personnes» можно опустить."
+        },
+        {
+          "q": "Как правильно сказать «Я еду на метро» (используя prendre)?",
+          "opts": ["Je vais en métro.", "Je prends le métro.", "Je fais le métro.", "Je suis dans le métro."],
+          "ans": 1,
+          "exp": "Je prends le métro — глагол prendre используется с транспортом. Je vais en métro также правильно, но prendre — более точное выражение."
+        },
+        {
+          "q": "Что означает выражение «Paris ne s'est pas fait en un jour»?",
+          "opts": ["Париж — большой город", "Великие дела требуют времени (нужно терпение)", "Париж был разрушен за один день", "Строительство Парижа заняло годы"],
+          "ans": 1,
+          "exp": "Аналог «Москва не сразу строилась» — призыв к терпению. Говорится, когда что-то требует времени и усилий."
+        },
+        {
+          "q": "Какой повар получил больше всего звёзд Мишлен в истории?",
+          "opts": ["Paul Bocuse", "Alain Ducasse", "Joël Robuchon", "Gordon Ramsay"],
+          "ans": 2,
+          "exp": "Joël Robuchon — 32 звезды Мишлен в разных ресторанах по всему миру. Абсолютный рекорд истории! Умер в 2018 году."
+        }
+      ]
+    }
+  ]
+}

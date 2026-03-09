@@ -1,0 +1,1282 @@
+{
+  "module": 2,
+  "titleFr": "La Vie Quotidienne",
+  "titleRu": "Повседневная жизнь",
+  "description": "Глаголы действия, время, еда, город и повседневные ситуации.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Les Verbes du 1er Groupe",
+      "titleRu": "Глаголы 1-й группы (-er)",
+      "level": "A1",
+      "grammar": {
+        "title": "La conjugaison des verbes en -er",
+        "titleRu": "Спряжение глаголов на -er",
+        "intro": "В французском языке большинство глаголов (около 90%!) относятся к 1-й группе и оканчиваются на -er в инфинитиве. Хорошая новость: они все спрягаются по одному и тому же правилу! Выучите это правило — и вы сможете использовать тысячи глаголов.",
+        "sections": [
+          {
+            "title": "Правило спряжения",
+            "content": "Шаг 1: Убираем окончание -er (получаем «основу»)\nШаг 2: Добавляем нужное окончание:\n\nje → -e       nous → -ons\ntu → -es      vous → -ez\nil/elle → -e  ils/elles → -ent\n\n⚠️ Окончания -e, -es, -ent НЕ произносятся! Вслух звучит только основа."
+          },
+          {
+            "title": "Пример: parler (говорить)",
+            "content": "je parle       → я говорю\ntu parles      → ты говоришь\nil/elle parle  → он/она говорит\nnous parlons   → мы говорим\nvous parlez    → вы говорите\nils/elles parlent → они говорят\n\n💬 «Je parle, tu parles, il parle» — три формы звучат одинаково: [парль]"
+          },
+          {
+            "title": "Важные глаголы 1-й группы",
+            "content": "aimer — любить / нравиться\nhabiter — жить, проживать\ntravailler — работать\nmanger — есть, кушать\nboire — пить (⚠️ нерегулярный, но часто смешивают!)\nécouter — слушать\nregارder — смотреть\nvoyager — путешествовать\nchanter — петь\ndanser — танцевать"
+          },
+          {
+            "title": "Особые случаи",
+            "content": "Глаголы на -ger (manger, voyager): перед «-ons» добавляем «e»:\n→ nous mangeons (не mang-ons!)\n\nГлаголы на -cer (commencer): перед «-ons» ç вместо c:\n→ nous commençons"
+          }
+        ],
+        "rule": "💡 Отрицание: поставьте «ne ... pas» вокруг глагола. Je parle → Je ne parle pas. Перед гласной: ne → n'. Il habite → Il n'habite pas."
+      },
+      "pronunciation": {
+        "intro": "Послушайте спряжение и обратите внимание: -e, -es, -ent не произносятся!",
+        "note": "⚠️ Три формы (je/tu/il) часто звучат одинаково. Контекст помогает понять смысл.",
+        "words": [
+          { "fr": "je parle", "ru_pron": "жё парль", "meaning": "я говорю" },
+          { "fr": "tu écoutes", "ru_pron": "тю экут", "meaning": "ты слушаешь" },
+          { "fr": "il habite", "ru_pron": "иль абит", "meaning": "он живёт" },
+          { "fr": "nous travaillons", "ru_pron": "ну траваyon", "meaning": "мы работаем" },
+          { "fr": "vous aimez", "ru_pron": "ву зэмэ", "meaning": "вы любите" },
+          { "fr": "ils regardent", "ru_pron": "иль рёгард", "meaning": "они смотрят" },
+          { "fr": "je mange", "ru_pron": "жё манж", "meaning": "я ем" },
+          { "fr": "nous mangeons", "ru_pron": "ну манжон", "meaning": "мы едим" },
+          { "fr": "elle chante", "ru_pron": "эль шант", "meaning": "она поёт" },
+          { "fr": "ils voyagent", "ru_pron": "иль вуаяж", "meaning": "они путешествуют" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "parler", "gender": null, "ru": "говорить", "ru_pron": "парлэ", "example_fr": "Je parle français et russe.", "example_ru": "Я говорю по-французски и по-русски.", "level": "A1" },
+        { "fr": "aimer", "gender": null, "ru": "любить, нравиться", "ru_pron": "эмэ", "example_fr": "J'aime la musique française.", "example_ru": "Мне нравится французская музыка.", "level": "A1" },
+        { "fr": "habiter", "gender": null, "ru": "жить, проживать", "ru_pron": "абитэ", "example_fr": "J'habite à Paris depuis deux ans.", "example_ru": "Я живу в Париже уже два года.", "level": "A1" },
+        { "fr": "travailler", "gender": null, "ru": "работать", "ru_pron": "траваyэ", "example_fr": "Elle travaille dans un bureau.", "example_ru": "Она работает в офисе.", "level": "A1" },
+        { "fr": "manger", "gender": null, "ru": "есть, кушать", "ru_pron": "манжэ", "example_fr": "Nous mangeons ensemble ce soir.", "example_ru": "Сегодня вечером мы едим вместе.", "level": "A1" },
+        { "fr": "écouter", "gender": null, "ru": "слушать", "ru_pron": "экутэ", "example_fr": "J'écoute la radio le matin.", "example_ru": "По утрам я слушаю радио.", "level": "A1" },
+        { "fr": "regarder", "gender": null, "ru": "смотреть", "ru_pron": "рёгардэ", "example_fr": "Vous regardez la télévision ?", "example_ru": "Вы смотрите телевизор?", "level": "A1" },
+        { "fr": "voyager", "gender": null, "ru": "путешествовать", "ru_pron": "вуаяжэ", "example_fr": "J'aime voyager en Europe.", "example_ru": "Я люблю путешествовать по Европе.", "level": "A1" },
+        { "fr": "chanter", "gender": null, "ru": "петь", "ru_pron": "шантэ", "example_fr": "Elle chante très bien.", "example_ru": "Она очень хорошо поёт.", "level": "A1" },
+        { "fr": "danser", "gender": null, "ru": "танцевать", "ru_pron": "дансэ", "example_fr": "Ils dansent toute la nuit.", "example_ru": "Они танцуют всю ночь.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "écouter", "fr_pron": "экутэ", "ru": "акустика", "ru_pron": "акустика", "note": "Оба слова из греческого «akouein» — слышать. Écouter = слушать; acoustique = акустика." },
+        { "fr": "danser", "fr_pron": "дансэ", "ru": "танец", "ru_pron": "танец", "note": "Французское «danser» пришло из старофранкского и дало начало словам «dance» во многих языках." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Édith Piaf (1915–1963)",
+          "subtitle": "La Môme — голос Франции",
+          "content": "Эдит Пиаф — величайшая французская певица всех времён. Родилась в бедности на улице Беллевиль в Париже (по легенде — прямо на тротуаре). Её настоящее имя — Эдит Джованна Гассьон. Псевдоним «Пиаф» — парижский сленг, означающий «воробей». Её песня «Non, je ne regrette rien» («Нет, я ни о чём не сожалею», 1960) стала символом жизнелюбия. Пиаф пела о любви, боли и надежде. Когда она умерла, на её похороны пришли десятки тысяч парижан."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le cinéma — изобретение французов (1895)",
+          "content": "28 декабря 1895 года братья Люмьер — Огюст и Луи — провели первый публичный платный киносеанс в Гран-кафе на бульваре Капуцинок в Париже. Зрители впервые увидели движущиеся картинки: прибывающий поезд, рабочих, выходящих с завода. Рождение кинематографа! Слово «cinéma» — сокращение от «cinématographe», придуманного Люмьерами. Ежегодно во Франции проходит Каннский кинофестиваль — самый престижный в мире."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le café — ритуал французской жизни",
+          "content": "Для француза кофе — это философия. Настоящий «café» — это эспрессо, маленький и крепкий. «Café crème» — с горячим молоком. «Noisette» — с каплей молока. Французы НЕ пьют капучино после 11 утра — это считается неприличным! За стойкой (au comptoir) кофе стоит дешевле, чем за столиком. Кофейня (le café) — место встреч, дискуссий и философских разговоров. Именно здесь Сартр писал свои труды!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Ça marche !",
+          "pronunciation": "Са марш",
+          "translation": "Отлично! Договорились! Работает!",
+          "usage": "Буквально «это идёт» / «это работает». Используется как согласие (= d'accord), подтверждение, или когда что-то функционирует. Одно из самых частых разговорных выражений.",
+          "example": "— On se retrouve à 18h ? — Ça marche ! (Встречаемся в 18:00? — Договорились!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Marseille — La Cité Phocéenne",
+          "subtitle": "Марсель — самый старый город Франции",
+          "content": "Марсель — второй по величине город Франции и старейший (основан греками в 600 году до н.э.). Расположен на берегу Средиземного моря. Главная достопримечательность — базилика Нотр-Дам-де-ла-Гард («Добрая Матерь» — Bonne Mère) на горе. Марсель знаменит рыбным супом буйабес (bouillabaisse) и пастисом (анисовый аперитив). Здесь самый большой порт Франции. В 2013 году город был культурной столицей Европы."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как звучит «nous» в глаголе parler?",
+          "opts": ["nous parlent", "nous parlez", "nous parlons", "nous parle"],
+          "ans": 2,
+          "exp": "Nous + глагол 1-й группы = -ons. Nous parlons = мы говорим."
+        },
+        {
+          "q": "Как сказать «я не говорю» по-французски?",
+          "opts": ["Je ne parle pas", "Je parle non", "Je pas parle", "Non je parle"],
+          "ans": 0,
+          "exp": "Отрицание: ne + глагол + pas. Je ne parle pas = я не говорю."
+        },
+        {
+          "q": "Какое окончание у «ils» для глаголов на -er?",
+          "opts": ["-ons", "-ez", "-ent", "-es"],
+          "ans": 2,
+          "exp": "Ils/elles + глагол 1-й группы = -ent (не произносится!). Ils parlent = [иль парль]."
+        },
+        {
+          "q": "Что означает «j'aime»?",
+          "opts": ["Я иду", "Я имею", "Я люблю / мне нравится", "Я живу"],
+          "ans": 2,
+          "exp": "Aimer = любить, нравиться. J'aime le français = Я люблю французский / Мне нравится французский."
+        },
+        {
+          "q": "Кто изобрёл кино?",
+          "opts": ["Edison", "Братья Люмьер", "Пиаф", "Наполеон"],
+          "ans": 1,
+          "exp": "Братья Люмьер (Auguste et Louis Lumière) провели первый публичный киносеанс 28 декабря 1895 года в Париже."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "L'Heure et le Temps",
+      "titleRu": "Время и часы",
+      "level": "A1",
+      "grammar": {
+        "title": "Quelle heure est-il ?",
+        "titleRu": "Который час?",
+        "intro": "Умение читать время — ключевой навык. Во Франции используют как 12-часовой формат (в разговоре), так и 24-часовой (в официальных ситуациях, расписаниях). Запомните структуру и несколько ключевых слов.",
+        "sections": [
+          {
+            "title": "Основные выражения",
+            "content": "Il est... heure(s) — Сейчас ... час(ов)\nQuelle heure est-il ? — Который час?\nÀ quelle heure ? — В котором часу?\n\nIl est une heure — час (1:00)\nIl est deux heures — два часа (2:00)\nIl est midi — полдень (12:00)\nIl est minuit — полночь (0:00)"
+          },
+          {
+            "title": "Части часа",
+            "content": "et quart → + 15 минут (il est deux heures et quart = 2:15)\net demie → + 30 минут (il est deux heures et demie = 2:30)\nmoins le quart → - 15 минут (il est trois heures moins le quart = 2:45)\n\nПросто минуты: il est deux heures dix = 2:10\nМинуты «до»: il est trois heures moins cinq = 2:55"
+          },
+          {
+            "title": "24-часовой формат (официальный)",
+            "content": "Le train part à quatorze heures trente. (14:30)\nLe musée ouvre à neuf heures. (9:00)\nLe vol est à vingt-deux heures quinze. (22:15)\n\nВ 24-ч. формате: «et demie» и «et quart» не используют — только цифры."
+          }
+        ],
+        "rule": "💡 Предлоги времени: À + время (à huit heures = в восемь), vers + время (vers midi = около полудня), avant (до), après (после)."
+      },
+      "pronunciation": {
+        "intro": "Слушайте и повторяйте: как называть время по-французски.",
+        "note": "⚠️ «heure» произносится «ёр». Звук «eu» — округлите губы как для «о», но скажите «э».",
+        "words": [
+          { "fr": "Il est sept heures.", "ru_pron": "Иль э сэт ёр", "meaning": "Сейчас семь часов." },
+          { "fr": "et quart", "ru_pron": "э кар", "meaning": "и четверть (+15 мин)" },
+          { "fr": "et demie", "ru_pron": "э дёми", "meaning": "и половина (+30 мин)" },
+          { "fr": "moins le quart", "ru_pron": "муэн лё кар", "meaning": "без четверти (-15 мин)" },
+          { "fr": "midi", "ru_pron": "миди", "meaning": "полдень (12:00)" },
+          { "fr": "minuit", "ru_pron": "минюи", "meaning": "полночь (0:00)" },
+          { "fr": "le matin", "ru_pron": "лё матэн", "meaning": "утро" },
+          { "fr": "l'après-midi", "ru_pron": "лапрэ-миди", "meaning": "после полудня / день" },
+          { "fr": "le soir", "ru_pron": "лё суар", "meaning": "вечер" },
+          { "fr": "la nuit", "ru_pron": "ля ньюи", "meaning": "ночь" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'heure", "gender": "f", "ru": "час, время", "ru_pron": "лёр", "example_fr": "Quelle heure est-il ? Il est trois heures.", "example_ru": "Который час? Три часа.", "level": "A1" },
+        { "fr": "la minute", "gender": "f", "ru": "минута", "ru_pron": "ля минют", "example_fr": "Attendez cinq minutes, s'il vous plaît.", "example_ru": "Подождите пять минут, пожалуйста.", "level": "A1" },
+        { "fr": "la seconde", "gender": "f", "ru": "секунда", "ru_pron": "ля сёгонд", "example_fr": "Une seconde, j'arrive !", "example_ru": "Секунду, иду!", "level": "A1" },
+        { "fr": "le matin", "gender": "m", "ru": "утро", "ru_pron": "лё матэн", "example_fr": "Je me lève à sept heures du matin.", "example_ru": "Я встаю в семь утра.", "level": "A1" },
+        { "fr": "le soir", "gender": "m", "ru": "вечер", "ru_pron": "лё суар", "example_fr": "On dîne à vingt heures le soir.", "example_ru": "Вечером мы ужинаем в восемь.", "level": "A1" },
+        { "fr": "midi", "gender": "m", "ru": "полдень", "ru_pron": "миди", "example_fr": "On déjeune à midi.", "example_ru": "Мы обедаем в полдень.", "level": "A1" },
+        { "fr": "minuit", "gender": "m", "ru": "полночь", "ru_pron": "минюи", "example_fr": "Le bal de Cendrillon finit à minuit.", "example_ru": "Бал Золушки заканчивается в полночь.", "level": "A1" },
+        { "fr": "tôt", "gender": null, "ru": "рано", "ru_pron": "то", "example_fr": "Je me lève tôt le matin.", "example_ru": "Я рано встаю по утрам.", "level": "A1" },
+        { "fr": "tard", "gender": null, "ru": "поздно", "ru_pron": "тар", "example_fr": "Il est rentré tard hier soir.", "example_ru": "Вчера вечером он вернулся поздно.", "level": "A1" },
+        { "fr": "maintenant", "gender": null, "ru": "сейчас, теперь", "ru_pron": "мэнтнан", "example_fr": "Je suis occupé maintenant.", "example_ru": "Сейчас я занят.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la minute", "fr_pron": "минют", "ru": "минута", "ru_pron": "минута", "note": "Из латинского «minuta pars» — маленькая часть. Одинаково узнаваемо во всех европейских языках!" },
+        { "fr": "la seconde", "fr_pron": "сёгонд", "ru": "секунда", "ru_pron": "секунда", "note": "Из латинского «secunda minuta» — вторая (меньшая) часть. Во французском «seconde» = секунда и «вторая»." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Jules Verne (1828–1905)",
+          "subtitle": "Père de la science-fiction",
+          "content": "Жюль Верн — отец научной фантастики. Родился в Нанте, мечтал о путешествиях с детства. Его романы предсказали подводные лодки («Двадцать тысяч лье под водой»), полёты на Луну («С Земли на Луну»), кругосветные путешествия («Вокруг света за 80 дней»). Знаменитый Филеас Фогг поспорил, что объедет Земной шар за 80 дней — и выиграл! Верн написал более 60 романов. Его книги переведены на 148 языков — рекорд среди французских авторов."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "L'heure légale — единое время для всей Франции (1891)",
+          "content": "До 1891 года во Франции каждый город жил по своему местному времени. Парижское время отличалось от лионского на 20 минут! С появлением железных дорог это стало проблемой: как составлять расписание? В 1891 году Франция приняла единый закон о «legale время» — парижское время стало официальным для всей страны. Сегодня Франция живёт по CET (Central European Time, UTC+1 зимой, UTC+2 летом)."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le quart d'heure de politesse — опоздание как вежливость",
+          "content": "Во Франции существует «quart d'heure de politesse» — «четверть часа вежливости». Это негласное правило: прийти ровно вовремя на ужин к кому-то домой считается... неловким! Хозяева ещё не готовы. Принято опаздывать на 15–20 минут. Но на деловые встречи и поезда опаздывать нельзя! Это правило действует только для социальных приглашений."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "À tout à l'heure !",
+          "pronunciation": "А тут а лёр",
+          "translation": "До скорого! (увидимся позже сегодня)",
+          "usage": "Говорится, когда вы расстаётесь, но увидитесь ещё сегодня. Отличается от «À bientôt» (до скорого — неопределённо) и «Au revoir» (до свидания — общее).",
+          "example": "— Je vais au marché. — D'accord, à tout à l'heure ! (Иду на рынок. — Хорошо, до скорого!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Nantes — La cité des Ducs",
+          "subtitle": "Нант — город Жюля Верна",
+          "content": "Нант — шестой по величине город Франции, родина Жюля Верна и бретонских герцогов. Здесь находится знаменитый «Замок герцогов Бретани». Город прославился арт-проектом «Les Machines de l'île» — гигантскими механическими животными на острове Нант: огромный слон, морская карусель, летающие существа. Нант признан самым пригодным для жизни городом Франции. В XVII веке здесь был подписан Нантский эдикт о веротерпимости."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «2:30» по-французски?",
+          "opts": ["Il est deux heures moins demie", "Il est deux heures et demie", "Il est demie deux heures", "Il est deux et trente"],
+          "ans": 1,
+          "exp": "Il est deux heures et demie = 2:30. «Et demie» всегда означает +30 минут."
+        },
+        {
+          "q": "Как будет «без четверти три» (2:45)?",
+          "opts": ["Il est deux heures et quart", "Il est deux heures quarante-cinq", "Il est trois heures moins le quart", "Il est trois heures et quart"],
+          "ans": 2,
+          "exp": "Trois heures moins le quart = 3:00 - 0:15 = 2:45. «Moins le quart» = без четверти."
+        },
+        {
+          "q": "Что означает «à quelle heure» ?",
+          "opts": ["Сколько стоит", "В котором часу", "Который час сейчас", "Какое время года"],
+          "ans": 1,
+          "exp": "À quelle heure ? = В котором часу? (спрашиваем о начале события)"
+        },
+        {
+          "q": "Как сказать «полдень» по-французски?",
+          "opts": ["minuit", "midi", "matin", "soir"],
+          "ans": 1,
+          "exp": "Midi = полдень (12:00). Minuit = полночь (00:00). Не перепутайте!"
+        },
+        {
+          "q": "О чём поспорил Филеас Фогг в романе Жюля Верна?",
+          "opts": ["Объехать Луну за 7 дней", "Объехать Землю за 80 дней", "Пересечь Атлантику за 10 дней", "Дойти до Северного полюса"],
+          "ans": 1,
+          "exp": "Филеас Фогг поспорил объехать вокруг Земли за 80 дней — и выиграл! «Вокруг света за 80 дней» (1872)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "La Nourriture et les Repas",
+      "titleRu": "Еда и приёмы пищи",
+      "level": "A1",
+      "grammar": {
+        "title": "Les articles partitifs : du, de la, des",
+        "titleRu": "Разделительные артикли",
+        "intro": "Когда мы говорим о еде — или о чём-то, что нельзя сосчитать — мы используем особые артикли: du, de la, de l', des. Они означают «некоторое количество» и переводятся как «немного» или вообще не переводятся.",
+        "sections": [
+          {
+            "title": "Форма разделительных артиклей",
+            "content": "du → перед существительным мужского рода\n   Je mange du pain. (Я ем хлеб.)\n\nde la → перед существительным женского рода\n   Je bois de la soupe. (Я ем суп.)\n\nde l' → перед гласной (любой род)\n   Je bois de l'eau. (Я пью воду.)\n\ndes → перед множественным числом\n   Je mange des fruits. (Я ем фрукты.)"
+          },
+          {
+            "title": "Отрицание: du/de la/des → de (d')",
+            "content": "Важное правило: в отрицательных предложениях du/de la/des заменяются на «de» (или «d'» перед гласной)!\n\n✅ Je mange du fromage. (Я ем сыр.)\n❌ Je ne mange pas de fromage. (Я не ем сыр.)\n\n✅ Elle boit de la bière.\n❌ Elle ne boit pas de bière."
+          },
+          {
+            "title": "Три приёма пищи",
+            "content": "le petit-déjeuner — завтрак (утром)\nle déjeuner — обед (в полдень)\nle dîner — ужин (вечером)\n\nФранцузы очень серьёзно относятся к обеду: настоящий обед из 3 блюд (entrée + plat + dessert)!"
+          }
+        ],
+        "rule": "💡 Запомните: «Je voudrais du café» (Я хотел бы кофе) — разделительный артикль показывает «некоторое количество» кофе, а не конкретную единицу."
+      },
+      "pronunciation": {
+        "intro": "Слова о еде — и французские звуки в них:",
+        "note": "⚠️ «du» = [дю], «de la» = [дёля]. «pain» = [пэн] — носовой звук!",
+        "words": [
+          { "fr": "le pain", "ru_pron": "лё пэн", "meaning": "хлеб" },
+          { "fr": "le fromage", "ru_pron": "лё фромаж", "meaning": "сыр" },
+          { "fr": "le vin", "ru_pron": "лё вэн", "meaning": "вино" },
+          { "fr": "l'eau", "ru_pron": "ло", "meaning": "вода" },
+          { "fr": "le café", "ru_pron": "лё кафэ", "meaning": "кофе" },
+          { "fr": "la baguette", "ru_pron": "ля багэт", "meaning": "багет" },
+          { "fr": "le croissant", "ru_pron": "лё круассан", "meaning": "круассан" },
+          { "fr": "la viande", "ru_pron": "ля вьянд", "meaning": "мясо" },
+          { "fr": "le poisson", "ru_pron": "лё пуассон", "meaning": "рыба" },
+          { "fr": "les légumes", "ru_pron": "лэ лэгюм", "meaning": "овощи" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le pain", "gender": "m", "ru": "хлеб", "ru_pron": "лё пэн", "example_fr": "Je prends du pain avec mon repas.", "example_ru": "Я беру хлеб к еде.", "level": "A1" },
+        { "fr": "le fromage", "gender": "m", "ru": "сыр", "ru_pron": "лё фромаж", "example_fr": "La France a plus de 400 fromages.", "example_ru": "Во Франции более 400 сортов сыра.", "level": "A1" },
+        { "fr": "le repas", "gender": "m", "ru": "трапеза, приём пищи", "ru_pron": "лё рёпа", "example_fr": "Le repas du soir s'appelle le dîner.", "example_ru": "Вечерняя трапеза называется ужин.", "level": "A1" },
+        { "fr": "déjeuner", "gender": null, "ru": "обедать; обед", "ru_pron": "дэжёнэ", "example_fr": "Nous déjeunons à midi.", "example_ru": "Мы обедаем в полдень.", "level": "A1", "meaning_double": "déjeuner = глагол «обедать» ET le déjeuner = существительное «обед»" },
+        { "fr": "dîner", "gender": null, "ru": "ужинать; ужин", "ru_pron": "динэ", "example_fr": "On dîne à huit heures en France.", "example_ru": "Во Франции ужинают в восемь.", "level": "A1" },
+        { "fr": "boire", "gender": null, "ru": "пить", "ru_pron": "буар", "example_fr": "Je bois de l'eau minérale.", "example_ru": "Я пью минеральную воду.", "level": "A1" },
+        { "fr": "le restaurant", "gender": "m", "ru": "ресторан", "ru_pron": "лё рёсторан", "example_fr": "Ce restaurant a une étoile Michelin.", "example_ru": "У этого ресторана есть звезда Мишлен.", "level": "A1" },
+        { "fr": "la carte", "gender": "f", "ru": "меню (à la carte), карта", "ru_pron": "ля карт", "example_fr": "Je voudrais voir la carte, s'il vous plaît.", "example_ru": "Можно мне меню, пожалуйста?", "level": "A1" },
+        { "fr": "délicieux / délicieuse", "gender": "m/f", "ru": "восхитительный, вкусный", "ru_pron": "дэлисьё / дэлисьёз", "example_fr": "Ce plat est absolument délicieux !", "example_ru": "Это блюдо просто восхитительно!", "level": "A1" },
+        { "fr": "avoir faim", "gender": null, "ru": "быть голодным", "ru_pron": "авуар фэн", "example_fr": "J'ai très faim, on mange quand ?", "example_ru": "Я очень голоден, когда едим?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le restaurant", "fr_pron": "рёсторан", "ru": "ресторан", "ru_pron": "ресторан", "note": "Слово «restaurant» пришло из французского во все языки мира! От «restaurer» — восстанавливать силы едой." },
+        { "fr": "délicieux", "fr_pron": "дэлисьё", "ru": "деликатес", "ru_pron": "деликатес", "note": "Общий латинский корень «deliciae» — удовольствие. Délicieux = вкусный; délicat = деликатный, изысканный." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Auguste Escoffier (1846–1935)",
+          "subtitle": "Le roi des cuisiniers",
+          "content": "Огюст Эскофье — «король поваров и повар королей». Родился в Провансе, стал величайшим французским шеф-поваром XIX–XX веков. Он реформировал французскую кухню: упростил меню, ввёл бригадную систему на кухне (chef de cuisine, sous-chef...), которая используется во всех ресторанах мира до сих пор. Его книга «Le Guide Culinaire» (1903) — библия французской кухни. Он изобрёл знаменитый десерт «Pêche Melba» в честь певицы Нелли Мельба."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Guide Michelin — путеводитель, ставший Библией гастрономии (1900)",
+          "content": "В 1900 году компания по производству шин Michelin выпустила небольшой путеводитель для автомобилистов с адресами гостиниц, ресторанов и заправок. Бесплатно! В 1926 году появились звёзды: одна звезда — хороший ресторан, две — стоит заехать, три — стоит специально приехать. Сегодня звезда Мишлен — самая престижная награда в мире кулинарии. Потерять звезду — трагедия. Некоторые шефы отказываются от звёзд, чтобы не чувствовать давления!"
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le fromage — 400 сортов и де Голль",
+          "content": "Шарль де Голль однажды произнёс знаменитую фразу: «Как управлять страной, в которой есть 246 сортов сыра?» (сегодня их уже более 400!). Для французов сыр — это философия и гордость. Сыр подают отдельным курсом между основным блюдом и десертом. Во Франции нельзя купить плохой сыр — это культурный грех. Путешествуя по регионам, французы обязательно привозят местный сыр: бри из Иль-де-Франс, камамбер из Нормандии, рокфор с юга."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Bon appétit !",
+          "pronunciation": "Бон апэти",
+          "translation": "Приятного аппетита!",
+          "usage": "Обязательная фраза перед едой во Франции. Произносится всеми за столом одновременно, перед началом трапезы. Официант тоже может пожелать её, принося блюда. В ответ можно сказать «Merci, vous aussi!» (Спасибо, вам тоже!).",
+          "example": "— Le plat est servi ! Bon appétit ! — Merci, bon appétit à vous aussi ! (Блюдо подано! Приятного аппетита! — Спасибо, и вам тоже!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Bordeaux — La capitale du vin",
+          "subtitle": "Бордо — мировая столица вина",
+          "content": "Бордо — один из красивейших городов Франции, внесённый в список Всемирного наследия ЮНЕСКО. Расположен на реке Гаронна. Здесь производят лучшие вина мира: Château Pétrus, Château Margaux, Château Lafite Rothschild. Регион Бордо делится на «rive gauche» (левый берег — Médoc, Graves) и «rive droite» (правый берег — Saint-Émilion, Pomerol). Музей вина La Cité du Vin — один из самых посещаемых во Франции. «Grand cru classé» — высшая классификация бордоских вин."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Какой артикль используется с «le pain» (хлеб — м.р.)?",
+          "opts": ["de la pain", "du pain", "des pain", "de pain"],
+          "ans": 1,
+          "exp": "Du = de + le. Перед существительным мужского рода используется «du». Je mange du pain."
+        },
+        {
+          "q": "Как изменится «Je mange du fromage» в отрицании?",
+          "opts": ["Je ne mange pas du fromage", "Je ne mange pas de fromage", "Je mange pas de fromage", "Je ne mange de fromage"],
+          "ans": 1,
+          "exp": "В отрицании du/de la/des → de (d'). Je ne mange pas de fromage = Я не ем сыр."
+        },
+        {
+          "q": "Как называется полдник / обед во Франции?",
+          "opts": ["le dîner", "le petit-déjeuner", "le déjeuner", "le souper"],
+          "ans": 2,
+          "exp": "Le déjeuner = обед (в полдень). Le dîner = ужин. Le petit-déjeuner = завтрак."
+        },
+        {
+          "q": "Что значит «avoir faim»?",
+          "opts": ["Хотеть пить", "Быть голодным", "Любить еду", "Хотеть спать"],
+          "ans": 1,
+          "exp": "Avoir faim = быть голодным. J'ai faim = Я голоден. Avoir soif = хотеть пить."
+        },
+        {
+          "q": "Как называется высшая награда в мире ресторанного бизнеса?",
+          "opts": ["Prix Goncourt", "Étoile Michelin", "Palme d'Or", "César"],
+          "ans": 1,
+          "exp": "Étoile Michelin (звезда Мишлен) — высшая кулинарная награда. Три звезды — вершина мастерства!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "La Ville et les Transports",
+      "titleRu": "Город и транспорт",
+      "level": "A1",
+      "grammar": {
+        "title": "Les prépositions de lieu",
+        "titleRu": "Предлоги места",
+        "intro": "Чтобы объяснить, где что-то находится или куда вы идёте, нужны предлоги места. Во французском они немного отличаются от русских, особенно с названиями мест и стран.",
+        "sections": [
+          {
+            "title": "Основные предлоги места",
+            "content": "à — в, на (il est à Paris)\nde — из, от (je viens de Lyon)\ndans — внутри (dans le métro)\nsur — на (sur la table)\nsous — под (sous le pont)\ndevant — перед (devant la gare)\nderrière — за, позади (derrière l'école)\nentre — между (entre la banque et le café)\nà côté de — рядом с (à côté de la poste)\nen face de — напротив (en face de l'hôtel)"
+          },
+          {
+            "title": "Aller à + место",
+            "content": "Aller = идти/ехать (нерегулярный глагол!)\nje vais     nous allons\ntu vas      vous allez\nil/elle va  ils/elles vont\n\nJe vais à la gare. (Я иду на вокзал.)\nTu vas au marché. (Ты идёшь на рынок.)\nà + le = au  /  à + les = aux"
+          },
+          {
+            "title": "Страны и города",
+            "content": "Страны женского рода (большинство): en\n→ en France, en Russie, en Italie\n\nСтраны мужского рода: au\n→ au Canada, au Japon, au Maroc\n\nГорода: à\n→ à Paris, à Moscou, à Berlin"
+          }
+        ],
+        "rule": "💡 Спросить дорогу: «Où est... ?» (Где находится...?) / «Pour aller à... ?» (Как пройти к...?). Ответ: «C'est tout droit» (прямо), «à gauche» (налево), «à droite» (направо)."
+      },
+      "pronunciation": {
+        "intro": "Слова о городе и транспорте:",
+        "note": "⚠️ «rue» = [рю], «gare» = [гар], «métro» = [мэтро]. «au» = [о].",
+        "words": [
+          { "fr": "la gare", "ru_pron": "ля гар", "meaning": "вокзал" },
+          { "fr": "le métro", "ru_pron": "лё мэтро", "meaning": "метро" },
+          { "fr": "la rue", "ru_pron": "ля рю", "meaning": "улица" },
+          { "fr": "tout droit", "ru_pron": "ту друа", "meaning": "прямо" },
+          { "fr": "à gauche", "ru_pron": "а гош", "meaning": "налево" },
+          { "fr": "à droite", "ru_pron": "а друат", "meaning": "направо" },
+          { "fr": "le bus", "ru_pron": "лё бюс", "meaning": "автобус" },
+          { "fr": "le taxi", "ru_pron": "лё такси", "meaning": "такси" },
+          { "fr": "l'aéroport", "ru_pron": "л'аэропор", "meaning": "аэропорт" },
+          { "fr": "la pharmacie", "ru_pron": "ля фармаси", "meaning": "аптека" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la gare", "gender": "f", "ru": "вокзал", "ru_pron": "ля гар", "example_fr": "Le train part de la gare de Lyon.", "example_ru": "Поезд отправляется с Лионского вокзала.", "level": "A1" },
+        { "fr": "le métro", "gender": "m", "ru": "метро", "ru_pron": "лё мэтро", "example_fr": "Je prends le métro pour aller au travail.", "example_ru": "Я езжу на работу на метро.", "level": "A1" },
+        { "fr": "la rue", "gender": "f", "ru": "улица", "ru_pron": "ля рю", "example_fr": "Tournez à gauche dans la rue Rivoli.", "example_ru": "Поверните налево на улице Риволи.", "level": "A1" },
+        { "fr": "le boulevard", "gender": "m", "ru": "бульвар", "ru_pron": "лё бульвар", "example_fr": "Les Grands Boulevards sont animés.", "example_ru": "Большие бульвары очень оживлённые.", "level": "A1" },
+        { "fr": "la place", "gender": "f", "ru": "площадь, место", "ru_pron": "ля пляс", "example_fr": "La place de la République est immense.", "example_ru": "Площадь Республики огромная.", "level": "A1", "meaning_double": "place = площадь ET place = место (в поезде, театре)" },
+        { "fr": "l'hôpital", "gender": "m", "ru": "больница", "ru_pron": "л'опиталь", "example_fr": "Il faut aller à l'hôpital d'urgence.", "example_ru": "Нужно срочно ехать в больницу.", "level": "A1" },
+        { "fr": "la mairie", "gender": "f", "ru": "мэрия", "ru_pron": "ля мэри", "example_fr": "On se marie à la mairie demain.", "example_ru": "Завтра мы расписываемся в мэрии.", "level": "A1" },
+        { "fr": "le pont", "gender": "m", "ru": "мост", "ru_pron": "лё пон", "example_fr": "Le Pont-Neuf est le plus vieux pont de Paris.", "example_ru": "Новый мост — самый старый мост Парижа.", "level": "A1" },
+        { "fr": "proche", "gender": null, "ru": "близкий, рядом", "ru_pron": "прош", "example_fr": "La station de métro est proche.", "example_ru": "Станция метро рядом.", "level": "A1" },
+        { "fr": "loin", "gender": null, "ru": "далеко", "ru_pron": "луэн", "example_fr": "Le musée est loin d'ici.", "example_ru": "Музей далеко отсюда.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le boulevard", "fr_pron": "бульвар", "ru": "бульвар", "ru_pron": "бульвар", "note": "Слово «boulevard» пришло из французского в русский (и во многие другие языки) в XVIII веке. Изначально — земляной вал (bulwark)." },
+        { "fr": "le taxi", "fr_pron": "такси", "ru": "такси", "ru_pron": "такси", "note": "«Taxi» — международное слово, сокращение от «taximètre» (счётчик). Одинаково во всём мире!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Baron Haussmann (1809–1891)",
+          "subtitle": "L'architecte du Paris moderne",
+          "content": "Жорж-Эжен Осман — префект Парижа, который по приказу Наполеона III в 1853–1870 годах полностью перестроил Париж. Он снёс средневековые кварталы и проложил широкие бульвары, построил парки (Булонский лес, Венсенский лес), провёл канализацию и водопровод. Современный облик Парижа — его рук дело. Парижане его ненавидели (он выселил 350 000 человек!), но туристы любят. «Османизация» стала моделью градостроительства для всего мира."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le métro parisien — 1900",
+          "content": "Парижское метро открылось 19 июля 1900 года — специально к Всемирной выставке. Первая линия шла от Венсена до Майо. Сегодня в Париже 16 линий метро, 302 станции и 220 км путей. Некоторые станции — настоящие музеи: Arts et Métiers (в стиле подводной лодки Жюля Верна!), Louvre-Rivoli (с копиями произведений Лувра), Abbesses (самая красивая лестница). Ежедневно метро перевозит более 4 миллионов пассажиров."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Pont des Arts — замки любви",
+          "content": "До 2015 года мост Пон-дез-Ар в Париже был знаменит «замками любви»: влюблённые вешали замок на перила и бросали ключ в Сену — в знак вечной любви. К 2015 году набралось более 700 000 замков (45 тонн!). Перила рухнули от их веса. Мэрия убрала замки и заменила перила стеклом. Теперь традиция официально запрещена — штраф 150 евро. Но любовь непобедима: замки продолжают появляться на других мостах..."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Excusez-moi, où est... ?",
+          "pronunciation": "Эксюзэ-муа, у э...",
+          "translation": "Извините, где находится...?",
+          "usage": "Главная фраза туриста! Всегда начинайте с «Excusez-moi» или «Pardon» — французы ценят вежливость. После вопроса добавьте «s'il vous plaît» (пожалуйста).",
+          "example": "— Excusez-moi, où est la station de métro, s'il vous plaît ? — C'est tout droit, puis à gauche. (Извините, где метро, пожалуйста? — Прямо, потом налево.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Strasbourg — Capitale de l'Europe",
+          "subtitle": "Страсбург — столица Европы",
+          "content": "Страсбург — уникальный город на границе Франции и Германии, трижды менявший гражданство. Здесь находятся Европейский парламент и Совет Европы. Старый город (Гранд-Иль) — объект Всемирного наследия ЮНЕСКО. Знаменит Нотр-Дам de Страсбург (14-й по высоте собор мира), кварталом Петит-Франс (деревянные дома над каналами) и лучшим рождественским рынком Европы (Marché de Noël, с 1570 года!). Эльзасская кухня объединяет лучшее французской и немецкой традиций: шукрут, фламмкюш, претцель."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я еду во Францию»?",
+          "opts": ["Je vais à France", "Je vais en France", "Je vais au France", "Je vais de France"],
+          "ans": 1,
+          "exp": "Страны женского рода (France, Russie, Italie) = «en». Je vais en France = Я еду во Францию."
+        },
+        {
+          "q": "Что означает «tout droit»?",
+          "opts": ["Налево", "Направо", "Прямо", "Назад"],
+          "ans": 2,
+          "exp": "Tout droit = прямо. À gauche = налево. À droite = направо."
+        },
+        {
+          "q": "Как спряжение «aller» в форме «vous»?",
+          "opts": ["vous allez", "vous allet", "vous alls", "vous vont"],
+          "ans": 0,
+          "exp": "Aller нерегулярный: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+        },
+        {
+          "q": "Что означает «à côté de»?",
+          "opts": ["Напротив", "Рядом с", "Далеко от", "Под"],
+          "ans": 1,
+          "exp": "À côté de = рядом с. En face de = напротив. Sous = под."
+        },
+        {
+          "q": "Кто перестроил современный Париж в XIX веке?",
+          "opts": ["Наполеон Бонапарт", "Baron Haussmann", "Victor Hugo", "Жюль Верн"],
+          "ans": 1,
+          "exp": "Барон Осман (Baron Haussmann) перестроил Париж по приказу Наполеона III в 1853–1870 годах."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Achats et les Magasins",
+      "titleRu": "Покупки и магазины",
+      "level": "A1",
+      "grammar": {
+        "title": "Les verbes vouloir et pouvoir",
+        "titleRu": "Глаголы «хотеть» и «мочь»",
+        "intro": "Два важнейших нерегулярных глагола — vouloir (хотеть) и pouvoir (мочь, иметь возможность). Они часто используются при покупках и в повседневных ситуациях.",
+        "sections": [
+          {
+            "title": "Vouloir — хотеть",
+            "content": "je veux       nous voulons\ntu veux       vous voulez\nil/elle veut  ils/elles veulent\n\n«Je veux» — прямо, иногда грубо.\nВежливее: «Je voudrais» (условное накл.) = Я хотел бы\n→ Je voudrais un café, s'il vous plaît."
+          },
+          {
+            "title": "Pouvoir — мочь",
+            "content": "je peux       nous pouvons\ntu peux       vous pouvez\nil/elle peut  ils/elles peuvent\n\nPouvoir + инфинитив:\n→ Je peux payer par carte ? (Могу я заплатить картой?)\n→ Vous pouvez répéter ? (Вы можете повторить?)"
+          },
+          {
+            "title": "Покупки: полезные фразы",
+            "content": "Je cherche... — Я ищу...\nCombien ça coûte ? — Сколько это стоит?\nC'est combien ? — Сколько стоит?\nC'est trop cher. — Это слишком дорого.\nJe prends ça. — Я это беру.\nAvez-vous... ? — У вас есть... ?\nEn quelle taille ? — Какой размер?"
+          }
+        ],
+        "rule": "💡 «Je voudrais» (условное) звучит вежливее, чем «je veux». Правило хорошего тона: всегда начинайте просьбу с «Je voudrais» или «Pourriez-vous...» (Не могли бы вы...)."
+      },
+      "pronunciation": {
+        "intro": "Диалог в магазине — слушайте и повторяйте:",
+        "note": "⚠️ «veux» = [вё], «voudrais» = [вудрэ], «coûte» = [кут] (û не меняет произношение).",
+        "words": [
+          { "fr": "Je voudrais...", "ru_pron": "Жё вудрэ", "meaning": "Я хотел(а) бы..." },
+          { "fr": "Combien ça coûte ?", "ru_pron": "Комбьэн са кут", "meaning": "Сколько это стоит?" },
+          { "fr": "C'est trop cher.", "ru_pron": "Сэ тро шэр", "meaning": "Это слишком дорого." },
+          { "fr": "Je prends ça.", "ru_pron": "Жё пран са", "meaning": "Я это беру." },
+          { "fr": "la taille", "ru_pron": "ля тай", "meaning": "размер (одежды)" },
+          { "fr": "la pointure", "ru_pron": "ля пуэнтюр", "meaning": "размер (обуви)" },
+          { "fr": "le prix", "ru_pron": "лё при", "meaning": "цена" },
+          { "fr": "la réduction", "ru_pron": "ля рэдюксьон", "meaning": "скидка" },
+          { "fr": "payer", "ru_pron": "пэйэ", "meaning": "платить" },
+          { "fr": "la carte bancaire", "ru_pron": "ля карт банкэр", "meaning": "банковская карта" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le magasin", "gender": "m", "ru": "магазин", "ru_pron": "лё магазэн", "example_fr": "Ce magasin est ouvert le dimanche.", "example_ru": "Этот магазин открыт в воскресенье.", "level": "A1" },
+        { "fr": "la boutique", "gender": "f", "ru": "бутик, маленький магазин", "ru_pron": "ля бутик", "example_fr": "Cette boutique vend des robes magnifiques.", "example_ru": "В этом бутике продают чудесные платья.", "level": "A1" },
+        { "fr": "le prix", "gender": "m", "ru": "цена, приз", "ru_pron": "лё при", "example_fr": "Quel est le prix de cette veste ?", "example_ru": "Какова цена этой куртки?", "level": "A1", "meaning_double": "le prix = цена ET le prix = приз, награда" },
+        { "fr": "cher / chère", "gender": "m/f", "ru": "дорогой (по цене и по душе)", "ru_pron": "шэр", "example_fr": "Paris est une ville très chère.", "example_ru": "Париж — очень дорогой город.", "level": "A1", "meaning_double": "cher = дорогой (цена) ET cher = дорогой, любимый (обращение)" },
+        { "fr": "bon marché", "gender": null, "ru": "дешёвый, недорогой", "ru_pron": "бон маршэ", "example_fr": "Ce marché est bon marché.", "example_ru": "Этот рынок дешёвый.", "level": "A1" },
+        { "fr": "payer", "gender": null, "ru": "платить", "ru_pron": "пэйэ", "example_fr": "On peut payer par carte ou en espèces.", "example_ru": "Можно платить картой или наличными.", "level": "A1" },
+        { "fr": "les soldes", "gender": "f pl", "ru": "распродажа", "ru_pron": "лэ сольд", "example_fr": "Les soldes d'hiver commencent en janvier.", "example_ru": "Зимняя распродажа начинается в январе.", "level": "A1" },
+        { "fr": "essayer", "gender": null, "ru": "примерять, пробовать", "ru_pron": "эссэйэ", "example_fr": "Je peux essayer cette robe ?", "example_ru": "Могу я примерить это платье?", "level": "A1" },
+        { "fr": "la taille", "gender": "f", "ru": "размер (одежды), талия", "ru_pron": "ля тай", "example_fr": "Quelle est votre taille ?", "example_ru": "Какой у вас размер?", "level": "A1" },
+        { "fr": "rendre", "gender": null, "ru": "возвращать, сдавать", "ru_pron": "рандр", "example_fr": "Je voudrais rendre cet article.", "example_ru": "Я хотел бы вернуть этот товар.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la boutique", "fr_pron": "бутик", "ru": "бутик", "ru_pron": "бутик", "note": "Слово «boutique» вошло в русский (и английский!) из французского. В самом французском это просто маленький магазин." },
+        { "fr": "les soldes", "fr_pron": "сольд", "ru": "сальдо", "ru_pron": "сальдо", "note": "Оба слова из итальянского «saldo» — остаток, баланс. Soldes = распродажа остатков товара." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Coco Chanel (1883–1971)",
+          "subtitle": "La reine de la mode française",
+          "content": "Коко Шанель революционизировала женскую моду. Она была первой, кто одела женщину в брюки и трикотаж — ткань, считавшуюся «мужской». Знаменитый «маленький чёрный костюм» (le tailleur Chanel) стал символом элегантности. Шанель ввела моду на загар, короткие волосы, бижутерию. Её духи Chanel N°5 (1921) до сих пор продаются каждые 30 секунд в мире. Цитата: «Мода устаревает, стиль — никогда»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les Galeries Lafayette — храм моды (1893)",
+          "content": "Galeries Lafayette — самый знаменитый универмаг Парижа, открытый в 1893 году. Его купол в стиле модерн — шедевр архитектуры, внесённый в список исторических памятников. Ежегодно здесь совершают покупки более 35 миллионов посетителей. Рождественские витрины Galeries Lafayette — особый ритуал для парижан: тысячи людей специально приходят смотреть на украшения. На крыше — бесплатная смотровая площадка с видом на Оперу Гарнье."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Les soldes — священный ритуал",
+          "content": "Во Франции распродажи (les soldes) проводятся строго дважды в год: зимние (январь-февраль) и летние (июнь-июль). Даты устанавливает государство! Частные скидки и акции запрещены вне этих периодов. В первый день зимних soldes французы выстраиваются в очереди с 5 утра. По данным статистики, средняя французская женщина тратит на январских soldes 350–500 евро. Это настоящий национальный праздник шопинга."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "C'est donné !",
+          "pronunciation": "Сэ донэ",
+          "translation": "Это даром! (Это очень дёшево!)",
+          "usage": "Буквально «это подарено». Используется когда что-то стоит очень дёшево. Противоположность: «C'est hors de prix !» (Это баснословно дорого!) или «C'est donné à ce prix» (За эту цену это просто даром).",
+          "example": "— Ce manteau coûte 20 euros aux soldes ! — C'est donné ! (Это пальто стоит 20 евро на распродаже! — Это просто даром!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Nice — La Riviera française",
+          "subtitle": "Ницца — французская Ривьера",
+          "content": "Ницца — главный город Лазурного берега (Côte d'Azur). Расположена между Альпами и Средиземным морем. Знаменита Английской набережной (Promenade des Anglais), старым городом (Vieille Ville) с красочным цветочным рынком (Marché du Cours Saleya) и множеством галерей. Ницца стала французской лишь в 1860 году (до этого — Сардинское королевство). Художники Матисс и Шагал жили и работали здесь. Музей Матисса и Национальный музей Марка Шагала — must-see."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как вежливо попросить в магазине?",
+          "opts": ["Je veux du pain.", "Donne-moi du pain.", "Je voudrais du pain, s'il vous plaît.", "Pain !"],
+          "ans": 2,
+          "exp": "«Je voudrais» (условное) + s'il vous plaît — вежливая просьба. «Je veux» может звучать грубо."
+        },
+        {
+          "q": "Как спросить «Сколько это стоит»?",
+          "opts": ["Qu'est-ce que c'est ?", "Où est le magasin ?", "Combien ça coûte ?", "C'est bon ?"],
+          "ans": 2,
+          "exp": "Combien ça coûte ? = Сколько это стоит? Также: C'est combien ?"
+        },
+        {
+          "q": "«Pouvoir» в форме «vous» — это:",
+          "opts": ["vous pouvez", "vous peuvent", "vous peut", "vous pouvoir"],
+          "ans": 0,
+          "exp": "Vous pouvez = вы можете. Je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent."
+        },
+        {
+          "q": "Что такое «les soldes»?",
+          "opts": ["Магазины", "Скидочные купоны", "Сезонная распродажа", "Новые коллекции"],
+          "ans": 2,
+          "exp": "Les soldes = сезонная распродажа. Во Франции проводится дважды в год, даты устанавливает государство."
+        },
+        {
+          "q": "Что значит «C'est trop cher»?",
+          "opts": ["Это очень хорошо", "Это слишком дорого", "Это дёшево", "Это не моё"],
+          "ans": 1,
+          "exp": "C'est trop cher = Это слишком дорого. Trop = слишком. Cher = дорогой."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Le Corps et la Santé",
+      "titleRu": "Тело и здоровье",
+      "level": "A1",
+      "grammar": {
+        "title": "Avoir mal à + partie du corps",
+        "titleRu": "«У меня болит...» — конструкция avoir mal à",
+        "intro": "Чтобы сказать «у меня болит», во французском используется особая конструкция: avoir mal à + часть тела. Это не то же самое, что «je suis malade» (я болен)!",
+        "sections": [
+          {
+            "title": "Avoir mal à + артикль + часть тела",
+            "content": "J'ai mal à la tête. → У меня болит голова.\nJ'ai mal au dos. → У меня болит спина.\nJ'ai mal aux dents. → У меня болят зубы.\nJ'ai mal à l'estomac. → У меня болит желудок.\n\n⚠️ à + le = au / à + les = aux / à + la = à la"
+          },
+          {
+            "title": "Важные выражения о здоровье",
+            "content": "Je suis malade. → Я болен/больна.\nJ'ai de la fièvre. → У меня температура.\nJe me sens mal. → Я плохо себя чувствую.\nJe suis fatigué(e). → Я устал(а).\nJ'ai besoin d'un médecin. → Мне нужен врач.\nAppeler le SAMU (15) → Скорая помощь (номер 15)"
+          },
+          {
+            "title": "Reflexive verbs: se sentir",
+            "content": "Se sentir = чувствовать себя\nje me sens bien/mal — я хорошо/плохо себя чувствую\ntu te sens comment ? — как ты себя чувствуешь?\nil se sent fatigué — он чувствует себя усталым\n\nАналогично: s'appeler (называться), se lever (вставать)"
+          }
+        ],
+        "rule": "💡 В аптеке (la pharmacie) можно купить многие лекарства без рецепта. Скажите фармацевту: «J'ai mal à la gorge» (У меня болит горло) — он поможет выбрать нужное."
+      },
+      "pronunciation": {
+        "intro": "Части тела и выражения о здоровье:",
+        "note": "⚠️ «tête» = [тэт], «gorge» = [горж], «dents» = [ден] (конечная s не читается).",
+        "words": [
+          { "fr": "la tête", "ru_pron": "ля тэт", "meaning": "голова" },
+          { "fr": "le dos", "ru_pron": "лё до", "meaning": "спина (s не читается!)" },
+          { "fr": "la gorge", "ru_pron": "ля горж", "meaning": "горло" },
+          { "fr": "les dents", "ru_pron": "лэ ден", "meaning": "зубы" },
+          { "fr": "le ventre", "ru_pron": "лё вантр", "meaning": "живот" },
+          { "fr": "le bras", "ru_pron": "лё бра", "meaning": "рука (от плеча)" },
+          { "fr": "la jambe", "ru_pron": "ля жамб", "meaning": "нога (от бедра)" },
+          { "fr": "le cœur", "ru_pron": "лё кёр", "meaning": "сердце" },
+          { "fr": "la fièvre", "ru_pron": "ля фьевр", "meaning": "температура, лихорадка" },
+          { "fr": "le médecin", "ru_pron": "лё мэдсэн", "meaning": "врач" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la tête", "gender": "f", "ru": "голова", "ru_pron": "ля тэт", "example_fr": "J'ai mal à la tête depuis ce matin.", "example_ru": "У меня болит голова с утра.", "level": "A1" },
+        { "fr": "le médecin", "gender": "m", "ru": "врач", "ru_pron": "лё мэдсэн", "example_fr": "Le médecin m'a prescrit des médicaments.", "example_ru": "Врач выписал мне лекарства.", "level": "A1" },
+        { "fr": "la pharmacie", "gender": "f", "ru": "аптека", "ru_pron": "ля фармаси", "example_fr": "La pharmacie est ouverte 24h/24.", "example_ru": "Аптека открыта круглосуточно.", "level": "A1" },
+        { "fr": "le médicament", "gender": "m", "ru": "лекарство", "ru_pron": "лё мэдикаман", "example_fr": "Prenez ce médicament trois fois par jour.", "example_ru": "Принимайте это лекарство три раза в день.", "level": "A1" },
+        { "fr": "malade", "gender": null, "ru": "больной, нездоровый", "ru_pron": "малад", "example_fr": "Je suis malade, je reste à la maison.", "example_ru": "Я болен, остаюсь дома.", "level": "A1" },
+        { "fr": "fatigué(e)", "gender": "m/f", "ru": "усталый", "ru_pron": "фатигэ", "example_fr": "Je suis très fatigué après le travail.", "example_ru": "После работы я очень устал.", "level": "A1" },
+        { "fr": "la fièvre", "gender": "f", "ru": "температура, лихорадка", "ru_pron": "ля фьевр", "example_fr": "Mon fils a 39 de fièvre.", "example_ru": "У моего сына температура 39.", "level": "A1" },
+        { "fr": "se reposer", "gender": null, "ru": "отдыхать", "ru_pron": "сё рёпозэ", "example_fr": "Il faut vous reposer et dormir.", "example_ru": "Нужно отдохнуть и поспать.", "level": "A1" },
+        { "fr": "guérir", "gender": null, "ru": "выздороветь, вылечить", "ru_pron": "гэрир", "example_fr": "Il a guéri en une semaine.", "example_ru": "Он выздоровел за неделю.", "level": "A1" },
+        { "fr": "l'ordonnance", "gender": "f", "ru": "рецепт (врачебный)", "ru_pron": "л'ордонанс", "example_fr": "Ce médicament nécessite une ordonnance.", "example_ru": "Это лекарство отпускается по рецепту.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la pharmacie", "fr_pron": "фармаси", "ru": "фармация / аптека", "ru_pron": "фармация", "note": "Из греческого «pharmakon» — лекарство. Pharmacie, фармация, pharmacy — один корень во всех языках." },
+        { "fr": "le médicament", "fr_pron": "мэдикаман", "ru": "медикамент", "ru_pron": "медикамент", "note": "Из латинского «medicamentum». В русском «медикамент» и «лекарство» — синонимы, во французском чаще médicament." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Louis Pasteur (1822–1895)",
+          "subtitle": "Père de la microbiologie moderne",
+          "content": "Луи Пастер — один из величайших учёных человечества. Он доказал, что болезни вызывают микробы (а не «плохой воздух»!), изобрёл пастеризацию (нагревание продуктов для уничтожения бактерий), создал вакцины против куриной холеры, сибирской язвы и — главный триумф — бешенства. В 1885 году он спас жизнь мальчику, укушенному бешеной собакой. Институт Пастера в Париже до сих пор является мировым центром медицинских исследований. Пастеризованное молоко пьют все — это наследие французского гения."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "La Sécurité sociale — лучшая медицина мира (1945)",
+          "content": "После Второй мировой войны Франция создала систему социального страхования — Sécurité sociale (1945). Это одна из лучших систем здравоохранения в мире: государство оплачивает 70–100% медицинских расходов граждан. Французы в среднем живут 82 года (одно из первых мест в мире). Визит к терапевту стоит 25–30€, большая часть возвращается страховкой. ВОЗ в 2000 году признала французскую систему здравоохранения лучшей в мире."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Les thermes — традиция лечения водой",
+          "content": "Курортное лечение (la cure thermale) во Франции — не экзотика, а медицинская процедура! Французский врач может выписать «cure» на термальном курорте. Государство частично оплачивает лечение. Главные термальные города: Виши (Vichy), Эвиан (Évian), Баньер-де-Люшон. Виши — знаменит термальными водами с XVIII века. Марка воды Évian и знаменитая Vichy воды — отсюда. Ежегодно более 500 000 французов проходят «cure thermale» продолжительностью 3 недели."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Ça va mieux !",
+          "pronunciation": "Са ва мьё",
+          "translation": "Мне лучше! (Стало лучше!)",
+          "usage": "Ответ на вопрос «Ça va ?» когда вы выздоравливаете. «Mieux» = лучше (сравнительная степень от «bien»). Антоним: «Ça va moins bien» (Мне хуже).",
+          "example": "— Comment tu te sens aujourd'hui ? — Ça va mieux, merci ! (Как ты себя чувствуешь сегодня? — Мне лучше, спасибо!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Vichy — La Reine des villes d'eaux",
+          "subtitle": "Виши — королева термальных курортов",
+          "content": "Виши — знаменитый термальный курорт в центре Франции. С XVIII века сюда приезжали лечиться монархи и аристократы. Наполеон III регулярно проводил здесь лето. Город известен своими целебными водами с содержанием карбонатов и минералов. В Belle Époque здесь построили роскошные казино, оперный театр, парки. Источники воды Vichy известны всему миру: Vichy Célestins, Vichy Saint-Yorre. Историческое примечание: в 1940–1944 годах в Виши располагалось французское коллаборационистское правительство."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «У меня болит спина»?",
+          "opts": ["J'ai mal à la dos", "J'ai mal au dos", "J'ai mal des dos", "Je mal au dos"],
+          "ans": 1,
+          "exp": "Avoir mal à + le = au. Le dos = спина (м.р.), поэтому à + le = au. J'ai mal au dos."
+        },
+        {
+          "q": "Что означает «J'ai de la fièvre»?",
+          "opts": ["У меня насморк", "Я устал", "У меня температура", "Я болен"],
+          "ans": 2,
+          "exp": "La fièvre = температура, лихорадка. J'ai de la fièvre = У меня температура."
+        },
+        {
+          "q": "Номер скорой помощи во Франции:",
+          "opts": ["15", "17", "18", "112"],
+          "ans": 0,
+          "exp": "SAMU (скорая медицинская помощь) во Франции — номер 15. Полиция — 17, пожарные — 18, единый — 112."
+        },
+        {
+          "q": "Что изобрёл Луи Пастер?",
+          "opts": ["Рентген", "Пастеризацию и вакцины", "Аспирин", "Антибиотики"],
+          "ans": 1,
+          "exp": "Луи Пастер изобрёл пастеризацию и создал вакцины против бешенства, сибирской язвы и холеры."
+        },
+        {
+          "q": "«Ordonnance» по-русски это:",
+          "opts": ["Назначение врача / рецепт", "Таблетки", "Больница", "Анализ крови"],
+          "ans": 0,
+          "exp": "L'ordonnance = врачебный рецепт / назначение. Без ordonnance многие лекарства не продают."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Le Futur Proche",
+      "titleRu": "Ближайшее будущее",
+      "level": "A1",
+      "grammar": {
+        "title": "Aller + infinitif = futur proche",
+        "titleRu": "Конструкция «собираться делать»",
+        "intro": "Самый простой способ говорить о будущем — использовать конструкцию «aller + инфинитив». Она выражает действие, которое произойдёт в ближайшем будущем или которое вы планируете.",
+        "sections": [
+          {
+            "title": "Структура futur proche",
+            "content": "ALLER (спряжённый) + ИНФИНИТИВ\n\nje vais + infinitif → Je vais manger. (Я собираюсь поесть.)\ntu vas + infinitif → Tu vas partir ? (Ты уходишь?)\nil/elle va + infinitif → Elle va dormir. (Она ляжет спать.)\nnous allons + infinitif → Nous allons voyager. (Мы поедем путешествовать.)\nvous allez + infinitif → Vous allez comprendre. (Вы поймёте.)\nils/elles vont + infinitif → Ils vont chanter. (Они будут петь.)"
+          },
+          {
+            "title": "Отрицание futur proche",
+            "content": "Ne...pas обрамляет ALLER (не инфинитив!):\n\n✅ Je vais partir. → Je ne vais pas partir.\n✅ Tu vas manger. → Tu ne vas pas manger.\n\n⚠️ Ошибка: «Je vais ne pas partir» — НЕВЕРНО!"
+          },
+          {
+            "title": "Когда использовать futur proche",
+            "content": "✅ Планы на ближайшее время:\n«Demain, je vais travailler.» (Завтра я буду работать.)\n\n✅ Уверенные намерения:\n«Je vais apprendre le français !» (Я выучу французский!)\n\n✅ Предсказания о близком будущем:\n«Attention, tu vas tomber !» (Осторожно, ты упадёшь!)"
+          }
+        ],
+        "rule": "💡 Futur proche vs futur simple: futur proche — конкретные планы в ближайшем будущем; futur simple — более далёкое будущее, гипотезы. Для A1-A2 futur proche — основная форма!"
+      },
+      "pronunciation": {
+        "intro": "Слушайте futur proche в реальных фразах:",
+        "note": "⚠️ Связывание (liaison): «nous allons» = «ну залон», «vous allez» = «ву залэ».",
+        "words": [
+          { "fr": "Je vais partir.", "ru_pron": "Жё вэ партир", "meaning": "Я собираюсь уйти." },
+          { "fr": "Tu vas manger ?", "ru_pron": "Тю ва манжэ", "meaning": "Ты собираешься есть?" },
+          { "fr": "Elle va dormir.", "ru_pron": "Эль ва дормир", "meaning": "Она ляжет спать." },
+          { "fr": "Nous allons voyager.", "ru_pron": "Ну залон вуаяжэ", "meaning": "Мы поедем путешествовать." },
+          { "fr": "Vous allez comprendre.", "ru_pron": "Ву залэ компрандр", "meaning": "Вы поймёте." },
+          { "fr": "Ils vont chanter.", "ru_pron": "Иль вон шантэ", "meaning": "Они будут петь." },
+          { "fr": "Je ne vais pas partir.", "ru_pron": "Жё нё вэ па партир", "meaning": "Я не собираюсь уходить." },
+          { "fr": "Qu'est-ce que tu vas faire ?", "ru_pron": "Кэс кё тю ва фэр", "meaning": "Что ты собираешься делать?" },
+          { "fr": "On va voir !", "ru_pron": "Он ва вуар", "meaning": "Посмотрим! (букв. «мы увидим»)" },
+          { "fr": "Ça va aller !", "ru_pron": "Са ва алэ", "meaning": "Всё будет хорошо!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "partir", "gender": null, "ru": "уходить, уезжать", "ru_pron": "партир", "example_fr": "Je vais partir demain matin.", "example_ru": "Завтра утром я уеду.", "level": "A1" },
+        { "fr": "arriver", "gender": null, "ru": "приходить, прибывать", "ru_pron": "аривэ", "example_fr": "Le train va arriver dans cinq minutes.", "example_ru": "Поезд прибудет через пять минут.", "level": "A1" },
+        { "fr": "rentrer", "gender": null, "ru": "возвращаться (домой)", "ru_pron": "рантрэ", "example_fr": "Je vais rentrer à vingt heures.", "example_ru": "Я вернусь домой в восемь вечера.", "level": "A1" },
+        { "fr": "demain", "gender": null, "ru": "завтра", "ru_pron": "дёмэн", "example_fr": "Demain, nous allons visiter le Louvre.", "example_ru": "Завтра мы пойдём в Лувр.", "level": "A1" },
+        { "fr": "bientôt", "gender": null, "ru": "скоро", "ru_pron": "бьянто", "example_fr": "Le printemps va arriver bientôt.", "example_ru": "Скоро придёт весна.", "level": "A1" },
+        { "fr": "ce soir", "gender": null, "ru": "сегодня вечером", "ru_pron": "сё суар", "example_fr": "Ce soir, je vais cuisiner.", "example_ru": "Сегодня вечером я буду готовить.", "level": "A1" },
+        { "fr": "la semaine prochaine", "gender": "f", "ru": "на следующей неделе", "ru_pron": "ля сёмэн прошэн", "example_fr": "La semaine prochaine, je vais chez le médecin.", "example_ru": "На следующей неделе я иду к врачу.", "level": "A1" },
+        { "fr": "faire", "gender": null, "ru": "делать", "ru_pron": "фэр", "example_fr": "Qu'est-ce que tu vas faire ce week-end ?", "example_ru": "Что ты будешь делать на выходных?", "level": "A1" },
+        { "fr": "visiter", "gender": null, "ru": "посещать, осматривать", "ru_pron": "визитэ", "example_fr": "On va visiter le château de Versailles.", "example_ru": "Мы собираемся посетить Версаль.", "level": "A1" },
+        { "fr": "prendre", "gender": null, "ru": "брать, принимать, ехать на", "ru_pron": "прандр", "example_fr": "Je vais prendre le train de 9h.", "example_ru": "Я поеду на поезде в 9 часов.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "visiter", "fr_pron": "визитэ", "ru": "визит", "ru_pron": "визит", "note": "Из латинского «visitare». Visiter = посещать; une visite = визит, посещение. Легко запомнить!" },
+        { "fr": "arriver", "fr_pron": "аривэ", "ru": "прибыть / arrival", "ru_pron": "прибытие", "note": "Из латинского «ad ripam» (к берегу) — первоначально о прибытии корабля. Теперь — любое прибытие." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Antoine de Saint-Exupéry (1900–1944)",
+          "subtitle": "L'auteur du Petit Prince",
+          "content": "Антуан де Сент-Экзюпери — французский писатель и лётчик. Его «Маленький принц» (Le Petit Prince, 1943) — самая переводимая книга в истории после Библии (300+ языков!). Сент-Экзюпери был военным лётчиком и погиб в разведывательном полёте над Средиземным морьем в 1944 году. Его тело так и не было найдено. В 1998 году рыбак нашёл его браслет у берегов Марселя. «Маленький принц» учит: «Зорко одно лишь сердце — самого главного глазами не увидишь»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "L'aviation française — пионеры неба",
+          "content": "Франция стала одной из первых авиационных держав мира. В 1890 году Клемент Адер совершил первый (спорный) полёт на паровом самолёте «Авион». В 1909 году Луи Блерио впервые перелетел через Ла-Манш на самолёте — событие, потрясшее мир. Авиакомпания Air France основана в 1933 году. Франция создала Concorde — первый в мире сверхзвуковой пассажирский самолёт (1969). Airbus, крупнейший конкурент Boeing, — европейский консорциум со штаб-квартирой в Тулузе."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le week-end — слово из английского",
+          "content": "Французы очень защищают свой язык от англицизмов — но некоторые слова всё же проникли и остались навсегда. «Le week-end» — одно из них. Академия французского языка пыталась заменить его на «la fin de semaine», но безуспешно. Аналогично: «le parking», «le marketing», «le sandwich», «le camping». Французы называют такие слова «franglais» (французский + английский). Что интересно: англичане в свою очередь позаимствовали из французского тысячи слов после нормандского завоевания 1066 года!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "On va voir !",
+          "pronunciation": "Он ва вуар",
+          "translation": "Посмотрим! Увидим!",
+          "usage": "Буквально «мы собираемся посмотреть». Используется как «поживём — увидим», когда результат неизвестен. Может звучать оптимистично или уклончиво — зависит от интонации.",
+          "example": "— Tu penses qu'il va pleuvoir ? — On va voir, le ciel est encore bleu ! (Думаешь, пойдёт дождь? — Посмотрим, небо ещё голубое!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Toulouse — La Ville Rose",
+          "subtitle": "Тулуза — Розовый город",
+          "content": "Тулуза — четвёртый по величине город Франции и «розовый город» (из-за кирпича терракотового цвета). Здесь находится штаб-квартира Airbus и Европейское космическое агентство (ESA). Тулуза — студенческий город: один из старейших университетов Европы (основан в 1229 году). Местная кухня: кассуле (cassoulet — фасоль с мясом), утиный конфи. Здесь похоронен Луи Блерио. Canal du Midi, соединяющий Атлантику со Средиземным морем, начинается здесь."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Мы собираемся путешествовать»?",
+          "opts": ["Nous voyageons", "Nous allons voyager", "Nous voulons voyager", "Nous voyagerons"],
+          "ans": 1,
+          "exp": "Futur proche = aller (спряжённый) + инфинитив. Nous allons voyager = Мы собираемся путешествовать."
+        },
+        {
+          "q": "Как отрицание futur proche «je vais partir»?",
+          "opts": ["Je vais ne pas partir", "Je ne vais pas partir", "Je vais partir pas", "Je ne partir pas vais"],
+          "ans": 1,
+          "exp": "Отрицание ne...pas обрамляет ALLER: Je ne vais pas partir. Инфинитив после pas."
+        },
+        {
+          "q": "«Demain» означает:",
+          "opts": ["Вчера", "Сегодня", "Завтра", "Послезавтра"],
+          "ans": 2,
+          "exp": "Demain = завтра. Hier = вчера. Aujourd'hui = сегодня. Après-demain = послезавтра."
+        },
+        {
+          "q": "Кто написал «Маленького принца»?",
+          "opts": ["Victor Hugo", "Jules Verne", "Antoine de Saint-Exupéry", "Albert Camus"],
+          "ans": 2,
+          "exp": "«Le Petit Prince» написал Антуан де Сент-Экзюпери (1943). Книга переведена на 300+ языков!"
+        },
+        {
+          "q": "«Ça va aller !» означает:",
+          "opts": ["Идём гулять!", "Всё будет хорошо!", "Как дела?", "До свидания!"],
+          "ans": 1,
+          "exp": "Ça va aller = Всё будет хорошо! (букв. «это будет идти/работать»). Фраза поддержки и оптимизма."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "La Météo et les Saisons",
+      "titleRu": "Погода и времена года",
+      "level": "A1",
+      "grammar": {
+        "title": "Il fait, il y a, il pleut — конструкции с «il»",
+        "titleRu": "Безличные конструкции для описания погоды",
+        "intro": "Погода по-французски описывается безличными конструкциями с местоимением «il» (оно, формальный субъект). Это похоже на русское «идёт снег» или «холодно».",
+        "sections": [
+          {
+            "title": "Il fait + прилагательное/существительное",
+            "content": "Il fait beau. → Хорошая погода.\nIl fait mauvais. → Плохая погода.\nIl fait chaud. → Жарко.\nIl fait froid. → Холодно.\nIl fait frais. → Прохладно.\nIl fait du soleil. → Солнечно.\nIl fait du vent. → Ветрено.\nIl fait du brouillard. → Туман."
+          },
+          {
+            "title": "Другие конструкции",
+            "content": "Il pleut. → Идёт дождь.\nIl neige. → Идёт снег.\nIl gèle. → Морозит.\nIl y a des nuages. → Есть облака / Облачно.\nIl y a du tonnerre. → Гром.\nIl y a de l'orage. → Гроза.\nIl y a du soleil. → Есть солнце / Солнечно."
+          },
+          {
+            "title": "Четыре сезона",
+            "content": "le printemps — весна (au printemps)\nl'été — лето (en été)\nl'automne — осень (en automne)\nl'hiver — зима (en hiver)\n\n⚠️ «Au printemps» (не «en»!), остальные — «en»."
+          }
+        ],
+        "rule": "💡 Температура по Цельсию: «Il fait 25 degrés» = Сейчас 25 градусов. «Il fait moins dix» = Минус 10 градусов. Прогноз: «La météo annonce de la pluie» = Синоптики обещают дождь."
+      },
+      "pronunciation": {
+        "intro": "Погодные выражения и времена года:",
+        "note": "⚠️ «il pleut» = [иль плё], «neige» = [нэж], «froid» = [фруа].",
+        "words": [
+          { "fr": "Il fait beau.", "ru_pron": "Иль фэ бо", "meaning": "Хорошая погода / Солнечно." },
+          { "fr": "Il pleut.", "ru_pron": "Иль плё", "meaning": "Идёт дождь." },
+          { "fr": "Il neige.", "ru_pron": "Иль нэж", "meaning": "Идёт снег." },
+          { "fr": "Il fait froid.", "ru_pron": "Иль фэ фруа", "meaning": "Холодно." },
+          { "fr": "Il fait chaud.", "ru_pron": "Иль фэ шо", "meaning": "Жарко." },
+          { "fr": "le printemps", "ru_pron": "лё прэнтан", "meaning": "весна" },
+          { "fr": "l'été", "ru_pron": "л'этэ", "meaning": "лето" },
+          { "fr": "l'automne", "ru_pron": "л'отон", "meaning": "осень" },
+          { "fr": "l'hiver", "ru_pron": "л'ивэр", "meaning": "зима" },
+          { "fr": "le parapluie", "ru_pron": "лё парапльюи", "meaning": "зонтик" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la météo", "gender": "f", "ru": "прогноз погоды, метеослужба", "ru_pron": "ля мэтэо", "example_fr": "La météo annonce de la pluie demain.", "example_ru": "Синоптики обещают дождь завтра.", "level": "A1" },
+        { "fr": "la pluie", "gender": "f", "ru": "дождь", "ru_pron": "ля плюи", "example_fr": "J'aime la pluie en automne.", "example_ru": "Мне нравится осенний дождь.", "level": "A1" },
+        { "fr": "la neige", "gender": "f", "ru": "снег", "ru_pron": "ля нэж", "example_fr": "Les enfants jouent dans la neige.", "example_ru": "Дети играют в снегу.", "level": "A1" },
+        { "fr": "le soleil", "gender": "m", "ru": "солнце", "ru_pron": "лё солэй", "example_fr": "Le soleil se lève à l'est.", "example_ru": "Солнце встаёт на востоке.", "level": "A1" },
+        { "fr": "le nuage", "gender": "m", "ru": "облако", "ru_pron": "лё нюаж", "example_fr": "Il y a beaucoup de nuages aujourd'hui.", "example_ru": "Сегодня много облаков.", "level": "A1" },
+        { "fr": "le vent", "gender": "m", "ru": "ветер", "ru_pron": "лё ван", "example_fr": "Le vent souffle fort en Bretagne.", "example_ru": "В Бретани сильный ветер.", "level": "A1" },
+        { "fr": "chaud(e)", "gender": "m/f", "ru": "тёплый, горячий", "ru_pron": "шо / шод", "example_fr": "L'été est très chaud dans le Midi.", "example_ru": "На юге лето очень жаркое.", "level": "A1" },
+        { "fr": "froid(e)", "gender": "m/f", "ru": "холодный", "ru_pron": "фруа / фруад", "example_fr": "L'hiver est froid en Alsace.", "example_ru": "В Эльзасе холодная зима.", "level": "A1" },
+        { "fr": "le parapluie", "gender": "m", "ru": "зонтик", "ru_pron": "лё парапльюи", "example_fr": "N'oubliez pas votre parapluie !", "example_ru": "Не забудьте зонтик!", "level": "A1" },
+        { "fr": "la température", "gender": "f", "ru": "температура", "ru_pron": "ля танпэратюр", "example_fr": "La température est de 20 degrés.", "example_ru": "Температура 20 градусов.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la météo", "fr_pron": "мэтэо", "ru": "метео / метеорология", "ru_pron": "метео", "note": "Из греческого «meteoros» — атмосферное явление. Météo = прогноз погоды; météorologie = наука о погоде." },
+        { "fr": "la température", "fr_pron": "танпэратюр", "ru": "температура", "ru_pron": "температура", "note": "Из латинского «temperatura». Одинаково в большинстве европейских языков. Легко узнать!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Claude Monet (1840–1926)",
+          "subtitle": "Père de l'Impressionnisme",
+          "content": "Клод Моне — основатель импрессионизма. Именно его картина «Impression, soleil levant» (Впечатление. Восход солнца, 1872) дала название целому направлению в живописи. Моне был одержим светом и атмосферой — погодой на холсте! Он рисовал один и тот же мотив в разное время суток и в разную погоду (стога сена, собор в Руане, кувшинки). Его сад в Живерни, с прудом и кувшинками — живописная достопримечательность Нормандии. Несмотря на катаракту, в конце жизни создал грандиозную серию «Кувшинки»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "La Météorologie française — от Наполеона до спутников",
+          "content": "После гибели флота Наполеона в бурю у берегов Крыма (1854), французский астроном Леверье создал первую систему метеорологических наблюдений. В 1878 году основана Météo-France — государственная метеослужба Франции, одна из лучших в мире. Сегодня Météo-France обслуживает авиацию, флот, сельское хозяйство и обывателей. Приложение Météo-France — одно из самых скачиваемых во Франции. Французы проверяют погоду несколько раз в день — это национальная привычка!"
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Il fait beau — разговор о погоде как светская беседа",
+          "content": "В России говорят о политике, в Англии — о погоде. А французы? Тоже о погоде! «Il fait beau» (Хорошая погода) — универсальная тема для начала разговора. Во Франции климат очень разнообразен: Бретань — дождливая; Прованс — сухой и солнечный; Альпы — снежные; Нормандия — туманная. Парижане особенно любят жаловаться на погоду — это часть городской идентичности. «La grisaille parisienne» (парижская серость) — устойчивое выражение про облачный Париж."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Quel temps fait-il ?",
+          "pronunciation": "Кэль тан фэ-тиль",
+          "translation": "Какая погода?",
+          "usage": "Главный вопрос о погоде. «Le temps» = погода (не путать с «le temps» = время!). Ответ: «Il fait beau / mauvais» или «Il pleut / neige». Вопрос-разговорник: начните диалог с незнакомцем!",
+          "example": "— Quel temps fait-il à Paris en ce moment ? — Il fait gris et il pleut un peu. (Какая погода в Париже сейчас? — Пасмурно и немного дождит.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Chamonix — La capitale de l'alpinisme",
+          "subtitle": "Шамони — столица альпинизма",
+          "content": "Шамони — горный курорт у подножия Монблана (4808 м — высшая точка Западной Европы). Здесь прошли Первые зимние Олимпийские игры (1924). Шамони — мировая столица альпинизма и горных лыж. Местный климат резко континентальный: зимой до -20°C, летом — +20°C. Знаменитый Монблан-Экспресс — самая высокогорная железная дорога Европы. Отсюда можно добраться до Турина (Италия) через туннель Монблан (11,6 км)."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Идёт снег»?",
+          "opts": ["Il fait de la neige", "Il neige", "La neige tombe", "Il y a neige"],
+          "ans": 1,
+          "exp": "Il neige = Идёт снег. Безличный глагол «neiger». Аналогично: Il pleut (дождь), Il gèle (мороз)."
+        },
+        {
+          "q": "Какой предлог используется с «printemps»?",
+          "opts": ["en printemps", "au printemps", "dans printemps", "de printemps"],
+          "ans": 1,
+          "exp": "Au printemps (весной) — исключение! Остальные сезоны: en été, en automne, en hiver."
+        },
+        {
+          "q": "Что значит «Il fait frais»?",
+          "opts": ["Жарко", "Холодно", "Прохладно", "Туманно"],
+          "ans": 2,
+          "exp": "Il fait frais = Прохладно (не холодно и не жарко). Frais = свежий, прохладный."
+        },
+        {
+          "q": "Какое слово значит «le temps» в контексте погоды?",
+          "opts": ["Время", "Погода", "Сезон", "Температура"],
+          "ans": 1,
+          "exp": "Le temps = погода (в контексте météo). НО le temps = время (в другом контексте). Слово-омоним!"
+        },
+        {
+          "q": "Кто основал импрессионизм?",
+          "opts": ["Renoir", "Picasso", "Claude Monet", "Matisse"],
+          "ans": 2,
+          "exp": "Клод Моне — основатель импрессионизма. Его картина «Impression, soleil levant» дала название направлению."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Loisirs et les Hobbies",
+      "titleRu": "Досуг и хобби",
+      "level": "A2",
+      "grammar": {
+        "title": "Jouer à / jouer de — играть",
+        "titleRu": "«Играть в/на» — предлоги с jouer",
+        "intro": "Глагол «jouer» (играть) используется по-разному в зависимости от того, во что или на чём играют. Запомните простое правило: спорт и игры — «jouer à», музыкальные инструменты — «jouer de».",
+        "sections": [
+          {
+            "title": "Jouer à + спорт / игра",
+            "content": "jouer au foot(ball) — играть в футбол\njouer au tennis — играть в теннис\njouer aux cartes — играть в карты\njouer aux échecs — играть в шахматы\njouer au basket — играть в баскетбол\n\njouer à + le = au\njouer à + les = aux"
+          },
+          {
+            "title": "Jouer de + музыкальный инструмент",
+            "content": "jouer du piano — играть на пианино\njouer de la guitare — играть на гитаре\njouer du violon — играть на скрипке\njouer de la flûte — играть на флейте\njouer de la batterie — играть на барабанах\n\njouer de + le = du\njouer de + la = de la"
+          },
+          {
+            "title": "Другие глаголы досуга",
+            "content": "faire du sport — заниматься спортом\nfaire de la natation — плавать (заниматься плаванием)\nfaire du vélo — ездить на велосипеде\nfaire de la randonnée — ходить в походы\nlire — читать\npeindre — рисовать (красками)\ndessin — рисовать (карандашом)\ncoudre — шить\ncuisiner — готовить"
+          }
+        ],
+        "rule": "💡 Аналогично «faire de»: faire du sport, faire de la musique, faire de l'art. «Faire» + «de» обозначает занятие деятельностью. «À + le/les» — участие в игре с соперником."
+      },
+      "pronunciation": {
+        "intro": "Хобби и досуг по-французски:",
+        "note": "⚠️ «Loisir» = [луазир], «échecs» = [эшэк], «guitare» = [гитар].",
+        "words": [
+          { "fr": "les loisirs", "ru_pron": "лэ луазир", "meaning": "досуг, свободное время" },
+          { "fr": "jouer au foot", "ru_pron": "жуэ о фут", "meaning": "играть в футбол" },
+          { "fr": "jouer de la guitare", "ru_pron": "жуэ дё ля гитар", "meaning": "играть на гитаре" },
+          { "fr": "faire du vélo", "ru_pron": "фэр дю вэло", "meaning": "ездить на велосипеде" },
+          { "fr": "la peinture", "ru_pron": "ля пэнтюр", "meaning": "живопись, краска" },
+          { "fr": "la lecture", "ru_pron": "ля лэктюр", "meaning": "чтение" },
+          { "fr": "le cinéma", "ru_pron": "лё синэма", "meaning": "кино" },
+          { "fr": "la randonnée", "ru_pron": "ля рандонэ", "meaning": "пеший поход" },
+          { "fr": "le théâtre", "ru_pron": "лё тэатр", "meaning": "театр" },
+          { "fr": "le jardinage", "ru_pron": "лё жардинаж", "meaning": "садоводство" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "les loisirs", "gender": "m pl", "ru": "досуг, развлечения", "ru_pron": "лэ луазир", "example_fr": "Quels sont vos loisirs préférés ?", "example_ru": "Каков ваш любимый досуг?", "level": "A2" },
+        { "fr": "le sport", "gender": "m", "ru": "спорт", "ru_pron": "лё спор", "example_fr": "Je fais du sport trois fois par semaine.", "example_ru": "Я занимаюсь спортом три раза в неделю.", "level": "A1" },
+        { "fr": "la lecture", "gender": "f", "ru": "чтение", "ru_pron": "ля лэктюр", "example_fr": "La lecture est ma passion.", "example_ru": "Чтение — моя страсть.", "level": "A1" },
+        { "fr": "la musique", "gender": "f", "ru": "музыка", "ru_pron": "ля мюзик", "example_fr": "J'écoute de la musique classique.", "example_ru": "Я слушаю классическую музыку.", "level": "A1" },
+        { "fr": "le dessin", "gender": "m", "ru": "рисунок, рисование", "ru_pron": "лё дёссэн", "example_fr": "Il fait du dessin depuis l'enfance.", "example_ru": "Он рисует с детства.", "level": "A1" },
+        { "fr": "la peinture", "gender": "f", "ru": "живопись, картина, краска", "ru_pron": "ля пэнтюр", "example_fr": "Elle fait de la peinture aquarelle.", "example_ru": "Она занимается акварельной живописью.", "level": "A2" },
+        { "fr": "passionnant(e)", "gender": "m/f", "ru": "захватывающий, увлекательный", "ru_pron": "пассьонан", "example_fr": "Ce livre est absolument passionnant !", "example_ru": "Эта книга просто захватывающая!", "level": "A2" },
+        { "fr": "s'ennuyer", "gender": null, "ru": "скучать (от безделья)", "ru_pron": "с'аннюйэ", "example_fr": "Je m'ennuie quand il pleut.", "example_ru": "Мне скучно, когда идёт дождь.", "level": "A2" },
+        { "fr": "le week-end", "gender": "m", "ru": "выходные", "ru_pron": "лё уикэнд", "example_fr": "Qu'est-ce que tu fais ce week-end ?", "example_ru": "Что ты делаешь на выходных?", "level": "A1" },
+        { "fr": "se détendre", "gender": null, "ru": "расслабляться, отдыхать", "ru_pron": "сё дэтандр", "example_fr": "Le week-end, j'aime me détendre.", "example_ru": "По выходным я люблю расслабляться.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le théâtre", "fr_pron": "тэатр", "ru": "театр", "ru_pron": "театр", "note": "Из греческого «theatron» — место для зрелищ. Théâtre, театр, theater — одинаково во всём мире!" },
+        { "fr": "le cinéma", "fr_pron": "синэма", "ru": "кино / кинематограф", "ru_pron": "кино", "note": "Из греческого «kinema» (движение) + французского суффикса. Изобретено во Франции — слово тоже французское!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Zinédine Zidane (1972–)",
+          "subtitle": "Le meilleur footballeur français",
+          "content": "Зинедин Зидан — величайший французский футболист. Родился в Марселе в семье алжирских иммигрантов. Трижды признан лучшим игроком мира (ФИФА 1998, 2000, 2002). Главное достижение: капитан сборной Франции, выигравшей Чемпионат мира 1998 года и Евро-2000. «Зизу» — национальный герой. Его удар головой в финале ЧМ 2006 (против Италии, когда он был удалён) — один из самых обсуждаемых моментов в истории футбола. После карьеры игрока — успешный тренер «Реала», трижды выигравший Лигу чемпионов."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les Jeux Olympiques de Paris — 1900 и 2024",
+          "content": "Париж принимал Олимпийские игры в 1900, 1924 и 2024 годах! Олимпиада 1900 года была самой необычной: длилась 5 месяцев, была частью Всемирной выставки, некоторые спортсмены не знали, что участвуют в Олимпиаде! В 2024 году Париж вновь стал олимпийской столицей. Церемония открытия впервые в истории прошла не на стадионе, а на реке Сена. Спортсмены проплыли в лодках мимо Лувра и Нотр-Дама. Лазурное небо и монументы — незабываемая картина."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "Le Tour de France — величайшая гонка мира",
+          "content": "Тур де Франс (Tour de France) — самая знаменитая велогонка мира, проводится ежегодно с 1903 года. Гонка длится 3 недели, участники проезжают около 3500 км через всю Францию. Каждый победитель этапа получает жёлтую майку (maillot jaune). Финиш — на Елисейских полях в Париже. Французы фанатично следят за гонкой: вдоль трассы собираются миллионы зрителей. Tour de France — не просто спорт, это праздник, шоу и способ увидеть всю Францию разом."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "C'est mon dada !",
+          "pronunciation": "Сэ мон дада",
+          "translation": "Это моя страсть! (Это моёконёк!)",
+          "usage": "«Dada» — детское слово для «лошади» (как в русском «ля-ля» или «коняшка»). «Mon dada» = моя любимая тема / моя страсть / мой конёк. Употребляется с юмором о хобби или любимой теме.",
+          "example": "— Pourquoi tu lis autant sur les vins ? — La viticulture, c'est mon dada ! (Почему ты так много читаешь о вине? — Виноградарство — это мой конёк!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Annecy — La Venise des Alpes",
+          "subtitle": "Аннеси — Венеция Альп",
+          "content": "Аннеси — один из красивейших городов Франции, расположенный на берегу кристально чистого горного озера. Средневековый старый город с каналами называют «Венецией Альп». Озеро Аннеси — одно из чистейших в Европе: можно пить воду прямо из него! Здесь родился философ Жан-Жак Руссо. Для активного отдыха: водные виды спорта, параглайдинг с горы Сеймн, пешие маршруты. Аннеси соревновалось за право принять Олимпиаду 2018 и 2024 годов."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «играть на гитаре»?",
+          "opts": ["jouer à la guitare", "jouer de la guitare", "jouer avec la guitare", "jouer guitare"],
+          "ans": 1,
+          "exp": "Музыкальные инструменты: jouer DE. Jouer de la guitare = играть на гитаре."
+        },
+        {
+          "q": "Как сказать «играть в шахматы»?",
+          "opts": ["jouer de échecs", "jouer des échecs", "jouer aux échecs", "jouer à échecs"],
+          "ans": 2,
+          "exp": "Игры и спорт: jouer À. Jouer à + les échecs = jouer aux échecs = играть в шахматы."
+        },
+        {
+          "q": "«Se détendre» означает:",
+          "opts": ["Растягиваться (спорт)", "Расслабляться, отдыхать", "Учиться", "Работать"],
+          "ans": 1,
+          "exp": "Se détendre = расслабляться, отдыхать. Je me détends le week-end = Я отдыхаю на выходных."
+        },
+        {
+          "q": "Зинедин Зидан — это:",
+          "opts": ["Певец", "Актёр", "Футболист", "Шеф-повар"],
+          "ans": 2,
+          "exp": "Зинедин Зидан — величайший французский футболист, капитан чемпионов мира 1998 года."
+        },
+        {
+          "q": "«Tour de France» — это:",
+          "opts": ["Туристическое путешествие", "Велогонка", "Военный парад", "Музыкальный фестиваль"],
+          "ans": 1,
+          "exp": "Tour de France — ежегодная велогонка (с 1903 г.), длящаяся 3 недели. Финиш на Елисейских полях."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 2",
+      "titleRu": "Итоговый урок Модуля 2",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète du Module 2",
+        "titleRu": "Полное повторение Модуля 2",
+        "intro": "Поздравляем с завершением Модуля 2! Вы значительно расширили свой французский. Давайте повторим всё, что вы узнали в этом модуле.",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 2",
+            "content": "✅ Глаголы 1-й группы (-er): спряжение и отрицание\n✅ Время: который час, части суток\n✅ Еда: разделительные артикли (du/de la/des)\n✅ Город и транспорт: предлоги места, aller\n✅ Покупки: vouloir, pouvoir, вежливые фразы\n✅ Здоровье: avoir mal à, части тела\n✅ Futur proche: aller + инфинитив\n✅ Погода и сезоны: il fait, il pleut, il neige\n✅ Хобби: jouer à / jouer de / faire de"
+          },
+          {
+            "title": "Ключевые глаголы модуля",
+            "content": "aller — идти/ехать: je vais, tu vas, il va, nous allons, vous allez, ils vont\nvouloir — хотеть: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent\npouvoir — мочь: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent\nfaire — делать: je fais, tu fais, il fait, nous faisons, vous faites, ils font\nprendre — брать: je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent"
+          },
+          {
+            "title": "Разговорные конструкции",
+            "content": "Futur proche: Je vais + inf. → Я собираюсь...\nSanté: J'ai mal au/à la... → У меня болит...\nAchats: Je voudrais... / Combien ça coûte ?\nMétéo: Il fait beau/froid/chaud. Il pleut/neige.\nLoisirs: Je joue à / de... / Je fais du/de la...\nLieu: à + ville / en + pays (f.) / au + pays (m.)"
+          }
+        ],
+        "rule": "🏆 Если вы знаете всё из этого списка — вы уверенно движетесь к уровню A2! В Модуле 3 мы изучим прошедшее время (passé composé) и расширим словарный запас. Continuez comme ça !"
+      },
+      "pronunciation": {
+        "intro": "Повторяем ключевые фразы Модуля 2:",
+        "note": "⚠️ Обратите особое внимание на связывание слов (liaison) — признак хорошего французского!",
+        "words": [
+          { "fr": "Je vais au marché ce matin.", "ru_pron": "Жё вэ о маршэ сё матэн", "meaning": "Сегодня утром я иду на рынок." },
+          { "fr": "Il est midi et demi.", "ru_pron": "Иль э миди э дёми", "meaning": "Сейчас половина первого." },
+          { "fr": "Je voudrais du café, s'il vous plaît.", "ru_pron": "Жё вудрэ дю кафэ, силь ву плэ", "meaning": "Я хотел бы кофе, пожалуйста." },
+          { "fr": "J'ai mal à la tête.", "ru_pron": "Жэ маль а ля тэт", "meaning": "У меня болит голова." },
+          { "fr": "Nous allons visiter Paris demain.", "ru_pron": "Ну залон визитэ Пари дёмэн", "meaning": "Завтра мы собираемся посетить Париж." },
+          { "fr": "Il fait très beau aujourd'hui !", "ru_pron": "Иль фэ трэ бо ожурдьюи", "meaning": "Сегодня очень хорошая погода!" },
+          { "fr": "Je joue de la guitare le soir.", "ru_pron": "Жё жу дё ля гитар лё суар", "meaning": "По вечерам я играю на гитаре." },
+          { "fr": "Combien ça coûte, s'il vous plaît ?", "ru_pron": "Комбьэн са кут, силь ву плэ", "meaning": "Сколько это стоит, пожалуйста?" },
+          { "fr": "Je ne vais pas travailler ce soir.", "ru_pron": "Жё нё вэ па траваyэ сё суар", "meaning": "Сегодня вечером я не буду работать." },
+          { "fr": "Continuez, vous progressez bien !", "ru_pron": "Континюэ, ву прогрэссэ бьэн", "meaning": "Продолжайте, вы хорошо прогрессируете!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "progresser", "gender": null, "ru": "прогрессировать, улучшаться", "ru_pron": "прогрэссэ", "example_fr": "Tu progresses vraiment bien en français !", "example_ru": "Ты действительно хорошо прогрессируешь во французском!", "level": "A2" },
+        { "fr": "réviser", "gender": null, "ru": "повторять, пересматривать", "ru_pron": "рэвизэ", "example_fr": "Il faut réviser avant l'examen.", "example_ru": "Нужно повторить перед экзаменом.", "level": "A2" },
+        { "fr": "mémoriser", "gender": null, "ru": "запомнить", "ru_pron": "мэморизэ", "example_fr": "Mémorisez ces expressions utiles !", "example_ru": "Запомните эти полезные выражения!", "level": "A2" },
+        { "fr": "pratiquer", "gender": null, "ru": "практиковать", "ru_pron": "практикэ", "example_fr": "Pratiquez le français chaque jour.", "example_ru": "Практикуйте французский каждый день.", "level": "A2" },
+        { "fr": "quotidien(ne)", "gender": "m/f", "ru": "ежедневный, повседневный", "ru_pron": "котидьэн", "example_fr": "La vie quotidienne en France est agréable.", "example_ru": "Повседневная жизнь во Франции приятна.", "level": "A2" },
+        { "fr": "utile", "gender": null, "ru": "полезный", "ru_pron": "ютиль", "example_fr": "Ce dictionnaire est très utile.", "example_ru": "Этот словарь очень полезный.", "level": "A1" },
+        { "fr": "courant(e)", "gender": "m/f", "ru": "бегло, обычный, текущий", "ru_pron": "куран", "example_fr": "Je parle français couramment maintenant.", "example_ru": "Теперь я свободно говорю по-французски.", "level": "A2" },
+        { "fr": "encourager", "gender": null, "ru": "поощрять, поддерживать", "ru_pron": "анкуражэ", "example_fr": "Je vous encourage à continuer !", "example_ru": "Я призываю вас продолжать!", "level": "A2" },
+        { "fr": "s'améliorer", "gender": null, "ru": "улучшаться", "ru_pron": "с'амэльорэ", "example_fr": "Mon français s'améliore chaque semaine.", "example_ru": "Мой французский улучшается каждую неделю.", "level": "A2" },
+        { "fr": "félicitations", "gender": "f pl", "ru": "поздравления", "ru_pron": "фэлиситасьон", "example_fr": "Félicitations pour avoir terminé le module 2 !", "example_ru": "Поздравления с завершением модуля 2!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "pratiquer", "fr_pron": "практикэ", "ru": "практика", "ru_pron": "практика", "note": "Из греческого «praktikos». Pratiquer = практиковать; la pratique = практика. Легко узнать в любом языке!" },
+        { "fr": "encourager", "fr_pron": "анкуражэ", "ru": "курьер / courage", "ru_pron": "кураж", "note": "Из старофранцузского «corage» (сердце, смелость). Courage = смелость, encourager = придавать смелость. «Кураж» в русском — оттуда же!" }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Simone de Beauvoir (1908–1986)",
+          "subtitle": "Philosophe et féministe",
+          "content": "Симона де Бовуар — французский философ-экзистенциалист, писательница и одна из основоположниц современного феминизма. Её книга «Второй пол» (Le Deuxième Sexe, 1949) перевернула взгляды на роль женщины в обществе. Знаменитая цитата: «Женщиной не рождаются — ею становятся». Де Бовуар была подругой и партнёром Жан-Поля Сартра, но сохраняла полную интеллектуальную независимость. Она первой получила французский литературный приз «Prix Goncourt» (1954) за роман «Мандарины»."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Mai 68 — студенческая революция",
+          "content": "Май 1968 года — один из самых драматических моментов французской истории. Студенческие волнения в Парижском университете переросли во всеобщую забастовку: 10 миллионов рабочих остановили страну. Улицы Парижа превратились в баррикады. Студенты скандировали: «Запрещено запрещать!», «Будьте реалистами — требуйте невозможного!». Де Голль бежал из страны, потом вернулся. В результате — повышение зарплат, права женщин, либерализация образования. Май 68-го изменил французское общество навсегда."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурная анекдота",
+          "title": "La pétanque — игра, объединяющая Францию",
+          "content": "Пэтанк (la pétanque) — французская игра с металлическими шарами, родом из Прованса. Цель — бросить шары как можно ближе к маленькому деревянному шарику (кошонне). Правила придуманы в 1910 году в Ла-Сьота (Provence). Во Франции играют 15 миллионов человек! Парки, площади, деревенские дворы — везде можно увидеть играющих. Это не просто игра, это социальный ритуал: во время партии обязательно пьют анисовый пастис. Пэтанк объединяет все возрасты и классы — демократичнее некуда."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Chapeau bas et bravo !",
+          "pronunciation": "Шапо ба э браво",
+          "translation": "Снимаю шляпу и браво!",
+          "usage": "Усиленная версия «Chapeau!» — выражение максимального восхищения и уважения. Говорится при выдающемся достижении. «Bas» = низко (шляпа низко опущена в знак поклона). Используйте в конце модуля — вы это заслужили!",
+          "example": "— J'ai terminé le module 2 ! — Chapeau bas et bravo ! Vous êtes formidable ! (Я закончил модуль 2! — Снимаю шляпу и браво! Вы великолепны!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Versailles — Le Château du Roi Soleil",
+          "subtitle": "Версаль — дворец Короля-Солнца",
+          "content": "Версальский дворец — символ абсолютной монархии и самый посещаемый дворец мира (10 миллионов туристов в год). Построен Людовиком XIV («Король-Солнце», 1638–1715), который переенёс сюда французский двор в 1682 году. Зеркальная галерея (Galerie des Glaces) — 73 метра зеркал и люстр. Версальские сады — шедевр французского ландшафтного искусства: 800 гектаров, 200 000 деревьев, 50 фонтанов. Именно здесь в 1919 году был подписан Версальский мирный договор, завершивший Первую мировую войну."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я собираюсь учить французский»?",
+          "opts": ["Je veux apprendre le français", "Je vais apprendre le français", "J'apprends le français", "Je voudrais le français"],
+          "ans": 1,
+          "exp": "Futur proche = aller + инфинитив. Je vais apprendre le français = Я собираюсь учить французский."
+        },
+        {
+          "q": "Какой артикль с «fromage» (м.р.) в отрицании?",
+          "opts": ["du fromage", "de la fromage", "de fromage", "des fromage"],
+          "ans": 2,
+          "exp": "В отрицании du/de la/des → de. Je ne mange pas de fromage = Я не ем сыр."
+        },
+        {
+          "q": "Как по-французски «Хорошая погода»?",
+          "opts": ["Il fait la bonne météo", "Il fait beau", "Le temps est bon", "Il a beau temps"],
+          "ans": 1,
+          "exp": "Il fait beau = Хорошая погода. Конструкция il fait + прилагательное — стандарт для погоды."
+        },
+        {
+          "q": "«Vous pouvez répéter ?» означает:",
+          "opts": ["Вы хотите повторить?", "Вы можете повторить?", "Повторите, пожалуйста!", "Вы повторяете?"],
+          "ans": 1,
+          "exp": "Pouvoir = мочь. Vous pouvez = вы можете. Это вежливый вопрос-просьба повторить."
+        },
+        {
+          "q": "Кто написал «Второй пол» (Le Deuxième Sexe)?",
+          "opts": ["Coco Chanel", "Édith Piaf", "Simone de Beauvoir", "Marie Curie"],
+          "ans": 2,
+          "exp": "Симона де Бовуар написала «Второй пол» (1949) — основополагающий труд феминизма."
+        }
+      ]
+    }
+  ]
+}
