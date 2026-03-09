@@ -1,0 +1,724 @@
+{
+  "module": 7,
+  "titleFr": "Nature & Environnement",
+  "titleRu": "Природа и среда",
+  "description": "Пейзажи, климат, животные, экология и защита планеты.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Paysage",
+      "titleRu": "Пейзаж",
+      "level": "A2",
+      "grammar": {
+        "title": "Les prépositions de lieu",
+        "titleRu": "Предлоги места",
+        "intro": "Чтобы описывать природные пейзажи, нам нужны предлоги места. Во французском их несколько, и каждый используется в разном контексте.",
+        "sections": [
+          {
+            "title": "Основные предлоги места",
+            "content": "dans — в (внутри): dans la forêt (в лесу)\nà côté de — рядом с: à côté du lac (рядом с озером)\nau bord de — у края / у берега: au bord de la mer (у моря)\nau sommet de — на вершине: au sommet de la montagne (на вершине горы)\nau milieu de — в середине / посреди: au milieu du champ (посреди поля)\nentre — между: entre les arbres (между деревьями)"
+          },
+          {
+            "title": "Артикль после предлогов à и de",
+            "content": "à + le = au : Je vais au lac. (Я иду к озеру.)\nà + les = aux : Je me promène aux bois. (Я гуляю в лесах.)\nde + le = du : au bord du fleuve (на берегу реки)\nde + les = des : la beauté des montagnes (красота гор)"
+          },
+          {
+            "title": "Глаголы для описания пейзажа",
+            "content": "se trouver — находиться: La forêt se trouve à 5 km. (Лес находится в 5 км.)\ns'étendre — простираться: La plaine s'étend jusqu'à l'horizon. (Равнина простирается до горизонта.)\ndominer — возвышаться: La montagne domine la vallée. (Гора возвышается над долиной.)\ncouler — течь: La rivière coule doucement. (Река течёт тихо.)"
+          }
+        ],
+        "rule": "💡 Au bord de la mer / de la rivière / du lac — запомните эту конструкцию. Французы используют её очень часто при описании природных мест."
+      },
+      "pronunciation": {
+        "intro": "Слушайте и повторяйте названия природных объектов:",
+        "note": "⚠️ Обратите внимание: «forêt» [форэ] — «t» на конце не читается. «Montagne» [монтань] — конечная «e» немая.",
+        "words": [
+          { "fr": "la forêt", "ru_pron": "ля форэ", "meaning": "лес" },
+          { "fr": "la montagne", "ru_pron": "ля монтань", "meaning": "гора" },
+          { "fr": "la mer", "ru_pron": "ля мэр", "meaning": "море" },
+          { "fr": "le fleuve", "ru_pron": "лё флёв", "meaning": "река (впадающая в море)" },
+          { "fr": "la rivière", "ru_pron": "ля ривьэр", "meaning": "река (приток)" },
+          { "fr": "le lac", "ru_pron": "лё лак", "meaning": "озеро" },
+          { "fr": "la plaine", "ru_pron": "ля плэн", "meaning": "равнина" },
+          { "fr": "la vallée", "ru_pron": "ля валэ", "meaning": "долина" },
+          { "fr": "la colline", "ru_pron": "ля колин", "meaning": "холм" },
+          { "fr": "le sommet", "ru_pron": "лё сомэ", "meaning": "вершина" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la forêt", "gender": "f", "ru": "лес", "ru_pron": "ля форэ", "example_fr": "Nous nous promenons dans la forêt.", "example_ru": "Мы гуляем в лесу.", "level": "A2" },
+        { "fr": "la montagne", "gender": "f", "ru": "гора", "ru_pron": "ля монтань", "example_fr": "Il aime faire de la randonnée en montagne.", "example_ru": "Он любит ходить в горный поход.", "level": "A2" },
+        { "fr": "la mer", "gender": "f", "ru": "море", "ru_pron": "ля мэр", "example_fr": "Nous allons à la mer cet été.", "example_ru": "Этим летом мы едем к морю.", "level": "A2" },
+        { "fr": "le fleuve", "gender": "m", "ru": "река (большая, впадающая в море)", "ru_pron": "лё флёв", "example_fr": "La Loire est le plus long fleuve de France.", "example_ru": "Луара — самая длинная река Франции.", "level": "A2", "meaning_double": "fleuve (большая река) ≠ rivière (приток, малая река)" },
+        { "fr": "la rivière", "gender": "f", "ru": "река (малая, приток)", "ru_pron": "ля ривьэр", "example_fr": "Les enfants jouent au bord de la rivière.", "example_ru": "Дети играют у берега реки.", "level": "A2" },
+        { "fr": "le lac", "gender": "m", "ru": "озеро", "ru_pron": "лё лак", "example_fr": "Le lac Léman est très profond.", "example_ru": "Женевское озеро очень глубокое.", "level": "A2" },
+        { "fr": "la vallée", "gender": "f", "ru": "долина", "ru_pron": "ля валэ", "example_fr": "La vallée de la Loire est magnifique.", "example_ru": "Долина Луары великолепна.", "level": "A2" },
+        { "fr": "la plaine", "gender": "f", "ru": "равнина", "ru_pron": "ля плэн", "example_fr": "La plaine s'étend à perte de vue.", "example_ru": "Равнина простирается до горизонта.", "level": "A2" },
+        { "fr": "le paysage", "gender": "m", "ru": "пейзаж, ландшафт", "ru_pron": "лё пэизаж", "example_fr": "Le paysage breton est sauvage et beau.", "example_ru": "Бретонский пейзаж дик и красив.", "level": "A2" },
+        { "fr": "la côte", "gender": "f", "ru": "берег, побережье", "ru_pron": "ля кот", "example_fr": "La Côte d'Azur est très célèbre.", "example_ru": "Лазурный берег очень знаменит.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le paysage", "fr_pron": "лё пэизаж", "ru": "пейзаж", "ru_pron": "пейзаж", "note": "Русское слово «пейзаж» заимствовано напрямую из французского «paysage»! Оба произошли от «pays» (страна, край). Произношение различается, но слово то же." },
+        { "fr": "la vallée", "fr_pron": "ля валэ", "ru": "Вале (регион)", "ru_pron": "Вале", "note": "Vallée = долина. Швейцарский кантон Вале (Valais) назван по этому слову. Латинский корень «vallis» есть и в русских географических названиях." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jean-Jacques Rousseau (1712–1778)", "subtitle": "Philosophe de la nature", "content": "Жан-Жак Руссо — французский философ, писатель и педагог. Один из первых европейских мыслителей, провозгласивших красоту природы и её благотворное влияние на человека. Его знаменитый призыв «Назад к природе!» стал реакцией на урбанизацию и искусственность светской жизни. Роман «Новая Элоиза» (Julie ou la Nouvelle Héloïse) — первый европейский роман, где пейзаж Альп играет важнейшую роль. Руссо жил в добровольной бедности и много гулял пешком — именно на прогулках рождались его идеи." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Les Parcs naturels régionaux — охраняемая природа Франции", "content": "Во Франции существует 58 региональных природных парков (Parcs naturels régionaux), охватывающих 17% территории страны. Первый был создан в 1967 году. Это не заповедники, а живые территории, где природа и люди сосуществуют. Местные жители могут жить и работать в парках. Цель — сохранить биологическое разнообразие и традиционные уклады жизни. Самые известные: Camargue (с flamants roses — розовыми фламинго!), Vercors, Luberon." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La randonnée — французская страсть к походам", "content": "Франция — страна номер один в мире по протяжённости пешеходных маршрутов (sentiers de randonnée): более 180 000 км троп! Сеть GR (Grandes Randonnées) покрывает всю страну. Каждые выходные миллионы французов отправляются «en rando» — в поход. Самый легендарный маршрут: GR 20 на Корсике — считается одним из самых сложных в Европе. Слово «randonnée» происходит от старофранцузского «randir» — быстро бежать." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Recharger ses batteries", "pronunciation": "Рёшаржэ сэ батери", "translation": "Подзарядить батарейки (отдохнуть на природе)", "usage": "Выражение означает восстановить силы, отдохнуть — особенно на природе. Буквально: «перезарядить свои батарейки». Аналог русского «зарядиться энергией». Очень популярное выражение у французов, которые проводят выходные за городом.", "example": "— Tu as l'air fatigué ! — Oui, j'ai besoin de partir à la campagne pour recharger mes batteries. (Ты выглядишь уставшим! — Да, мне нужно выбраться на природу, чтобы восстановить силы.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Camargue — Entre terre et mer", "subtitle": "Камарг — Между землёй и морем", "content": "Камарг — уникальная природная территория в устье Роны, в Провансе. Это болотистая дельта, где живут дикие белые лошади (chevaux camarguais), чёрные быки и розовые фламинго. Объект Всемирного наследия ЮНЕСКО. Весной поля покрываются алыми маками и фиолетовой лавандой. Соляные болота (salins) производят знаменитую «fleur de sel» — лучшую морскую соль Франции. Уникальный пейзаж ни на что не похож во всей Европе." }
+      },
+      "quiz": [
+        { "q": "Как по-французски сказать «на берегу моря»?", "opts": ["dans la mer", "au bord de la mer", "sous la mer", "à côté de la mer"], "ans": 1, "exp": "Au bord de la mer = на берегу моря. «Au bord de» — очень распространённая конструкция для обозначения берега водоёма." },
+        { "q": "В чём разница между «fleuve» и «rivière»?", "opts": ["Размер воды", "Флёв впадает в море, ривьер — приток", "Нет разницы", "Флёв — горная река"], "ans": 1, "exp": "Fleuve впадает в море или океан (Рона, Луара), а rivière — приток другой реки. Важное различие!" },
+        { "q": "Что означает «Le paysage s'étend à perte de vue»?", "opts": ["Пейзаж очень красивый", "Пейзаж простирается до горизонта", "Пейзаж исчезает", "Пейзаж меняется"], "ans": 1, "exp": "À perte de vue = насколько хватает взгляда, до горизонта. S'étendre = простираться." },
+        { "q": "Философ, провозгласивший «Назад к природе»?", "opts": ["Voltaire", "Descartes", "Jean-Jacques Rousseau", "Victor Hugo"], "ans": 2, "exp": "Жан-Жак Руссо провозгласил красоту природы и её важность для человека. Один из первых «экологических» философов Европы." },
+        { "q": "Что такое «recharger ses batteries»?", "opts": ["Купить новый телефон", "Отдохнуть и восстановить силы", "Поехать в командировку", "Починить машину"], "ans": 1, "exp": "Recharger ses batteries = восстановить силы, отдохнуть. Буквально «перезарядить батарейки». Очень популярное французское выражение." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "La Météo et le Climat",
+      "titleRu": "Погода и климат",
+      "level": "A2",
+      "grammar": {
+        "title": "Le futur proche et le présent pour la météo",
+        "titleRu": "Ближайшее будущее и настоящее для описания погоды",
+        "intro": "Погоду описывают чаще всего в настоящем времени или в futur proche (ближайшее будущее). Используется безличный оборот с «il» — без подлежащего-человека.",
+        "sections": [
+          {
+            "title": "Безличные обороты (tournures impersonnelles)",
+            "content": "il fait + прилагательное:\nil fait beau — хорошая погода\nil fait mauvais — плохая погода\nil fait chaud — жарко\nil fait froid — холодно\nil fait doux — тепло (мягко)\nil fait gris — пасмурно\n\nil y a + существительное:\nil y a du soleil — солнечно\nil y a du vent — ветрено\nil y a du brouillard — туманно\nil y a des nuages — облачно\n\nГлаголы:\nil pleut — идёт дождь\nil neige — идёт снег\nil gèle — морозит"
+          },
+          {
+            "title": "Futur proche для прогноза погоды",
+            "content": "Futur proche = aller (в наст. вр.) + инфинитив\n\nIl va pleuvoir demain. — Завтра будет дождь.\nIl va faire beau ce week-end. — На выходных будет хорошая погода.\nIl va neiger dans les montagnes. — В горах будет снег.\n\nJe vais, tu vas, il va, nous allons, vous allez, ils vont"
+          },
+          {
+            "title": "Сравнение климатов",
+            "content": "plus... que — более... чем: Il fait plus chaud en été qu'en hiver.\nmoins... que — менее... чем: Il fait moins froid ici qu'en Russie.\naussi... que — так же... как: Il fait aussi froid qu'hier."
+          }
+        ],
+        "rule": "💡 Для описания погоды французы используют «il» безличный — он не относится ни к какому человеку или предмету. Il pleut, il neige, il fait beau — просто запомните эти блоки целиком!"
+      },
+      "pronunciation": {
+        "intro": "Слова о погоде — слушайте и повторяйте:",
+        "note": "⚠️ «Il pleut» [иль плё] — «t» на конце не читается. «Le brouillard» [лё бруяр] — «d» немое.",
+        "words": [
+          { "fr": "Il fait beau.", "ru_pron": "Иль фэ бо", "meaning": "Хорошая погода." },
+          { "fr": "Il pleut.", "ru_pron": "Иль плё", "meaning": "Идёт дождь." },
+          { "fr": "Il neige.", "ru_pron": "Иль нэж", "meaning": "Идёт снег." },
+          { "fr": "Il fait froid.", "ru_pron": "Иль фэ фруа", "meaning": "Холодно." },
+          { "fr": "le brouillard", "ru_pron": "лё бруяр", "meaning": "туман" },
+          { "fr": "l'orage", "ru_pron": "л'ораж", "meaning": "гроза" },
+          { "fr": "la tempête", "ru_pron": "ля тампэт", "meaning": "буря, шторм" },
+          { "fr": "la chaleur", "ru_pron": "ля шалёр", "meaning": "жара" },
+          { "fr": "la neige", "ru_pron": "ля нэж", "meaning": "снег" },
+          { "fr": "le nuage", "ru_pron": "лё нюаж", "meaning": "облако, туча" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la météo", "gender": "f", "ru": "погода, прогноз погоды", "ru_pron": "ля мэтэо", "example_fr": "Quelle est la météo pour demain ?", "example_ru": "Какой прогноз погоды на завтра?", "level": "A2" },
+        { "fr": "le temps", "gender": "m", "ru": "погода; время", "ru_pron": "лё тан", "example_fr": "Quel temps fait-il ?", "example_ru": "Какая погода?", "level": "A2", "meaning_double": "le temps = погода ET le temps = время. Контекст решает всё!" },
+        { "fr": "la pluie", "gender": "f", "ru": "дождь", "ru_pron": "ля плюи", "example_fr": "J'aime marcher sous la pluie.", "example_ru": "Я люблю ходить под дождём.", "level": "A2" },
+        { "fr": "la neige", "gender": "f", "ru": "снег", "ru_pron": "ля нэж", "example_fr": "Les enfants jouent dans la neige.", "example_ru": "Дети играют в снегу.", "level": "A2" },
+        { "fr": "le vent", "gender": "m", "ru": "ветер", "ru_pron": "лё ван", "example_fr": "Il y a beaucoup de vent aujourd'hui.", "example_ru": "Сегодня очень ветрено.", "level": "A2" },
+        { "fr": "l'orage", "gender": "m", "ru": "гроза", "ru_pron": "л'ораж", "example_fr": "Un violent orage a éclaté ce soir.", "example_ru": "Сегодня вечером разразилась сильная гроза.", "level": "A2" },
+        { "fr": "la tempête", "gender": "f", "ru": "буря, шторм", "ru_pron": "ля тампэт", "example_fr": "La tempête a endommagé les arbres.", "example_ru": "Буря повредила деревья.", "level": "A2" },
+        { "fr": "le brouillard", "gender": "m", "ru": "туман", "ru_pron": "лё бруяр", "example_fr": "Il y a du brouillard ce matin.", "example_ru": "Сегодня утром туман.", "level": "A2" },
+        { "fr": "la chaleur", "gender": "f", "ru": "жара, тепло", "ru_pron": "ля шалёр", "example_fr": "La chaleur est insupportable en juillet.", "example_ru": "Жара в июле невыносима.", "level": "A2" },
+        { "fr": "le climat", "gender": "m", "ru": "климат", "ru_pron": "лё клима", "example_fr": "Le climat méditerranéen est doux.", "example_ru": "Средиземноморский климат мягкий.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le climat", "fr_pron": "лё клима", "ru": "климат", "ru_pron": "климат", "note": "Климат и «climat» — из греческого «klima» (наклон земли к солнцу). Абсолютно узнаваемое слово!" },
+        { "fr": "la tempête", "fr_pron": "ля тампэт", "ru": "tempest (буря)", "ru_pron": "тэмпэст", "note": "Французское «tempête» родственно английскому «tempest» и итальянскому «tempesta». Русское «буря» другого происхождения, но звучание «тампэт» легко запоминается." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Léon Teisserenc de Bort (1855–1913)", "subtitle": "Découvreur de la stratosphère", "content": "Леон Тейсеранк де Бор — французский метеоролог, открывший стратосферу. В 1899 году он запускал аэростаты с метеоприборами на высоту до 15 км и обнаружил, что выше определённой отметки температура перестаёт падать — это граница тропосферы и стратосферы. Его открытие перевернуло представления о структуре атмосферы. Бор основал первую в мире частную метеорологическую обсерваторию в Трапп под Парижем." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Météo-France — хранитель погоды", "content": "Météo-France — национальная метеорологическая служба Франции, основанная в 1855 году Наполеоном III после катастрофической бури в Крыму, уничтожившей французский флот. Это одна из старейших метеослужб мира. Сегодня Météo-France использует суперкомпьютеры мощностью петафлопс для прогнозов. Ежегодно служба публикует свыше 700 000 прогнозов. Символ Météo-France — жёлтый «солнечный» логотип, известный каждому французу." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La canicule de 2003 — смертоносная жара", "content": "В августе 2003 года Францию накрыла аномальная жара — температура превысила 40°C, что для страны с умеренным климатом катастрофично. Погибли около 15 000 человек, большинство — пожилые люди. Трагедия произошла в разгар летних отпусков: многие дети уехали, а их престарелые родители оказались одни в городе без кондиционеров. После этого Франция создала систему оповещения о жаре «Plan Canicule» и начала массово устанавливать кондиционеры в домах престарелых." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Après la pluie, le beau temps", "pronunciation": "Апрэ ля плюи, лё бо тан", "translation": "После дождя — ясная погода (после тёмной полосы — светлая)", "usage": "Пословица-утешение: за трудным периодом всегда следует лучший. Полный аналог русского «после грозы — солнце» или «не бывает худа без добра». Используется для поддержки в трудную минуту.", "example": "— Je suis triste, j'ai raté mon examen. — Courage ! Après la pluie, le beau temps. (Мне грустно, я не сдал экзамен. — Держись! После дождя всегда светлеет.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Côte d'Azur — Солнце круглый год", "subtitle": "Лазурный берег — Riviera française", "content": "Лазурный берег (Côte d'Azur) — французское Средиземноморье от Тулона до Ментона. Климат здесь — один из лучших в Европе: 300 солнечных дней в год, тёплое море с мая по октябрь, мягкая зима (+10°C). Города-жемчужины: Ницца, Канн (знаменитый фестиваль), Монако, Антиб, Сен-Тропе. Художники приезжали сюда ради особого «лазурного» света: Матисс жил в Ницце 37 лет, Пикассо — в Антибе. Местный диалект называется ниссар (nissard)." }
+      },
+      "quiz": [
+        { "q": "Как сказать «Завтра будет дождь»?", "opts": ["Il pleut demain.", "Il va pleuvoir demain.", "Il a plu demain.", "Il faisait pluie demain."], "ans": 1, "exp": "Il va pleuvoir demain = Завтра будет дождь. Futur proche: aller + инфинитив. Pleuvoir — инфинитив глагола «идти (о дожде)»." },
+        { "q": "Что значит «le temps» в контексте погоды?", "opts": ["время суток", "только погода", "погода или время (зависит от контекста)", "сезон"], "ans": 2, "exp": "Le temps = погода (Quel temps fait-il?) ET время (J'ai le temps). Контекст определяет значение — типичный «ложный друг»!" },
+        { "q": "Как выразить «холодно»?", "opts": ["Il y a froid.", "Il fait froid.", "Il est froid.", "Il a froid."], "ans": 1, "exp": "Il fait froid = холодно. Конструкция «il fait + прилагательное» — стандарт для описания погоды. Il fait chaud, beau, mauvais..." },
+        { "q": "Кто открыл стратосферу?", "opts": ["Louis Pasteur", "Gustave Eiffel", "Léon Teisserenc de Bort", "Jules Verne"], "ans": 2, "exp": "Леон Тейсеранк де Бор — французский метеоролог, открывший стратосферу в 1899 году, запуская аэростаты с приборами." },
+        { "q": "Что значит «Après la pluie, le beau temps»?", "opts": ["Мокрая погода опасна", "За тёмной полосой придёт светлая", "Дождь всегда кончается быстро", "Нужен зонт"], "ans": 1, "exp": "Это пословица-утешение: после трудного периода всегда наступает лучшее. Аналог русского «после грозы солнце»." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Les Saisons",
+      "titleRu": "Времена года",
+      "level": "A2",
+      "grammar": {
+        "title": "Les prépositions avec les saisons",
+        "titleRu": "Предлоги со временами года",
+        "intro": "Времена года во французском используются с разными предлогами. Это небольшое, но важное правило, которое часто путает студентов.",
+        "sections": [
+          {
+            "title": "Предлоги с временами года",
+            "content": "au printemps — весной (printemps — м.р., ед.ч.)\nen été — летом (été — м.р., начинается с гласной → en)\nen automne — осенью (automne — м.р., начинается с гласной → en)\nen hiver — зимой (hiver — м.р., начинается с гласной → en)\n\n⚠️ Только printemps требует «au», остальные — «en»!"
+          },
+          {
+            "title": "Описание сезонов с глаголом «commencer»",
+            "content": "Le printemps commence en mars. — Весна начинается в марте.\nL'été commence en juin. — Лето начинается в июне.\nL'automne commence en septembre. — Осень начинается в сентябре.\nL'hiver commence en décembre. — Зима начинается в декабре."
+          },
+          {
+            "title": "Типичные глаголы для каждого сезона",
+            "content": "Printemps: fleurir (цвести), bourgeonner (распускаться), se réchauffer (теплеть)\nÉté: bronzer (загорать), nager (плавать), transpirer (потеть)\nAutomne: tomber (падать — о листьях), rougir (краснеть), ramasser (собирать)\nHiver: geler (замерзать), skier (кататься на лыжах), se couvrir (укутываться)"
+          }
+        ],
+        "rule": "💡 Запомните исключение: AU printemps (не «en printemps»!). Для всех остальных сезонов используется EN: en été, en automne, en hiver."
+      },
+      "pronunciation": {
+        "intro": "Четыре сезона и их характеристики:",
+        "note": "⚠️ «Le printemps» [лё прэнтан] — «ps» в конце не читается. «L'automne» [л'отон] — «mn» на конце немое.",
+        "words": [
+          { "fr": "le printemps", "ru_pron": "лё прэнтан", "meaning": "весна" },
+          { "fr": "l'été", "ru_pron": "л'этэ", "meaning": "лето" },
+          { "fr": "l'automne", "ru_pron": "л'отон", "meaning": "осень" },
+          { "fr": "l'hiver", "ru_pron": "л'ивэр", "meaning": "зима" },
+          { "fr": "fleurir", "ru_pron": "флёрир", "meaning": "цвести" },
+          { "fr": "les feuilles tombent", "ru_pron": "лэ фёй томб", "meaning": "листья падают" },
+          { "fr": "il gèle", "ru_pron": "иль жэль", "meaning": "морозит" },
+          { "fr": "se réchauffer", "ru_pron": "сё рёшофэ", "meaning": "теплеть" },
+          { "fr": "la saison", "ru_pron": "ля сэзон", "meaning": "сезон, время года" },
+          { "fr": "les vendanges", "ru_pron": "лэ вандандж", "meaning": "сбор винограда" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la saison", "gender": "f", "ru": "сезон, время года", "ru_pron": "ля сэзон", "example_fr": "Quelle est ta saison préférée ?", "example_ru": "Какое твоё любимое время года?", "level": "A2" },
+        { "fr": "le printemps", "gender": "m", "ru": "весна", "ru_pron": "лё прэнтан", "example_fr": "Au printemps, les fleurs éclosent.", "example_ru": "Весной расцветают цветы.", "level": "A2" },
+        { "fr": "l'été", "gender": "m", "ru": "лето", "ru_pron": "л'этэ", "example_fr": "En été, il fait très chaud dans le Midi.", "example_ru": "Летом на юге Франции очень жарко.", "level": "A2" },
+        { "fr": "l'automne", "gender": "m", "ru": "осень", "ru_pron": "л'отон", "example_fr": "En automne, les feuilles rougissent.", "example_ru": "Осенью листья краснеют.", "level": "A2" },
+        { "fr": "l'hiver", "gender": "m", "ru": "зима", "ru_pron": "л'ивэр", "example_fr": "En hiver, nous faisons du ski.", "example_ru": "Зимой мы катаемся на лыжах.", "level": "A2" },
+        { "fr": "fleurir", "gender": null, "ru": "цвести, расцветать", "ru_pron": "флёрир", "example_fr": "Les cerisiers fleurissent en avril.", "example_ru": "Вишни цветут в апреле.", "level": "A2" },
+        { "fr": "la récolte", "gender": "f", "ru": "урожай, сбор", "ru_pron": "ля рэколт", "example_fr": "La récolte de lavande commence en juillet.", "example_ru": "Сбор лаванды начинается в июле.", "level": "A2" },
+        { "fr": "les vendanges", "gender": "f pl", "ru": "сбор винограда", "ru_pron": "лэ вандандж", "example_fr": "Les vendanges ont lieu en septembre.", "example_ru": "Сбор винограда проходит в сентябре.", "level": "A2" },
+        { "fr": "geler", "gender": null, "ru": "замерзать, морозить", "ru_pron": "жёлэ", "example_fr": "Il gèle la nuit en janvier.", "example_ru": "По ночам в январе морозит.", "level": "A2" },
+        { "fr": "se réchauffer", "gender": null, "ru": "теплеть, согреваться", "ru_pron": "сё рёшофэ", "example_fr": "Le temps se réchauffe en mars.", "example_ru": "Погода теплеет в марте.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la saison", "fr_pron": "ля сэзон", "ru": "сезон", "ru_pron": "сезон", "note": "Русское «сезон» заимствовано из французского «saison». Оба из латинского «satio» (посев). Произношение немного различается." },
+        { "fr": "les vendanges", "fr_pron": "лэ вандандж", "ru": "винодельня", "ru_pron": "виноделья", "note": "«Vendanges» — сбор винограда — от латинского «vindemia». В русском языке нет прямого аналога, но корень «vino» (vigne = виноград) роднит его со словами «вино», «виноград»." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Claude Monet (1840–1926)", "subtitle": "Peintre des saisons", "content": "Клод Моне — основатель импрессионизма, художник, одержимый светом и временем года. Его серия «Стога сена» (Meules) — одни и те же скирды в разные сезоны и время суток: 25 картин. «Тополи» — те же деревья осенью и летом. Моне создал в Живерни (Giverny) знаменитый сад с прудом и кувшинками, который сам стал его главной «картиной». Серию «Кувшинки» (Nymphéas) — почти 250 полотен — он писал до конца жизни, почти ослепнув." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Les saisons agricoles et le calendrier républicain", "content": "В период Французской революции (1793–1805) была введена революционный календарь (calendrier républicain). Год делился на 12 месяцев по 30 дней, названных по временам года и природным явлениям: Vendémiaire (сбор винограда), Brumaire (туманы), Frimaire (морозы), Nivôse (снега), Pluviôse (дожди), Ventôse (ветра), Germinal (всходы), Floréal (цветение), Prairial (луга), Messidor (жатва), Thermidor (жара), Fructidor (плоды). Он был отменён Наполеоном, но названия вошли в историю." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La fête de la musique — первый день лета", "content": "21 июня — день летнего солнцестояния — Франция отмечает «Fête de la Musique» (Праздник музыки). В 1982 году министр культуры Жак Ланг превратил этот день в грандиозный музыкальный фестиваль: тысячи музыкантов играют прямо на улицах бесплатно — в парках, на площадях, у памятников. Это один из немногих дней, когда Париж гремит музыкой до рассвета. Сегодня традиция распространилась на 120 стран мира!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué", "pronunciation": "Иль нё фо па вандр ля по дё л'ур аван дё л'авуар тюэ", "translation": "Не продавай шкуру неубитого медведя", "usage": "Идентичная русской пословице! Буквально: «Не стоит продавать шкуру медведя, пока его не убил». Используется в точно таком же контексте, что и в русском. Интересно, что образ медведя роднит французскую и русскую культуры.", "example": "— J'ai déjà dépensé mon futur salaire ! — Il ne faut pas vendre la peau de l'ours avant de l'avoir tué ! (Я уже потратил будущую зарплату! — Не продавай шкуру неубитого медведя!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Provence en lavande", "subtitle": "Прованс в лаванде — июль–август", "content": "Каждое лето (с конца июня по август) поля Прованса окрашиваются в фиолетовый цвет — расцветает лаванда. Плато Валансоль и регион Вокло́з — главные «лавандовые» зоны Франции. Лаванда выращивается здесь с XIII века — для парфюмерии, медицины и кулинарии. Знаменитые «Лавандовые маршруты» (Route de la Lavande) привлекают миллионы туристов. В Грасе (Grasse) расположена парфюмерная столица мира — здесь учился работать Эрнест Бо, создатель Chanel № 5." }
+      },
+      "quiz": [
+        { "q": "Как правильно сказать «весной»?", "opts": ["en printemps", "au printemps", "dans le printemps", "à printemps"], "ans": 1, "exp": "AU printemps — единственное время года с предлогом «au». Остальные: en été, en automne, en hiver. Это исключение нужно запомнить!" },
+        { "q": "Что такое «les vendanges»?", "opts": ["зимние праздники", "весенний посев", "сбор винограда", "летние каникулы"], "ans": 2, "exp": "Les vendanges = сбор винограда, осенний. Проходит в сентябре. Важнейшее событие в винодельческих регионах Франции." },
+        { "q": "Кто писал серии картин, изображающих одни объекты в разные сезоны?", "opts": ["Renoir", "Cézanne", "Monet", "Degas"], "ans": 2, "exp": "Клод Моне создал знаменитые серии — стога сена, тополя, руанский собор — в разные времена года и при разном освещении." },
+        { "q": "Что за праздник отмечается 21 июня?", "opts": ["Fête nationale", "Fête de la musique", "Fête des vendanges", "Fête du printemps"], "ans": 1, "exp": "21 июня — Fête de la musique (День музыки). Тысячи музыкантов играют бесплатно на улицах всей Франции. Традиция с 1982 года." },
+        { "q": "Какой аналог есть в русском у «Il ne faut pas vendre la peau de l'ours»?", "opts": ["Не зная броду, не суйся в воду", "Не продавай шкуру неубитого медведя", "Семь раз отмерь", "В гостях хорошо, а дома лучше"], "ans": 1, "exp": "Пословица полностью совпадает с русской «не продавай шкуру неубитого медведя». Даже образ тот же — медведь! Редкий случай идентичной пословицы в двух языках." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Animaux",
+      "titleRu": "Животные",
+      "level": "A2",
+      "grammar": {
+        "title": "Le genre des noms d'animaux",
+        "titleRu": "Род существительных-животных",
+        "intro": "У многих животных во французском есть отдельные слова для самца и самки. Кроме того, важно знать, как образуется женский род от мужского для различных животных.",
+        "sections": [
+          {
+            "title": "Самец и самка — разные слова",
+            "content": "le cheval (конь) / la jument (кобыла)\nle taureau (бык) / la vache (корова)\nle coq (петух) / la poule (курица)\nle sanglier (кабан) / la laie (самка кабана)\nle cerf (олень) / la biche (лань)\nle renard (лис) / la renarde (лисица)"
+          },
+          {
+            "title": "Женский род добавлением -e или -ne",
+            "content": "le lion → la lionne\nle chien → la chienne\nle chat → la chatte\nle loup → la louve\nle tigre → la tigresse\nle ours → l'ourse"
+          },
+          {
+            "title": "Звуки животных (verbes de cris)",
+            "content": "Le chien aboie. — Собака лает.\nLe chat miaule. — Кошка мяукает.\nLe loup hurle. — Волк воет.\nLa vache meugle. — Корова мычит.\nLe coq chante. — Петух поёт.\nL'oiseau chante/siffle. — Птица поёт/свистит."
+          }
+        ],
+        "rule": "💡 Помните: «le poisson» (рыба) всегда м.р. Но «la baleine» (кит) — ж.р.! Во французском биологический пол животного и грамматический род слова не всегда совпадают."
+      },
+      "pronunciation": {
+        "intro": "Животные Франции — слушайте и повторяйте:",
+        "note": "⚠️ «Le renard» [лё рёнар] — конечный «d» не читается. «L'écureuil» [л'экюрёй] — сложное сочетание «euil».",
+        "words": [
+          { "fr": "le loup", "ru_pron": "лё лу", "meaning": "волк" },
+          { "fr": "le cerf", "ru_pron": "лё сэр", "meaning": "олень" },
+          { "fr": "le renard", "ru_pron": "лё рёнар", "meaning": "лиса" },
+          { "fr": "l'aigle", "ru_pron": "л'эгль", "meaning": "орёл" },
+          { "fr": "le sanglier", "ru_pron": "лё санглиэ", "meaning": "кабан" },
+          { "fr": "l'écureuil", "ru_pron": "л'экюрёй", "meaning": "белка" },
+          { "fr": "le héron", "ru_pron": "лё эрон", "meaning": "цапля" },
+          { "fr": "la grenouille", "ru_pron": "ля грёнуй", "meaning": "лягушка" },
+          { "fr": "le dauphin", "ru_pron": "лё дофэн", "meaning": "дельфин" },
+          { "fr": "le flamant rose", "ru_pron": "лё фламан роз", "meaning": "розовый фламинго" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le loup", "gender": "m", "ru": "волк", "ru_pron": "лё лу", "example_fr": "Le loup vit dans la forêt.", "example_ru": "Волк живёт в лесу.", "level": "A2" },
+        { "fr": "le cerf", "gender": "m", "ru": "олень", "ru_pron": "лё сэр", "example_fr": "Le cerf a de magnifiques bois.", "example_ru": "У оленя великолепные рога.", "level": "A2" },
+        { "fr": "le renard", "gender": "m", "ru": "лиса", "ru_pron": "лё рёнар", "example_fr": "Le renard est un animal rusé.", "example_ru": "Лиса — хитрое животное.", "level": "A2" },
+        { "fr": "l'aigle", "gender": "m", "ru": "орёл", "ru_pron": "л'эгль", "example_fr": "L'aigle vole très haut.", "example_ru": "Орёл летает очень высоко.", "level": "A2" },
+        { "fr": "la grenouille", "gender": "f", "ru": "лягушка", "ru_pron": "ля грёнуй", "example_fr": "Les grenouilles coassent près du lac.", "example_ru": "Лягушки квакают у озера.", "level": "A2", "meaning_double": "grenouille = лягушка; «les grenouilles» — прозвище французов у иностранцев за любовь к лягушачьим лапкам!" },
+        { "fr": "le dauphin", "gender": "m", "ru": "дельфин", "ru_pron": "лё дофэн", "example_fr": "Les dauphins sont très intelligents.", "example_ru": "Дельфины очень умны.", "level": "A2" },
+        { "fr": "le flamant", "gender": "m", "ru": "фламинго", "ru_pron": "лё фламан", "example_fr": "Les flamants roses vivent en Camargue.", "example_ru": "Розовые фламинго живут в Камарге.", "level": "A2" },
+        { "fr": "l'espèce", "gender": "f", "ru": "вид (биологический)", "ru_pron": "л'эспэс", "example_fr": "Cette espèce est menacée d'extinction.", "example_ru": "Этому виду грозит вымирание.", "level": "A2" },
+        { "fr": "la faune", "gender": "f", "ru": "фауна, животный мир", "ru_pron": "ля фон", "example_fr": "La faune des Alpes est très riche.", "example_ru": "Фауна Альп очень богата.", "level": "A2" },
+        { "fr": "sauvage", "gender": null, "ru": "дикий", "ru_pron": "соваж", "example_fr": "Les animaux sauvages ne doivent pas être capturés.", "example_ru": "Диких животных нельзя ловить.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la faune", "fr_pron": "ля фон", "ru": "фауна", "ru_pron": "фауна", "note": "«Faune» и «фауна» — из имени римского бога Фавна (Faunus), покровителя животных. Абсолютно узнаваемые слова!" },
+        { "fr": "l'espèce", "fr_pron": "л'эспэс", "ru": "специфика / species", "ru_pron": "эспэсис", "note": "L'espèce (вид) — из латинского «species». Отсюда и русское «специальный», и научный термин «species» в биологии." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jean-Henri Fabre (1823–1915)", "subtitle": "L'Homère des insectes", "content": "Жан-Анри Фабр — французский энтомолог, «Гомер насекомых». Провёл всю жизнь в Провансе, наблюдая за жизнью жуков, пауков и ос. Его многотомный труд «Souvenirs entomologiques» (Энтомологические воспоминания) — шедевр научной литературы, переведённый на 30 языков. Дарвин называл его «несравненным наблюдателем». Луи Пастер был его близким другом. Фабр никогда не убивал насекомых ради опытов — наблюдал только за живыми. Его дом-музей в Сериньяне сегодня — место паломничества натуралистов." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le retour du loup en France", "content": "Волк был истреблён во Франции к 1930 году. Но в 1992 году несколько волков самостоятельно пришли из Италии через Альпы и обосновались в парке Меркантур. Сегодня во Франции насчитывается более 1000 волков в 20 регионах — это вызывает острые споры. Фермеры (особенно пастухи овец) требуют права отстрела, экологи защищают хищника. Волк стал символом противоречия между сельским хозяйством и охраной природы." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et leurs animaux de compagnie", "content": "Французы — нация любителей животных: 63% французских домохозяйств держат домашнего питомца. Во Франции живут около 14 миллионов кошек и 8 миллионов собак. Собак разрешено брать в большинство ресторанов и магазинов — это поражает иностранцев! В Париже отдельная проблема — les crottes de chien (собачьи экскременты): несмотря на штрафы, тротуары... в общем, будьте внимательны! Французы говорят: «Les animaux sont des amis qui ne posent pas de questions.»" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Quand les poules auront des dents", "pronunciation": "Кан лэ пуль орон дэ дан", "translation": "Когда рак на горе свистнет (когда у кур вырастут зубы)", "usage": "Означает «никогда», «этого не случится». Куры не имеют зубов — так что никогда! Аналог русского «когда рак на горе свистнет» или «после дождичка в четверг». Очень живое и часто используемое выражение.", "example": "— Il va ranger sa chambre ? — Oui, quand les poules auront des dents ! (Он уберёт в комнате? — Да, когда рак на горе свистнет!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Le Parc national des Écrins", "subtitle": "Национальный парк Экрин — Альпийская дикая природа", "content": "Экрин — крупнейший национальный парк Франции (91 000 га). Расположен в Южных Альпах. Здесь обитают серны (chamois), горные козлы (bouquetins), орлы (aigles royaux), белые куропатки (lagopèdes) и волки. 150 горных вершин выше 3000 метров. Парк основан в 1973 году для защиты альпийской экосистемы. Входная зона открыта для туристов, ядро — строго охраняется. Здесь нет дорог, только тропы — рай для натуралистов и альпинистов." }
+      },
+      "quiz": [
+        { "q": "Как по-французски сказать «Собака лает»?", "opts": ["Le chien chante.", "Le chien siffle.", "Le chien aboie.", "Le chien rugit."], "ans": 2, "exp": "Le chien aboie = собака лает. Каждое животное во французском имеет свой глагол крика: le chat miaule, le loup hurle, la vache meugle." },
+        { "q": "Что означает «une espèce menacée»?", "opts": ["редкое животное", "вид, которому грозит вымирание", "хищное животное", "домашнее животное"], "ans": 1, "exp": "Une espèce menacée = вид, которому грозит вымирание (исчезновение). Menacé = находящийся под угрозой." },
+        { "q": "Когда волк вернулся во Францию самостоятельно?", "opts": ["1945", "1970", "1992", "2010"], "ans": 2, "exp": "В 1992 году волки пришли из Италии через Альпы в парк Меркантур. Сегодня их более 1000 особей во Франции." },
+        { "q": "Что означает «Quand les poules auront des dents»?", "opts": ["Нужно ждать", "Никогда (этого не случится)", "Поторопись", "Будь терпелив"], "ans": 1, "exp": "«Quand les poules auront des dents» = никогда. У кур нет зубов — так что это невозможно. Аналог русского «когда рак на горе свистнет»." },
+        { "q": "Как французы относятся к своим питомцам в ресторанах?", "opts": ["Запрещено брать животных", "Только кошки разрешены", "Собак часто берут в рестораны", "Нужен специальный сертификат"], "ans": 2, "exp": "В большинстве французских ресторанов и магазинов собаки разрешены. Это удивляет туристов — французы очень привязаны к своим питомцам." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Plantes et les Fleurs",
+      "titleRu": "Растения и цветы",
+      "level": "A2",
+      "grammar": {
+        "title": "Les verbes de transformation (se transformer, pousser, grandir)",
+        "titleRu": "Глаголы трансформации и роста",
+        "intro": "Рост и изменения в природе описываются специальными глаголами. Многие из них — возвратные (réfléchis) или употребляются с наречиями.",
+        "sections": [
+          {
+            "title": "Глаголы роста и развития",
+            "content": "pousser — расти, прорастать: Les fleurs poussent au printemps.\ngrandir — расти (становиться больше): L'arbre grandit chaque année.\nfleurir — цвести: Le rosier fleurit en juin.\nse faner — вянуть, увядать: Les tulipes se fanent vite.\ntomber — падать: Les feuilles tombent en automne.\nse transformer — преображаться: La chenille se transforme en papillon."
+          },
+          {
+            "title": "Конструкции с «en»",
+            "content": "se transformer en — превращаться в:\nLa graine se transforme en plante. (Семя превращается в растение.)\n\ncouvrir de — покрывать:\nLa prairie est couverte de fleurs. (Луг покрыт цветами.)\n\nsentir + прилагательное / существительное:\nLa lavande sent bon. (Лаванда хорошо пахнет.)\nLa rose sent la vanille. (Роза пахнет ванилью.)"
+          },
+          {
+            "title": "Наречия с глаголами природы",
+            "content": "lentement — медленно: L'arbre grandit lentement.\nrapidement — быстро: Les mauvaises herbes poussent rapidement.\ndoucement — тихо, нежно: Le vent souffle doucement.\nprogressivement — постепенно: La forêt se régénère progressivement."
+          }
+        ],
+        "rule": "💡 Глагол «sentir» — многозначный! Il sent bon = он хорошо пахнет; Je sens le froid = я чувствую холод; Il ne sent pas bon = он плохо пахнет (или: от него дурно пахнет). Контекст важен!"
+      },
+      "pronunciation": {
+        "intro": "Растения Франции — слушайте и повторяйте:",
+        "note": "⚠️ «Le chêne» [лё шэн] — «ê» читается как открытое «э». «Le muguet» [лё мюгэ] — «t» на конце не читается.",
+        "words": [
+          { "fr": "la rose", "ru_pron": "ля роз", "meaning": "роза" },
+          { "fr": "la lavande", "ru_pron": "ля лаванд", "meaning": "лаванда" },
+          { "fr": "le muguet", "ru_pron": "лё мюгэ", "meaning": "ландыш" },
+          { "fr": "le chêne", "ru_pron": "лё шэн", "meaning": "дуб" },
+          { "fr": "le peuplier", "ru_pron": "лё пёплиэ", "meaning": "тополь" },
+          { "fr": "le blé", "ru_pron": "лё блэ", "meaning": "пшеница" },
+          { "fr": "le coquelicot", "ru_pron": "лё коклико", "meaning": "мак" },
+          { "fr": "la vigne", "ru_pron": "ля винь", "meaning": "виноградная лоза" },
+          { "fr": "le champignon", "ru_pron": "лё шампиньон", "meaning": "гриб" },
+          { "fr": "la fougère", "ru_pron": "ля фужэр", "meaning": "папоротник" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la fleur", "gender": "f", "ru": "цветок", "ru_pron": "ля флёр", "example_fr": "Il lui offre des fleurs chaque semaine.", "example_ru": "Он дарит ей цветы каждую неделю.", "level": "A2" },
+        { "fr": "l'arbre", "gender": "m", "ru": "дерево", "ru_pron": "л'арбр", "example_fr": "Les arbres perdent leurs feuilles en automne.", "example_ru": "Деревья теряют листья осенью.", "level": "A2" },
+        { "fr": "la vigne", "gender": "f", "ru": "виноградная лоза, виноградник", "ru_pron": "ля винь", "example_fr": "La vigne pousse bien dans le Bordelais.", "example_ru": "Виноград хорошо растёт в Бордо.", "level": "A2" },
+        { "fr": "la lavande", "gender": "f", "ru": "лаванда", "ru_pron": "ля лаванд", "example_fr": "La lavande de Provence sent très bon.", "example_ru": "Провансальская лаванда чудесно пахнет.", "level": "A2" },
+        { "fr": "le champignon", "gender": "m", "ru": "гриб", "ru_pron": "лё шампиньон", "example_fr": "On ramasse des champignons en forêt.", "example_ru": "В лесу собирают грибы.", "level": "A2" },
+        { "fr": "le coquelicot", "gender": "m", "ru": "мак (полевой)", "ru_pron": "лё коклико", "example_fr": "Les coquelicots rouges poussent dans les champs.", "example_ru": "Алые маки растут в полях.", "level": "A2" },
+        { "fr": "le muguet", "gender": "m", "ru": "ландыш", "ru_pron": "лё мюгэ", "example_fr": "On offre du muguet le 1er mai.", "example_ru": "На 1 мая дарят ландыши.", "level": "A2" },
+        { "fr": "la graine", "gender": "f", "ru": "семя, зерно", "ru_pron": "ля грэн", "example_fr": "Il plante des graines dans le jardin.", "example_ru": "Он сажает семена в саду.", "level": "A2" },
+        { "fr": "la feuille", "gender": "f", "ru": "лист; листок бумаги", "ru_pron": "ля фёй", "example_fr": "Les feuilles d'automne sont magnifiques.", "example_ru": "Осенние листья великолепны.", "level": "A2", "meaning_double": "la feuille = лист дерева ET feuille de papier = лист бумаги" },
+        { "fr": "la forêt tropicale", "gender": "f", "ru": "тропический лес", "ru_pron": "ля форэ тропикаль", "example_fr": "La forêt tropicale abrite des milliers d'espèces.", "example_ru": "В тропическом лесу обитают тысячи видов.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la lavande", "fr_pron": "ля лаванд", "ru": "лаванда", "ru_pron": "лаванда", "note": "«Лаванда» заимствована в русский прямо из французского «lavande». Оба слова — из латинского «lavare» (мыть): лаванда использовалась для ароматизации воды для стирки." },
+        { "fr": "le champignon", "fr_pron": "лё шампиньон", "ru": "шампиньон", "ru_pron": "шампиньон", "note": "Русское «шампиньон» заимствовано из французского «champignon» (гриб вообще). Во французском это слово означает любой гриб, а в русском закрепилось только за культурным видом." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Joséphine de Beauharnais (1763–1814)", "subtitle": "Impératrice aux roses", "content": "Жозефина — первая жена Наполеона и страстная любительница роз. В своём замке Мальмезон она разбила легендарный розовый сад — более 250 сортов роз! Художник Пьер-Жозеф Редуте создал по её заказу иллюстрации всех роз сада — этот труд считается шедевром ботанической иллюстрации. Жозефина получала розы со всего мира, в том числе от стран, находившихся в состоянии войны с Францией. Её имя носят несколько сортов роз." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le muguet du 1er mai — французская традиция", "content": "1 мая во Франции — двойной праздник: День труда и День ландыша. С XVI века 1 мая принято дарить ландыши (muguet) как символ удачи. В 1561 году король Карл IX получил букетик ландышей и велел вручать их придворным дамам ежегодно. Сегодня 1 мая — единственный день, когда любой гражданин может продавать цветы без лицензии. На улицах стоят тысячи продавцов. Около 60 миллионов стеблей ландыша продаётся за один день!" },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "La truffe — чёрное золото Перигора", "content": "Трюфель (la truffe) — самый дорогой гриб в мире — растёт под землёй у корней дубов. Чёрный перигорский трюфель стоит 1000–2000 € за килограмм! Их ищут свиньи или специально обученные собаки. Главный рынок трюфелей — в Рикеруи (Ричероль) в Перигоре, каждую зиму. Во Франции собирают около 50 тонн в год (раньше — 1000 тонн: трюфелей становится всё меньше). Французы называют трюфель «le diamant noir de la cuisine» — чёрный бриллиант кухни." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Couper l'herbe sous le pied de quelqu'un", "pronunciation": "Купэ л'эрб су лё пьё дё кэлькён", "translation": "Выбить почву из-под ног (обогнать, перехватить)", "usage": "Буквально: «срезать траву под чьими-то ногами». Означает обогнать кого-то, перехватить инициативу, лишить опоры. Аналог русского «выбить почву из-под ног» или «перехватить пальму первенства».", "example": "— Il m'a coupé l'herbe sous le pied en proposant le projet avant moi ! (Он выбил у меня почву из-под ног, предложив проект раньше меня!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Le Périgord — Terre de truffes et châteaux", "subtitle": "Перигор — Земля трюфелей и замков", "content": "Перигор (сегодня — департамент Дордонь) — один из самых «аутентичных» регионов Франции. Густые дубовые леса производят лучшие трюфели мира. Доисторические пещеры Ласко (Lascaux) хранят живопись 17 000-летней давности — шедевр первобытного искусства. Река Дордонь течёт мимо средневековых замков (châteaux), деревень с рынками. Гастрономия: утиная печень (foie gras), конфи из утки (confit de canard), грецкие орехи (noix). Неторопливая, тихая Франция — совсем другая, чем Париж." }
+      },
+      "quiz": [
+        { "q": "Какой цветок дарят во Франции 1 мая?", "opts": ["la rose", "le coquelicot", "le muguet", "la lavande"], "ans": 2, "exp": "Le muguet (ландыш) — символ 1 мая во Франции. Традиция с XVI века: дарят как знак удачи. 1 мая — единственный день без лицензии для продажи цветов." },
+        { "q": "Что значит «La rose sent bon»?", "opts": ["Роза выглядит красиво", "Роза хорошо пахнет", "Роза быстро растёт", "Роза вянет"], "ans": 1, "exp": "Sentir bon = хорошо пахнуть. Sentir — многозначный глагол: чувствовать запах или издавать запах." },
+        { "q": "Сколько стоит трюфель за килограмм?", "opts": ["50–100 €", "200–300 €", "1000–2000 €", "10 000 €"], "ans": 2, "exp": "Чёрный трюфель из Перигора стоит 1000–2000 € за кг. Его называют «чёрный бриллиант французской кухни»." },
+        { "q": "Что означает «couper l'herbe sous le pied»?", "opts": ["Косить газон", "Выбить почву из-под ног (обогнать)", "Упасть в траву", "Потерять дорогу"], "ans": 1, "exp": "Couper l'herbe sous le pied = выбить почву из-под ног, перехватить инициативу. Аналог русского выражения «выбить почву из-под ног»." },
+        { "q": "Кто разбил знаменитый розовый сад в Мальмезоне?", "opts": ["Marie-Antoinette", "Joséphine de Beauharnais", "Madame de Pompadour", "Catherine de Médicis"], "ans": 1, "exp": "Жозефина Богарне, первая жена Наполеона, создала в Мальмезоне легендарный розовый сад с 250+ сортами роз." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "L'Écologie",
+      "titleRu": "Экология",
+      "level": "A2",
+      "grammar": {
+        "title": "Le conditionnel présent — recommandations écologiques",
+        "titleRu": "Условное наклонение — экологические рекомендации",
+        "intro": "Условное наклонение (conditionnel présent) используется для вежливых советов, рекомендаций и гипотетических ситуаций. Незаменимо для экологических дискуссий.",
+        "sections": [
+          {
+            "title": "Образование conditionnel présent",
+            "content": "Основа инфинитива + окончания imparfait:\n-rais, -rais, -rait, -rions, -riez, -raient\n\ndevoir: je devrais (мне следует)\npouvoir: je pourrais (я мог бы)\nfaire: je ferais (я бы делал)\naller: j'irais (я бы пошёл)\nutiliser: j'utiliserais (я бы использовал)"
+          },
+          {
+            "title": "Рекомендации с conditionnel",
+            "content": "Il faudrait + инфинитив — следовало бы:\nIl faudrait réduire nos déchets. (Следовало бы сократить мусор.)\n\nOn devrait + инфинитив — нам следует:\nOn devrait recycler plus. (Нам следует больше перерабатывать.)\n\nVous pourriez + инфинитив — вы могли бы:\nVous pourriez utiliser des sacs réutilisables. (Вы могли бы использовать многоразовые пакеты.)"
+          },
+          {
+            "title": "Ключевые глаголы экологии",
+            "content": "protéger — защищать: protéger l'environnement\nréduire — уменьшать: réduire les émissions\nrecycler — перерабатывать: recycler les déchets\npolluer — загрязнять: polluer la mer\npréserver — сохранять: préserver la biodiversité\nconsommer — потреблять: consommer moins d'énergie"
+          }
+        ],
+        "rule": "💡 Conditionnel = инфинитив + окончания имперфекта. Исключения: avoir → j'aurais, être → je serais. Используйте «il faudrait» для безличных советов — это очень французская конструкция!"
+      },
+      "pronunciation": {
+        "intro": "Слова об экологии — слушайте и повторяйте:",
+        "note": "⚠️ «L'environnement» [л'анvironнёман] — длинное слово, но очень частое. «Le déchet» [лё дэшэ] — «t» не читается.",
+        "words": [
+          { "fr": "l'environnement", "ru_pron": "л'анвиронёман", "meaning": "окружающая среда" },
+          { "fr": "recycler", "ru_pron": "рёсикло", "meaning": "перерабатывать (вторсырьё)" },
+          { "fr": "le déchet", "ru_pron": "лё дэшэ", "meaning": "мусор, отходы" },
+          { "fr": "polluer", "ru_pron": "полюэ", "meaning": "загрязнять" },
+          { "fr": "la pollution", "ru_pron": "ля полюсьон", "meaning": "загрязнение" },
+          { "fr": "le réchauffement", "ru_pron": "лё рёшофман", "meaning": "потепление" },
+          { "fr": "durable", "ru_pron": "дюрабль", "meaning": "устойчивый, экологичный" },
+          { "fr": "la biodiversité", "ru_pron": "ля биодивэрситэ", "meaning": "биоразнообразие" },
+          { "fr": "l'empreinte carbone", "ru_pron": "л'анпрэнт карбон", "meaning": "углеродный след" },
+          { "fr": "les énergies renouvelables", "ru_pron": "лэ энержи рёнуваляблэ", "meaning": "возобновляемая энергия" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'environnement", "gender": "m", "ru": "окружающая среда", "ru_pron": "л'анвиронёман", "example_fr": "Il faut protéger l'environnement.", "example_ru": "Нужно защищать окружающую среду.", "level": "A2" },
+        { "fr": "le déchet", "gender": "m", "ru": "мусор, отходы", "ru_pron": "лё дэшэ", "example_fr": "On doit trier ses déchets.", "example_ru": "Нужно сортировать мусор.", "level": "A2" },
+        { "fr": "recycler", "gender": null, "ru": "перерабатывать (вторсырьё)", "ru_pron": "рёсикло", "example_fr": "Nous recyclons le verre et le papier.", "example_ru": "Мы перерабатываем стекло и бумагу.", "level": "A2" },
+        { "fr": "polluer", "gender": null, "ru": "загрязнять", "ru_pron": "полюэ", "example_fr": "Les usines polluent les rivières.", "example_ru": "Заводы загрязняют реки.", "level": "A2" },
+        { "fr": "le réchauffement climatique", "gender": "m", "ru": "глобальное потепление", "ru_pron": "лё рёшофман климатик", "example_fr": "Le réchauffement climatique menace les glaciers.", "example_ru": "Глобальное потепление угрожает ледникам.", "level": "A2" },
+        { "fr": "durable", "gender": null, "ru": "устойчивый, экологичный", "ru_pron": "дюрабль", "example_fr": "Le développement durable est une priorité.", "example_ru": "Устойчивое развитие — приоритет.", "level": "A2" },
+        { "fr": "la biodiversité", "gender": "f", "ru": "биоразнообразие", "ru_pron": "ля биодивэрситэ", "example_fr": "La biodiversité est en danger.", "example_ru": "Биоразнообразие под угрозой.", "level": "A2" },
+        { "fr": "l'empreinte carbone", "gender": "f", "ru": "углеродный след", "ru_pron": "л'анпрэнт карбон", "example_fr": "On peut réduire son empreinte carbone.", "example_ru": "Можно сократить свой углеродный след.", "level": "A2" },
+        { "fr": "économiser", "gender": null, "ru": "экономить", "ru_pron": "экономизэ", "example_fr": "Il faudrait économiser l'eau.", "example_ru": "Следовало бы экономить воду.", "level": "A2" },
+        { "fr": "protéger", "gender": null, "ru": "защищать", "ru_pron": "протэжэ", "example_fr": "Nous devons protéger les forêts.", "example_ru": "Мы должны защищать леса.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la biodiversité", "fr_pron": "ля биодивэрситэ", "ru": "биоразнообразие", "ru_pron": "биоразнообразие", "note": "Международный научный термин из греческого: bios (жизнь) + латинского diversitas (разнообразие). Одинаково узнаётся в обоих языках." },
+        { "fr": "recycler", "fr_pron": "рёсикло", "ru": "рециклинг", "ru_pron": "рециклинг", "note": "«Recycler» и «рециклинг» — из латинского «re» (снова) + «cyclus» (круг). Перерабатывать = запускать по новому кругу. Легко узнаётся!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Nicolas Hulot (1955–)", "subtitle": "Militant écologique", "content": "Николя Юло — французский журналист, телеведущий и экологический активист. Долгие годы вёл знаменитое шоу «Ushuaïa» (с 1987 г.) о природе мира. Стал иконой французского экодвижения. В 2017–2018 годах — министр экологии Франции при Макроне, но ушёл в отставку в прямом эфире в знак протеста против недостаточных экологических мер правительства. Основатель Фонда Юло (Fondation Nicolas Hulot), продвигающего устойчивое развитие. Его отставка потрясла Францию." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La COP21 — Парижское климатическое соглашение (2015)", "content": "В декабре 2015 года в Париже 196 стран подписали историческое Парижское соглашение по климату (Accord de Paris). Цель — ограничить рост средней температуры до 1,5–2°C. Первый универсальный климатический договор в истории. Переговоры проходили в Ле-Бурже под Парижем. Министр иностранных дел Франции Лоран Фабиус объявил о принятии соглашения, стукнув молотком: «C'est un accord ambitieux, durable, dynamique, équilibré». Франция гордится этим как своим дипломатическим триумфом." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et le vélo — экологичный транспорт", "content": "Франция — страна Tour de France, и французы очень любят велосипед. Система проката велосипедов Vélib' (Vélo + liberté) в Париже запущена в 2007 году и стала образцом для всего мира: 20 000 велосипедов на 1 500 станциях. Сегодня Париж активно создаёт велодорожки: к 2024 году их протяжённость удвоилась. «Paris en Selle» (Париж в седле) — НКО, добивающаяся превращения Парижа в «велосипедную столицу Европы». Пандемия 2020 года резко ускорила велосипедизацию города." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Ne pas jeter de l'huile sur le feu", "pronunciation": "Нё па жётэ дё л'юиль сюр лё фё", "translation": "Не подливать масла в огонь", "usage": "Идентичное русскому выражению! Буквально: «не бросать масло на огонь». Советует не усугублять конфликт. В контексте экологии часто употребляется когда говорят о нарастающем климатическом кризисе и действиях, его усиливающих.", "example": "— Je vais lui dire ce que je pense ! — Ne jette pas d'huile sur le feu, la situation est déjà tendue. (Я ему скажу всё, что думаю! — Не подливай масла в огонь, ситуация и так напряжённая.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Le Mont-Blanc — Toit de l'Europe", "subtitle": "Монблан — Крыша Европы", "content": "Монблан (4808 м) — высочайшая вершина Западной Европы, на границе Франции и Италии. Городок Шамони-Монблан (Chamonix-Mont-Blanc) — мировая столица альпинизма и горных лыж. Именно здесь в 1786 году совершено первое восхождение на Монблан — это считается рождением альпинизма. Ледник Мер-де-Глас (Mer de Glace) — крупнейший во Франции, но за последние 150 лет он отступил на 2 км и потерял 150 м в толщину — наглядное свидетельство климатических изменений." }
+      },
+      "quiz": [
+        { "q": "Как по-французски сказать «Следовало бы экономить воду»?", "opts": ["On doit économiser l'eau.", "Il faudrait économiser l'eau.", "Économisons l'eau!", "Il faut économiser l'eau."], "ans": 1, "exp": "«Il faudrait» — безличная форма conditionnel от «falloir». Выражает совет/рекомендацию: «следовало бы». Il faut (обязанность) → Il faudrait (пожелание)." },
+        { "q": "Что было подписано в Париже в 2015 году?", "opts": ["Договор о ядерном разоружении", "Парижское климатическое соглашение", "Торговое соглашение ЕС", "Договор о морском праве"], "ans": 1, "exp": "В 2015 году 196 стран подписали Парижское климатическое соглашение с целью ограничить потепление до 1,5–2°C. Дипломатический триумф Франции." },
+        { "q": "Что такое «le développement durable»?", "opts": ["быстрое промышленное развитие", "устойчивое развитие (экологичное)", "экономическое развитие", "сельскохозяйственное развитие"], "ans": 1, "exp": "Le développement durable = устойчивое развитие — концепция экономического роста, не наносящего ущерба экологии. Ключевое понятие современной французской экополитики." },
+        { "q": "Что сделал Николя Юло в прямом эфире в 2018 году?", "opts": ["Объявил о своей книге", "Ушёл в отставку с поста министра", "Запустил экошоу", "Подписал климатический договор"], "ans": 1, "exp": "Николя Юло ушёл в отставку с поста министра экологии в прямом эфире в знак протеста против недостаточных экомер. Это потрясло всю Францию." },
+        { "q": "Что означает «Ne pas jeter de l'huile sur le feu»?", "opts": ["Готовить вкусно", "Не подливать масла в огонь", "Заботиться о пожарной безопасности", "Не загрязнять природу"], "ans": 1, "exp": "«Ne pas jeter de l'huile sur le feu» = не подливать масла в огонь. Полный аналог русского выражения!" }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "L'Eau et les Océans",
+      "titleRu": "Вода и океаны",
+      "level": "A2",
+      "grammar": {
+        "title": "Les quantités et les partitifs avec les éléments naturels",
+        "titleRu": "Количества и партитивные артикли с природными явлениями",
+        "intro": "Для описания воды, воздуха и природных ресурсов французский использует партитивный артикль (du, de la, de l') и выражения количества.",
+        "sections": [
+          {
+            "title": "Партитивный артикль для природных элементов",
+            "content": "de l'eau — воды (немного воды)\nde l'air — воздуха\ndu sable — песка\nde la boue — грязи\ndu vent — ветра\nde la pluie — дождя\n\nIl y a de l'eau dans la rivière. (В реке есть вода.)\nJ'ai besoin d'air frais. (Мне нужен свежий воздух.)"
+          },
+          {
+            "title": "Выражения количества с «de»",
+            "content": "beaucoup de + сущ. — много: beaucoup d'eau\npeu de + сущ. — мало: peu d'eau\ntrop de + сущ. — слишком много: trop de pollution\nassez de + сущ. — достаточно: assez d'énergie\nmanque de + сущ. — нехватка: le manque d'eau\n\n⚠️ После количественных выражений артикль заменяется на «de»!"
+          },
+          {
+            "title": "Verbes liés à l'eau",
+            "content": "couler — течь\nbouillir — кипеть\ns'évaporer — испаряться\nse former — образовываться\nse jeter dans — впадать в: La Seine se jette dans la Manche.\ndéborder — разливаться: La rivière a débordé.\nmanquer — не хватать: L'eau manque dans le désert."
+          }
+        ],
+        "rule": "💡 «Se jeter dans» — обязательный глагол для описания рек! La Seine se jette dans la Manche (Сена впадает в Ла-Манш). La Loire se jette dans l'Atlantique. Запомните этот оборот!"
+      },
+      "pronunciation": {
+        "intro": "Вода и водные ресурсы — слушайте и повторяйте:",
+        "note": "⚠️ «L'océan» [л'осэан] — ударение на последнем слоге. «La Manche» [ля манш] — так французы называют Ла-Манш.",
+        "words": [
+          { "fr": "l'océan", "ru_pron": "л'осэан", "meaning": "океан" },
+          { "fr": "la Manche", "ru_pron": "ля манш", "meaning": "Ла-Манш (пролив)" },
+          { "fr": "la marée", "ru_pron": "ля марэ", "meaning": "прилив/отлив" },
+          { "fr": "la vague", "ru_pron": "ля ваг", "meaning": "волна" },
+          { "fr": "le courant", "ru_pron": "лё куран", "meaning": "течение" },
+          { "fr": "la source", "ru_pron": "ля сурс", "meaning": "источник, родник" },
+          { "fr": "le glacier", "ru_pron": "лё гласьэ", "meaning": "ледник" },
+          { "fr": "la cascade", "ru_pron": "ля каскад", "meaning": "водопад" },
+          { "fr": "le marais", "ru_pron": "лё марэ", "meaning": "болото" },
+          { "fr": "la sécheresse", "ru_pron": "ля сэшрэс", "meaning": "засуха" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'océan", "gender": "m", "ru": "океан", "ru_pron": "л'осэан", "example_fr": "La France borde l'Atlantique et la Méditerranée.", "example_ru": "Франция омывается Атлантикой и Средиземным морем.", "level": "A2" },
+        { "fr": "la vague", "gender": "f", "ru": "волна", "ru_pron": "ля ваг", "example_fr": "Les vagues sont très hautes aujourd'hui.", "example_ru": "Сегодня очень высокие волны.", "level": "A2" },
+        { "fr": "la marée", "gender": "f", "ru": "прилив, отлив; tide", "ru_pron": "ля марэ", "example_fr": "À marée haute, le Mont-Saint-Michel est entouré d'eau.", "example_ru": "При приливе Мон-Сен-Мишель окружён водой.", "level": "A2" },
+        { "fr": "le glacier", "gender": "m", "ru": "ледник", "ru_pron": "лё гласьэ", "example_fr": "Les glaciers alpins fondent à cause du réchauffement.", "example_ru": "Альпийские ледники тают из-за потепления.", "level": "A2" },
+        { "fr": "la source", "gender": "f", "ru": "источник, родник; источник (информации)", "ru_pron": "ля сурс", "example_fr": "Cette source d'eau minérale est pure.", "example_ru": "Этот источник минеральной воды чистый.", "level": "A2", "meaning_double": "la source = родник ET la source = источник (информации, энергии)" },
+        { "fr": "la sécheresse", "gender": "f", "ru": "засуха", "ru_pron": "ля сэшрэс", "example_fr": "La sécheresse de 2022 a été historique.", "example_ru": "Засуха 2022 года была исторической.", "level": "A2" },
+        { "fr": "le marais", "gender": "m", "ru": "болото, топь", "ru_pron": "лё марэ", "example_fr": "Le Marais Poitevin est appelé la Venise verte.", "example_ru": "Болото Пуату называют Зелёной Венецией.", "level": "A2" },
+        { "fr": "la cascade", "gender": "f", "ru": "водопад", "ru_pron": "ля каскад", "example_fr": "La cascade du Rhin est la plus grande d'Europe.", "example_ru": "Рейнский водопад — крупнейший в Европе.", "level": "A2" },
+        { "fr": "déborder", "gender": null, "ru": "разливаться (выходить из берегов)", "ru_pron": "дэбордэ", "example_fr": "La Seine a débordé en 1910.", "example_ru": "Сена вышла из берегов в 1910 году.", "level": "A2" },
+        { "fr": "la pollution de l'eau", "gender": "f", "ru": "загрязнение воды", "ru_pron": "ля полюсьон дё л'о", "example_fr": "La pollution de l'eau menace les écosystèmes.", "example_ru": "Загрязнение воды угрожает экосистемам.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'océan", "fr_pron": "л'осэан", "ru": "океан", "ru_pron": "океан", "note": "«Océan» и «океан» — из греческого «Ōkeanós» (бог-река, опоясывающий Землю). Практически одинаково во всех европейских языках." },
+        { "fr": "le glacier", "fr_pron": "лё гласьэ", "ru": "гляциология", "ru_pron": "гляциология", "note": "«Glacier» — от французского «glace» (лёд). Наука о ледниках — «гляциология» — взяла корень из французского. «Glace» дало и русское «гляссе» (кофе со льдом)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jacques-Yves Cousteau (1910–1997)", "subtitle": "Commandant de la mer", "content": "Жак-Ив Кусто — французский исследователь океана, изобретатель акваланга (1943, совместно с Эмилем Ганьяном), кинорежиссёр и борец за экологию. Его корабль «Калипсо» (Calypso) объездил все океаны мира. Документальный сериал «Подводный мир Жака Кусто» (Le Monde du silence) — первый телефильм о подводной жизни, получивший «Оскар». В конце жизни Кусто стал страстным защитником океанов от загрязнения. Его девиз: «Мы защищаем то, что любим»." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La crue de la Seine 1910 — наводнение века", "content": "В январе 1910 года Сена вышла из берегов и затопила треть Парижа — исторически сильнейшее наводнение за 200 лет. Вода поднялась на 8,62 м (при норме 2–3 м). Метро не работало, подвалы домов затоплены, мосты закрыты. 150 000 парижан были эвакуированы. С тех пор пометка «Нулевого уровня Сены» на набережной напоминает горожанам о том паводке. В 2016 году Сена снова поднялась — до 6 м, и Лувр эвакуировал часть коллекций." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "L'eau minérale — французская страсть", "content": "Французы выпивают около 150 литров минеральной воды на человека в год — одни из первых в мире! Evian, Vittel, Perrier, Volvic, Badoit — французские бренды завоевали весь мир. Perrier — газированная вода из источника в Гаре (с 1898 г.) — продаётся в 140 странах. Французы принципиально различают «eau plate» (негазированная) и «eau gazeuse» (газированная). В ресторане принято спрашивать: «Plate ou gazeuse ?» — Это почти ритуал." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Nager entre deux eaux", "pronunciation": "Ножэ антр дё зо", "translation": "Плыть между двух вод (занимать двусмысленную позицию)", "usage": "Буквально: «плыть между двумя водами». Означает занимать нейтральную или двусмысленную позицию, не определяясь. Аналог русского «сидеть между двух стульев» или «вилять». Используется в политике и в жизни.", "example": "— Il est pour ou contre ce projet ? — Il nage entre deux eaux, comme d'habitude. (Он за или против этого проекта? — Он, как всегда, плывёт между двух вод.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Le Mont-Saint-Michel — Entre ciel et mer", "subtitle": "Мон-Сен-Мишель — Между небом и морем", "content": "Мон-Сен-Мишель — одно из самых фотографируемых мест Франции и второе по посещаемости (после Эйфелевой башни). Аббатство XII века стоит на скале посреди залива с самыми высокими приливами Европы: разница между приливом и отливом — до 15 м! В дни приливов остров полностью окружается водой. С 1979 года — объект Всемирного наследия ЮНЕСКО. Ходить вокруг острова в отлив по песку можно, но опасно: приливы здесь приходят «со скоростью лошади» — буквально за минуты." }
+      },
+      "quiz": [
+        { "q": "Как сказать «В реке не хватает воды»?", "opts": ["Il y a trop d'eau dans la rivière.", "La rivière manque d'eau.", "La rivière a peu l'eau.", "La rivière est sans eau."], "ans": 1, "exp": "«Manquer de» = не хватать. La rivière manque d'eau = в реке не хватает воды. Обратите внимание: после «manquer de» — только «de», без артикля!" },
+        { "q": "Кто изобрёл акваланг?", "opts": ["Jules Verne", "Louis Pasteur", "Jacques-Yves Cousteau", "Auguste Piccard"], "ans": 2, "exp": "Жак-Ив Кусто совместно с Эмилем Ганьяном изобрёл акваланг в 1943 году. Также снял первый документальный фильм о подводном мире, получивший «Оскар»." },
+        { "q": "Что означает «eau gazeuse»?", "opts": ["горячая вода", "газированная вода", "дистиллированная вода", "морская вода"], "ans": 1, "exp": "Eau gazeuse = газированная вода. Eau plate = негазированная. В ресторане всегда спросят: «Plate ou gazeuse?»" },
+        { "q": "Что происходит с Мон-Сен-Мишелем во время прилива?", "opts": ["Он закрыт для туристов", "Остров полностью окружается водой", "Мост уходит под воду", "Ничего особенного"], "ans": 1, "exp": "При приливе Мон-Сен-Мишель полностью окружается водой. Приливы здесь — одни из самых высоких в Европе (до 15 м разницы). Прилив приходит очень быстро!" },
+        { "q": "Что означает «Nager entre deux eaux»?", "opts": ["Хорошо плавать", "Занимать двусмысленную позицию", "Спасаться от шторма", "Нырять глубоко"], "ans": 1, "exp": "«Nager entre deux eaux» = занимать двусмысленную, нейтральную позицию, не определяясь. Аналог «сидеть между двух стульев»." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Les Catastrophes Naturelles",
+      "titleRu": "Природные катастрофы",
+      "level": "A2",
+      "grammar": {
+        "title": "Le passé composé pour les événements naturels",
+        "titleRu": "Сложное прошедшее время для природных событий",
+        "intro": "Природные катастрофы — события прошлого. Рассказывая о них, используем passé composé (для конкретных событий) или l'imparfait (для описания фона, состояния).",
+        "sections": [
+          {
+            "title": "Passé composé для катастроф",
+            "content": "avoir/être + participe passé\n\nUn tremblement de terre a frappé la région. (Землетрясение ударило по региону.)\nLa tempête a détruit des maisons. (Буря разрушила дома.)\nLes inondations ont envahi la ville. (Наводнения затопили город.)\nDes milliers de personnes ont été évacuées. (Тысячи людей были эвакуированы.)"
+          },
+          {
+            "title": "Imparfait для описания ситуации",
+            "content": "Il faisait nuit quand la tempête a éclaté. (Была ночь, когда разразилась буря.)\nLe ciel était sombre, le vent soufflait fort. (Небо было тёмным, сильно дул ветер.)\nLes habitants dormaient quand le tremblement de terre a eu lieu. (Жители спали, когда произошло землетрясение.)"
+          },
+          {
+            "title": "Глаголы для описания катастроф",
+            "content": "frapper — ударять, поражать\ndétruire — разрушать\ncauser — причинять (ущерб)\névacuer — эвакуировать\nfaire des victimes — жертвы\ns'effondrer — обрушиваться\ninonder — затапливать\néclater — разразиться (о буре, грозе)"
+          }
+        ],
+        "rule": "💡 Ключевое различие: passé composé = что случилось (действие), imparfait = как было (состояние, фон). Il neigeait (фон) quand la tempête a éclaté (событие). Связка «quand» помогает соединить оба времени."
+      },
+      "pronunciation": {
+        "intro": "Слова о природных катастрофах — слушайте и повторяйте:",
+        "note": "⚠️ «Le tremblement» [лё трамблёман] — носовой звук «ан». «L'avalanche» [л'авалянш] — конечный «e» немой.",
+        "words": [
+          { "fr": "le tremblement de terre", "ru_pron": "лё трамблёман дё тэр", "meaning": "землетрясение" },
+          { "fr": "l'inondation", "ru_pron": "л'инондасьон", "meaning": "наводнение" },
+          { "fr": "l'avalanche", "ru_pron": "л'авалянш", "meaning": "лавина" },
+          { "fr": "l'incendie", "ru_pron": "л'энсанди", "meaning": "пожар" },
+          { "fr": "la sécheresse", "ru_pron": "ля сэшрэс", "meaning": "засуха" },
+          { "fr": "la tornade", "ru_pron": "ля торнад", "meaning": "торнадо" },
+          { "fr": "le glissement de terrain", "ru_pron": "лё глиссёман дё тёрэн", "meaning": "оползень" },
+          { "fr": "la canicule", "ru_pron": "ля каникюль", "meaning": "аномальная жара" },
+          { "fr": "les victimes", "ru_pron": "лэ виктим", "meaning": "жертвы" },
+          { "fr": "les secours", "ru_pron": "лэ сёкур", "meaning": "спасатели, помощь" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le tremblement de terre", "gender": "m", "ru": "землетрясение", "ru_pron": "лё трамблёман дё тэр", "example_fr": "Un tremblement de terre a touché le Maroc.", "example_ru": "Землетрясение затронуло Марокко.", "level": "A2" },
+        { "fr": "l'inondation", "gender": "f", "ru": "наводнение, паводок", "ru_pron": "л'инондасьон", "example_fr": "Les inondations de 2023 ont été terribles.", "example_ru": "Наводнения 2023 года были ужасными.", "level": "A2" },
+        { "fr": "l'avalanche", "gender": "f", "ru": "лавина", "ru_pron": "л'авалянш", "example_fr": "Une avalanche a bloqué la route en montagne.", "example_ru": "Лавина перекрыла горную дорогу.", "level": "A2" },
+        { "fr": "l'incendie", "gender": "m", "ru": "пожар", "ru_pron": "л'энсанди", "example_fr": "Des incendies ravagent les forêts du sud.", "example_ru": "Пожары опустошают леса на юге.", "level": "A2" },
+        { "fr": "la canicule", "gender": "f", "ru": "аномальная жара", "ru_pron": "ля каникюль", "example_fr": "La canicule de juillet a battu des records.", "example_ru": "Июльская жара побила рекорды.", "level": "A2" },
+        { "fr": "détruire", "gender": null, "ru": "разрушать, уничтожать", "ru_pron": "дэтрюир", "example_fr": "La tempête a détruit plusieurs maisons.", "example_ru": "Буря разрушила несколько домов.", "level": "A2" },
+        { "fr": "évacuer", "gender": null, "ru": "эвакуировать", "ru_pron": "эвакюэ", "example_fr": "Les habitants ont été évacués rapidement.", "example_ru": "Жители были быстро эвакуированы.", "level": "A2" },
+        { "fr": "les secours", "gender": "m pl", "ru": "спасатели, помощь, МЧС", "ru_pron": "лэ сёкур", "example_fr": "Les secours sont arrivés en trois heures.", "example_ru": "Спасатели прибыли через три часа.", "level": "A2" },
+        { "fr": "la victime", "gender": "f", "ru": "жертва", "ru_pron": "ля виктим", "example_fr": "Il y a eu de nombreuses victimes.", "example_ru": "Было много жертв.", "level": "A2" },
+        { "fr": "le glissement de terrain", "gender": "m", "ru": "оползень", "ru_pron": "лё глиссёман дё тёрэн", "example_fr": "Un glissement de terrain a coupé la route.", "example_ru": "Оползень перекрыл дорогу.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'avalanche", "fr_pron": "л'авалянш", "ru": "лавина / avalanche", "ru_pron": "лавина / авалянш", "note": "«Avalanche» — французское слово, вошедшее во многие языки без перевода. Происходит от савойского диалекта: «avaler» (поглощать вниз). В русском есть и «лавина», и «авалянш» — международный спортивный термин." },
+        { "fr": "la victime", "fr_pron": "ля виктим", "ru": "жертва / виктима", "ru_pron": "жертва / виктима", "note": "«Victime» и «жертва» разного происхождения. Но «виктима» используется в юридическом и психологическом языке России — прямо из латинского «victima» (жертва богам)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Adolphe Quételet (1796–1874)", "subtitle": "Père de la statistique des catastrophes", "content": "Адольф Кетле — бельгийско-французский статистик, создавший первые научные методы анализа природных и социальных явлений. Именно он ввёл понятие «среднего человека» (l'homme moyen) и применил статистику к природным катастрофам, показав их закономерность. Его труды заложили основы современной метеорологии, сейсмологии и эпидемиологии. Индекс массы тела (ИМТ) первоначально называли «индексом Кетле»." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Les inondations de Paris 1910 et le plan de prévention", "content": "После катастрофического наводнения 1910 года (вода поднялась на 8,62 м!) Франция разработала первую современную систему предупреждения о наводнениях. Сегодня система Vigicrues отслеживает уровни всех рек страны в реальном времени. В Париже создан специальный «наводнённый» сценарий: если Сена поднимется до 7,62 м — эвакуируются 700 000 человек, закрываются 140 станций метро, музеи переносят экспонаты на верхние этажи." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Canadairs — французские самолёты-пожарные", "content": "Canadair — марка самолётов-амфибий для тушения лесных пожаров, ставших символом борьбы с огнём во Франции и Европе. Самолёт набирает 6000 литров воды прямо с поверхности моря или озера за 12 секунд (!) на скорости 150 км/ч. Франция содержит флот из 38 Canadair — крупнейший в Европе. Каждое лето, когда горят леса Прованса или Корсики, эти красно-жёлтые самолёты становятся главными героями теленовостей. Имя «Canadair» стало нарицательным, как «ксерокс»." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Être dans la tempête", "pronunciation": "Этр дан ля тампэт", "translation": "Быть в центре бури (переживать трудный период)", "usage": "«Être dans la tempête» — переживать сильные трудности, кризис. Метафора бури для описания жизненных неурядиц. Аналог русского «быть в эпицентре бури» или «переживать шторм». Часто употребляется в политическом и личном контексте.", "example": "— Le gouvernement est dans la tempête depuis ce scandale. (Правительство оказалось в центре бури после этого скандала.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Réunion — L'île intense", "subtitle": "Реюньон — Остров вулканов и циклонов", "content": "Реюньон — французский заморский регион в Индийском океане (4°C — разница по сравнению с метрополией). Здесь стоит один из самых активных вулканов мира — Питон-де-ла-Фурнез (Piton de la Fournaise), извергающийся почти каждый год. Остров периодически накрывают циклоны: власти вводят специальные уровни тревоги (Alerte 1, 2, 3). При «Alerte 3» никто не выходит на улицу — это обязательно по закону. Несмотря на стихийные бедствия, Реюньон — рай для туристов: пляжи, рифы, горные тропы." }
+      },
+      "quiz": [
+        { "q": "Как сказать «Буря разрушила дома»?", "opts": ["La tempête détruit des maisons.", "La tempête a détruit des maisons.", "La tempête détruisait des maisons.", "La tempête va détruire des maisons."], "ans": 1, "exp": "La tempête a détruit des maisons — passé composé, конкретное завершённое действие в прошлом. «Détruit» = participe passé от «détruire»." },
+        { "q": "Что такое «la canicule»?", "opts": ["сильный ветер", "аномальная жара", "ураган", "засуха"], "ans": 1, "exp": "La canicule = аномальная жара. Слово вошло в обиход после катастрофы 2003 года, когда от жары погибли 15 000 французов." },
+        { "q": "Сколько литров воды забирает Canadair за один заход?", "opts": ["600 литров", "2000 литров", "6000 литров", "10 000 литров"], "ans": 2, "exp": "Canadair забирает 6000 литров воды за 12 секунд прямо с поверхности воды на скорости 150 км/ч. Крупнейший флот в Европе — у Франции." },
+        { "q": "Как правильно использовать imparfait и passé composé?", "opts": ["Оба времени взаимозаменяемы", "Imparfait — событие, passé composé — фон", "Passé composé — событие, imparfait — фон", "Только passé composé для прошлого"], "ans": 2, "exp": "Passé composé = конкретное событие (что случилось). Imparfait = фон, состояние (как было). Il neigeait (фон) quand la tempête a éclaté (событие)." },
+        { "q": "Что означает «être dans la tempête»?", "opts": ["быть на море", "переживать трудный период", "заниматься серфингом", "изучать метеорологию"], "ans": 1, "exp": "«Être dans la tempête» = быть в центре бури, переживать кризис. Метафора бури для жизненных трудностей. Часто употребляется в политическом контексте." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "L'Agriculture et la Campagne",
+      "titleRu": "Сельское хозяйство и деревня",
+      "level": "A2",
+      "grammar": {
+        "title": "Le pronom «on» et les expressions de la vie rurale",
+        "titleRu": "Местоимение «on» и выражения сельской жизни",
+        "intro": "Местоимение «on» — одно из самых специфических во французском. Оно может означать «мы», «люди вообще», «кто-то» — и незаменимо для описания сельских традиций.",
+        "sections": [
+          {
+            "title": "«On» — многозначное местоимение",
+            "content": "1) On = мы (неформально, очень распространено!)\nOn mange bien à la campagne. = Nous mangeons bien... (Мы хорошо едим в деревне.)\n\n2) On = люди вообще\nOn récolte le blé en été. (Пшеницу убирают летом.)\n\n3) On = кто-то\nOn a frappé à la porte. (Кто-то постучал в дверь.)\n\n⚠️ Глагол с «on» всегда в 3-м лице ед.ч.!"
+          },
+          {
+            "title": "Типичные выражения деревенской жизни",
+            "content": "aller à la campagne — ехать в деревню\ntravailler la terre — обрабатывать землю\nelever des animaux — разводить животных\nfaire les foins — косить сено\nramasser les fruits — собирать фрукты\naller au marché — идти на рынок\nvivre au rythme de la nature — жить в ритме природы"
+          },
+          {
+            "title": "Comparaison ville-campagne",
+            "content": "À la campagne, on vit plus lentement qu'en ville.\n(В деревне живут медленнее, чем в городе.)\n\nLa campagne est plus calme que la ville.\n(Деревня тише города.)\n\nEn ville, on a plus de distractions, mais moins d'air pur.\n(В городе больше развлечений, но меньше чистого воздуха.)"
+          }
+        ],
+        "rule": "💡 «On va au restaurant ce soir ?» = «Мы идём в ресторан сегодня вечером?» — в разговорной речи «on» почти полностью заменяет «nous»! Это норма для устного французского. Но в официальных текстах «nous» сохраняется."
+      },
+      "pronunciation": {
+        "intro": "Сельская жизнь — слушайте и повторяйте:",
+        "note": "⚠️ «La campagne» [ля кампань] — «gne» произносится как «нь». «Le paysan» [лё пэзан] — носовой «ан».",
+        "words": [
+          { "fr": "la campagne", "ru_pron": "ля кампань", "meaning": "деревня, сельская местность" },
+          { "fr": "le paysan", "ru_pron": "лё пэзан", "meaning": "крестьянин, фермер" },
+          { "fr": "le champ", "ru_pron": "лё шан", "meaning": "поле" },
+          { "fr": "la ferme", "ru_pron": "ля фэрм", "meaning": "ферма" },
+          { "fr": "le blé", "ru_pron": "лё блэ", "meaning": "пшеница" },
+          { "fr": "le vignoble", "ru_pron": "лё виньобль", "meaning": "виноградник" },
+          { "fr": "le tracteur", "ru_pron": "лё трактёр", "meaning": "трактор" },
+          { "fr": "la grange", "ru_pron": "ля грандж", "meaning": "амбар, сарай" },
+          { "fr": "le marché", "ru_pron": "лё маршэ", "meaning": "рынок" },
+          { "fr": "bio / biologique", "ru_pron": "био / биолоджик", "meaning": "органический, экологически чистый" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la campagne", "gender": "f", "ru": "деревня; сельская местность; кампания", "ru_pron": "ля кампань", "example_fr": "J'aime passer le week-end à la campagne.", "example_ru": "Я люблю проводить выходные в деревне.", "level": "A2", "meaning_double": "la campagne = деревня ET campagne électorale = избирательная кампания" },
+        { "fr": "le champ", "gender": "m", "ru": "поле", "ru_pron": "лё шан", "example_fr": "Les champs de lavande sont magnifiques.", "example_ru": "Поля лаванды великолепны.", "level": "A2" },
+        { "fr": "la ferme", "gender": "f", "ru": "ферма", "ru_pron": "ля фэрм", "example_fr": "Ils habitent une vieille ferme en Normandie.", "example_ru": "Они живут на старой ферме в Нормандии.", "level": "A2" },
+        { "fr": "le vignoble", "gender": "m", "ru": "виноградник", "ru_pron": "лё виньобль", "example_fr": "Les vignobles de Bordeaux sont mondialement connus.", "example_ru": "Виноградники Бордо известны во всём мире.", "level": "A2" },
+        { "fr": "le paysan", "gender": "m", "ru": "крестьянин, фермер", "ru_pron": "лё пэзан", "example_fr": "Les paysans se lèvent très tôt.", "example_ru": "Крестьяне встают очень рано.", "level": "A2" },
+        { "fr": "la récolte", "gender": "f", "ru": "урожай, уборка урожая", "ru_pron": "ля рэколт", "example_fr": "La récolte de cette année est excellente.", "example_ru": "В этом году урожай отличный.", "level": "A2" },
+        { "fr": "bio", "gender": null, "ru": "органический, биологически чистый", "ru_pron": "био", "example_fr": "Je préfère acheter des produits bio.", "example_ru": "Я предпочитаю покупать органические продукты.", "level": "A2" },
+        { "fr": "le marché", "gender": "m", "ru": "рынок", "ru_pron": "лё маршэ", "example_fr": "Le marché du dimanche est plein de vie.", "example_ru": "Воскресный рынок полон жизни.", "level": "A2" },
+        { "fr": "élever", "gender": null, "ru": "разводить (животных), воспитывать", "ru_pron": "элёвэ", "example_fr": "Ils élèvent des vaches et des poulets.", "example_ru": "Они разводят коров и кур.", "level": "A2", "meaning_double": "élever des animaux = разводить скот ET élever un enfant = воспитывать ребёнка" },
+        { "fr": "la prairie", "gender": "f", "ru": "луг, пастбище", "ru_pron": "ля прэри", "example_fr": "Les vaches paissent dans la prairie.", "example_ru": "Коровы пасутся на лугу.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le tracteur", "fr_pron": "лё трактёр", "ru": "трактор", "ru_pron": "трактор", "note": "«Трактор» заимствован в русский из французского «tracteur» (или напрямую из латинского «trahere» — тянуть). Одно из многих технических слов с французскими корнями." },
+        { "fr": "bio / biologique", "fr_pron": "био / биолоджик", "ru": "биологический", "ru_pron": "биологический", "note": "«Bio» — международный префикс из греческого «bios» (жизнь). Во Франции «produit bio» = экологически чистый продукт. В России «биологический» часто сокращается до «био» в том же значении." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Jules Méline (1838–1925)", "subtitle": "Défenseur de la paysannerie française", "content": "Жюль Мелин — французский политик, премьер-министр (1896–1898), автор знаменитого «закона Мелина» (1892) — протекционистских тарифов для защиты французского сельского хозяйства от иностранной конкуренции. Его книга «Назад к земле» (Le Retour à la terre, 1905) пропагандировала ценности крестьянской жизни. Мелин — символ «аграрной Франции», защищавшей малых фермеров против индустриализации. Его наследие актуально сегодня — французские фермеры остаются политически влиятельной силой." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La PAC — Общая аграрная политика ЕС", "content": "Общая аграрная политика (PAC — Politique Agricole Commune) Европейского союза была создана в 1962 году во многом по требованию Франции — крупнейшего сельскохозяйственного производителя ЕС. PAC субсидирует фермеров Европы: около 400 млрд евро за 10 лет. Франция получает крупнейшую долю субсидий. Но PAC критикуют: она порождает перепроизводство, загрязнение почв и исчезновение малых ферм. Французские фермеры — одни из самых защищённых в мире, но и самых требовательных: их демонстрации с тракторами — регулярное явление." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le Salon de l'Agriculture — крупнейший фермерский рынок мира", "content": "Каждый февраль в Париже проходит Salon International de l'Agriculture — крупнейшая в мире сельскохозяйственная выставка. Около 700 000 посетителей за 9 дней! Фермеры привозят своих лучших животных прямо в сердце столицы. Это настоящий праздник: дети гладят коров и баранов, дегустируют сыры и вина. Все президенты Франции традиционно открывают Salon лично — и стараются провести там как можно больше времени (или рискуют прослыть «оторванными от народа»)." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Avoir le vert paradis", "pronunciation": "Авуар лё вэр паради", "translation": "Иметь зелёный рай (жить в деревенском раю)", "usage": "Выражение из поэмы Бодлера «Зелёный рай детских удовольствий». Сегодня употребляется для описания идиллической деревенской жизни, близости к природе. «Зелёный рай» — антитеза городской суете.", "example": "— Ils ont quitté Paris pour la Normandie. — Ils ont leur vert paradis maintenant ! (Они уехали из Парижа в Нормандию. — Теперь у них настоящий зелёный рай!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Normandie — Terre de crème et de cidre", "subtitle": "Нормандия — Земля сливок и сидра", "content": "Нормандия — сельскохозяйственное сердце Франции: зелёные луга, яблоневые сады, коровы породы нормандка. Отсюда родом знаменитые сыры: Камамбер (Camembert), Ливаро (Livarot), Пон-л'Эвек (Pont-l'Évêque). Нормандское масло и сливки — лучшие во Франции. Сидр (le cidre) и кальвадос (Calvados, яблочный коньяк) — местные напитки. Пляжи Нормандии (Омаха-Бич, Пляж Юта) — место высадки союзников в 1944 году. Роuen (Руан) — город Жанны д'Арк." }
+      },
+      "quiz": [
+        { "q": "Что означает «on» в фразе «On mange bien ici»?", "opts": ["они едят", "я ем", "мы едим / люди едят", "вы едите"], "ans": 2, "exp": "«On mange bien ici» = «Мы хорошо едим здесь» или «Здесь хорошо кормят». On = мы (разговорное) или люди вообще. Глагол всегда в 3-м лице ед.ч." },
+        { "q": "Что такое «PAC» (Politique Agricole Commune)?", "opts": ["парижский аграрный центр", "общая аграрная политика ЕС", "французский закон о фермерах", "рынок сельхозпродуктов"], "ans": 1, "exp": "PAC = Politique Agricole Commune = Общая аграрная политика ЕС, созданная в 1962 году. Франция — крупнейший бенефициар субсидий." },
+        { "q": "Что такое «le Salon de l'Agriculture»?", "opts": ["государственный орган", "крупнейшая мировая сельхозвыставка в Париже", "университет агрономии", "фермерский кооператив"], "ans": 1, "exp": "Salon International de l'Agriculture — крупнейшая сельскохозяйственная выставка мира, проходящая ежегодно в феврале в Париже. 700 000 посетителей!" },
+        { "q": "Что означает «élever des animaux»?", "opts": ["поднимать животных", "разводить животных", "лечить животных", "любить животных"], "ans": 1, "exp": "Élever des animaux = разводить животных, скотоводство. «Élever» = поднимать / воспитывать / разводить. Многозначный глагол!" },
+        { "q": "Какие сыры родом из Нормандии?", "opts": ["Бри и Рокфор", "Камамбер и Ливаро", "Эмменталь и Конте", "Мимолет и Мюнстер"], "ans": 1, "exp": "Камамбер (Camembert), Ливаро (Livarot), Пон-л'Эвек — нормандские сыры. Камамбер — самый знаменитый французский сыр в мире." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 7",
+      "titleRu": "Итоговый урок Модуля 7",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète — Nature & Environnement",
+        "titleRu": "Полное повторение — Природа и среда",
+        "intro": "Поздравляем! Вы завершаете седьмой модуль. Повторим всё, что изучили о природе, экологии и окружающей среде.",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 7",
+            "content": "✅ Пейзажи: forêt, montagne, mer, lac, vallée, plaine\n✅ Предлоги места: dans, au bord de, au sommet de, au milieu de\n✅ Погода: il fait beau/froid/chaud, il pleut, il neige\n✅ Futur proche для прогноза погоды\n✅ Времена года + правильные предлоги (AU printemps!)\n✅ Животные: loup, cerf, renard, aigle, grenouille\n✅ Звуки животных: aboyer, miauler, hurler\n✅ Экология: recycler, polluer, protéger, durable\n✅ Conditionnel pour les recommandations\n✅ Eau et océans: glacier, marée, vague, cascade\n✅ Catastrophes: tremblement de terre, inondation, avalanche\n✅ Passé composé vs imparfait pour les événements\n✅ Campagne: ferme, vignoble, récolte, paysan\n✅ Pronom «on» = nous (conversation)"
+          },
+          {
+            "title": "Ключевые грамматические конструкции",
+            "content": "Предлоги места: au bord de la mer, dans la forêt, au sommet de la montagne\nПогода (безличный оборот): il fait + adj. / il y a + nom / il pleut/neige\nFutur proche (прогноз): Il va pleuvoir demain.\nВремена года: AU printemps / EN été / EN automne / EN hiver\nConditionnel (совет): Il faudrait réduire nos déchets.\nPassé composé (событие): La tempête a détruit les maisons.\nImparfait (фон): Il neigeait quand l'avalanche a eu lieu.\nOn = nous (разговорное): On y va ?"
+          }
+        ],
+        "rule": "🏆 Если вы знаете всё из этого списка — вы уверенно говорите о природе на A2! Продолжайте в Модуле 8: Culture & Médias."
+      },
+      "pronunciation": {
+        "intro": "Ключевые фразы о природе:",
+        "note": "",
+        "words": [
+          { "fr": "Il fait beau, le ciel est bleu.", "ru_pron": "Иль фэ бо, лё сьель э блё", "meaning": "Хорошая погода, небо голубое." },
+          { "fr": "Au printemps, les fleurs éclosent.", "ru_pron": "О прэнтан, лэ флёр экло", "meaning": "Весной расцветают цветы." },
+          { "fr": "Il faudrait protéger l'environnement.", "ru_pron": "Иль фодрэ протэжэ л'анвиронёман", "meaning": "Следует защищать окружающую среду." },
+          { "fr": "La rivière se jette dans la mer.", "ru_pron": "Ля ривьэр сё жэт дан ля мэр", "meaning": "Река впадает в море." },
+          { "fr": "On recycle le verre et le papier.", "ru_pron": "Он рёсикль лё вэр э лё папьэ", "meaning": "Мы перерабатываем стекло и бумагу." },
+          { "fr": "Les feuilles tombent en automne.", "ru_pron": "Лэ фёй томб ан отон", "meaning": "Осенью листья падают." },
+          { "fr": "Il y a trop de pollution dans les villes.", "ru_pron": "Иль и а тро дё полюсьон дан лэ виль", "meaning": "В городах слишком много загрязнения." },
+          { "fr": "La tempête a détruit la forêt.", "ru_pron": "Ля тампэт а дэтрюи ля форэ", "meaning": "Буря разрушила лес." },
+          { "fr": "On va à la campagne ce week-end ?", "ru_pron": "Он ва а ля кампань сё уик-энд", "meaning": "Мы едем в деревню на выходные?" },
+          { "fr": "Après la pluie, le beau temps !", "ru_pron": "Апрэ ля плюи, лё бо тан", "meaning": "После дождя — ясная погода!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la nature", "gender": "f", "ru": "природа", "ru_pron": "ля натюр", "example_fr": "La nature nous offre tout ce dont nous avons besoin.", "example_ru": "Природа даёт нам всё необходимое.", "level": "A2" },
+        { "fr": "l'environnement", "gender": "m", "ru": "окружающая среда", "ru_pron": "л'анвиронёман", "example_fr": "Protéger l'environnement est une responsabilité de tous.", "example_ru": "Защищать окружающую среду — ответственность каждого.", "level": "A2" },
+        { "fr": "la biodiversité", "gender": "f", "ru": "биоразнообразие", "ru_pron": "ля биодивэрситэ", "example_fr": "La biodiversité est menacée partout dans le monde.", "example_ru": "Биоразнообразие под угрозой по всему миру.", "level": "A2" },
+        { "fr": "durable", "gender": null, "ru": "устойчивый, экологичный", "ru_pron": "дюрабль", "example_fr": "Nous devons choisir un mode de vie plus durable.", "example_ru": "Нам нужно выбрать более экологичный образ жизни.", "level": "A2" },
+        { "fr": "recycler", "gender": null, "ru": "перерабатывать", "ru_pron": "рёсикло", "example_fr": "Recyclez ! C'est simple et efficace.", "example_ru": "Перерабатывайте! Это просто и эффективно.", "level": "A2" },
+        { "fr": "protéger", "gender": null, "ru": "защищать", "ru_pron": "протэжэ", "example_fr": "Ensemble, nous pouvons protéger notre planète.", "example_ru": "Вместе мы можем защитить нашу планету.", "level": "A2" },
+        { "fr": "le paysage", "gender": "m", "ru": "пейзаж, ландшафт", "ru_pron": "лё пэизаж", "example_fr": "Le paysage français est très varié.", "example_ru": "Французский пейзаж очень разнообразен.", "level": "A2" },
+        { "fr": "s'engager", "gender": null, "ru": "брать на себя обязательство, участвовать", "ru_pron": "с'анджажэ", "example_fr": "Il faut s'engager pour la cause écologique.", "example_ru": "Нужно участвовать в экологическом движении.", "level": "A2" },
+        { "fr": "agir", "gender": null, "ru": "действовать", "ru_pron": "ажир", "example_fr": "Il est temps d'agir pour la planète.", "example_ru": "Пора действовать ради планеты.", "level": "A2" },
+        { "fr": "l'avenir", "gender": "m", "ru": "будущее", "ru_pron": "л'авёнир", "example_fr": "L'avenir de la planète dépend de nos choix.", "example_ru": "Будущее планеты зависит от наших решений.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la nature", "fr_pron": "ля натюр", "ru": "натура / природа", "ru_pron": "натура / природа", "note": "«Натура» в русском — из латинского «natura», как и французское «nature». «Натура» в значении «природа» — устаревшее в русском, но живёт в словах «натуральный», «натурализм»." },
+        { "fr": "l'avenir", "fr_pron": "л'авёнир", "ru": "авантюра / будущее", "ru_pron": "авантюра", "note": "«Avenir» (будущее) — от «à venir» (что придёт). Русское «авантюра» — из французского «aventure» (приключение), родственного слова. Оба указывают на то, что впереди." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Yann Arthus-Bertrand (1946–)", "subtitle": "Photographe de la Terre vue du ciel", "content": "Янн Артюс-Бертран — французский фотограф, кинорежиссёр и эколог. Его книга «Земля с высоты птичьего полёта» (La Terre vue du ciel, 1999) продана в 3 миллиона экземпляров в 100 странах. Фотографии земной поверхности с вертолёта изменили восприятие нашей планеты. Документальный фильм «Дом» (HOME, 2009) бесплатно показан в 181 стране и просмотрен 600 миллионами человек — рекорд. Артюс-Бертран основал GoodPlanet Foundation для экологического просвещения." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La Charte de l'environnement — 2004", "content": "В 2004 году Франция стала первой страной в мире, включившей «экологическую хартию» (Charte de l'environnement) в Конституцию. Это означает, что право на «здоровую окружающую среду» стало конституционным правом французских граждан — как свобода слова или право на образование. Принцип предосторожности (précaution) при экологических решениях также закреплён конституционно. Это революционный шаг в международном праве." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le Tour de France — экологическая проблема", "content": "Tour de France — легендарная велогонка, но... экологически проблемная. Ежегодно гонка генерирует около 203 тонн CO₂ только от транспортного каравана. За всей гонкой следует 800-900 автомобилей и грузовиков команд! С 2020 года организаторы пытаются «озеленить» Tour: электромобили в команде организаторов, биотопливо для часть машин, запрет на одноразовый пластик. Цель — сократить углеродный след гонки на 50% к 2030 году. Tour de France стремится быть примером для спортивных мероприятий." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Ménager la chèvre et le chou", "pronunciation": "Мёнажэ ля шэвр э лё шу", "translation": "Усидеть на двух стульях (беречь и козу и капусту)", "usage": "Французская версия известной дилеммы: волк, коза и капуста — как перевезти всех? «Ménager la chèvre et le chou» = угодить всем, найти компромисс между противоположными интересами. В экологическом контексте — балансировать между экономическим ростом и защитой природы.", "example": "— Le gouvernement essaie de ménager la chèvre et le chou entre l'industrie et l'écologie. (Правительство пытается угодить и промышленности, и экологам.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "La Guyane française — Forêt amazonienne", "subtitle": "Французская Гвиана — Кусочек Амазонии во Франции", "content": "Французская Гвиана — заморский регион Франции в Южной Америке! 90% территории покрыто тропическим лесом (амазонской сельвой). Здесь находится Гвианский космический центр (Centre Spatial Guyanais) — «ворота в космос» Европы (ракеты Ариан стартуют отсюда). Гвиана — самая «зелёная» территория ЕС. Здесь обитают ягуары, тапиры, анаконды, туканы. Уникальное место, где высокие технологии встречаются с нетронутой природой. Это единственная часть ЕС на континентальной Южной Америке." }
+      },
+      "quiz": [
+        { "q": "Что означает «on» в разговорном французском?", "opts": ["только «кто-то»", "только «люди вообще»", "часто заменяет «nous»", "всегда формально"], "ans": 2, "exp": "В разговорной речи «on» почти полностью заменяет «nous». «On va au resto ?» = «Мы идём в ресторан?». Очень распространено у носителей." },
+        { "q": "Что было включено в Конституцию Франции в 2004 году?", "opts": ["право на интернет", "Экологическая хартия", "Право на чистую энергию", "Закон о климате"], "ans": 1, "exp": "В 2004 году Франция стала первой страной, включившей экологическую хартию (Charte de l'environnement) в Конституцию. Право на здоровую среду стало конституционным." },
+        { "q": "Что снял Янн Артюс-Бертран, просмотренное 600 млн раз?", "opts": ["La Terre vue du ciel", "HOME", "Microcosmos", "Océans"], "ans": 1, "exp": "Фильм HOME (2009) о состоянии Земли был показан бесплатно в 181 стране и просмотрен 600 миллионами человек — абсолютный рекорд для документального кино." },
+        { "q": "Как по-французски сказать «нам следует перерабатывать мусор»?", "opts": ["Il faut recycler les déchets.", "Il faudrait recycler les déchets.", "On recyclait les déchets.", "Recyclez les déchets!"], "ans": 1, "exp": "«Il faudrait» (conditionnel) выражает рекомендацию/пожелание: «следовало бы». Il faut = обязанность, Il faudrait = более мягкий совет." },
+        { "q": "Что означает «Ménager la chèvre et le chou»?", "opts": ["Держать коз и сады", "Угодить всем / найти компромисс", "Выбрать между двумя вариантами", "Позаботиться о животных"], "ans": 1, "exp": "Ménager la chèvre et le chou = угодить всем, найти компромисс между противоположными интересами. «Усидеть на двух стульях». Отсылка к классической головоломке с козой, волком и капустой." }
+      ]
+    }
+  ]
+}
